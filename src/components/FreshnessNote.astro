@@ -8,24 +8,18 @@ interface Props {
 
 const { section } = Astro.props;
 const refreshed = formatSyncTime(section.last_refreshed);
-const showNewCount = !section.unavailable && section.last_run_status !== 'not_logged' && !section.no_new_items;
-const newLabel =
-  section.new_items_count === 1 ? '1 new item' : `${section.new_items_count} new items`;
+const problem = section.unavailable
+  ? section.unavailable_message?.trim() || 'This source is unavailable.'
+  : section.last_run_status === 'error'
+    ? 'Last run failed.'
+    : section.last_run_status === 'partial'
+      ? 'Last run was partial.'
+      : !refreshed && section.last_run_status === 'not_logged'
+        ? 'No run recorded'
+        : null;
 ---
 
 <div class="freshness">
   {refreshed && <p>Refreshed {refreshed}</p>}
-  {section.unavailable && (
-    <p class="notice">{section.unavailable_message?.trim() || 'This source is unavailable.'}</p>
-  )}
-  {!section.unavailable && section.last_run_status === 'not_logged' && <p class="notice">No run recorded</p>}
-  {!section.unavailable && section.last_run_status === 'error' && <p class="notice">Last run failed.</p>}
-  {!section.unavailable && section.last_run_status === 'partial' && <p class="notice">Last run was partial.</p>}
-  {!section.unavailable && section.last_run_status !== 'not_logged' && section.no_new_items && (
-    <p class="quiet">No new findings.</p>
-  )}
-  {showNewCount && <p class="quiet">{newLabel}</p>}
-  {section.carried_over && <p class="quiet">Carried over from the previous edition.</p>}
-  {section.next_run && <p class="quiet">Next run: {section.next_run}</p>}
-  {section.last_run_note && <p class="note">{section.last_run_note}</p>}
+  {problem && <p class="notice">{problem}</p>}
 </div>

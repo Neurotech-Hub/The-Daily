@@ -71,7 +71,7 @@ const related = (item.related_items ?? []).filter((entry) => entry.item_id);
   <div class="story-header">
     {(item.is_new || item.due_for_review) && (
       <p class="flags">
-        {item.is_new && <span class="flag">New</span>}
+        {item.is_new && <span class="flag flag-new">New</span>}
         {item.due_for_review && <span class="flag flag-due">Due for review</span>}
       </p>
     )}
@@ -140,11 +140,22 @@ const related = (item.related_items ?? []).filter((entry) => entry.item_id);
         ))}
       </p>
     )}
-    <button type="button" class="details-toggle" data-expand aria-expanded="false" aria-controls={panelId}>
-      Details
-    </button>
+    <button
+      type="button"
+      class="details-toggle"
+      popovertarget={panelId}
+      aria-haspopup="dialog"
+      aria-expanded="false"
+      aria-controls={panelId}
+    >Details</button>
   </div>
-  <div id={panelId} class="story-details" hidden>
+  <div id={panelId} class="story-details" popover="auto" role="dialog" aria-labelledby={`${panelId}-label`}>
+    <div class="popover-bar">
+      <p class="popover-title" id={`${panelId}-label`}>{item.title}</p>
+      <button type="button" class="popover-close" popovertarget={panelId} aria-label="Close details">
+        Close
+      </button>
+    </div>
     <StoryDetails item={item} showScore={showScore} />
   </div>
 </article>

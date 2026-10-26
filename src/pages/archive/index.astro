@@ -12,9 +12,15 @@ const home = import.meta.env.BASE_URL;
 <Base title={`${title} archive`} description="Earlier editions of Neurotech Hub Daily.">
   <main class="page">
     <header class="masthead">
-      <h1 class="nameplate">{title}</h1>
-      <p class="tagline">Archive</p>
-      <p class="masthead-links"><a href={home}>Current edition</a></p>
+      <div class="masthead-brand">
+        <h1 class="nameplate">{title}</h1>
+        <p class="tagline">Archive</p>
+      </div>
+      <div class="masthead-aside">
+        <nav class="masthead-links" aria-label="Edition">
+          <a href={home}>Current edition</a>
+        </nav>
+      </div>
     </header>
     <section class="archive-index" aria-labelledby="archive-heading">
       <h2 id="archive-heading">Editions</h2>

@@ -19,7 +19,7 @@ const { nav } = Astro.props;
           </span>
         )}
         <a href={`#${entry.key}`}>
-          {entry.title} ({entry.count})
+          {entry.title} <span class="nav-count">{entry.count}</span>
         </a>
       </>
     ))

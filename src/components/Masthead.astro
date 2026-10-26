@@ -19,25 +19,31 @@ const archiveHref = `${home}archive/`;
 ---
 
 <header class="masthead">
-  <h1 class="nameplate">{title}</h1>
-  <p class="tagline">{tagline}</p>
-  {edition && <p class="edition-line">{edition}</p>}
-  {synced && <p class="sync-line">Last synchronized: {synced}</p>}
-  {archived && (
-    <p class="archive-banner">
-      Archived edition.
-      <a href={home}>Current edition</a>
-    </p>
-  )}
-  {(hubUrl || archiveDates.length > 0) && (
-    <p class="masthead-links">
-      {hubUrl && (
-        <a href={hubUrl} rel="noopener noreferrer" target="_blank">
-          Neurotech Hub
-          <span class="sr-only"> (opens in a new tab)</span>
-        </a>
+  <div class="masthead-brand">
+    <h1 class="nameplate">{title}</h1>
+    <p class="tagline">{tagline}</p>
+  </div>
+  <div class="masthead-aside">
+    <div class="masthead-meta">
+      {edition && <p class="edition-line">{edition}</p>}
+      {synced && <p class="sync-line">Synced {synced}</p>}
+      {archived && (
+        <p class="archive-banner">
+          Archived edition.
+          <a href={home}>Current edition</a>
+        </p>
       )}
-      {archiveDates.length > 0 && <a href={archiveHref}>Archive</a>}
-    </p>
-  )}
+    </div>
+    {(hubUrl || archiveDates.length > 0) && (
+      <nav class="masthead-links" aria-label="Site">
+        {hubUrl && (
+          <a href={hubUrl} rel="noopener noreferrer" target="_blank">
+            Neurotech Hub
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        )}
+        {archiveDates.length > 0 && <a href={archiveHref}>Archive</a>}
+      </nav>
+    )}
+  </div>
 </header>
