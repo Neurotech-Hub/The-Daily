@@ -1,6 +1,6 @@
 # Neurotech Hub Daily
 
-A read-only, static gazette. It renders one JSON file into a single page and publishes that page with GitHub Pages. It does not read Google Sheets, does not call an API, and does not save anything.
+A read-only, static gazette. It renders one JSON file into a single page and publishes that page at [https://neurotech-hub.github.io/The-Daily/](https://neurotech-hub.github.io/The-Daily/). It does not read Google Sheets, does not call an API, and does not save anything.
 
 The data bot owns the JSON. This repository owns the page.
 
@@ -114,7 +114,7 @@ npm run preview   # serve dist/
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` builds on every push to `main` and deploys the `dist/` artifact. The workflow sets `BASE_PATH` to `/${repository}/` and `SITE_URL` to `https://${owner}.github.io`. In the repo settings, Pages must use GitHub Actions as the source.
+The published page is [https://neurotech-hub.github.io/The-Daily/](https://neurotech-hub.github.io/The-Daily/). `.github/workflows/pages.yml` builds on every push to `main` and deploys the `dist/` artifact. The workflow sets `BASE_PATH` to `/The-Daily/` and `SITE_URL` to `https://neurotech-hub.github.io`. In the repo settings, Pages must use GitHub Actions as the source.
 
 This site is public if the repository or the Pages site is public. `data/digest.json` is committed in git, and the built HTML contains the same text. Do not put material there that cannot be public. A private repository does not by itself make GitHub Pages private.
 
