@@ -2,7 +2,6 @@
 import type { Digest, DigestSource } from '../lib/types.ts';
 import { formatEditionDate } from '../lib/format.ts';
 import Base from '../layouts/Base.astro';
-import InProgress from './InProgress.astro';
 import Masthead from './Masthead.astro';
 import Section from './Section.astro';
 import SectionNav from './SectionNav.astro';
@@ -18,6 +17,7 @@ const { digest, archiveDates, archived = false } = Astro.props;
 const title = digest.site?.title?.trim() || 'Neurotech Hub Daily';
 const description = digest.site?.tagline?.trim() || 'Research, technology, and opportunity intelligence.';
 const edition = formatEditionDate(digest.edition_date);
+const nav = digest.nav.filter((entry) => entry.key !== 'in_progress');
 const lead = digest.sections.slice(0, 3);
 const rest = digest.sections.slice(3);
 ---
@@ -25,7 +25,7 @@ const rest = digest.sections.slice(3);
 <Base title={title} description={description}>
   <main class="page">
     <Masthead digest={digest} archiveDates={archiveDates} archived={archived} />
-    <SectionNav nav={digest.nav} />
+    <SectionNav nav={nav} />
     {lead.length > 0 && (
       <div class="row row-3">
         {lead.map((section) => <Section section={section} />)}
@@ -36,7 +36,6 @@ const rest = digest.sections.slice(3);
         {rest.map((section) => <Section section={section} />)}
       </div>
     )}
-    <InProgress digest={digest} />
     <footer class="colophon">
       <p>
         {title}
