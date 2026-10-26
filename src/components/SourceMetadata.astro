@@ -1,0 +1,13 @@
+---
+interface Props {
+  parts: string[];
+}
+
+const { parts } = Astro.props;
+---
+
+{parts.length > 0 && (
+  <p class="meta">
+    {parts.map((part) => <span>{part}</span>)}
+  </p>
+)}

@@ -1,0 +1,9 @@
+---
+import DigestView from '../components/DigestView.astro';
+import { listArchiveDates, loadDigest } from '../lib/digest.ts';
+
+const loaded = loadDigest();
+const archiveDates = listArchiveDates();
+---
+
+<DigestView digest={loaded.digest} archiveDates={archiveDates} source={loaded.source} />

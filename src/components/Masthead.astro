@@ -1,0 +1,43 @@
+---
+import { formatEditionDate, httpUrl, synchronizationTime } from '../lib/format.ts';
+import type { Digest } from '../lib/types.ts';
+
+interface Props {
+  digest: Digest;
+  archiveDates: string[];
+  archived?: boolean;
+}
+
+const { digest, archiveDates, archived = false } = Astro.props;
+const title = digest.site?.title?.trim() || 'Neurotech Hub Daily';
+const tagline = digest.site?.tagline?.trim() || 'Research, technology, and opportunity intelligence.';
+const edition = formatEditionDate(digest.edition_date);
+const synced = synchronizationTime(digest.sections, digest.generated_at);
+const hubUrl = httpUrl(digest.site?.hub_url);
+const home = import.meta.env.BASE_URL;
+const archiveHref = `${home}archive/`;
+---
+
+<header class="masthead">
+  <h1 class="nameplate">{title}</h1>
+  <p class="tagline">{tagline}</p>
+  {edition && <p class="edition-line">{edition}</p>}
+  {synced && <p class="sync-line">Last synchronized: {synced}</p>}
+  {archived && (
+    <p class="archive-banner">
+      Archived edition.
+      <a href={home}>Current edition</a>
+    </p>
+  )}
+  {(hubUrl || archiveDates.length > 0) && (
+    <p class="masthead-links">
+      {hubUrl && (
+        <a href={hubUrl} rel="noopener noreferrer" target="_blank">
+          Neurotech Hub
+          <span class="sr-only"> (opens in a new tab)</span>
+        </a>
+      )}
+      {archiveDates.length > 0 && <a href={archiveHref}>Archive</a>}
+    </p>
+  )}
+</header>

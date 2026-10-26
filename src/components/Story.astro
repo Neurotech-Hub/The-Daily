@@ -1,0 +1,150 @@
+---
+import { outreachLines, stringDetail } from '../lib/details.ts';
+import {
+  formatItemDate,
+  formatLongDate,
+  formatUsd,
+  hostLabel,
+  httpUrl,
+  itemAnchor,
+  peopleLine,
+  productHref,
+} from '../lib/format.ts';
+import type { Item } from '../lib/types.ts';
+import SourceMetadata from './SourceMetadata.astro';
+import StoryDetails from './StoryDetails.astro';
+
+interface Props {
+  item: Item;
+  sectionKey: string;
+  sectionTitle: string;
+  inProgress?: boolean;
+}
+
+const { item, sectionKey, sectionTitle, inProgress = false } = Astro.props;
+const details = item.details ?? {};
+const anchor = itemAnchor(item.item_id);
+const panelId = `panel-${anchor}`;
+const showScore = sectionKey !== 'innovation';
+const link = httpUrl(item.link);
+const people = peopleLine(item.people);
+const publisher = stringDetail(details, 'publisher');
+const agency = stringDetail(details, 'agency');
+const hubAsset = stringDetail(details, 'hub_asset');
+const potentialValue = stringDetail(details, 'potential_value');
+const effort = stringDetail(details, 'effort');
+const hubRelevance = stringDetail(details, 'hub_relevance');
+const pipelineStatus = stringDetail(details, 'pipeline_status');
+const awardAmount = formatUsd(details.award_amount_usd);
+const noticeDate = formatItemDate(typeof details.notice_date === 'string' ? details.notice_date : null);
+const published = formatItemDate(item.date_published);
+const discovered = formatItemDate(item.date_discovered);
+const updated = formatItemDate(item.date_updated);
+const outreach = outreachLines(details);
+const review = formatLongDate(item.next_review_date);
+
+const parts: string[] = [];
+if (inProgress) parts.push(`Source ${sectionTitle}`);
+if (people) parts.push(people);
+if (publisher) parts.push(publisher);
+if (agency) parts.push(agency);
+if (published) parts.push(`Published ${published}`);
+if (discovered) parts.push(`Discovered ${discovered}`);
+if (updated) parts.push(`Updated ${updated}`);
+if (item.category) parts.push(item.category);
+if (item.subcategory && item.subcategory !== item.category) parts.push(item.subcategory);
+if (awardAmount) parts.push(awardAmount);
+if (noticeDate) parts.push(`Notice ${noticeDate}`);
+if (effort) parts.push(`Effort ${effort}`);
+if (pipelineStatus) parts.push(`Pipeline ${pipelineStatus}`);
+if (item.confidence) parts.push(`Confidence ${item.confidence}`);
+if (inProgress) parts.push(`Disposition ${item.disposition}`);
+
+const products = item.product_matches.filter((product) => product.name.trim());
+const secondary = (item.secondary_links ?? [])
+  .map((url) => ({ href: httpUrl(url), label: hostLabel(url) }))
+  .filter((entry): entry is { href: string; label: string } => Boolean(entry.href));
+const related = (item.related_items ?? []).filter((entry) => entry.item_id);
+---
+
+<article class="story" id={anchor}>
+  <div class="story-header">
+    {(item.is_new || item.due_for_review) && (
+      <p class="flags">
+        {item.is_new && <span class="flag">New</span>}
+        {item.due_for_review && <span class="flag flag-due">Due for review</span>}
+      </p>
+    )}
+    <h3 class="story-title">
+      {link ? (
+        <a href={link} rel="noopener noreferrer" target="_blank">
+          {item.title}
+          <span class="sr-only"> (opens in a new tab)</span>
+        </a>
+      ) : (
+        item.title
+      )}
+    </h3>
+    {item.summary && <p class="summary">{item.summary}</p>}
+    {hubRelevance && (
+      <p class="relevance"><span class="reading-label">Hub relevance. </span>{hubRelevance}</p>
+    )}
+    {hubAsset && (
+      <p class="reading-line"><span class="reading-label">Hub asset. </span>{hubAsset}</p>
+    )}
+    {potentialValue && (
+      <p class="reading-line"><span class="reading-label">Potential value. </span>{potentialValue}</p>
+    )}
+    <SourceMetadata parts={parts} />
+    {outreach.length > 0 && (
+      <p class="meta">
+        {outreach.map((line) => (
+          <span>{line.label} {line.value}</span>
+        ))}
+      </p>
+    )}
+    {inProgress && item.matt_feedback && <p class="feedback-preview">{item.matt_feedback}</p>}
+    {inProgress && review && <p class="meta"><span>Next review {review}</span></p>}
+    {products.length > 0 && (
+      <p class="related">
+        {products.map((product) => {
+          const href = productHref(product.store_url, product.github_url);
+          return href ? (
+            <a href={href} rel="noopener noreferrer" target="_blank">
+              {product.name}
+              <span class="sr-only"> (opens in a new tab)</span>
+            </a>
+          ) : (
+            <span>{product.name}</span>
+          );
+        })}
+      </p>
+    )}
+    {secondary.length > 0 && (
+      <p class="related">
+        {secondary.map((entry) => (
+          <a href={entry.href} rel="noopener noreferrer" target="_blank">
+            {entry.label}
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        ))}
+      </p>
+    )}
+    {related.length > 0 && (
+      <p class="related">
+        {related.map((entry) => (
+          <a href={`#${itemAnchor(entry.item_id)}`}>
+            {entry.title || entry.item_id}
+            {entry.via ? ` (${entry.via})` : ''}
+          </a>
+        ))}
+      </p>
+    )}
+    <button type="button" class="details-toggle" data-expand aria-expanded="false" aria-controls={panelId}>
+      Details
+    </button>
+  </div>
+  <div id={panelId} class="story-details" hidden>
+    <StoryDetails item={item} showScore={showScore} />
+  </div>
+</article>

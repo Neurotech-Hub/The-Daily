@@ -1,0 +1,77 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <meta name="color-scheme" content="light" />
+  </head>
+  <body>
+    <slot />
+    <script>
+      function setExpanded(button: HTMLButtonElement, open: boolean) {
+        const panelId = button.getAttribute('aria-controls');
+        const panel = panelId ? document.getElementById(panelId) : null;
+        button.setAttribute('aria-expanded', open ? 'true' : 'false');
+        button.textContent = open ? 'Hide details' : 'Details';
+        if (panel) {
+          panel.hidden = !open;
+          panel.classList.toggle('is-open', open);
+        }
+      }
+
+      async function copyText(value: string) {
+        try {
+          await navigator.clipboard.writeText(value);
+          return true;
+        } catch {
+          const area = document.createElement('textarea');
+          area.value = value;
+          area.setAttribute('readonly', '');
+          area.style.position = 'fixed';
+          area.style.left = '-9999px';
+          document.body.appendChild(area);
+          area.select();
+          const ok = document.execCommand('copy');
+          area.remove();
+          return ok;
+        }
+      }
+
+      document.addEventListener('click', (event) => {
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+
+        const toggle = target.closest('[data-expand]');
+        if (toggle instanceof HTMLButtonElement) {
+          setExpanded(toggle, toggle.getAttribute('aria-expanded') !== 'true');
+          return;
+        }
+
+        const copy = target.closest('[data-copy]');
+        if (!(copy instanceof HTMLButtonElement)) return;
+        const value = copy.getAttribute('data-copy') ?? '';
+        const original = 'Copy';
+        void copyText(value).then((ok) => {
+          copy.textContent = ok ? 'Copied' : 'Copy failed';
+          copy.dataset.state = ok ? 'copied' : 'failed';
+          window.setTimeout(() => {
+            copy.textContent = original;
+          }, 1200);
+        });
+      });
+    </script>
+  </body>
+</html>

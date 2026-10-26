@@ -1,0 +1,44 @@
+---
+import { deliveredItems, groupBySubcategory, pipelineCountLine } from '../lib/format.ts';
+import type { Section as SectionData } from '../lib/types.ts';
+import FreshnessNote from './FreshnessNote.astro';
+import Story from './Story.astro';
+
+interface Props {
+  section: SectionData;
+}
+
+const { section } = Astro.props;
+const items = deliveredItems(section.items);
+const grouped = section.key === 'innovation' ? groupBySubcategory(items) : null;
+const pipeline = pipelineCountLine(section.pipeline_counts);
+const kicker = [section.source, section.cadence].filter((part) => part && String(part).trim()).join(' · ');
+---
+
+<section class="section" id={section.key} aria-labelledby={`heading-${section.key}`}>
+  <h2 id={`heading-${section.key}`}>{section.title}</h2>
+  {kicker && <p class="section-kicker">{kicker}</p>}
+  <FreshnessNote section={section} />
+  {pipeline && <p class="pipeline-counts">{pipeline}</p>}
+  {items.length === 0 && section.unavailable && <p class="empty">No previously synchronized items.</p>}
+  {
+    items.length === 0 &&
+      !section.unavailable &&
+      section.last_run_status !== 'not_logged' &&
+      !section.no_new_items && <p class="empty">Nothing in this section.</p>
+  }
+  {
+    grouped ? (
+      grouped.map((group) => (
+        <div class="group-block">
+          {group.label && <p class="group-label">{group.label}</p>}
+          {group.items.map((item) => (
+            <Story item={item} sectionKey={section.key} sectionTitle={section.title} />
+          ))}
+        </div>
+      ))
+    ) : (
+      items.map((item) => <Story item={item} sectionKey={section.key} sectionTitle={section.title} />)
+    )
+  }
+</section>

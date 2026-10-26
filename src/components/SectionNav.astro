@@ -1,0 +1,27 @@
+---
+import type { NavEntry } from '../lib/types.ts';
+
+interface Props {
+  nav: NavEntry[];
+}
+
+const { nav } = Astro.props;
+---
+
+<nav class="section-nav" aria-label="Sections">
+  {
+    nav.map((entry, index) => (
+      <>
+        {index > 0 && (
+          <span class="sep" aria-hidden="true">
+            {' '}
+            ·{' '}
+          </span>
+        )}
+        <a href={`#${entry.key}`}>
+          {entry.title} ({entry.count})
+        </a>
+      </>
+    ))
+  }
+</nav>

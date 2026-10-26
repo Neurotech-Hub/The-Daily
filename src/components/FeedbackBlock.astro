@@ -1,0 +1,30 @@
+---
+import { formatLongDate } from '../lib/format.ts';
+import type { Item } from '../lib/types.ts';
+
+interface Props {
+  item: Item;
+}
+
+const { item } = Astro.props;
+const review = formatLongDate(item.next_review_date);
+---
+
+<aside class="feedback" aria-label="Feedback">
+  <p><span class="label">Disposition</span> {item.disposition}</p>
+  {review && (
+    <p>
+      <span class="label">Next review</span> {review}
+    </p>
+  )}
+  <p class="label">Your feedback</p>
+  {item.matt_feedback ? <blockquote>{item.matt_feedback}</blockquote> : <p class="quiet">None recorded.</p>}
+  <p>{item.feedback_instructions}</p>
+  <p class="reference">
+    <span class="label">Reference</span>
+    <code>{item.item_id}</code>
+    <button type="button" class="copy-button" data-copy={item.item_id} aria-label={`Copy reference ${item.item_id}`}>
+      Copy
+    </button>
+  </p>
+</aside>

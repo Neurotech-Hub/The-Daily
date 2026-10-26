@@ -1,0 +1,33 @@
+---
+import { formatEditionDate } from '../../lib/format.ts';
+import { listArchiveDates, loadDigest } from '../../lib/digest.ts';
+import Base from '../../layouts/Base.astro';
+
+const loaded = loadDigest();
+const title = loaded.digest.site?.title?.trim() || 'Neurotech Hub Daily';
+const dates = listArchiveDates();
+const home = import.meta.env.BASE_URL;
+---
+
+<Base title={`${title} archive`} description="Earlier editions of Neurotech Hub Daily.">
+  <main class="page">
+    <header class="masthead">
+      <h1 class="nameplate">{title}</h1>
+      <p class="tagline">Archive</p>
+      <p class="masthead-links"><a href={home}>Current edition</a></p>
+    </header>
+    <section class="archive-index" aria-labelledby="archive-heading">
+      <h2 id="archive-heading">Editions</h2>
+      {dates.length === 0 && <p>No earlier editions have been filed.</p>}
+      {dates.length > 0 && (
+        <ul>
+          {dates.map((date) => (
+            <li>
+              <a href={`${home}archive/${date}/`}>{formatEditionDate(date) ?? date}</a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  </main>
+</Base>

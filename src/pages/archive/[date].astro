@@ -1,0 +1,17 @@
+---
+import DigestView from '../../components/DigestView.astro';
+import { listArchiveDates, loadArchiveEdition } from '../../lib/digest.ts';
+
+export function getStaticPaths() {
+  return listArchiveDates().map((date) => ({ params: { date } }));
+}
+
+const { date } = Astro.params;
+if (!date) {
+  throw new Error('Archive edition date is missing.');
+}
+const digest = loadArchiveEdition(date);
+const archiveDates = listArchiveDates();
+---
+
+<DigestView digest={digest} archiveDates={archiveDates} source="live" archived />

@@ -1,0 +1,46 @@
+---
+import { PROMOTED_DETAIL_KEYS, detailRows } from '../lib/details.ts';
+import { formatScoreOriginal, httpUrl } from '../lib/format.ts';
+import type { Item } from '../lib/types.ts';
+import FeedbackBlock from './FeedbackBlock.astro';
+
+interface Props {
+  item: Item;
+  showScore: boolean;
+}
+
+const { item, showScore } = Astro.props;
+const rows = detailRows(item.details ?? {}, PROMOTED_DETAIL_KEYS);
+const original = showScore ? formatScoreOriginal(item.score_original) : null;
+const sheetUrl = httpUrl(item.source_record?.sheet_url);
+---
+
+{showScore && item.confidence && (
+  <p class="score-line"><span class="detail-label">Confidence</span> {item.confidence}</p>
+)}
+{showScore && item.score != null && (
+  <p class="score-line">
+    <span class="detail-label">Score</span> {item.score}
+    {original && <span class="detail-label"> · {original}</span>}
+  </p>
+)}
+{
+  rows.map((row) => (
+    <div class:list={['detail-row', { 'detail-evidence': row.tone === 'evidence', 'detail-inference': row.tone === 'inference' }]}>
+      <p>
+        <span class="detail-label">{row.label}</span> {row.text}
+      </p>
+    </div>
+  ))
+}
+{item.atlas_ids.length > 0 && <p class="atlas-line"><span class="detail-label">Atlas</span> {item.atlas_ids.join(', ')}</p>}
+{sheetUrl && (
+  <p class="sheet-row">
+    <span class="detail-label">Sheet row</span>
+    <a href={sheetUrl} rel="noopener noreferrer" target="_blank">
+      {item.source_record.tab} row {item.source_record.row}
+      <span class="sr-only"> (opens in a new tab)</span>
+    </a>
+  </p>
+)}
+<FeedbackBlock item={item} />

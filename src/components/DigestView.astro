@@ -1,0 +1,51 @@
+---
+import type { Digest, DigestSource } from '../lib/types.ts';
+import { warningLine } from '../lib/format.ts';
+import Base from '../layouts/Base.astro';
+import InProgress from './InProgress.astro';
+import Masthead from './Masthead.astro';
+import Section from './Section.astro';
+import SectionNav from './SectionNav.astro';
+
+interface Props {
+  digest: Digest;
+  archiveDates: string[];
+  source: DigestSource;
+  archived?: boolean;
+}
+
+const { digest, archiveDates, source, archived = false } = Astro.props;
+const title = digest.site?.title?.trim() || 'Neurotech Hub Daily';
+const description = digest.site?.tagline?.trim() || 'Research, technology, and opportunity intelligence.';
+const lead = digest.sections.slice(0, 3);
+const rest = digest.sections.slice(3);
+const warnings = (digest.build_warnings ?? []).map((warning) => warningLine(warning));
+---
+
+<Base title={title} description={description}>
+  <main class="page">
+    <Masthead digest={digest} archiveDates={archiveDates} archived={archived} />
+    <SectionNav nav={digest.nav} />
+    {lead.length > 0 && (
+      <div class="row row-3">
+        {lead.map((section) => <Section section={section} />)}
+      </div>
+    )}
+    {rest.length > 0 && (
+      <div class="row row-2">
+        {rest.map((section) => <Section section={section} />)}
+      </div>
+    )}
+    <InProgress digest={digest} />
+    <footer class="colophon">
+      <p>{digest.feedback.instructions}</p>
+      {source === 'sample' && (
+        <p>
+          Rendering docs/digest.sample.json because data/digest.json is not in the repository yet.
+        </p>
+      )}
+      {digest.sample_note && <p>{digest.sample_note}</p>}
+      {warnings.map((warning) => <p>{warning}</p>)}
+    </footer>
+  </main>
+</Base>

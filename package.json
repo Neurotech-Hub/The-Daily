@@ -1,0 +1,23 @@
+{
+  "name": "neurotech-hub-daily",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "validate": "node --experimental-strip-types scripts/validate-digest.ts",
+    "prebuild": "npm run validate",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/newsreader": "^5.2.8",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "astro": "^5.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  }
+}
