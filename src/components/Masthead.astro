@@ -36,13 +36,13 @@ const archiveHref = `${home}archive/`;
     </div>
     {(hubUrl || archiveDates.length > 0) && (
       <nav class="masthead-links" aria-label="Site">
+        {archiveDates.length > 0 && <a href={archiveHref}>Archive</a>}
         {hubUrl && (
           <a href={hubUrl} rel="noopener noreferrer" target="_blank">
             Neurotech Hub
             <span class="sr-only"> (opens in a new tab)</span>
           </a>
         )}
-        {archiveDates.length > 0 && <a href={archiveHref}>Archive</a>}
       </nav>
     )}
   </div>
