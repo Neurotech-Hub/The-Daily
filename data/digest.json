@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-10-26T06:55:51-05:00",
+ "generated_at": "2026-10-27T05:04:40-05:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-10-26",
+ "edition_date": "2026-10-27",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -17,12 +17,12 @@
   {
    "key": "news",
    "title": "News",
-   "count": 12
+   "count": 13
   },
   {
    "key": "opportunity",
    "title": "Research Leads",
-   "count": 12
+   "count": 16
   },
   {
    "key": "funding",
@@ -32,12 +32,12 @@
   {
    "key": "innovation",
    "title": "Innovation Opportunities",
-   "count": 9
+   "count": 8
   },
   {
    "key": "acorn",
    "title": "Product Leads",
-   "count": 8
+   "count": 12
   },
   {
    "key": "in_progress",
@@ -51,37 +51,35 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": null,
-   "last_run_status": "not_logged",
-   "last_run_note": "No Run Health row for this bot; freshness unknown.",
-   "next_run": null,
-   "rows_added_last_run": null,
-   "new_items_count": 12,
+   "last_refreshed": "2026-10-27T03:45:00-05:00",
+   "last_run_status": "ok",
+   "last_run_note": "40 candidates reviewed, 7 duplicates skipped; 5 sources added. Business Wire fetch timed out, so used the company newsroom URL. No item scored 90 or higher (max 58).",
+   "next_run": "2026-10-28 03:30 CT",
+   "rows_added_last_run": 6,
+   "new_items_count": 6,
    "no_new_items": false,
-   "visible_count": 12,
+   "visible_count": 13,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
     {
      "source": "news",
-     "item_id": "news:NN-20261026-002",
+     "item_id": "news:NN-20261027-001",
      "visibility": "internal",
-     "title": "Tumbly: An Open-Source Home-Cage Device for Time-Restricted Feeding in Mice",
-     "summary": "Preprint describing Tumbly, a battery-powered, servo-driven food hopper that gates diet access on a user-set schedule and fits multiple vivarium cage types via a swappable faceplate; design files are open. Validation in two labs reported no device failures over >1000 hours and normal body weight and intake under 8-h TRF.",
-     "category": "Open Source",
+     "title": "Paradromics gets FDA approval to expand Connexus BCI study recruitment nationwide",
+     "summary": "FDA approved a protocol amendment to Paradromics' Connect-One early feasibility study that removes the rule that participants live within a four-hour drive of a site, opening recruitment nationwide at UC Davis Health, Mass General Brigham and University of Michigan Health. Connexus is a fully implantable, wireless intracortical BCI for restoring speech.",
+     "category": "Industry & Commercialization",
      "subcategory": null,
-     "date_published": "2026-10-24",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
+     "date_published": "2026-10-26",
+     "date_discovered": "2026-10-27T03:45-05:00",
+     "date_updated": "2026-10-27T03:45-05:00",
      "is_new": true,
-     "link": "https://www.biorxiv.org/content/10.64898/2026.10.19.760239v1",
-     "secondary_links": [
-      "https://doi.org/10.64898/2026.10.19.760239"
-     ],
+     "link": "https://paradromics.com/news/paradromics-receives-fda-approval-to-expand-connexus-brain-computer-interface-clinical-study-recruitment-nationwide/",
+     "secondary_links": [],
      "confidence": "high",
-     "score": 90,
+     "score": 58,
      "score_original": {
-      "value": "90",
+      "value": "58",
       "scale": "0-100",
       "label": "relevance"
      },
@@ -90,77 +88,44 @@
      "next_review_date": null,
      "atlas_ids": [],
      "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
-      },
-      {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
-      },
-      {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
-      },
-      {
-       "product_id": "PRD-009",
-       "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": null
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      }
-     ],
+     "product_matches": [],
      "people": [],
      "details": {
-      "publisher": "bioRxiv",
-      "hub_relevance": "Directly overlaps the Hub's automated feeding, circadian, and battery-powered home-cage device lines and could pair with Hublink-style cloud logging.",
-      "related_assets_raw": "Hub Wheel with Hublink; FlightCap Lick and Liquid Sensor; Two-bottle Sipper Hub; BEAM3",
-      "evidence_type": "Preprint",
-      "doi": "10.64898/2026.10.19.760239",
+      "publisher": "Paradromics (company newsroom; also Business Wire)",
+      "hub_relevance": "Shows the regulatory path for a fully implanted wireless high-channel recording system; useful context for the Hub's wireless electrophysiology and telemetry work.",
+      "related_assets_raw": null,
+      "evidence_type": "Regulatory",
+      "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": null
+      "review_notes": "Company press release dated 2026-10-26; also on Business Wire (20261026275192) and MobiHealthNews"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 3,
-      "record_id": "NN-20261026-002"
+      "row": 14,
+      "record_id": "NN-20261027-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
     {
      "source": "news",
-     "item_id": "news:NN-20261026-001",
+     "item_id": "news:NN-20261027-002",
      "visibility": "internal",
-     "title": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes (Airscope)",
-     "summary": "Tsinghua University researchers report Airscope, a fully wireless ~1 g head-mounted mesoscope (including battery) with a ~6 mm field of view that streams cortex-wide calcium imaging over Wi-Fi from freely behaving mice. The paper reports recording more than 8,500 neurons per mouse and simultaneous multi-animal recording.",
-     "category": "Scientific Hardware",
+     "title": "US Treasury proposes barring US investment in Chinese brain-computer interface companies under COINS Act rule",
+     "summary": "Treasury's proposed Outbound Investment Security Program rule (FR Doc 2026-21786) adds biotechnology as a prohibited-technology sector, including the development or production of brain-computer interfaces, so US persons would be barred from most new private investments in covered companies in countries of concern such as China. Comments are due 7 Dec 2026.",
+     "category": "Other",
      "subcategory": null,
-     "date_published": "2026-10-19",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
+     "date_published": "2026-10-26",
+     "date_discovered": "2026-10-27T03:45-05:00",
+     "date_updated": "2026-10-27T03:45-05:00",
      "is_new": true,
-     "link": "https://www.nature.com/articles/s41586-026-11293-x",
-     "secondary_links": [
-      "https://doi.org/10.1038/s41586-026-11293-x"
-     ],
+     "link": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+     "secondary_links": [],
      "confidence": "high",
-     "score": 88,
+     "score": 55,
      "score_original": {
-      "value": "88",
+      "value": "55",
       "scale": "0-100",
       "label": "relevance"
      },
@@ -169,138 +134,44 @@
      "next_review_date": null,
      "atlas_ids": [],
      "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
-      },
-      {
-       "product_id": "PRD-006",
-       "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      }
-     ],
+     "product_matches": [],
      "people": [],
      "details": {
-      "publisher": "Nature",
-      "hub_relevance": "Battery-powered wireless head-mounted recording in freely moving, socially housed mice parallels the Hub's low-power wireless wearable work (Juxta, BEAM3) and its optical instrumentation interests.",
-      "related_assets_raw": "Juxta Social Proximity Loggers; BEAM3; Hublink",
-      "evidence_type": "Peer-reviewed",
-      "doi": "10.1038/s41586-026-11293-x",
+      "publisher": "Federal Register (US Treasury)",
+      "hub_relevance": "A major US policy move that defines BCIs as a national-security technology and could change neurotech funding and partnerships the Hub works within.",
+      "related_assets_raw": null,
+      "evidence_type": "Policy",
+      "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": null
+      "review_notes": "Treasury press release 2026-10-22 (sb0667); FR publication 2026-10-26; BCI analysis via Inside BCI 2026-10-24"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 2,
-      "record_id": "NN-20261026-001"
+      "row": 15,
+      "record_id": "NN-20261027-002"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
     {
      "source": "news",
-     "item_id": "news:NN-20261026-003",
+     "item_id": "news:NN-20261027-003",
      "visibility": "internal",
-     "title": "Camus: a video-based framework for continuous behavioral monitoring in the mouse home-cage",
-     "summary": "Preprint presenting Camus, an open-source home-cage video system using off-the-shelf USB cameras, IR illumination, and 3D-printed parts with a validated computer-vision model for locomotion, feeding, drinking, and nesting. One desktop records up to 20 cages at ~$250 incremental cost per cage and captured circadian structure and 5xFAD nesting deficits.",
-     "category": "Open Source",
-     "subcategory": null,
-     "date_published": "2026-10-24",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
-     "link": "https://www.biorxiv.org/content/10.64898/2026.10.23.761437v1",
-     "secondary_links": [
-      "https://doi.org/10.64898/2026.10.23.761437"
-     ],
-     "confidence": "high",
-     "score": 86,
-     "score_original": {
-      "value": "86",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
-      },
-      {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
-      },
-      {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      }
-     ],
-     "people": [],
-     "details": {
-      "publisher": "bioRxiv",
-      "hub_relevance": "Provides a low-cost video ground truth for the same circadian home-cage behaviors the Hub measures with BEAM3, Hub Wheel, and FlightCap sensors.",
-      "related_assets_raw": "BEAM3; Hub Wheel with Hublink; FlightCap Lick and Liquid Sensor",
-      "evidence_type": "Preprint",
-      "doi": "10.64898/2026.10.23.761437",
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 4,
-      "record_id": "NN-20261026-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261026-004",
-     "visibility": "internal",
-     "title": "iFLiP: accessible and low-cost lifetime fiber photometry for longitudinal neural dynamics",
-     "summary": "OHSU researchers report iFLiP, a fluorescence-lifetime fiber photometry system built entirely from off-the-shelf parts with turnkey software, monitoring lifetime changes at up to 5000 Hz for days; demonstrated with PKA sensors including sleep/wake-linked activity. A founder-owned company is licensed to produce a commercial version.",
-     "category": "Scientific Hardware",
+     "title": "Beacon Biosignals acquires Snap Diagnostics to build national channel for EEG-enabled home sleep testing",
+     "summary": "Beacon Biosignals acquired Snap Diagnostics, a home sleep testing provider serving all 50 states, more than doubling its patient reach. It plans to roll out EEG-enabled home sleep testing with its FDA 510(k)-cleared Waveband headband starting in 2027.",
+     "category": "Industry & Commercialization",
      "subcategory": null,
      "date_published": "2026-10-22",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
+     "date_discovered": "2026-10-27T03:45-05:00",
+     "date_updated": "2026-10-27T03:45-05:00",
      "is_new": true,
-     "link": "https://www.biorxiv.org/content/10.64898/2026.10.21.760747v1",
-     "secondary_links": [
-      "https://doi.org/10.64898/2026.10.21.760747"
-     ],
+     "link": "https://beacon.bio/news/beacon-biosignals-acquires-snap-diagnostics-paving-the-way-for-eeg-enabled-home-sleep-testing-in-every-care-setting",
+     "secondary_links": [],
      "confidence": "high",
-     "score": 80,
+     "score": 55,
      "score_original": {
-      "value": "80",
+      "value": "55",
       "scale": "0-100",
       "label": "relevance"
      },
@@ -312,43 +183,41 @@
      "product_matches": [],
      "people": [],
      "details": {
-      "publisher": "bioRxiv",
-      "hub_relevance": "Low-cost, multi-day optical instrumentation for sleep/wake neural dynamics aligns with the Hub's optical instrumentation and circadian research focus.",
+      "publisher": "Beacon Biosignals (company newsroom; also GlobeNewswire)",
+      "hub_relevance": "Consolidation in at-home EEG sleep monitoring is directly adjacent to the Hub's sleep/circadian and wearable-sensing interests.",
       "related_assets_raw": null,
-      "evidence_type": "Preprint",
-      "doi": "10.64898/2026.10.21.760747",
+      "evidence_type": "M&A",
+      "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": null
+      "review_notes": "Backfill: announced 2026-10-22 (just before the 72h window) and missed by the prior run; covered by Neurofounders 2026-10-26"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 5,
-      "record_id": "NN-20261026-004"
+      "row": 16,
+      "record_id": "NN-20261027-003"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
     {
      "source": "news",
-     "item_id": "news:NN-20261026-005",
+     "item_id": "news:NN-20261027-004",
      "visibility": "internal",
-     "title": "MRI-compatible 3D soft carbon neural interface enabled by depth-tunable laser drawing",
-     "summary": "Preprint reporting a fully silicone-based ECoG array with 3D carbon-nanotube sites made by laser drawing instead of thin-film microfabrication; in rabbit cortex it retained 80.4% of ECoG power after 4 months vs 11.7% for a 2D control and showed negligible MRI artifacts.",
-     "category": "Engineering & Components",
+     "title": "Emotiv launches emotiv.dev browser BCI apps, with real-headset use tied to consent for training its Large Brain Model",
+     "summary": "Emotiv launched emotiv.dev, with seven browser-based apps for its EEG headsets plus Cortex API learning material; a Build section is coming soon. Using a real headset requires consent to EmotivIQ, which lets Emotiv train and license its Large Brain Model on pseudonymised user EEG.",
+     "category": "Software & AI",
      "subcategory": null,
-     "date_published": "2026-10-20",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
+     "date_published": "2026-10-23",
+     "date_discovered": "2026-10-27T03:45-05:00",
+     "date_updated": "2026-10-27T03:45-05:00",
      "is_new": true,
-     "link": "https://www.biorxiv.org/content/10.64898/2026.10.19.760266v1",
-     "secondary_links": [
-      "https://doi.org/10.64898/2026.10.19.760266"
-     ],
+     "link": "https://insidebci.com/news/2026-10-23-emotiv-dev-browser-bci-experiences-emotiviq-large-brain-model-consent/",
+     "secondary_links": [],
      "confidence": "medium",
-     "score": 70,
+     "score": 48,
      "score_original": {
-      "value": "70",
+      "value": "48",
       "scale": "0-100",
       "label": "relevance"
      },
@@ -360,20 +229,112 @@
      "product_matches": [],
      "people": [],
      "details": {
-      "publisher": "bioRxiv",
-      "hub_relevance": "A cleanroom-free laser fabrication route for soft electrodes is relevant to the Hub's electrophysiology hardware and in-house manufacturing capabilities.",
+      "publisher": "Inside BCI",
+      "hub_relevance": "A reference point for EEG developer tooling and neural-data consent terms, relevant to how the Hub handles data in its software and cloud pipelines.",
       "related_assets_raw": null,
-      "evidence_type": "Preprint",
-      "doi": "10.64898/2026.10.19.760266",
+      "evidence_type": "Product launch",
+      "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": null
+      "review_notes": "Secondary reporting citing Emotiv primary pages; published 2026-10-23, at the edge of the window"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 6,
-      "record_id": "NN-20261026-005"
+      "row": 17,
+      "record_id": "NN-20261027-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261027-005",
+     "visibility": "internal",
+     "title": "UK defense startup NeuroDoctrine demonstrates EEG-headband control of drone swarms",
+     "summary": "NeuroDoctrine, a Manchester defense startup founded by Zied Tayeb, showed a non-invasive headband that reads visual-cortex signals and sends drone commands over Bluetooth. It has controlled up to 10 drones flying together, needs about six hours of calibration per user, and is raising funds.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-26",
+     "date_discovered": "2026-10-27T03:45-05:00",
+     "date_updated": "2026-10-27T03:45-05:00",
+     "is_new": true,
+     "link": "https://www.nationaldefensemagazine.org/articles/2026/10/26/uk-startup-demonstrates-controlling-drones-via-brain-signals",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 42,
+     "score_original": {
+      "value": "42",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "National Defense Magazine",
+      "hub_relevance": "Non-invasive BCI moving into military use; a possible defense-sector angle for the Hub's wearable and BLE engineering.",
+      "related_assets_raw": null,
+      "evidence_type": "Company demonstration",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Trade press report of a company demo (late Sept); performance claims are company statements"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 18,
+      "record_id": "NN-20261027-005"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261027-006",
+     "visibility": "internal",
+     "title": "China's NMPA approves Nurotron's first domestic auditory brainstem implant for young children",
+     "summary": "China's NMPA approved Zhejiang Nurotron's 16-electrode WH-01A auditory brainstem implant through its innovative-device pathway for children aged 2 to under 6 who cannot use cochlear implants. The regulator calls it China's first product that both stimulates and records brainstem neural signals.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-26",
+     "date_discovered": "2026-10-27T03:45-05:00",
+     "date_updated": "2026-10-27T03:45-05:00",
+     "is_new": true,
+     "link": "https://insidebci.com/news/2026-10-26-china-nmpa-approves-nurotron-auditory-brainstem-implant-children-wu-hao-shanghai-ninth/",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 38,
+     "score_original": {
+      "value": "38",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Inside BCI",
+      "hub_relevance": "Regulatory milestone for a stimulate-and-record neural implant, useful background on the neurostimulation market.",
+      "related_assets_raw": null,
+      "evidence_type": "Regulatory",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Approved 2026-10-19, NMPA notice 2026-10-20; Inside BCI coverage 2026-10-26"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 19,
+      "record_id": "NN-20261027-006"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -388,7 +349,7 @@
      "date_published": "2026-10-21",
      "date_discovered": "2026-10-26T05:45-05:00",
      "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.tue.nl/en/news-and-events/news-overview/21-10-2026-sending-brain-signals-without-overheating-the-brain",
      "secondary_links": [],
      "confidence": "medium",
@@ -441,7 +402,7 @@
      "date_published": "2026-10-21",
      "date_discovered": "2026-10-26T05:45-05:00",
      "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.eqs-news.com/news/corporate/cortec-brain-interface-electrodes-record-stable-signals-for-more-than-four-years/d4836646-4e16-4f71-949e-4a7869bf6506_en",
      "secondary_links": [],
      "confidence": "medium",
@@ -487,7 +448,7 @@
      "date_published": "2026-10-22",
      "date_discovered": "2026-10-26T05:45-05:00",
      "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.cuimc.columbia.edu/news/brain-computer-interface-may-give-unresponsive-icu-patients-voice",
      "secondary_links": [],
      "confidence": "medium",
@@ -506,7 +467,7 @@
       {
        "product_id": "PRD-008",
        "name": "ToneTTL",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/tonettl-convert-an-audio-signal-to-a-digital-pulse/",
        "github_url": null
       }
      ],
@@ -540,7 +501,7 @@
      "date_published": "2026-10-22",
      "date_discovered": "2026-10-26T05:45-05:00",
      "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://insidebci.com/market/2026-10-22-coherence-neuro-45-million-openai-startup-fund-founders-fund-brain-tumour-implant/",
      "secondary_links": [],
      "confidence": "medium",
@@ -586,7 +547,7 @@
      "date_published": "2026-10-23T07:11-05:00",
      "date_discovered": "2026-10-26T05:45-05:00",
      "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://wpiinc.com/blogs/all/introducing-evom%e2%84%a2-auto-electroz-at-the-society-for-neuroscience-2026",
      "secondary_links": [],
      "confidence": "high",
@@ -632,7 +593,7 @@
      "date_published": "2026-10-20T07:00-05:00",
      "date_discovered": "2026-10-26T05:45-05:00",
      "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.prnewswire.com/news-releases/neuroxt-inc-receives-us-fda-510k-clearance-for-next-cue-ai-software-supporting-prognostic-assessment-in-mild-cognitive-impairment-302913386.html",
      "secondary_links": [],
      "confidence": "high",
@@ -678,7 +639,7 @@
      "date_published": null,
      "date_discovered": "2026-10-26T05:45-05:00",
      "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.oxinst.com/events/society-for-neuroscience-2026",
      "secondary_links": [],
      "confidence": "medium",
@@ -720,35 +681,35 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-10-26T06:20:00-05:00",
-   "last_run_status": "ok",
-   "last_run_note": "Filled Atlas ID from 11 resolved requests (all names verified vs Investigators). Partial leads list only resolved ids in Investigator order: OPP-009 omits Mohammadi (not_found); OPP-048 omits Kawai (no request); OPP-006 Steele not_found, blank. No new requests (no ORCID/OpenAlex locally). Relationships for the 11 already present; added 2 missing rows (Gereau OPP-002, Bowen OPP-005).",
-   "next_run": "2026-10-27 ~03:30 CT",
-   "rows_added_last_run": 0,
-   "new_items_count": 2,
+   "last_refreshed": "2026-10-27T03:59:00-05:00",
+   "last_run_status": "partial",
+   "last_run_note": "Europe PMC 503 all run (OpenAlex+Crossref only). Added OPP-049..052 (none >=70). 10 rows Product Matches reconciled to canonical names. 7 Atlas requests filed; 0 relationships. Pending items done (iFLiP->OPP-051; Airscope, carbon interface skipped; Tumbly stays OPP-001 Monitor).",
+   "next_run": "2026-10-28 03:30 CT",
+   "rows_added_last_run": 4,
+   "new_items_count": 4,
    "no_new_items": false,
-   "visible_count": 12,
+   "visible_count": 16,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
     {
      "source": "opportunity",
-     "item_id": "opportunity:OPP-047",
+     "item_id": "opportunity:OPP-049",
      "visibility": "internal",
-     "title": "B-REAL: A keypoint-less behavior platform for offline classification and real-time detection",
-     "summary": "Real-time behavior detection to trigger stimuli, drug delivery or environmental manipulation in closed loop (stated aim).",
+     "title": "Self-initiated restrictive feeding: a new mouse model of restrictive eating disorders",
+     "summary": "Long-term home-cage feeding and meal-pattern measurement in group-relevant (social rank) mouse paradigms using open-source behavioural devices (stated method).",
      "category": "Research Lead",
-     "subcategory": "Custom engineering collaboration",
-     "date_published": "2026-10-20",
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
+     "subcategory": "Scientific research collaboration",
+     "date_published": "2026-10-24",
+     "date_discovered": "2026-10-27",
+     "date_updated": "2026-10-27",
      "is_new": true,
-     "link": "https://doi.org/10.64898/2026.10.13.758637",
+     "link": "https://doi.org/10.64898/2026.10.20.760181",
      "secondary_links": [],
      "confidence": "medium",
      "score": 65,
      "score_original": {
-      "sales": "40",
+      "sales": "45",
       "collab": "65",
       "scale": "0-100",
       "normalized_as": "max(sales,collab)"
@@ -756,71 +717,157 @@
      "disposition": "New",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000570"
-     ],
+     "atlas_ids": [],
      "related_items": [],
      "product_matches": [
       {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
+       "product_id": "PRD-006",
+       "name": "Juxta Social Proximity Loggers (Gen5)",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
+       "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       },
       {
-       "product_id": "PRD-034",
-       "name": "Engineering and prototyping services",
+       "product_id": "PRD-015",
+       "name": "FED4",
        "store_url": null,
-       "github_url": null
+       "github_url": "https://github.com/Neurotech-Hub/FED4"
       }
      ],
      "people": [
       {
-       "name": "Eric A. Yttri",
-       "institution": "Carnegie Mellon University",
-       "atlas_id": "ATL-000570",
+       "name": "Mahesh Karnani",
+       "institution": "University of Edinburgh",
+       "atlas_id": null,
        "role_note": "last author"
+      },
+      {
+       "name": "Robbie Ferguson",
+       "institution": "University of Edinburgh",
+       "atlas_id": null,
+       "role_note": null
       }
      ],
      "details": {
-      "washu": "FALSE",
-      "preprint": "TRUE",
-      "doi": "10.64898/2026.10.13.758637",
-      "facts": "Stated (abstract): pose-free video classifier faster than frame rate on CPU; closed-loop reward for detected grooming doubled grooming bouts; \"standard hardware\". bioRxiv preprint, CC BY.",
-      "inferences": "Closed-loop output hardware (TTL/actuator interfaces, reward delivery, in-cage sensors as extra channels) could pair with Hub electronics/code services; not stated as a need. Full text not reviewed.",
-      "product_matches_raw": "SVC-ELEC; SVC-CODE; PRD-FLIGHTCAP",
-      "recommended_action": "Human review; Monitor. Possible technical conversation on closed-loop hardware interfaces; no outreach without approval.",
-      "needs_human_review": "TRUE",
-      "review_note": "Abstract only; needs inferred. Not in Atlas; resolution request filed.",
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.10.20.760181",
+      "facts": "Stated (abstract): SIRF model built with open-source behavioural devices; affects female mice; persists after trigger removed; correlates with social rank; meal pattern analysis (meal size/duration down, frequency unchanged); insular cortex chemogenetics. bioRxiv preprint, CC BY. Devices not named in abstract; full text not retrievable this run.",
+      "inferences": "Open-source feeding-device users are a natural fit for Hub feeding-device development (FED4 / Tumbly lineage) and possibly Juxta for social-rank context; device identity and any unmet need not stated. Do not assume purchasing intent.",
+      "product_matches_raw": "FED4; Juxta Social Proximity Loggers (Gen5)",
+      "recommended_action": "Human review; Monitor. Check full text for device names (FED3/FED4?) before any technical conversation; no outreach without approval.",
+      "needs_human_review": "Yes",
+      "review_note": "Abstract only; devices unnamed; FED4 is not for sale (collaboration context only). Not in Atlas; resolution request filed.",
       "bot_state": "New",
-      "analysis_date": "2026-10-26"
+      "analysis_date": "2026-10-27"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
       "tab": "Opportunities",
-      "row": 12,
-      "record_id": "OPP-047"
+      "row": 14,
+      "record_id": "OPP-049"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
     {
      "source": "opportunity",
-     "item_id": "opportunity:OPP-048",
+     "item_id": "opportunity:OPP-050",
      "visibility": "internal",
-     "title": "Automated temporal analysis reveals stress-induced protracted feeding regulated by mesolimbic dopamine in mice",
-     "summary": "Temporal organization of feeding bouts measured with video AI (DeepLabCut + SimBA) under social isolation / HFD stress (stated method).",
+     "title": "Continued post-weaning social isolation is associated with persistent, sex-specific changes in sociability and social interaction dynamics in mice",
+     "summary": "Longitudinal, prolonged home-cage measurement of inter-mouse distance, contact duration and partner switching across light/dark phases (stated measures).",
      "category": "Research Lead",
-     "subcategory": "Scientific research collaboration",
-     "date_published": "2026-10-20",
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
+     "subcategory": "Existing product sales",
+     "date_published": "2026-10-26",
+     "date_discovered": "2026-10-27",
+     "date_updated": "2026-10-27",
      "is_new": true,
-     "link": "https://doi.org/10.3389/fnins.2026.1959447",
+     "link": "https://doi.org/10.1371/journal.pone.0361386",
      "secondary_links": [],
      "confidence": "medium",
      "score": 60,
      "score_original": {
-      "sales": "50",
+      "sales": "60",
+      "collab": "55",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-003",
+       "name": "Hub Wheel with Hublink",
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-006",
+       "name": "Juxta Social Proximity Loggers (Gen5)",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
+       "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
+      },
+      {
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+      }
+     ],
+     "people": [
+      {
+       "name": "Manabu Makinodan",
+       "institution": "Kumamoto University School of Medicine; Nara Medical University",
+       "atlas_id": null,
+       "role_note": "last author"
+      },
+      {
+       "name": "Kazuhiko Yamamuro",
+       "institution": "Kumamoto University School of Medicine; Nara Medical University",
+       "atlas_id": null,
+       "role_note": "first author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.1371/journal.pone.0361386",
+      "facts": "Stated (abstract): augmented reality-based behavioral monitoring system in prolonged cage-based sessions; measures locomotion, inter-mouse distance, mean contact duration, interaction-partner switching at P35/P49/P63, light and dark phases. Peer-reviewed PLOS One, CC BY.",
+      "inferences": "Juxta proximity loggers measure pairwise proximity/encounters continuously and could complement or extend video-based measures (e.g., larger groups or longer durations); lab already has a working system, so no stated gap. Locomotion across light/dark phases also overlaps Hub Wheel use.",
+      "product_matches_raw": "Juxta Social Proximity Loggers (Gen5); Hub Wheel with Hublink",
+      "recommended_action": "Human review; Monitor. Possible Juxta validation comparison vs. video-based proximity; no outreach without approval.",
+      "needs_human_review": "Yes",
+      "review_note": "Abstract only; lab has an existing monitoring system (no stated gap). Not in Atlas; resolution requests filed.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-27"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 15,
+      "record_id": "OPP-050"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-051",
+     "visibility": "internal",
+     "title": "iFLiP: accessible and low-cost lifetime fiber photometry for robust longitudinal and quantitative measurements of neural dynamics",
+     "summary": "Lower-cost, simpler lifetime fiber photometry hardware (authors state hardware complexity and expense limited adoption).",
+     "category": "Research Lead",
+     "subcategory": "Custom engineering collaboration",
+     "date_published": "2026-10-22",
+     "date_discovered": "2026-10-27",
+     "date_updated": "2026-10-27",
+     "is_new": true,
+     "link": "https://doi.org/10.64898/2026.10.21.760747",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 60,
+     "score_original": {
+      "sales": "35",
       "collab": "60",
       "scale": "0-100",
       "normalized_as": "max(sales,collab)"
@@ -828,23 +875,9 @@
      "disposition": "New",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000571"
-     ],
+     "atlas_ids": [],
      "related_items": [],
      "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
-      },
-      {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
-      },
       {
        "product_id": "PRD-034",
        "name": "Engineering and prototyping services",
@@ -854,36 +887,112 @@
      ],
      "people": [
       {
-       "name": "Shinsuke Ishigaki",
-       "institution": "Shiga University of Medical Science; National Center for Geriatrics and Gerontology",
-       "atlas_id": "ATL-000571",
+       "name": "Haining Zhong",
+       "institution": "Oregon Health & Science University (Vollum Institute)",
+       "atlas_id": null,
        "role_note": "last author"
       },
       {
-       "name": "Kaori Kawai",
-       "institution": "Shiga University of Medical Science; National Center for Geriatrics and Gerontology",
+       "name": "Tianyi Mao",
+       "institution": "Oregon Health & Science University (Vollum Institute)",
        "atlas_id": null,
        "role_note": null
+      },
+      {
+       "name": "Takaki Yahiro",
+       "institution": "Oregon Health & Science University (Vollum Institute)",
+       "atlas_id": null,
+       "role_note": "first author"
       }
      ],
      "details": {
-      "washu": "FALSE",
-      "preprint": "FALSE",
-      "doi": "10.3389/fnins.2026.1959447",
-      "facts": "Stated (abstract): feeding bout duration via DeepLabCut/SimBA; protracted feeding not accompanied by changes in amount consumed; VTA-DREADD and NAcc dopamine manipulations. Peer-reviewed, gold OA CC BY.",
-      "inferences": "Direct food-access/bout sensing (e.g., Hub feeding/lick hardware via custom electronics) could validate or scale video-derived bout timing; not stated by authors. No Hub catalog product is a solid-food bout sensor.",
-      "product_matches_raw": "SVC-ELEC; PRD-FLIGHTCAP; PRD-BEAM3",
-      "recommended_action": "Monitor; human review. Cite as evidence of demand for automated feeding-bout measurement.",
-      "needs_human_review": "TRUE",
-      "review_note": "Abstract only; needs inferred. Not in Atlas; resolution request filed.",
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.10.21.760747",
+      "facts": "Stated (abstract): iFLiP is a low-cost lifetime fiber photometry system built from off-the-shelf components; monitors up to 5000 Hz for days; PKA dynamics across sleep/wake. bioRxiv preprint, CC BY-NC-ND (full text not reused).",
+      "inferences": "Hub engineering services could build/support iFLiP-style rigs for WashU photometry labs or co-develop integration with Hub behavior hardware; no stated request to the Hub. Collaboration value mainly as an open design to adopt.",
+      "product_matches_raw": "Engineering and prototyping services",
+      "recommended_action": "Monitor; human review. Consider as a build-service template for WashU photometry labs; no outreach.",
+      "needs_human_review": "Yes",
+      "review_note": "Director-flagged pending item; abstract only. Not in Atlas; resolution requests filed.",
       "bot_state": "New",
-      "analysis_date": "2026-10-26"
+      "analysis_date": "2026-10-27"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
       "tab": "Opportunities",
-      "row": 13,
-      "record_id": "OPP-048"
+      "row": 16,
+      "record_id": "OPP-051"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-052",
+     "visibility": "internal",
+     "title": "Territorial African wood-doves respond differently to intruders with higher and lower frequency of songs",
+     "summary": "Field song playback (simulated territorial intrusion) to wild birds in equatorial African forest (stated method).",
+     "category": "Research Lead",
+     "subcategory": "Existing product sales",
+     "date_published": "2026-10-21",
+     "date_discovered": "2026-10-27",
+     "date_updated": "2026-10-27",
+     "is_new": true,
+     "link": "https://doi.org/10.1038/s41598-026-76761-w",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 50,
+     "score_original": {
+      "sales": "50",
+      "collab": "45",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Paweł Szymański",
+       "institution": "Adam Mickiewicz University in Poznań",
+       "atlas_id": null,
+       "role_note": "last author"
+      },
+      {
+       "name": "Tomasz S. Osiejuk",
+       "institution": "Adam Mickiewicz University in Poznań",
+       "atlas_id": null,
+       "role_note": "first author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.1038/s41598-026-76761-w",
+      "facts": "Stated (abstract): 25 males tested twice with low- vs high-frequency intruder song playback; birds avoided approaching the speaker in low-frequency treatment. Playback hardware not stated. Peer-reviewed Scientific Reports, gold OA CC BY-NC-ND.",
+      "inferences": "Repeated field playback could fit ACORN (pre-order) for scheduled/autonomous playback, though simulated intrusions are usually attended; no stated hardware need. Same institution as earlier local lead OPP-008 (Budka, AMU).",
+      "product_matches_raw": "ACORN: Autonomous Configurable Outdoor Replay Node",
+      "recommended_action": "Monitor; human review. ACORN-relevant: note for ACORN lead tracking; no outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Abstract only; hardware unstated. Not in Outreach Log. Not in Atlas; resolution requests filed.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-27"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 17,
+      "record_id": "OPP-052"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -897,7 +1006,7 @@
      "subcategory": "Custom engineering collaboration",
      "date_published": "2026-09-24",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.64898/2026.09.19.752787",
      "secondary_links": [],
@@ -917,7 +1026,14 @@
       "ATL-000177"
      ],
      "related_items": [],
-     "product_matches": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
+      }
+     ],
      "people": [
       {
        "name": "Robert Gereau",
@@ -938,7 +1054,7 @@
       "doi": "10.64898/2026.09.19.752787",
       "facts": "Stated: manual scoring low-throughput and variable; cost/programming expertise limit adoption of automated tools; enclosure + multi-camera acquisition + pose network + 8 classifiers.",
       "inferences": "Hub fabrication (laser-cut acrylic, 3D parts) could standardize/replicate the enclosure for other labs; unverified demand.",
-      "product_matches_raw": "Fabrication service; 3D parts service; Electronics service",
+      "product_matches_raw": "Engineering and prototyping services",
       "recommended_action": "Human review, then an internal intro to Slivicki/Gereau to ask whether enclosure replication or kitting is wanted.",
       "needs_human_review": "Yes",
       "review_note": "Meaghan Creed (WashU) co-author; Creed lab is credited on Sipper Hub design, so prior relationship likely.",
@@ -963,7 +1079,7 @@
      "subcategory": "Existing product sales",
      "date_published": "2026-08-28",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.1371/journal.pone.0356499",
      "secondary_links": [],
@@ -984,13 +1100,13 @@
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-006",
        "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
        "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       },
       {
@@ -1014,7 +1130,7 @@
       "doi": "10.1371/journal.pone.0356499",
       "facts": "Stated: implanted wireless devices measured individual activity and subcutaneous temperature; FAA studied almost exclusively in singly housed animals.",
       "inferences": "Juxta logs proximity, temperature, movement up to 1 month non-surgically; would add social-proximity dimension. Equivalence to implanted temperature not established.",
-      "product_matches_raw": "Juxta Gen5 Social Proximity Loggers; Hub Wheel with Hublink",
+      "product_matches_raw": "Juxta Social Proximity Loggers (Gen5); Hub Wheel with Hublink",
       "recommended_action": "Human review; consider a technical note to Steele lab on non-implanted proximity + temperature logging.",
       "needs_human_review": "Yes",
       "review_note": null,
@@ -1039,7 +1155,7 @@
      "subcategory": "Scientific research collaboration",
      "date_published": "2026-10-24",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.64898/2026.10.23.761437",
      "secondary_links": [],
@@ -1062,14 +1178,20 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
       }
      ],
      "people": [
@@ -1086,7 +1208,7 @@
       "doi": "10.64898/2026.10.23.761437",
       "facts": "Stated: compact geometry, opaque tops and obstructed views limit video; Camus uses USB cams, IR, 3D-printed parts, ~$250/cage, 20 cages/PC.",
       "inferences": "FlightCap/BEAM3 could provide ground truth for drinking/locomotion classifiers; inference.",
-      "product_matches_raw": "FlightCap Lick and Liquid Sensor; Body Event Analysis Module 3 (BEAM3); 3D parts service",
+      "product_matches_raw": "FlightCap Lick and Liquid Sensor; Body Event Analysis Module 3 (BEAM3); Engineering and prototyping services",
       "recommended_action": "Monitor; possible validation collaboration (Northwestern, regional).",
       "needs_human_review": "Yes",
       "review_note": null,
@@ -1111,7 +1233,7 @@
      "subcategory": "Existing product sales",
      "date_published": "2026-09-02",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.1038/s41598-026-69041-0",
      "secondary_links": [],
@@ -1134,19 +1256,19 @@
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-006",
        "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
        "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       },
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
@@ -1170,7 +1292,7 @@
       "doi": "10.1038/s41598-026-69041-0",
       "facts": "Stated: open-source Digital Homecage integrates video, operant modules and wheel running; single-housed; >20 metrics over weeks.",
       "inferences": "Hub Wheel with Hublink (wireless, >1 month battery, env sensors) could plug into DHC; group-housing extension is a stated limit (single-housed) but not framed as a gap.",
-      "product_matches_raw": "Hub Wheel with Hublink; Juxta Gen5 Social Proximity Loggers; FlightCap Lick and Liquid Sensor",
+      "product_matches_raw": "Hub Wheel with Hublink; Juxta Social Proximity Loggers (Gen5); FlightCap Lick and Liquid Sensor",
       "recommended_action": "Human review; propose interoperability discussion (Hublink to DHC).",
       "needs_human_review": "Yes",
       "review_note": null,
@@ -1195,7 +1317,7 @@
      "subcategory": "Product development opportunity",
      "date_published": "2026-09-29",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.64898/2026.09.24.754020",
      "secondary_links": [],
@@ -1218,7 +1340,13 @@
       {
        "product_id": "PRD-008",
        "name": "ToneTTL",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/tonettl-convert-an-audio-signal-to-a-digital-pulse/",
+       "github_url": null
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
        "github_url": null
       }
      ],
@@ -1242,7 +1370,7 @@
       "doi": "10.64898/2026.09.24.754020",
       "facts": "Stated: 5 ms segments classified in ~2.5 ms; detections triggered external stimulus; event-gated storage.",
       "inferences": "ToneTTL converts audio to TTL with tunable demodulators, a hardware analogue; whether it handles ultrasonic bands is not stated on the store page.",
-      "product_matches_raw": "ToneTTL; Electronics service",
+      "product_matches_raw": "ToneTTL; Engineering and prototyping services",
       "recommended_action": "Human review: Hub to confirm ToneTTL frequency range before any comparison; possible benchmark collaboration.",
       "needs_human_review": "Yes",
       "review_note": null,
@@ -1290,14 +1418,14 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-010",
@@ -1345,7 +1473,7 @@
      "subcategory": "Custom engineering collaboration",
      "date_published": "2026-08-31",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.1038/s41467-026-76952-z",
      "secondary_links": [],
@@ -1368,8 +1496,14 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
       }
      ],
      "people": [
@@ -1386,7 +1520,7 @@
       "doi": "10.1038/s41467-026-76952-z",
       "facts": "Stated: long-term multi-region single-unit tracking; dysfunction pronounced in sleep.",
       "inferences": "Sleep/state scoring could benefit from in-cage movement logging (BEAM3) or custom low-power electronics; not stated.",
-      "product_matches_raw": "Body Event Analysis Module 3 (BEAM3); Electronics service",
+      "product_matches_raw": "Body Event Analysis Module 3 (BEAM3); Engineering and prototyping services",
       "recommended_action": "Monitor; consider internal conversation about sleep-state co-registration.",
       "needs_human_review": "Yes",
       "review_note": "Investigator not in Atlas; identity from Europe PMC author string only.",
@@ -1403,6 +1537,78 @@
     },
     {
      "source": "opportunity",
+     "item_id": "opportunity:OPP-047",
+     "visibility": "internal",
+     "title": "B-REAL: A keypoint-less behavior platform for offline classification and real-time detection",
+     "summary": "Real-time behavior detection to trigger stimuli, drug delivery or environmental manipulation in closed loop (stated aim).",
+     "category": "Research Lead",
+     "subcategory": "Custom engineering collaboration",
+     "date_published": "2026-10-20",
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-27",
+     "is_new": false,
+     "link": "https://doi.org/10.64898/2026.10.13.758637",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 65,
+     "score_original": {
+      "sales": "40",
+      "collab": "65",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000570"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-007",
+       "name": "FlightCap Lick and Liquid Sensor",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
+       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Eric A. Yttri",
+       "institution": "Carnegie Mellon University",
+       "atlas_id": "ATL-000570",
+       "role_note": "last author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.10.13.758637",
+      "facts": "Stated (abstract): pose-free video classifier faster than frame rate on CPU; closed-loop reward for detected grooming doubled grooming bouts; \"standard hardware\". bioRxiv preprint, CC BY.",
+      "inferences": "Closed-loop output hardware (TTL/actuator interfaces, reward delivery, in-cage sensors as extra channels) could pair with Hub electronics/code services; not stated as a need. Full text not reviewed.",
+      "product_matches_raw": "Engineering and prototyping services; FlightCap Lick and Liquid Sensor",
+      "recommended_action": "Human review; Monitor. Possible technical conversation on closed-loop hardware interfaces; no outreach without approval.",
+      "needs_human_review": "Yes",
+      "review_note": "Abstract only; needs inferred. Not in Atlas; resolution request filed. Related version seen 2026-10-27: Research Square preprint 10.21203/rs.3.rs-11381304/v1 (same work; not a new lead).",
+      "bot_state": "New",
+      "analysis_date": "2026-10-26"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 12,
+      "record_id": "OPP-047"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
      "item_id": "opportunity:OPP-010",
      "visibility": "internal",
      "title": "lickcalc : Easy Analysis of Lick Microstructure in Experiments of Rodent Ingestive Behaviour",
@@ -1411,7 +1617,7 @@
      "subcategory": "Scientific research collaboration",
      "date_published": "2026-10-01",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.1111/ejn.70708",
      "secondary_links": [],
@@ -1434,13 +1640,13 @@
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
        "product_id": "PRD-009",
        "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
        "github_url": null
       },
       {
@@ -1464,7 +1670,7 @@
       "doi": "10.1111/ejn.70708",
       "facts": "Stated: browser-based lickcalc; loads lick timestamps from a variety of formats; batch processing.",
       "inferences": "FlightCap per-lick output could be added as a supported import format; requires FlightCap export format check.",
-      "product_matches_raw": "FlightCap Lick and Liquid Sensor; Two-bottle Sipper Hub; Code & training",
+      "product_matches_raw": "FlightCap Lick and Liquid Sensor; Two-bottle Sipper Hub; Engineering and prototyping services",
       "recommended_action": "Engineering task: test FlightCap export in lickcalc; then consider contributing an importer (open source).",
       "needs_human_review": "Yes",
       "review_note": null,
@@ -1489,7 +1695,7 @@
      "subcategory": "Existing product sales",
      "date_published": "2026-09-25",
      "date_discovered": "2026-10-25",
-     "date_updated": "2026-10-26",
+     "date_updated": "2026-10-27",
      "is_new": false,
      "link": "https://doi.org/10.64898/2026.09.23.753854",
      "secondary_links": [],
@@ -1512,19 +1718,19 @@
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-006",
        "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
        "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       },
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
@@ -1548,7 +1754,7 @@
       "doi": "10.64898/2026.09.23.753854",
       "facts": "Stated: locomotion and wheel running reduced in both incision and anaesthesia-only groups; did not discriminate pain.",
       "inferences": "Additional channels (lick/drinking via FlightCap, social proximity via Juxta) might add sensitivity; untested.",
-      "product_matches_raw": "Hub Wheel with Hublink; FlightCap Lick and Liquid Sensor; Juxta Gen5 Social Proximity Loggers",
+      "product_matches_raw": "Hub Wheel with Hublink; FlightCap Lick and Liquid Sensor; Juxta Social Proximity Loggers (Gen5)",
       "recommended_action": "Monitor; cite as evidence-of-need for multimodal home-cage endpoints.",
       "needs_human_review": "Yes",
       "review_note": null,
@@ -1560,6 +1766,90 @@
       "tab": "Opportunities",
       "row": 10,
       "record_id": "OPP-012"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-048",
+     "visibility": "internal",
+     "title": "Automated temporal analysis reveals stress-induced protracted feeding regulated by mesolimbic dopamine in mice",
+     "summary": "Temporal organization of feeding bouts measured with video AI (DeepLabCut + SimBA) under social isolation / HFD stress (stated method).",
+     "category": "Research Lead",
+     "subcategory": "Scientific research collaboration",
+     "date_published": "2026-10-20",
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-27",
+     "is_new": false,
+     "link": "https://doi.org/10.3389/fnins.2026.1959447",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 60,
+     "score_original": {
+      "sales": "50",
+      "collab": "60",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000571"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-002",
+       "name": "Body Event Analysis Module 3 (BEAM3)",
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-007",
+       "name": "FlightCap Lick and Liquid Sensor",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
+       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Shinsuke Ishigaki",
+       "institution": "Shiga University of Medical Science; National Center for Geriatrics and Gerontology",
+       "atlas_id": "ATL-000571",
+       "role_note": "last author"
+      },
+      {
+       "name": "Kaori Kawai",
+       "institution": "Shiga University of Medical Science; National Center for Geriatrics and Gerontology",
+       "atlas_id": null,
+       "role_note": null
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.3389/fnins.2026.1959447",
+      "facts": "Stated (abstract): feeding bout duration via DeepLabCut/SimBA; protracted feeding not accompanied by changes in amount consumed; VTA-DREADD and NAcc dopamine manipulations. Peer-reviewed, gold OA CC BY.",
+      "inferences": "Direct food-access/bout sensing (e.g., Hub feeding/lick hardware via custom electronics) could validate or scale video-derived bout timing; not stated by authors. No Hub catalog product is a solid-food bout sensor.",
+      "product_matches_raw": "Engineering and prototyping services; FlightCap Lick and Liquid Sensor; Body Event Analysis Module 3 (BEAM3)",
+      "recommended_action": "Monitor; human review. Cite as evidence of demand for automated feeding-bout measurement.",
+      "needs_human_review": "Yes",
+      "review_note": "Abstract only; needs inferred. Not in Atlas; resolution request filed.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-26"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 13,
+      "record_id": "OPP-048"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -1597,14 +1887,14 @@
       {
        "product_id": "PRD-004",
        "name": "Motorized Rodent Treadmill",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Mouse-Treadmill"
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
       },
       {
        "product_id": "PRD-005",
        "name": "Tensioned Rodent Unloading Support System (TRUSS)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": null
+       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
       }
      ],
      "people": [
@@ -1695,14 +1985,14 @@
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-004",
        "name": "Motorized Rodent Treadmill",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Mouse-Treadmill"
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
       },
       {
        "product_id": "PRD-010",
@@ -1732,7 +2022,13 @@
       "hub_match_raw": "Hub Wheel with Hublink (multi-cage, month-long battery, cloud data); Motorized Rodent Treadmill",
       "recommended_action": "Contact Brestoff/AMRC about Hub Wheel fleet for the new wheel-running service; offer pilot units + Hublink data setup",
       "bot_review_status": "pending human review",
-      "atlas_status": "RESOLVED ATL-000142"
+      "atlas_status": "RESOLVED ATL-000142",
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Contacted",
+       "next_follow_up": null
+      }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1WJ4iJ3f9qTO6TkRNGrzbf-thPEsVMcxKJvS1YkDqguo/edit",
@@ -1767,7 +2063,7 @@
       "collab_components": "21/20/7/13/24"
      },
      "disposition": "New",
-     "matt_feedback": null,
+     "matt_feedback": "2026-10-26: Matt is already involved in this project and regularly integrates BEAM3 devices in cages.",
      "next_review_date": null,
      "atlas_ids": [
       "ATL-000151"
@@ -1777,19 +2073,19 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       }
      ],
@@ -1859,13 +2155,13 @@
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
        "product_id": "PRD-009",
        "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
        "github_url": null
       },
       {
@@ -1933,20 +2229,22 @@
      "disposition": "New",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000585"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-010",
@@ -1965,7 +2263,7 @@
       {
        "name": "Ioana Carcea",
        "institution": "RUTGERS BIOMEDICAL AND HEALTH SCIENCES",
-       "atlas_id": null,
+       "atlas_id": "ATL-000585",
        "role_note": "PI"
       }
      ],
@@ -2033,13 +2331,13 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       },
       {
        "product_id": "PRD-006",
        "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
        "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       }
      ],
@@ -2109,19 +2407,19 @@
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
        "product_id": "PRD-008",
        "name": "ToneTTL",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/tonettl-convert-an-audio-signal-to-a-digital-pulse/",
        "github_url": null
       },
       {
        "product_id": "PRD-009",
        "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
        "github_url": null
       }
      ],
@@ -2181,22 +2479,24 @@
       "collab_components": "20/18/6/5/24"
      },
      "disposition": "New",
-     "matt_feedback": null,
+     "matt_feedback": "2026-10-26: Matt emailed Kent Lloyd about BEAM3 for the DTCC home-cage pilots; awaiting reply. Matt considers this a stronger pitch than OPP-012 (genotype-linked BEAM3 data).",
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000588"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-010",
@@ -2209,7 +2509,7 @@
       {
        "name": "KC Kent Lloyd",
        "institution": "UNIVERSITY OF CALIFORNIA AT DAVIS",
-       "atlas_id": null,
+       "atlas_id": "ATL-000588",
        "role_note": "PI"
       }
      ],
@@ -2226,7 +2526,13 @@
       "hub_match_raw": "Body Event Analysis Module 3 (BEAM3); Hub Wheel with Hublink",
       "recommended_action": "Strategic collaboration: offer BEAM3/Hub Wheel for a KOMP2 HCM pilot after authorization; parallels OPP-002 (Dougherty) scalable phenotyping. Ends Jul 2027.",
       "bot_review_status": "pending human review",
-      "atlas_status": "AMBIGUOUS (see Atlas request)"
+      "atlas_status": "AMBIGUOUS (see Atlas request)",
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Contacted",
+       "next_follow_up": null
+      }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1WJ4iJ3f9qTO6TkRNGrzbf-thPEsVMcxKJvS1YkDqguo/edit",
@@ -2263,19 +2569,21 @@
      "disposition": "New",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000586"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
        "product_id": "PRD-009",
        "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
        "github_url": null
       }
      ],
@@ -2283,7 +2591,7 @@
       {
        "name": "Anna Kay Radke",
        "institution": "MIAMI UNIVERSITY OXFORD",
-       "atlas_id": null,
+       "atlas_id": "ATL-000586",
        "role_note": "PI"
       }
      ],
@@ -2345,13 +2653,13 @@
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
        "product_id": "PRD-008",
        "name": "ToneTTL",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/tonettl-convert-an-audio-signal-to-a-digital-pulse/",
        "github_url": null
       }
      ],
@@ -2411,7 +2719,7 @@
       "collab_components": "20/18/7/5/20"
      },
      "disposition": "New",
-     "matt_feedback": null,
+     "matt_feedback": "2026-10-26: Matt's read is that this core (ATL-000573) likely already has the tooling it needs.",
      "next_review_date": null,
      "atlas_ids": [
       "ATL-000573"
@@ -2421,13 +2729,13 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-006",
        "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
        "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       }
      ],
@@ -2497,13 +2805,13 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-008",
        "name": "ToneTTL",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/tonettl-convert-an-audio-signal-to-a-digital-pulse/",
        "github_url": null
       }
      ],
@@ -2573,8 +2881,8 @@
       {
        "product_id": "PRD-005",
        "name": "Tensioned Rodent Unloading Support System (TRUSS)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": null
+       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
       }
      ],
      "people": [
@@ -2643,13 +2951,13 @@
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
        "product_id": "PRD-009",
        "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
        "github_url": null
       }
      ],
@@ -2719,7 +3027,7 @@
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
@@ -2787,14 +3095,16 @@
      "disposition": "New",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000587"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-010",
@@ -2807,7 +3117,7 @@
       {
        "name": "Ben N Greenwood",
        "institution": "UNIVERSITY OF COLORADO DENVER",
-       "atlas_id": null,
+       "atlas_id": "ATL-000587",
        "role_note": "PI"
       }
      ],
@@ -2869,25 +3179,25 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
        "product_id": "PRD-009",
        "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
        "github_url": null
       }
      ],
@@ -2957,14 +3267,14 @@
       {
        "product_id": "PRD-004",
        "name": "Motorized Rodent Treadmill",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Mouse-Treadmill"
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
       },
       {
        "product_id": "PRD-005",
        "name": "Tensioned Rodent Unloading Support System (TRUSS)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": null
+       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
       }
      ],
      "people": [
@@ -3010,226 +3320,12 @@
    "last_run_note": "Added INN-006..009; digest Page updated. No dispositions/feedback yet. Products-sheet refresh skipped (separate worker). Innovation Bank/Atlas/other scouts not consulted.",
    "next_run": "Mon Nov 2, 2026 ~3:30 AM CT",
    "rows_added_last_run": 4,
-   "new_items_count": 4,
-   "no_new_items": false,
-   "visible_count": 9,
+   "new_items_count": 0,
+   "no_new_items": true,
+   "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
-    {
-     "source": "innovation",
-     "item_id": "innovation:INN-006",
-     "visibility": "internal",
-     "title": "NIH Research Software Engineer Award (R50, RFA-OD-24-011): final Dec 4, 2026 round",
-     "summary": "R50 gives multi-year salary support to research software engineers who build and disseminate biomedical tools and train users, which describes the Hub's firmware/cloud (Hublink) work. Open now; Dec 4, 2026 is the last listed due date (LOI 30 days prior, ~Nov 4) and the NOFO expires Dec 5, 2026. Eligibility of a specific Hub engineer (role, institutional commitment, NIH-funded research environment) is not yet verified.",
-     "category": "Innovation",
-     "subcategory": "Funding",
-     "date_published": null,
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
-     "is_new": true,
-     "link": "https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-24-011.html",
-     "secondary_links": [
-      "https://simpler.grants.gov/opportunity/002d36ed-9901-45b6-a1c4-2642dbf64146"
-     ],
-     "confidence": "medium",
-     "score": null,
-     "score_original": null,
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      }
-     ],
-     "people": [],
-     "details": {
-      "hub_asset": "Hub engineering staff / Hublink software & firmware",
-      "potential_value": "Multi-year salary support for a Hub engineer (amount per NOFO); stabilizes core engineering capacity",
-      "effort": "Medium",
-      "priority": "High",
-      "recommended_action": "This week: check with Hub leadership + WashU research office whether a Hub engineer qualifies and whether Dec 4 is feasible; otherwise watch for a reissue",
-      "bot_status": "Open (closes Dec 4, 2026)"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
-      "tab": "Opportunities",
-      "row": 7,
-      "record_id": "INN-006"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "innovation",
-     "item_id": "innovation:INN-007",
-     "visibility": "internal",
-     "title": "NSF PESOSE (NSF 26-506) Track 1 planning grant for an open-source neuro-hardware ecosystem",
-     "summary": "PESOSE funds planning and building sustainable open-source ecosystems (explicitly including hardware) with governance and broad user communities. Track 1 (scope/plan) is up to $300K (~30 awards). Next full-proposal deadlines Mar 2, 2027 and Sep 7, 2027. Fit depends on how much of Hublink and the device designs is actually open-licensed and on OTM's view of IP; not yet verified.",
-     "category": "Innovation",
-     "subcategory": "Funding",
-     "date_published": null,
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
-     "is_new": true,
-     "link": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems",
-     "secondary_links": [],
-     "confidence": "low",
-     "score": null,
-     "score_original": null,
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      }
-     ],
-     "people": [],
-     "details": {
-      "hub_asset": "Hublink ecosystem + Hub open-source hardware/software on GitHub",
-      "potential_value": "Up to $300K (Track 1) or up to $1.5M (Track 2) per NSF; strategic positioning as an open-tools steward",
-      "effort": "High",
-      "priority": "Medium",
-      "recommended_action": "Inventory which Hub repos carry open licenses and ask OTM whether an open-ecosystem path is acceptable before Jan 2027",
-      "bot_status": "Open (next deadline Mar 2, 2027)"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
-      "tab": "Opportunities",
-      "row": 8,
-      "record_id": "INN-007"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "innovation",
-     "item_id": "innovation:INN-008",
-     "visibility": "internal",
-     "title": "Third-party open-hardware distributor (e.g., Open Ephys Production Site, LabMaker)",
-     "summary": "OEPS and LabMaker already assemble, test, ship, warranty, and support open-source neuroscience hardware (Miniscope, NINscope) internationally, which removes fulfilment and support load from developer labs. Several Hub store items are simple, mature devices that fit that model. Any arrangement needs OTM review of IP and terms; distributor interest is unknown.",
-     "category": "Innovation",
-     "subcategory": "Commercialization",
-     "date_published": null,
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
-     "is_new": true,
-     "link": "https://open-ephys.org/about-us-overview",
-     "secondary_links": [
-      "https://miniscope.org/wiki/Guide/Miniscope_V4_part_procurement",
-      "https://www.labmaker.org/products/ninscope-daq-pcb"
-     ],
-     "confidence": "low",
-     "score": null,
-     "score_original": null,
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
-      },
-      {
-       "product_id": "PRD-004",
-       "name": "Motorized Rodent Treadmill",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Mouse-Treadmill"
-      },
-      {
-       "product_id": "PRD-008",
-       "name": "ToneTTL",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": null
-      },
-      {
-       "product_id": "PRD-009",
-       "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": null
-      }
-     ],
-     "people": [],
-     "details": {
-      "hub_asset": "Motorized Rodent Treadmill, Sipper Hub, ToneTTL, BEAM3 (store products)",
-      "potential_value": "Qualitative: broader (especially international) reach with less Hub fulfilment effort; possible royalty or margin share",
-      "effort": "Medium",
-      "priority": "Medium",
-      "recommended_action": "Ask OTM whether distributor agreements are permissible for these products; no distributor contact before that",
-      "bot_status": "New"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
-      "tab": "Opportunities",
-      "row": 9,
-      "record_id": "INN-008"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "innovation",
-     "item_id": "innovation:INN-009",
-     "visibility": "internal",
-     "title": "Scheduled, logged, weatherproof playback for unattended field playback experiments",
-     "summary": "Playback experiments are a core field-ecology method, but requiring a human present disrupts behavior and limits sample size (BoomBox, Methods Ecol Evol). The leading open option, BoomBox (~$75), is trigger-only with ~15 min of MP3 audio. ACORN adds scheduled/random daily programs, IP65 housing, ~103 dB output, and CSV environment logs. The gap is partly validated (need is documented); demand at ACORN's $799 price is a hypothesis.",
-     "category": "Innovation",
-     "subcategory": "Market Gap",
-     "date_published": null,
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
-     "is_new": true,
-     "link": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-     "secondary_links": [
-      "https://par.nsf.gov/servlets/purl/10314528",
-      "https://boomboxproject.org/boombox/"
-     ],
-     "confidence": "medium",
-     "score": null,
-     "score_original": null,
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [],
-     "details": {
-      "hub_asset": "ACORN outdoor replay node (pre-order; not yet shipping)",
-      "potential_value": "Strategic: opens ecology/bioacoustics buyers outside the Hub's rodent base. Revenue unknown.",
-      "effort": "Low",
-      "priority": "Medium",
-      "recommended_action": "Write a one-page ACORN vs BoomBox/ABR comparison for internal review; track pre-order counts before any marketing push",
-      "bot_status": "Hypothesis (partly validated)"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
-      "tab": "Opportunities",
-      "row": 10,
-      "record_id": "INN-009"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
     {
      "source": "innovation",
      "item_id": "innovation:INN-001",
@@ -3279,59 +3375,6 @@
     },
     {
      "source": "innovation",
-     "item_id": "innovation:INN-002",
-     "visibility": "internal",
-     "title": "OTM Gap Fund for a store-ready logger",
-     "summary": "OTM takes Gap Fund proposals year-round for non-drug WashU technologies, to fund validation work that makes licensing more likely. You're eligible only if the technology has been disclosed to OTM and assigned to WashU and feasibility has been shown, and both products already work as shipping or pre-order items. Disclosure status for either is not yet known.",
-     "category": "Innovation",
-     "subcategory": "Funding",
-     "date_published": null,
-     "date_discovered": "2026-10-24",
-     "date_updated": "2026-10-26",
-     "is_new": false,
-     "link": "https://otm.wustl.edu/disclose-inventions/gap-fund/",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": null,
-     "score_original": null,
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-006",
-       "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
-      },
-      {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
-      }
-     ],
-     "people": [],
-     "details": {
-      "hub_asset": "Juxta / FlightCap",
-      "potential_value": "Translational funding plus OTM Technology Development support (no award amount is published)",
-      "effort": "Low",
-      "priority": "Medium",
-      "recommended_action": "Confirm OTM disclosure status; book Gap Fund office hours",
-      "bot_status": "Open (rolling)"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
-      "tab": "Opportunities",
-      "row": 3,
-      "record_id": "INN-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "innovation",
      "item_id": "innovation:INN-003",
      "visibility": "internal",
      "title": "Low-cost Hublink home-cage monitoring bundle",
@@ -3358,19 +3401,19 @@
       {
        "product_id": "PRD-002",
        "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-BEAM"
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-003",
        "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/WheelLogger_ULP-Arduino"
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
        "product_id": "PRD-007",
        "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
        "github_url": "https://github.com/Neurotech-Hub/FlightCap"
       },
       {
@@ -3425,7 +3468,7 @@
       {
        "product_id": "PRD-006",
        "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
        "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       }
      ],
@@ -3474,7 +3517,7 @@
       {
        "product_id": "PRD-006",
        "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
        "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
       },
       {
@@ -3500,6 +3543,220 @@
       "record_id": "INN-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "innovation",
+     "item_id": "innovation:INN-006",
+     "visibility": "internal",
+     "title": "NIH Research Software Engineer Award (R50, RFA-OD-24-011): final Dec 4, 2026 round",
+     "summary": "R50 gives multi-year salary support to research software engineers who build and disseminate biomedical tools and train users, which describes the Hub's firmware/cloud (Hublink) work. Open now; Dec 4, 2026 is the last listed due date (LOI 30 days prior, ~Nov 4) and the NOFO expires Dec 5, 2026. Eligibility of a specific Hub engineer (role, institutional commitment, NIH-funded research environment) is not yet verified.",
+     "category": "Innovation",
+     "subcategory": "Funding",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://grants.nih.gov/grants/guide/rfa-files/RFA-OD-24-011.html",
+     "secondary_links": [
+      "https://simpler.grants.gov/opportunity/002d36ed-9901-45b6-a1c4-2642dbf64146"
+     ],
+     "confidence": "medium",
+     "score": null,
+     "score_original": null,
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+      }
+     ],
+     "people": [],
+     "details": {
+      "hub_asset": "Hub engineering staff / Hublink software & firmware",
+      "potential_value": "Multi-year salary support for a Hub engineer (amount per NOFO); stabilizes core engineering capacity",
+      "effort": "Medium",
+      "priority": "High",
+      "recommended_action": "This week: check with Hub leadership + WashU research office whether a Hub engineer qualifies and whether Dec 4 is feasible; otherwise watch for a reissue",
+      "bot_status": "Open (closes Dec 4, 2026)"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
+      "tab": "Opportunities",
+      "row": 7,
+      "record_id": "INN-006"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "innovation",
+     "item_id": "innovation:INN-007",
+     "visibility": "internal",
+     "title": "NSF PESOSE (NSF 26-506) Track 1 planning grant for an open-source neuro-hardware ecosystem",
+     "summary": "PESOSE funds planning and building sustainable open-source ecosystems (explicitly including hardware) with governance and broad user communities. Track 1 (scope/plan) is up to $300K (~30 awards). Next full-proposal deadlines Mar 2, 2027 and Sep 7, 2027. Fit depends on how much of Hublink and the device designs is actually open-licensed and on OTM's view of IP; not yet verified.",
+     "category": "Innovation",
+     "subcategory": "Funding",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems",
+     "secondary_links": [],
+     "confidence": "low",
+     "score": null,
+     "score_original": null,
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+      }
+     ],
+     "people": [],
+     "details": {
+      "hub_asset": "Hublink ecosystem + Hub open-source hardware/software on GitHub",
+      "potential_value": "Up to $300K (Track 1) or up to $1.5M (Track 2) per NSF; strategic positioning as an open-tools steward",
+      "effort": "High",
+      "priority": "Medium",
+      "recommended_action": "Inventory which Hub repos carry open licenses and ask OTM whether an open-ecosystem path is acceptable before Jan 2027",
+      "bot_status": "Open (next deadline Mar 2, 2027)"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
+      "tab": "Opportunities",
+      "row": 8,
+      "record_id": "INN-007"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "innovation",
+     "item_id": "innovation:INN-008",
+     "visibility": "internal",
+     "title": "Third-party open-hardware distributor (e.g., Open Ephys Production Site, LabMaker)",
+     "summary": "OEPS and LabMaker already assemble, test, ship, warranty, and support open-source neuroscience hardware (Miniscope, NINscope) internationally, which removes fulfilment and support load from developer labs. Several Hub store items are simple, mature devices that fit that model. Any arrangement needs OTM review of IP and terms; distributor interest is unknown.",
+     "category": "Innovation",
+     "subcategory": "Commercialization",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://open-ephys.org/about-us-overview",
+     "secondary_links": [
+      "https://miniscope.org/wiki/Guide/Miniscope_V4_part_procurement",
+      "https://www.labmaker.org/products/ninscope-daq-pcb"
+     ],
+     "confidence": "low",
+     "score": null,
+     "score_original": null,
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-002",
+       "name": "Body Event Analysis Module 3 (BEAM3)",
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-004",
+       "name": "Motorized Rodent Treadmill",
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
+      },
+      {
+       "product_id": "PRD-008",
+       "name": "ToneTTL",
+       "store_url": "https://neurotechhub.wustl.edu/items/tonettl-convert-an-audio-signal-to-a-digital-pulse/",
+       "github_url": null
+      },
+      {
+       "product_id": "PRD-009",
+       "name": "Two-bottle Sipper Hub",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
+       "github_url": null
+      }
+     ],
+     "people": [],
+     "details": {
+      "hub_asset": "Motorized Rodent Treadmill, Sipper Hub, ToneTTL, BEAM3 (store products)",
+      "potential_value": "Qualitative: broader (especially international) reach with less Hub fulfilment effort; possible royalty or margin share",
+      "effort": "Medium",
+      "priority": "Medium",
+      "recommended_action": "Ask OTM whether distributor agreements are permissible for these products; no distributor contact before that",
+      "bot_status": "New"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
+      "tab": "Opportunities",
+      "row": 9,
+      "record_id": "INN-008"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "innovation",
+     "item_id": "innovation:INN-009",
+     "visibility": "internal",
+     "title": "Scheduled, logged, weatherproof playback for unattended field playback experiments",
+     "summary": "Playback experiments are a core field-ecology method, but requiring a human present disrupts behavior and limits sample size (BoomBox, Methods Ecol Evol). The leading open option, BoomBox (~$75), is trigger-only with ~15 min of MP3 audio. ACORN adds scheduled/random daily programs, IP65 housing, ~103 dB output, and CSV environment logs. The gap is partly validated (need is documented); demand at ACORN's $799 price is a hypothesis.",
+     "category": "Innovation",
+     "subcategory": "Market Gap",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+     "secondary_links": [
+      "https://par.nsf.gov/servlets/purl/10314528",
+      "https://boomboxproject.org/boombox/"
+     ],
+     "confidence": "medium",
+     "score": null,
+     "score_original": null,
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [],
+     "details": {
+      "hub_asset": "ACORN outdoor replay node (pre-order; not yet shipping)",
+      "potential_value": "Strategic: opens ecology/bioacoustics buyers outside the Hub's rodent base. Revenue unknown.",
+      "effort": "Low",
+      "priority": "Medium",
+      "recommended_action": "Write a one-page ACORN vs BoomBox/ABR comparison for internal review; track pre-order counts before any marketing push",
+      "bot_status": "Hypothesis (partly validated)"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
+      "tab": "Opportunities",
+      "row": 10,
+      "record_id": "INN-009"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -3508,17 +3765,206 @@
    "title": "Product Leads",
    "source": "ACORN - Leads",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-10-26T06:25:00-05:00",
+   "last_refreshed": "2026-10-27T03:53:00-05:00",
    "last_run_status": "ok",
-   "last_run_note": "Added ACN-022..025 (4 leads, Atlas requests filed); 0 Atlas resolutions available yet; Leads re-sorted.",
-   "next_run": "daily 3:30 AM CT",
-   "rows_added_last_run": 4,
-   "new_items_count": 4,
+   "last_run_note": "Added ACN-027..029 to Leads (Open, top of sort) + 3 Atlas resolution requests (REQ-ACN-ACN-027..029). Atlas sync: 0 new resolutions, nothing to fill. All 3 leads carry niche-overlap flags. Report: reports/2026-10-27-0330.md",
+   "next_run": "2026-10-28 03:30 CT",
+   "rows_added_last_run": 6,
+   "new_items_count": 3,
    "no_new_items": false,
-   "visible_count": 8,
+   "visible_count": 12,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-027",
+     "visibility": "internal",
+     "title": "Kimberley J. Mathot, University of Alberta",
+     "summary": "Canada Research Chair lab running a marked, RFID-feeder chickadee population; plays 1-h mobbing-call files from FoxPro Shockwave speakers on poles at 8 feeders (Ecol Evol 2025; Proc B 2020). ACORN fits multi-site, possibly RFID-triggered playback. FLAG: same chickadee mobbing-call niche as Templeton (ACN-021); Mathot was formerly at MPI Ornithology (Kempenaers ACN-011 institute).",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-27",
+     "date_updated": "2026-10-27",
+     "is_new": true,
+     "link": "https://kjmathot.wordpress.com/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 67,
+     "score_original": {
+      "value": "0.67",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "4",
+       "need": "4",
+       "funding": "3"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000590"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Kimberley J. Mathot",
+       "institution": "University of Alberta",
+       "atlas_id": "ATL-000590",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": false
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 2,
+      "record_id": "ACN-027"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-028",
+     "visibility": "internal",
+     "title": "Jakub Szymkowiak, Adam Mickiewicz University, Poznań",
+     "summary": "Runs wild wood warbler territory playback in Wielkopolska NP on social learning of risk (Anim Cogn 2024; Behav Ecol Sociobiol 2026) and earlier plot-level conspecific-cue broadcasts (Behav Ecol 2017), using an iPod touch + JBL Flip 4, NCN-funded (2018/31/D/NZ8/00080). FLAG: partial niche overlap with Magrath (ACN-009) alarm-call learning; modest early-career funding.",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-27",
+     "date_updated": "2026-10-27",
+     "is_new": true,
+     "link": "https://popecol.web.amu.edu.pl/lab-members/jszym/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 58,
+     "score_original": {
+      "value": "0.58",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "4",
+       "need": "4",
+       "funding": "2"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000591"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Jakub Szymkowiak",
+       "institution": "Adam Mickiewicz University, Poznań",
+       "atlas_id": "ATL-000591",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": false
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 3,
+      "record_id": "ACN-028"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-029",
+     "visibility": "internal",
+     "title": "Andreas Seiler, Swedish University of Agricultural Sciences (SLU), Grimsö",
+     "summary": "Leads Trafikverket-funded railway wildlife-warning trials: camera/motion-triggered speakers playing human voices to deter moose and deer (MASS/DASS units; VILTVARNING report 2024). This is exactly the camera-trap-triggered playback researchers keep asking for, and the program buys at agency scale. Uses commercially built HuntTrap units, so need is moderate. FLAG: same ungulate-fear niche as Kuijper (ACN-003); SLU colleagues have co-authored with Kuijper and Zanette.",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-27",
+     "date_updated": "2026-10-27",
+     "is_new": true,
+     "link": "https://www.slu.se/en/profilepages/s/andreas-seiler/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 58,
+     "score_original": {
+      "value": "0.58",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "4",
+       "need": "2",
+       "funding": "4"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000592"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Andreas Seiler",
+       "institution": "Swedish University of Agricultural Sciences (SLU), Grimsö",
+       "atlas_id": "ATL-000592",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": false
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 4,
+      "record_id": "ACN-029"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "acorn",
      "item_id": "acorn:ACN-022",
@@ -3530,7 +3976,7 @@
      "date_published": null,
      "date_discovered": "2026-10-26",
      "date_updated": "2026-10-26",
-     "is_new": true,
+     "is_new": false,
      "link": "https://wec.ifas.ufl.edu/people/wec-faculty/kathryn-sieving/",
      "secondary_links": [],
      "confidence": null,
@@ -3555,7 +4001,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -3568,206 +4014,23 @@
       }
      ],
      "details": {
-      "pipeline_status": "Open",
+      "pipeline_status": "Contacted",
       "outreach_notes": {
        "visibility": "internal_only",
-       "present": false
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 2,
-      "record_id": "ACN-022"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-023",
-     "visibility": "internal",
-     "title": "Daniel T. Blumstein, UCLA",
-     "summary": "Decades of alarm-call playback to wild yellow-bellied marmots at RMBL (2025 Phil Trans B review) using an iPod + powered speaker (Advent AV570) hidden 10 m from burrows; large, well-funded field lab across many species",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
-     "is_new": true,
-     "link": "https://blumsteinlab.eeb.ucla.edu/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 75,
-     "score_original": {
-      "value": "0.75",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "4",
-       "need": "3",
-       "funding": "5"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000576"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Daniel T. Blumstein",
-       "institution": "UCLA",
-       "atlas_id": "ATL-000576",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": false
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 4,
-      "record_id": "ACN-023"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-024",
-     "visibility": "internal",
-     "title": "Alex Thornton, University of Exeter (Penryn)",
-     "summary": "Cornish Jackdaw Project: repeated wild playback experiments at nest boxes (Anim Cogn Nov 2025; Sci Rep 2018) using a remote-controlled FoxPro Fury 2 hidden in vegetation, hung by decorator's pole; BBSRC/Leverhulme funded. Co-author McIvor is also at Univ. Vienna (Kleindorfer's institution) - minor flag",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
-     "is_new": true,
-     "link": "https://www.wildcognitionresearch.com/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 67,
-     "score_original": {
-      "value": "0.67",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "4",
-       "need": "3",
-       "funding": "4"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000577"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Alex Thornton",
-       "institution": "University of Exeter (Penryn)",
-       "atlas_id": "ATL-000577",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": false
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 6,
-      "record_id": "ACN-024"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-025",
-     "visibility": "internal",
-     "title": "Courtney J. Conway, University of Idaho (USGS Idaho Coop Unit)",
-     "summary": "Author/coordinator of the Standardized North American Marsh Bird Monitoring Protocol (call-broadcast surveys of 13+ species via portable CD/MP3 player + amplified speakers), used by refuges nationwide; USGS coop unit leader. Overlap flag: same rail call-broadcast niche as Ward (ACN-001) and Gehring (ACN-005)",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-26",
-     "date_updated": "2026-10-26",
-     "is_new": true,
-     "link": "https://www.uidaho.edu/people/cconway",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 67,
-     "score_original": {
-      "value": "0.67",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "4",
-       "need": "3",
-       "funding": "4"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000578"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Courtney J. Conway",
-       "institution": "University of Idaho (USGS Idaho Coop Unit)",
-       "atlas_id": "ATL-000578",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": false
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Contacted",
+       "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
       "row": 7,
-      "record_id": "ACN-025"
+      "record_id": "ACN-022"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -3813,7 +4076,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -3826,17 +4089,92 @@
       }
      ],
      "details": {
-      "pipeline_status": "Open",
+      "pipeline_status": "Contacted",
       "outreach_notes": {
        "visibility": "internal_only",
-       "present": false
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Contacted",
+       "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 3,
+      "row": 17,
       "record_id": "ACN-019"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-023",
+     "visibility": "internal",
+     "title": "Daniel T. Blumstein, UCLA",
+     "summary": "Decades of alarm-call playback to wild yellow-bellied marmots at RMBL (2025 Phil Trans B review) using an iPod + powered speaker (Advent AV570) hidden 10 m from burrows; large, well-funded field lab across many species",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://blumsteinlab.eeb.ucla.edu/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 75,
+     "score_original": {
+      "value": "0.75",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "4",
+       "need": "3",
+       "funding": "5"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000576"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Daniel T. Blumstein",
+       "institution": "UCLA",
+       "atlas_id": "ATL-000576",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Passed",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Declined",
+       "next_follow_up": null
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 20,
+      "record_id": "ACN-023"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -3876,7 +4214,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -3889,17 +4227,161 @@
       }
      ],
      "details": {
-      "pipeline_status": "Open",
+      "pipeline_status": "Interested",
       "outreach_notes": {
        "visibility": "internal_only",
-       "present": false
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Interested",
+       "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 5,
+      "row": 24,
       "record_id": "ACN-020"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-024",
+     "visibility": "internal",
+     "title": "Alex Thornton, University of Exeter (Penryn)",
+     "summary": "Cornish Jackdaw Project: repeated wild playback experiments at nest boxes (Anim Cogn Nov 2025; Sci Rep 2018) using a remote-controlled FoxPro Fury 2 hidden in vegetation, hung by decorator's pole; BBSRC/Leverhulme funded. Co-author McIvor is also at Univ. Vienna (Kleindorfer's institution) - minor flag",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://www.wildcognitionresearch.com/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 67,
+     "score_original": {
+      "value": "0.67",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "4",
+       "need": "3",
+       "funding": "4"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000577"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Alex Thornton",
+       "institution": "University of Exeter (Penryn)",
+       "atlas_id": "ATL-000577",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Interested",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Interested",
+       "next_follow_up": null
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 25,
+      "record_id": "ACN-024"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-025",
+     "visibility": "internal",
+     "title": "Courtney J. Conway, University of Idaho (USGS Idaho Coop Unit)",
+     "summary": "Author/coordinator of the Standardized North American Marsh Bird Monitoring Protocol (call-broadcast surveys of 13+ species via portable CD/MP3 player + amplified speakers), used by refuges nationwide; USGS coop unit leader. Overlap flag: same rail call-broadcast niche as Ward (ACN-001) and Gehring (ACN-005)",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://www.uidaho.edu/people/cconway",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 67,
+     "score_original": {
+      "value": "0.67",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "4",
+       "need": "3",
+       "funding": "4"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000578"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Courtney J. Conway",
+       "institution": "University of Idaho (USGS Idaho Coop Unit)",
+       "atlas_id": "ATL-000578",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Contacted",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Contacted",
+       "next_follow_up": null
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 26,
+      "record_id": "ACN-025"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -3939,7 +4421,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -3952,16 +4434,22 @@
       }
      ],
      "details": {
-      "pipeline_status": "Open",
+      "pipeline_status": "Contacted",
       "outreach_notes": {
        "visibility": "internal_only",
-       "present": false
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Contacted",
+       "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 8,
+      "row": 28,
       "record_id": "ACN-014"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3994,13 +4482,15 @@
      "disposition": "New",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000584"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4008,30 +4498,106 @@
       {
        "name": "Chris Templeton",
        "institution": "Western Washington University",
-       "atlas_id": null,
+       "atlas_id": "ATL-000584",
        "role_note": "PI"
       }
      ],
      "details": {
-      "pipeline_status": "Open",
+      "pipeline_status": "Contacted",
       "outreach_notes": {
        "visibility": "internal_only",
-       "present": false
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Contacted",
+       "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 9,
+      "row": 29,
       "record_id": "ACN-021"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-026",
+     "visibility": "internal",
+     "title": "Holger Klinck, K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology",
+     "summary": "Warm referral from Derryberry (2026-10-25). John W. Fitzpatrick Director of the Yang Center since 2016; Center develops its own passive-acoustic recording hardware (SWIFT recorders) and software (Raven, BirdNET) and studies anthropogenic-noise impacts; recording, not playback, is the core, and no in-house playback platform found. Fit is as a hub/channel to its large field network rather than a direct playback user",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-26",
+     "date_updated": "2026-10-26",
+     "is_new": false,
+     "link": "https://www.birds.cornell.edu/ccb/holger-klinck",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 58,
+     "score_original": {
+      "value": "0.58",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "3",
+       "need": "2",
+       "funding": "5"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000589"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Holger Klinck",
+       "institution": "K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology",
+       "atlas_id": "ATL-000589",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Passed",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": true
+      },
+      "outreach": {
+       "last_contact": "2026-10-26",
+       "channel": "Email",
+       "status": "Declined",
+       "next_follow_up": null
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 30,
+      "record_id": "ACN-026"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ],
    "pipeline_counts": {
-    "Open": 8,
-    "Contacted": 15,
-    "Interested": 1
+    "Open": 3,
+    "Contacted": 16,
+    "Passed": 2,
+    "Interested": 7
    }
   }
  ],
@@ -4068,13 +4634,15 @@
      "disposition": "Pursue",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000579"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4082,27 +4650,27 @@
       {
        "name": "Michael P. Ward",
        "institution": "University of Illinois Urbana-Champaign / Illinois Natural History Survey",
-       "atlas_id": null,
+       "atlas_id": "ATL-000579",
        "role_note": "PI"
       }
      ],
      "details": {
-      "pipeline_status": "Contacted",
+      "pipeline_status": "Interested",
       "outreach_notes": {
        "visibility": "internal_only",
-       "present": false
+       "present": true
       },
       "outreach": {
-       "last_contact": "2026-10-22",
+       "last_contact": "2026-10-25",
        "channel": "Email",
-       "status": "Contacted",
+       "status": "Interested",
        "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 10,
+      "row": 5,
       "record_id": "ACN-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4143,7 +4711,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4171,7 +4739,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 11,
+      "row": 6,
       "record_id": "ACN-015"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4212,7 +4780,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4240,7 +4808,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 14,
+      "row": 10,
       "record_id": "ACN-002"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4281,7 +4849,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4294,22 +4862,22 @@
       }
      ],
      "details": {
-      "pipeline_status": "Contacted",
+      "pipeline_status": "Interested",
       "outreach_notes": {
        "visibility": "internal_only",
        "present": true
       },
       "outreach": {
-       "last_contact": "2026-10-24",
+       "last_contact": "2026-10-26",
        "channel": "Email",
-       "status": "Contacted",
+       "status": "Interested",
        "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 15,
+      "row": 11,
       "record_id": "ACN-003"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4350,7 +4918,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4363,22 +4931,22 @@
       }
      ],
      "details": {
-      "pipeline_status": "Contacted",
+      "pipeline_status": "Interested",
       "outreach_notes": {
        "visibility": "internal_only",
        "present": true
       },
       "outreach": {
-       "last_contact": "2026-10-24",
+       "last_contact": "2026-10-25",
        "channel": "Email",
-       "status": "Contacted",
+       "status": "Interested",
        "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 16,
+      "row": 12,
       "record_id": "ACN-004"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4411,13 +4979,15 @@
      "disposition": "Pursue",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000580"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4425,7 +4995,7 @@
       {
        "name": "Thomas M. Gehring",
        "institution": "Central Michigan University",
-       "atlas_id": null,
+       "atlas_id": "ATL-000580",
        "role_note": "PI"
       }
      ],
@@ -4445,7 +5015,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 17,
+      "row": 13,
       "record_id": "ACN-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4486,7 +5056,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4514,7 +5084,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 18,
+      "row": 14,
       "record_id": "ACN-006"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4555,7 +5125,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4583,7 +5153,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 19,
+      "row": 15,
       "record_id": "ACN-007"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4624,7 +5194,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4652,7 +5222,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 20,
+      "row": 16,
       "record_id": "ACN-008"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4685,13 +5255,15 @@
      "disposition": "Pursue",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000582"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4699,7 +5271,7 @@
       {
        "name": "Clinton Francis",
        "institution": "Cal Poly San Luis Obispo",
-       "atlas_id": null,
+       "atlas_id": "ATL-000582",
        "role_note": "PI"
       }
      ],
@@ -4719,7 +5291,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 13,
+      "row": 9,
       "record_id": "ACN-017"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4760,7 +5332,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4788,7 +5360,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 21,
+      "row": 18,
       "record_id": "ACN-009"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4829,7 +5401,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4857,7 +5429,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 22,
+      "row": 19,
       "record_id": "ACN-010"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4898,7 +5470,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4926,7 +5498,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 24,
+      "row": 22,
       "record_id": "ACN-011"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4967,7 +5539,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -4995,7 +5567,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 25,
+      "row": 23,
       "record_id": "ACN-012"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5028,13 +5600,15 @@
      "disposition": "Pursue",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000583"
+     ],
      "related_items": [],
      "product_matches": [
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -5042,27 +5616,27 @@
       {
        "name": "Jesse Barber",
        "institution": "Boise State University",
-       "atlas_id": null,
+       "atlas_id": "ATL-000583",
        "role_note": "PI"
       }
      ],
      "details": {
-      "pipeline_status": "Contacted",
+      "pipeline_status": "Interested",
       "outreach_notes": {
        "visibility": "internal_only",
        "present": true
       },
       "outreach": {
-       "last_contact": "2026-10-24",
+       "last_contact": "2026-10-25",
        "channel": "Email",
-       "status": "Contacted",
+       "status": "Replied",
        "next_follow_up": null
       }
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 23,
+      "row": 21,
       "record_id": "ACN-018"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5103,7 +5677,7 @@
       {
        "product_id": "PRD-001",
        "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/store/",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
        "github_url": "https://github.com/Neurotech-Hub/ACORN"
       }
      ],
@@ -5131,7 +5705,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 26,
+      "row": 27,
       "record_id": "ACN-013"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5166,24 +5740,14 @@
     "Hub - Funding Scout OPP-014 (Anna Kay Radke): not_found",
     "Hub - Funding Scout OPP-016 (Ben N Greenwood): not_found",
     "Hub - Funding Scout OPP-017 (KC Kent Lloyd): ambiguous",
-    "ACORN - Leads ACN-001 (Michael P. Ward): open",
-    "ACORN - Leads ACN-005 (Thomas M. Gehring): open",
-    "ACORN - Leads ACN-016 (Lynn Schofield): open",
-    "ACORN - Leads ACN-017 (Clinton Francis): open",
-    "ACORN - Leads ACN-018 (Jesse Barber): open",
-    "ACORN - Leads ACN-021 (Chris Templeton): open",
-    "Hub - Funding Scout OPP-012 (Ioana Carcea): open",
-    "Hub - Funding Scout OPP-014 (Anna Kay Radke): open",
-    "Hub - Funding Scout OPP-016 (Ben N Greenwood): open",
-    "Hub - Funding Scout OPP-017 (KC Kent Lloyd): open"
+    "Hub - Opportunity Scout OPP-049 (Mahesh Karnani): open",
+    "Hub - Opportunity Scout OPP-050 (Manabu Makinodan): open",
+    "Hub - Opportunity Scout OPP-050 (Kazuhiko Yamamuro): open",
+    "Hub - Opportunity Scout OPP-051 (Haining Zhong): open",
+    "Hub - Opportunity Scout OPP-051 (Tianyi Mao): open",
+    "Hub - Opportunity Scout OPP-052 (Paweł Szymański): open",
+    "Hub - Opportunity Scout OPP-052 (Tomasz S. Osiejuk): open"
    ]
-  },
-  {
-   "code": "run_health_missing",
-   "sources": [
-    "news"
-   ],
-   "note": "No Run Health row; section shows not_logged."
   },
   {
    "code": "pipeline_counts_scope",
