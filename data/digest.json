@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-10-28T05:07:27-05:00",
+ "generated_at": "2026-10-29T05:02:40-05:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-10-28",
+ "edition_date": "2026-10-29",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -17,12 +17,12 @@
   {
    "key": "news",
    "title": "News",
-   "count": 15
+   "count": 21
   },
   {
    "key": "opportunity",
    "title": "Research Leads",
-   "count": 18
+   "count": 20
   },
   {
    "key": "funding",
@@ -37,7 +37,7 @@
   {
    "key": "acorn",
    "title": "Product Leads",
-   "count": 3
+   "count": 6
   },
   {
    "key": "in_progress",
@@ -51,35 +51,35 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-10-28T03:40:00-05:00",
+   "last_refreshed": "2026-10-29T03:42:00-05:00",
    "last_run_status": "ok",
-   "last_run_note": "Reviewed 38 candidates, skipped 7 duplicates, added 2 sources. Added NN-20261028-001 (NeuroXess RMB 700M Series B, score 57) and -002 (Ampa Target Lock, score 40). No item scored 90 or higher. 0 fetch or sheet failures.",
-   "next_run": "2026-10-29 03:30 CT",
-   "rows_added_last_run": 2,
-   "new_items_count": 2,
+   "last_run_note": "34 candidates reviewed; 6 inserted (NN-20261029-001..006), 10 duplicates skipped, 0 failures; 3 Sources rows added. Top items: Virtual Labs PolarEye (60), Neuralink 75 WPM (52). No scores of 90 or above.",
+   "next_run": "2026-10-30 3:30 AM CT",
+   "rows_added_last_run": 6,
+   "new_items_count": 6,
    "no_new_items": false,
-   "visible_count": 15,
+   "visible_count": 21,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
     {
      "source": "news",
-     "item_id": "news:NN-20261028-001",
+     "item_id": "news:NN-20261029-006",
      "visibility": "internal",
-     "title": "NeuroXess closes RMB 700M Series B to fund registration trials and a 'Giga-factory' for its fully implanted wireless BCI",
-     "summary": "Shanghai BCI company NeuroXess announced a RMB 700 million Series B co-led by SDIC Unity Capital, Shenzhen Capital Group and Triwise Capital, with IDG Capital among co-investors. Proceeds go to multicenter registration trials of its fully implanted, fully wireless 'Triple-F' BCI (registered trial started 7 July 2026 at Huashan Hospital with ~20 hospitals), a 14,300 m2 factory, and speech/visual BCI R&D.",
-     "category": "Industry & Commercialization",
+     "title": "Virtual Labs to debut PolarEye cross-polarized NIR under-cage rodent behavior camera at SfN 2026",
+     "summary": "Austin-based Virtual Labs says it will show PolarEye, a high-definition cross-polarized near-infrared camera that images mice from below for automated behavioral phenotyping, at Neuroscience 2026 (Nov 14-18, Booth 429), along with a second, unannounced instrument. Its platform lists 5 MP capture at 95 fps with 850 nm illumination for stride-level kinematics.",
+     "category": "Scientific Hardware",
      "subcategory": null,
-     "date_published": "2026-10-28",
-     "date_discovered": "2026-10-28T03:35-05:00",
-     "date_updated": "2026-10-28T03:35-05:00",
+     "date_published": null,
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
      "is_new": true,
-     "link": "https://en.neuroxess.com/news/neuroxess-completes-rmb-700-million-series-b-financing-co-led-by-sdic-unity-capital-scgc-and-triwise-capital/",
+     "link": "https://www.virtuallabs.ai/conferences-preview.html",
      "secondary_links": [],
-     "confidence": "high",
-     "score": 57,
+     "confidence": "medium",
+     "score": 60,
      "score_original": {
-      "value": "57",
+      "value": "60",
       "scale": "0-100",
       "label": "relevance"
      },
@@ -88,44 +88,57 @@
      "next_review_date": null,
      "atlas_ids": [],
      "related_items": [],
-     "product_matches": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-002",
+       "name": "Body Event Analysis Module 3 (BEAM3)",
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-014",
+       "name": "Spatial Foraging Platform (SFP)",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/SpatialForagingPlatform-ProjectManager"
+      }
+     ],
      "people": [],
      "details": {
-      "publisher": "NeuroXess (company newsroom; also TechNode)",
-      "hub_relevance": "One of the largest BCI rounds this year, for a fully implanted wireless recording system scaling to factory production; useful market context for the Hub's wireless electrophysiology and telemetry work.",
-      "related_assets_raw": null,
-      "evidence_type": "Funding",
+      "publisher": "Virtual Labs",
+      "hub_relevance": "A commercial under-cage rodent behavior camera competes directly with and could complement the Hub's home-cage and floor-based behavior hardware.",
+      "related_assets_raw": "Body Event Analysis Module 3 (BEAM3); Spatial Foraging Platform (SFP)",
+      "evidence_type": "Product launch",
       "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": null
+      "review_notes": "Conference preview page has no publication date; specs come from the virtuallabs.ai homepage"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 20,
-      "record_id": "NN-20261028-001"
+      "row": 27,
+      "record_id": "NN-20261029-006"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
     {
      "source": "news",
-     "item_id": "news:NN-20261028-002",
+     "item_id": "news:NN-20261029-001",
      "visibility": "internal",
-     "title": "Ampa adds Target Lock to its FDA-cleared Ampa One TMS system, auto-pausing stimulation when the coil drifts off target",
-     "summary": "Ampa launched Target Lock for Ampa One, a portable TMS system FDA-cleared for major depressive disorder. It pairs the system's embedded camera with a neuronavigation cap to track coil position, pausing treatment and guiding realignment if the coil leaves the prescribed target.",
+     "title": "Neuralink reports an ALS participant hit 75 words per minute with its speech BCI in the first week",
+     "summary": "Neuralink said on 28 Oct 2026 that one participant with ALS in its VOICE speech-restoration trial reached 75 words per minute at a 5.8% word error rate on a 125,000-word vocabulary in their first week. The figures are company-reported, have not been peer-reviewed, and Neuralink did not say how many people are in the speech cohort.",
      "category": "Neurotechnology Products",
      "subcategory": null,
-     "date_published": "2026-10-27",
-     "date_discovered": "2026-10-28T03:35-05:00",
-     "date_updated": "2026-10-28T03:35-05:00",
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
      "is_new": true,
-     "link": "https://www.prnewswire.com/news-releases/ampa-introduces-target-lock-to-clinics-nationwide-to-support-precise-consistent-coil-positioning-302919699.html",
+     "link": "https://teslanorth.com/2026/10/28/neuralink-als-patient-75-words-minute-week-one/",
      "secondary_links": [],
-     "confidence": "high",
-     "score": 40,
+     "confidence": "medium",
+     "score": 52,
      "score_original": {
-      "value": "40",
+      "value": "52",
       "scale": "0-100",
       "label": "relevance"
      },
@@ -137,20 +150,204 @@
      "product_matches": [],
      "people": [],
      "details": {
-      "publisher": "Ampa via PR Newswire",
-      "hub_relevance": "A commercial example of camera-based closed-loop position tracking that gates stimulation, a pattern relevant to the Hub's stimulus-delivery and computer-vision engineering.",
+      "publisher": "Tesla North (citing Neuralink on X; also Inside BCI)",
+      "hub_relevance": "A new high-water mark for implanted speech BCIs, useful as market context for the Hub's wireless electrophysiology and telemetry work.",
       "related_assets_raw": null,
-      "evidence_type": "Product launch",
+      "evidence_type": "Company-reported clinical data",
       "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": null
+      "review_notes": "Company X post 2026-10-28; Inside BCI covered it 2026-10-29 and says the data were presented at the 2026 NEALS meeting. Not peer-reviewed."
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 21,
-      "record_id": "NN-20261028-002"
+      "row": 22,
+      "record_id": "NN-20261029-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261029-002",
+     "visibility": "internal",
+     "title": "University of Utah sends home the first participant with the BIOS nerve-interface LUKE Arm in an at-home trial",
+     "summary": "Under an FDA IDE early feasibility study supported by spin-out Biologic Input Output Systems (BIOS), a participant with an arm amputation is the first to use Utah's LUKE Arm with the implanted BIOS direct nerve interface unsupervised at home. The interface gives thought control plus touch sensation, and he will be followed for one year. The interface received FDA Breakthrough Device designation in March 2024.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
+     "is_new": true,
+     "link": "https://www.ece.utah.edu/2026/10/28/jacob-georges-direct-nerve-interface-of-thought-controlled-luke-arm-at-tested-at-home/",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 41,
+     "score_original": {
+      "value": "41",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "University of Utah Electrical & Computer Engineering",
+      "hub_relevance": "A neural interface moving from lab-only to unsupervised home use is a reference point for the Hub's work on deployable, long-duration neural recording hardware.",
+      "related_assets_raw": null,
+      "evidence_type": "Clinical milestone",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "University news release on a trial milestone, not a paper; originally published by the Price College of Engineering"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 23,
+      "record_id": "NN-20261029-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261029-003",
+     "visibility": "internal",
+     "title": "Chinese ultrasound maker eSonic launches a functional-ultrasound BCI platform and signs a deal with researchers from Tanter's Paris lab",
+     "summary": "On 22 Oct 2026 Beijing-based eSonic announced a BCI platform built on its ePascal ultrafast ultrasound system and signed a Sino-French cooperation with Physics for Medicine Paris researchers Mathieu Pernot and Clement Papadacci. The company claims 25,000 frames/s through-skull acquisition but cites no supporting data, and no French institution is named as a party.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
+     "is_new": true,
+     "link": "https://insidebci.com/news/2026-10-28-esonic-tanter-functional-ultrasound-bci-platform-beijing-sino-french/",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 35,
+     "score_original": {
+      "value": "35",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Inside BCI",
+      "hub_relevance": "Shows functional-ultrasound neuroimaging being commercialized as a BCI platform, adding to the landscape of research neural-recording instruments the Hub tracks.",
+      "related_assets_raw": null,
+      "evidence_type": "Partnership",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Backfill: announced 2026-10-22 (company press release via Sina Finance); Inside BCI analysis 2026-10-28. Relates to the US Treasury BCI outbound-investment rule (NN-20261027-002)."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 24,
+      "record_id": "NN-20261029-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261029-004",
+     "visibility": "internal",
+     "title": "Neumarker partners with a large Northern California health system on EEG-AI prediction of TMS response in depression",
+     "summary": "Neumarker announced a collaboration with the largest health system in Northern California to prospectively test whether its EEG foundation-model AI can predict which depression patients will respond to TMS.",
+     "category": "Software & AI",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
+     "is_new": true,
+     "link": "https://www.globenewswire.com/news-release/2026/10/28/3390106/0/en/neumarker-enter-collaboration-to-advance-precision-medicine-in-depression.html",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 33,
+     "score_original": {
+      "value": "33",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Neumarker via GlobeNewswire",
+      "hub_relevance": "Commercial use of EEG foundation models as a clinical biomarker, relevant context for the Hub's neural-signal software and AI work.",
+      "related_assets_raw": null,
+      "evidence_type": "Partnership",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Company press release, 2026-10-28 08:00 ET"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 25,
+      "record_id": "NN-20261029-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261029-005",
+     "visibility": "internal",
+     "title": "electroCore submits FDA 510(k) for its Quell wearable neuromodulation device in chronic chemotherapy-induced peripheral neuropathy",
+     "summary": "electroCore submitted a 510(k) seeking FDA clearance of Quell, its wearable nerve-stimulation device, for chronic chemotherapy-induced peripheral neuropathy. The company says the filing is backed by two studies with 168 subjects, which reported about 40% pain reduction versus 24-33% with sham.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
+     "is_new": true,
+     "link": "https://www.globenewswire.com/news-release/2026/10/28/3390124/0/en/electrocore-inc-submits-510-k-premarket-notification-to-fda-seeking-clearance-of-quell-for-the-treatment-of-chronic-chemotherapy-induced-peripheral-neuropathy-cipn.html",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 31,
+     "score_original": {
+      "value": "31",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "electroCore via GlobeNewswire",
+      "hub_relevance": "Shows the regulatory path for a wearable neurostimulator, background for the Hub's wearable and stimulus-delivery engineering.",
+      "related_assets_raw": null,
+      "evidence_type": "Regulatory",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Submission only, not a clearance; efficacy figures are company-reported"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 26,
+      "record_id": "NN-20261029-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -349,6 +546,52 @@
       "tab": "News_Log",
       "row": 14,
       "record_id": "NN-20261027-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261028-001",
+     "visibility": "internal",
+     "title": "NeuroXess closes RMB 700M Series B to fund registration trials and a 'Giga-factory' for its fully implanted wireless BCI",
+     "summary": "Shanghai BCI company NeuroXess announced a RMB 700 million Series B co-led by SDIC Unity Capital, Shenzhen Capital Group and Triwise Capital, with IDG Capital among co-investors. Proceeds go to multicenter registration trials of its fully implanted, fully wireless 'Triple-F' BCI (registered trial started 7 July 2026 at Huashan Hospital with ~20 hospitals), a 14,300 m2 factory, and speech/visual BCI R&D.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-28T03:35-05:00",
+     "date_updated": "2026-10-28T03:35-05:00",
+     "is_new": false,
+     "link": "https://en.neuroxess.com/news/neuroxess-completes-rmb-700-million-series-b-financing-co-led-by-sdic-unity-capital-scgc-and-triwise-capital/",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 57,
+     "score_original": {
+      "value": "57",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "NeuroXess (company newsroom; also TechNode)",
+      "hub_relevance": "One of the largest BCI rounds this year, for a fully implanted wireless recording system scaling to factory production; useful market context for the Hub's wireless electrophysiology and telemetry work.",
+      "related_assets_raw": null,
+      "evidence_type": "Funding",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 20,
+      "record_id": "NN-20261028-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -630,6 +873,52 @@
     },
     {
      "source": "news",
+     "item_id": "news:NN-20261028-002",
+     "visibility": "internal",
+     "title": "Ampa adds Target Lock to its FDA-cleared Ampa One TMS system, auto-pausing stimulation when the coil drifts off target",
+     "summary": "Ampa launched Target Lock for Ampa One, a portable TMS system FDA-cleared for major depressive disorder. It pairs the system's embedded camera with a neuronavigation cap to track coil position, pausing treatment and guiding realignment if the coil leaves the prescribed target.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-27",
+     "date_discovered": "2026-10-28T03:35-05:00",
+     "date_updated": "2026-10-28T03:35-05:00",
+     "is_new": false,
+     "link": "https://www.prnewswire.com/news-releases/ampa-introduces-target-lock-to-clinics-nationwide-to-support-precise-consistent-coil-positioning-302919699.html",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 40,
+     "score_original": {
+      "value": "40",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Ampa via PR Newswire",
+      "hub_relevance": "A commercial example of camera-based closed-loop position tracking that gates stimulation, a pattern relevant to the Hub's stimulus-delivery and computer-vision engineering.",
+      "related_assets_raw": null,
+      "evidence_type": "Product launch",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 21,
+      "record_id": "NN-20261028-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
      "item_id": "news:NN-20261026-011",
      "visibility": "internal",
      "title": "NeuroXT receives FDA 510(k) clearance for NEXT-Cue AI software for MCI prognosis",
@@ -773,36 +1062,36 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-10-28T04:10:00-05:00",
+   "last_refreshed": "2026-10-29T03:48:00-05:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 10/21-10/28; OpenAlex, Europe PMC and Crossref all ok. 594 screened, 209 new after dedupe, 22 analyzed. Added OPP-053 (Sari, Toledo; Sales 60) and OPP-054 (Obrietan, Ohio State; Sales 60); none at 70+. Updated OPP-052 note (Osiejuk already contacted by ACORN). Shizuka paper logged only (ACORN contact). 2 Atlas requests filed; no prior requests resolved.",
-   "next_run": "Thu Oct 29, 2026 ~3:30 AM CT",
+   "last_run_note": "Window 10/22-10/29; OpenAlex, Europe PMC and Crossref all ok (one OpenAlex 401 on pagination, worked around, no coverage loss). 777 screened, 351 new after dedupe (202 datasets), 14 analyzed. Added OPP-055 (Thakor, JHU tactile arena; Collab 65) and OPP-056 (Farzi, Graz; Sales 55); none at 70+. Atlas IDs filled on OPP-049..054 from 9 resolved requests (Relationships already present). 2 Atlas requests filed. Ward paper logged only (ACORN contact). No Brestoff/Dougherty hits.",
+   "next_run": "2026-10-30 03:30 CT",
    "rows_added_last_run": 2,
    "new_items_count": 2,
    "no_new_items": false,
-   "visible_count": 18,
+   "visible_count": 20,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
     {
      "source": "opportunity",
-     "item_id": "opportunity:OPP-053",
+     "item_id": "opportunity:OPP-055",
      "visibility": "internal",
-     "title": "Modulatory effects of MC-100093 on astrocytic glutamate transporters and attenuation of relapse-like ethanol drinking behavior",
-     "summary": "Weeks-long home-cage free-choice ethanol drinking (15% and 30% ethanol plus water) with intake and preference measured through deprivation and re-exposure in alcohol-preferring rats (stated paradigm).",
+     "title": "Scalable high-density tactile arenas for measuring ground-contact forces in freely moving animals",
+     "summary": "Direct, paw-resolved ground-contact force measurement in freely moving rodents (stated: existing dense sensing architectures trade off area, resolution, acquisition speed and hardware complexity).",
      "category": "Research Lead",
-     "subcategory": "Existing product sales",
+     "subcategory": "Custom engineering collaboration",
      "date_published": "2026-10-25",
-     "date_discovered": "2026-10-28",
-     "date_updated": "2026-10-28",
+     "date_discovered": "2026-10-29",
+     "date_updated": "2026-10-29",
      "is_new": true,
-     "link": "https://doi.org/10.1177/02698811261495545",
+     "link": "https://doi.org/10.64898/2026.10.22.760735",
      "secondary_links": [],
      "confidence": "medium",
-     "score": 60,
+     "score": 65,
      "score_original": {
-      "sales": "60",
-      "collab": "35",
+      "sales": "35",
+      "collab": "65",
       "scale": "0-100",
       "normalized_as": "max(sales,collab)"
      },
@@ -810,7 +1099,91 @@
      "matt_feedback": null,
      "next_review_date": null,
      "atlas_ids": [
-      "ATL-000600"
+      "ATL-000603"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-004",
+       "name": "Motorized Rodent Treadmill",
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
+      },
+      {
+       "product_id": "PRD-005",
+       "name": "Tensioned Rodent Unloading Support System (TRUSS)",
+       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Nitish V. Thakor",
+       "institution": "Johns Hopkins University",
+       "atlas_id": "ATL-000603",
+       "role_note": "last author"
+      },
+      {
+       "name": "Weiwen Lu",
+       "institution": "Johns Hopkins University",
+       "atlas_id": null,
+       "role_note": "first author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.10.22.760735",
+      "facts": "Stated (abstract + CC BY full text): 16,384-taxel modular runway (2-mm pitch, 512 x 128 mm, nominal 1 kHz) with adaptive compressive sampling and synchronized overhead video; Teensy 4.1 readout boards; detected injured-hindlimb unloading and contralateral compensation in a longitudinal rat sciatic nerve injury model. Hardware (KiCad, BOM) released under CERN OHL-P v2, software MIT. Authors' stated limitations: calibration on board-level summed responses, absolute loading error ~5-8% of body mass; 2-mm pitch.",
+      "inferences": "Open hardware with a full BOM could suit Hub fabrication/electronics services for labs wanting to replicate it; ground-contact loading could serve as a readout for TRUSS weight-unloading or treadmill rehabilitation studies. Not stated by the authors; no stated demand or purchasing intent.",
+      "product_matches_raw": "Engineering and prototyping services; Tensioned Rodent Unloading Support System (TRUSS); Motorized Rodent Treadmill",
+      "recommended_action": "Human review; possible technical collaboration (TRUSS unloading validation or replication kits). No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "bioRxiv preprint (CC BY); full text read. Sales low (no direct store product). Not in Outreach Log; no existing-relationship overlap. Not in Atlas; resolution request REQ-OPP-OPP-055 filed. Sales rubric: fit 10, recurring 5, organism 15, access 5, gap 0. Collab: instr 25, gap 10, topic 15, proximity 5, open 10.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-29"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 20,
+      "record_id": "OPP-055"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-056",
+     "visibility": "internal",
+     "title": "Intranasal neuropeptide Y suppresses food intake, reduces sucrose preference and increases circulating corticosterone in obese mice",
+     "summary": "Repeated sucrose intake / sucrose preference and food intake measurements in mice at 3, 24 and 48 h after treatment (stated assays).",
+     "category": "Research Lead",
+     "subcategory": "Existing product sales",
+     "date_published": "2026-10-22",
+     "date_discovered": "2026-10-29",
+     "date_updated": "2026-10-29",
+     "is_new": true,
+     "link": "https://doi.org/10.1016/j.neurot.2026.e01100",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 55,
+     "score_original": {
+      "sales": "55",
+      "collab": "30",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000604"
      ],
      "related_items": [],
      "product_matches": [
@@ -825,112 +1198,46 @@
        "name": "Two-bottle Sipper Hub",
        "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
        "github_url": null
-      }
-     ],
-     "people": [
-      {
-       "name": "Youssef Sari",
-       "institution": "University of Toledo",
-       "atlas_id": "ATL-000600",
-       "role_note": "last/corresponding author"
-      }
-     ],
-     "details": {
-      "washu": "No",
-      "preprint": "No",
-      "doi": "10.1177/02698811261495545",
-      "facts": "Stated (abstract): male and female P rats had access to 15% and 30% ethanol and water for 5 weeks, a 1-week deprivation, then 3 days of re-exposure; MC-100093 lowered ethanol intake and preference on re-exposure, with a sex difference. Bottle or intake-measurement hardware is not stated. Journal of Psychopharmacology; license not confirmed as open, abstract only.",
-      "inferences": "Repeated multi-bottle intake studies in rats could use automated liquid-intake logging (FlightCap) or the Two-bottle Sipper Hub; the paradigm uses three bottles, so Sipper Hub fit is partial. No stated equipment gap or purchasing intent.",
-      "product_matches_raw": "FlightCap Lick and Liquid Sensor; Two-bottle Sipper Hub",
-      "recommended_action": "Human review; candidate for FlightCap/Sipper Hub segment (rodent ethanol-drinking labs). No outreach from Scout.",
-      "needs_human_review": "Yes",
-      "review_note": "Abstract only; intake-measurement method unstated. Not in Outreach Log. Not in Atlas; resolution request filed. Sales rubric: fit 25, recurring 15, organism 15, access 5, gap 0. Collab: instr 10, gap 5, topic 15, proximity 5, open 0.",
-      "bot_state": "New",
-      "analysis_date": "2026-10-28"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
-      "tab": "Opportunities",
-      "row": 18,
-      "record_id": "OPP-053"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "opportunity",
-     "item_id": "opportunity:OPP-054",
-     "visibility": "internal",
-     "title": "Loss of PEA-15 Alters ERK/MAPK Signaling and Circadian Function in the Suprachiasmatic Nucleus",
-     "summary": "Long-term locomotor activity rhythm recording in mice under constant darkness, jet-lag and light-pulse paradigms (stated assays).",
-     "category": "Research Lead",
-     "subcategory": "Existing product sales",
-     "date_published": "2026-10-27",
-     "date_discovered": "2026-10-28",
-     "date_updated": "2026-10-28",
-     "is_new": true,
-     "link": "https://doi.org/10.64898/2026.10.25.761398",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 60,
-     "score_original": {
-      "sales": "60",
-      "collab": "40",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000601"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
       },
       {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
+       "product_id": "PRD-015",
+       "name": "FED4 (Feeding Experimentation Device 4)",
        "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+       "github_url": "https://github.com/KravitzLabDevices/FED4"
+      },
+      {
+       "product_id": "PRD-035",
+       "name": "FED3 (Feeding Experimentation Device 3)",
+       "store_url": null,
+       "github_url": "https://github.com/KravitzLabDevices/FED3"
       }
      ],
      "people": [
       {
-       "name": "Karl Obrietan",
-       "institution": "The Ohio State University (from OpenAlex author profile; not in preprint metadata)",
-       "atlas_id": "ATL-000601",
+       "name": "Aitak Farzi",
+       "institution": "Medical University of Graz",
+       "atlas_id": "ATL-000604",
        "role_note": "last author"
       }
      ],
      "details": {
       "washu": "No",
-      "preprint": "Yes",
-      "doi": "10.64898/2026.10.25.761398",
-      "facts": "Stated (abstract): PEA-15 knockout mice showed a shorter free-running period and reduced locomotor activity in constant darkness; jet-lag resetting and Aschoff type I light-pulse paradigms showed blunted phase delays and faster advance entrainment. Activity-recording hardware (wheel or other) is not stated. bioRxiv preprint, license not listed.",
-      "inferences": "Circadian labs running free-running and phase-shift assays typically need continuous multi-week activity recording; Hub Wheel with Hublink or BEAM3 could fit, but the method used here is unknown. No stated gap or purchasing intent.",
-      "product_matches_raw": "Hub Wheel with Hublink; Body Event Analysis Module 3 (BEAM3)",
-      "recommended_action": "Human review; candidate for Hub Wheel circadian segment. No outreach from Scout.",
+      "preprint": "No",
+      "doi": "10.1016/j.neurot.2026.e01100",
+      "facts": "Stated (abstract): HFD vs control C57BL/6J mice; light/dark box, splash test, sucrose intake and sucrose preference; intranasal NPY reduced sucrose intake and SP at 3 h in HFD mice and food intake/body weight at 3 h regardless of diet; effects absent in Npy2r-deficient mice. Bottle/intake hardware not stated. Abstract only (Europe PMC lists not OA; full text not read).",
+      "inferences": "Sucrose preference is a two-bottle choice assay, so Two-bottle Sipper Hub or FlightCap could fit; FED3/FED4 could fit the timed food-intake readout (collaboration only). Measurement method unknown; no stated gap or purchasing intent.",
+      "product_matches_raw": "Two-bottle Sipper Hub; FlightCap Lick and Liquid Sensor; FED3 (Feeding Experimentation Device 3); FED4 (Feeding Experimentation Device 4)",
+      "recommended_action": "Human review; Sipper Hub/FlightCap ingestive-behavior segment. No outreach from Scout.",
       "needs_human_review": "Yes",
-      "review_note": "Preprint, abstract only; activity method unstated; institution inferred from OpenAlex profile (A5013842386). Not in Outreach Log. Not in Atlas; resolution request filed. Sales rubric: fit 25, recurring 15, organism 15, access 5, gap 0. Collab: instr 10, gap 0, topic 20, proximity 5, open 5.",
+      "review_note": "Journal article, abstract only; intake method unstated. International (Austria). Not in Outreach Log; no existing-relationship overlap. Not in Atlas; resolution request REQ-OPP-OPP-056 filed. Sales rubric: fit 25, recurring 10, organism 15, access 5, gap 0. Collab: instr 10, gap 0, topic 15, proximity 0, open 5.",
       "bot_state": "New",
-      "analysis_date": "2026-10-28"
+      "analysis_date": "2026-10-29"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
       "tab": "Opportunities",
-      "row": 19,
-      "record_id": "OPP-054"
+      "row": 21,
+      "record_id": "OPP-056"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -1555,7 +1862,7 @@
      "subcategory": "Scientific research collaboration",
      "date_published": "2026-10-24",
      "date_discovered": "2026-10-27",
-     "date_updated": "2026-10-27",
+     "date_updated": "2026-10-29",
      "is_new": false,
      "link": "https://doi.org/10.64898/2026.10.20.760181",
      "secondary_links": [],
@@ -1879,7 +2186,7 @@
      "subcategory": "Existing product sales",
      "date_published": "2026-10-26",
      "date_discovered": "2026-10-27",
-     "date_updated": "2026-10-27",
+     "date_updated": "2026-10-29",
      "is_new": false,
      "link": "https://doi.org/10.1371/journal.pone.0361386",
      "secondary_links": [],
@@ -1964,7 +2271,7 @@
      "subcategory": "Custom engineering collaboration",
      "date_published": "2026-10-22",
      "date_discovered": "2026-10-27",
-     "date_updated": "2026-10-27",
+     "date_updated": "2026-10-29",
      "is_new": false,
      "link": "https://doi.org/10.64898/2026.10.21.760747",
      "secondary_links": [],
@@ -2030,6 +2337,156 @@
       "tab": "Opportunities",
       "row": 16,
       "record_id": "OPP-051"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-053",
+     "visibility": "internal",
+     "title": "Modulatory effects of MC-100093 on astrocytic glutamate transporters and attenuation of relapse-like ethanol drinking behavior",
+     "summary": "Weeks-long home-cage free-choice ethanol drinking (15% and 30% ethanol plus water) with intake and preference measured through deprivation and re-exposure in alcohol-preferring rats (stated paradigm).",
+     "category": "Research Lead",
+     "subcategory": "Existing product sales",
+     "date_published": "2026-10-25",
+     "date_discovered": "2026-10-28",
+     "date_updated": "2026-10-29",
+     "is_new": false,
+     "link": "https://doi.org/10.1177/02698811261495545",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 60,
+     "score_original": {
+      "sales": "60",
+      "collab": "35",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000600"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-007",
+       "name": "FlightCap Lick and Liquid Sensor",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
+       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
+      },
+      {
+       "product_id": "PRD-009",
+       "name": "Two-bottle Sipper Hub",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Youssef Sari",
+       "institution": "University of Toledo",
+       "atlas_id": "ATL-000600",
+       "role_note": "last/corresponding author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.1177/02698811261495545",
+      "facts": "Stated (abstract): male and female P rats had access to 15% and 30% ethanol and water for 5 weeks, a 1-week deprivation, then 3 days of re-exposure; MC-100093 lowered ethanol intake and preference on re-exposure, with a sex difference. Bottle or intake-measurement hardware is not stated. Journal of Psychopharmacology; license not confirmed as open, abstract only.",
+      "inferences": "Repeated multi-bottle intake studies in rats could use automated liquid-intake logging (FlightCap) or the Two-bottle Sipper Hub; the paradigm uses three bottles, so Sipper Hub fit is partial. No stated equipment gap or purchasing intent.",
+      "product_matches_raw": "FlightCap Lick and Liquid Sensor; Two-bottle Sipper Hub",
+      "recommended_action": "Human review; candidate for FlightCap/Sipper Hub segment (rodent ethanol-drinking labs). No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Abstract only; intake-measurement method unstated. Not in Outreach Log. Not in Atlas; resolution request filed. Sales rubric: fit 25, recurring 15, organism 15, access 5, gap 0. Collab: instr 10, gap 5, topic 15, proximity 5, open 0.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-28"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 18,
+      "record_id": "OPP-053"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-054",
+     "visibility": "internal",
+     "title": "Loss of PEA-15 Alters ERK/MAPK Signaling and Circadian Function in the Suprachiasmatic Nucleus",
+     "summary": "Long-term locomotor activity rhythm recording in mice under constant darkness, jet-lag and light-pulse paradigms (stated assays).",
+     "category": "Research Lead",
+     "subcategory": "Existing product sales",
+     "date_published": "2026-10-27",
+     "date_discovered": "2026-10-28",
+     "date_updated": "2026-10-29",
+     "is_new": false,
+     "link": "https://doi.org/10.64898/2026.10.25.761398",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 60,
+     "score_original": {
+      "sales": "60",
+      "collab": "40",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000601"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-002",
+       "name": "Body Event Analysis Module 3 (BEAM3)",
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-003",
+       "name": "Hub Wheel with Hublink",
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+      }
+     ],
+     "people": [
+      {
+       "name": "Karl Obrietan",
+       "institution": "The Ohio State University (from OpenAlex author profile; not in preprint metadata)",
+       "atlas_id": "ATL-000601",
+       "role_note": "last author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.10.25.761398",
+      "facts": "Stated (abstract): PEA-15 knockout mice showed a shorter free-running period and reduced locomotor activity in constant darkness; jet-lag resetting and Aschoff type I light-pulse paradigms showed blunted phase delays and faster advance entrainment. Activity-recording hardware (wheel or other) is not stated. bioRxiv preprint, license not listed.",
+      "inferences": "Circadian labs running free-running and phase-shift assays typically need continuous multi-week activity recording; Hub Wheel with Hublink or BEAM3 could fit, but the method used here is unknown. No stated gap or purchasing intent.",
+      "product_matches_raw": "Hub Wheel with Hublink; Body Event Analysis Module 3 (BEAM3)",
+      "recommended_action": "Human review; candidate for Hub Wheel circadian segment. No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Preprint, abstract only; activity method unstated; institution inferred from OpenAlex profile (A5013842386). Not in Outreach Log. Not in Atlas; resolution request filed. Sales rubric: fit 25, recurring 15, organism 15, access 5, gap 0. Collab: instr 10, gap 0, topic 20, proximity 5, open 5.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-28"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 19,
+      "record_id": "OPP-054"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -2122,7 +2579,7 @@
      "subcategory": "Existing product sales",
      "date_published": "2026-10-21",
      "date_discovered": "2026-10-27",
-     "date_updated": "2026-10-28",
+     "date_updated": "2026-10-29",
      "is_new": false,
      "link": "https://doi.org/10.1038/s41598-026-76761-w",
      "secondary_links": [],
@@ -3854,17 +4311,204 @@
    "title": "Product Leads",
    "source": "ACORN - Leads",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-10-28T03:50:00-05:00",
+   "last_refreshed": "2026-10-29T03:47:00-05:00",
    "last_run_status": "ok",
-   "last_run_note": "Failed first attempt wrote nothing. Rerun: Atlas IDs filled for 9 leads (ACN-001,005,016,017,018,021,026,028,029); Relationships already present. Added ACN-031 (Sheriff, UMass Dartmouth, 0.83) + REQ-ACN-ACN-031. Thin pool: rejected self-built platforms (Vogelwarte soundbox, bio-logger playback) and short handheld trials. REQ-ACN-ACN-030 still open. Report: reports/2026-10-28-0339.md",
-   "next_run": "2026-10-29 03:30 CT",
-   "rows_added_last_run": 2,
-   "new_items_count": 1,
+   "last_run_note": "Added ACN-032..034 (3 Atlas resolution requests filed); filled Atlas IDs for ACN-030/031 in Leads and Osiejuk in Outreach Log. Two Atlas-ID cells were first written one row off (Leads P19, Outreach Log B35) and immediately restored and verified. Thin candidate pool; only 3 strong leads.",
+   "next_run": "ACORN lead finder daily 3:30 AM CT",
+   "rows_added_last_run": 3,
+   "new_items_count": 3,
    "no_new_items": false,
-   "visible_count": 3,
+   "visible_count": 6,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-032",
+     "visibility": "internal",
+     "title": "Yuliana Bedolla-Guzmán, Grupo de Ecología y Conservación de Islas (GECI), Ensenada, Mexico",
+     "summary": "Leads GECI's seabird restoration program on Mexico's Pacific islands, using social attraction (decoys, mirrors, colony-call playback) after invasive-mammal eradication; per Bedolla, the sound systems are an amplifier plus loudspeakers on solar panels, set up each spring and run day or night until the birds leave (Mexico News Daily). The 2026 Pacific Rim feasibility guide describes these systems as file player + amp + battery + solar + charge controller in a weatherproof box. Large multi-island, multi-donor program. FLAG: same seabird social-attraction niche as VanderWerf (ACN-002); GECI and Pacific Rim likely collaborate.",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-29",
+     "date_updated": "2026-10-29",
+     "is_new": true,
+     "link": "https://islas.org.mx/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 83,
+     "score_original": {
+      "value": "0.83",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "5",
+       "need": "5",
+       "funding": "3"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000605"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Yuliana Bedolla-Guzmán",
+       "institution": "Grupo de Ecología y Conservación de Islas (GECI), Ensenada, Mexico",
+       "atlas_id": "ATL-000605",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": false
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 3,
+      "record_id": "ACN-032"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-033",
+     "visibility": "internal",
+     "title": "Gary Slater, Ecostudies Institute (Olympia, WA)",
+     "summary": "Executive Director; Ecostudies ran Oregon vesper sparrow conspecific-attraction playback stations 2022-2025 at South Puget Sound prairies (Mazama Meadows, Deschutes Prairie, Glacial Heritage, Scatter Creek, West Rocky Prairie), funded by American Bird Conservancy, Wildlife Forever Fund and a Competitive State Wildlife Grant (2024 OVSP Working Group minutes). Partners with Joint Base Lewis-McChord, a military-base angle. Exact station gear not published. FLAG: same conspecific-attraction niche as Ward (ACN-001), Kus (ACN-015) and Schofield (ACN-016).",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-29",
+     "date_updated": "2026-10-29",
+     "is_new": true,
+     "link": "https://ecoinst.org/conservation-programs/avian-conservation/oregon-vesper-sparrow/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 75,
+     "score_original": {
+      "value": "0.75",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "5",
+       "need": "4",
+       "funding": "3"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Gary Slater",
+       "institution": "Ecostudies Institute (Olympia, WA)",
+       "atlas_id": null,
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": false
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 4,
+      "record_id": "ACN-033"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-034",
+     "visibility": "internal",
+     "title": "Dustin Ranglack, USDA APHIS National Wildlife Research Center (Utah Field Station, Millville)",
+     "summary": "Predator Project Leader testing nonlethal tools for wolf and mountain lion conflict; his team added speakers to drones to haze wolves from cattle in Oregon (human voices worked best; Global Ecol Conserv 2024/25) and is now evaluating which sounds work (gunshots, music). Gear: drone-mounted speakers with frequent battery swaps; a fixed, triggered playback node could extend this to pastures. Federal research budget. FLAG: same sound-deterrent niche as Seiler (ACN-029) and Kuijper (ACN-003).",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-10-29",
+     "date_updated": "2026-10-29",
+     "is_new": true,
+     "link": "https://www.aphis.usda.gov/national-wildlife-programs/nwrc/careers/nwrc-research-scientists-dr-dustin-h-ranglack-phd",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 67,
+     "score_original": {
+      "value": "0.67",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "3",
+       "need": "4",
+       "funding": "5"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000606"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Dustin Ranglack",
+       "institution": "USDA APHIS National Wildlife Research Center (Utah Field Station, Millville)",
+       "atlas_id": "ATL-000606",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": false
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 5,
+      "record_id": "ACN-034"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "acorn",
      "item_id": "acorn:ACN-031",
@@ -3876,7 +4520,7 @@
      "date_published": null,
      "date_discovered": "2026-10-28",
      "date_updated": "2026-10-28",
-     "is_new": true,
+     "is_new": false,
      "link": "https://michaeljsheriff.weebly.com/",
      "secondary_links": [],
      "confidence": null,
@@ -3986,7 +4630,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 32,
+      "row": 35,
       "record_id": "ACN-028"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4049,14 +4693,14 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 3,
+      "row": 6,
       "record_id": "ACN-029"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ],
    "pipeline_counts": {
-    "Open": 2,
+    "Open": 5,
     "Skipped": 1,
     "Interested": 7,
     "Contacted": 18,
@@ -4133,7 +4777,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 4,
+      "row": 7,
       "record_id": "ACN-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4202,7 +4846,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 5,
+      "row": 8,
       "record_id": "ACN-015"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4271,7 +4915,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 9,
+      "row": 12,
       "record_id": "ACN-002"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4340,7 +4984,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 10,
+      "row": 13,
       "record_id": "ACN-003"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4409,7 +5053,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 11,
+      "row": 14,
       "record_id": "ACN-004"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4478,7 +5122,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 12,
+      "row": 15,
       "record_id": "ACN-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4547,7 +5191,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 13,
+      "row": 16,
       "record_id": "ACN-006"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4616,7 +5260,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 14,
+      "row": 17,
       "record_id": "ACN-007"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4685,7 +5329,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 15,
+      "row": 18,
       "record_id": "ACN-008"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4754,7 +5398,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 8,
+      "row": 11,
       "record_id": "ACN-017"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4823,7 +5467,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 17,
+      "row": 20,
       "record_id": "ACN-009"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4892,7 +5536,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 18,
+      "row": 21,
       "record_id": "ACN-010"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4961,7 +5605,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 22,
+      "row": 25,
       "record_id": "ACN-011"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5030,7 +5674,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 23,
+      "row": 26,
       "record_id": "ACN-012"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5099,7 +5743,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 21,
+      "row": 24,
       "record_id": "ACN-018"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5168,7 +5812,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 28,
+      "row": 31,
       "record_id": "ACN-013"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5290,7 +5934,8 @@
     "Hub - Funding Scout OPP-012 (Ioana Carcea): not_found",
     "Hub - Funding Scout OPP-014 (Anna Kay Radke): not_found",
     "Hub - Funding Scout OPP-016 (Ben N Greenwood): not_found",
-    "Hub - Funding Scout OPP-017 (KC Kent Lloyd): ambiguous"
+    "Hub - Funding Scout OPP-017 (KC Kent Lloyd): ambiguous",
+    "ACORN - Leads ACN-033 (Gary Slater): not_found"
    ]
   },
   {
