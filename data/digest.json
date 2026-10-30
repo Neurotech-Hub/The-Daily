@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-10-29T05:02:40-05:00",
+ "generated_at": "2026-10-30T05:07:12-05:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-10-29",
+ "edition_date": "2026-10-30",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -17,12 +17,12 @@
   {
    "key": "news",
    "title": "News",
-   "count": 21
+   "count": 12
   },
   {
    "key": "opportunity",
    "title": "Research Leads",
-   "count": 20
+   "count": 21
   },
   {
    "key": "funding",
@@ -37,7 +37,7 @@
   {
    "key": "acorn",
    "title": "Product Leads",
-   "count": 6
+   "count": 1
   },
   {
    "key": "in_progress",
@@ -51,17 +51,201 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-10-29T03:42:00-05:00",
+   "last_refreshed": "2026-10-30T03:53:00-05:00",
    "last_run_status": "ok",
-   "last_run_note": "34 candidates reviewed; 6 inserted (NN-20261029-001..006), 10 duplicates skipped, 0 failures; 3 Sources rows added. Top items: Virtual Labs PolarEye (60), Neuralink 75 WPM (52). No scores of 90 or above.",
-   "next_run": "2026-10-30 3:30 AM CT",
-   "rows_added_last_run": 6,
-   "new_items_count": 6,
+   "last_run_note": "40 candidates; inserted NN-20261030-001..004 (Precision Abu Dhabi 50, Esumedics/EMS Biomedical 40, Ozlo Series B 33, Ceretas CERE-CALM 30); 7 duplicates skipped; 1 minor fetch failure (MedTech Dive topic URL 404). 2 Sources added. No scores >= 90.",
+   "next_run": "2026-10-31 3:30 AM CT",
+   "rows_added_last_run": 4,
+   "new_items_count": 4,
    "no_new_items": false,
-   "visible_count": 21,
+   "visible_count": 12,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261030-001",
+     "visibility": "internal",
+     "title": "Precision Neuroscience signs Cleveland Clinic Abu Dhabi as its first clinical research site outside the US",
+     "summary": "Precision Neuroscience signed a two-year MOU (on 21 Oct, announced 29 Oct) with Cleveland Clinic Abu Dhabi, supported by Abu Dhabi's Department of Health, to evaluate its 1,024-electrode Layer 7 cortical interface in collaborative research, its first site outside the US. The company reports more than 110 patient procedures across 18 institutions under its 2025 FDA clearance for temporary implants of up to 30 days.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-10-29",
+     "date_discovered": "2026-10-30T03:50-05:00",
+     "date_updated": "2026-10-30T03:50-05:00",
+     "is_new": true,
+     "link": "https://www.globenewswire.com/news-release/2026/10/29/3391322/0/en/precision-neuroscience-expands-clinical-network-beyond-the-u-s-with-first-international-site-in-abu-dhabi.html",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 50,
+     "score_original": {
+      "value": "50",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Precision Neuroscience via GlobeNewswire",
+      "hub_relevance": "International expansion of a high-density thin-film recording array is market context for the Hub's electrophysiology and neural-recording hardware work.",
+      "related_assets_raw": null,
+      "evidence_type": "Partnership",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Company press release 2026-10-29 09:00 ET; also covered by Inside BCI 2026-10-30 (same hospital hosts Neuralink UAE-PRIME)"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 28,
+      "record_id": "NN-20261030-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261030-002",
+     "visibility": "internal",
+     "title": "Esumedics acquires Austrian EEG/EMG and neuromonitoring maker EMS Biomedical",
+     "summary": "German EEG/EMG system maker Esumedics GmbH acquired 100% of EMS Biomedical (Korneuburg, Austria), effective 6 Oct 2026; EMS will run as a wholly owned subsidiary with its management and operations unchanged. Combined, the companies cover routine EEG and EMG, long-term and clinical monitoring, sleep diagnostics, neurostimulation and intraoperative systems.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-30T03:50-05:00",
+     "date_updated": "2026-10-30T03:50-05:00",
+     "is_new": true,
+     "link": "https://esumedics.com/en/news-en/10/28/a-new-chapter-for-esumedics-and-ems-biomedical/",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 40,
+     "score_original": {
+      "value": "40",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Esumedics (company newsroom)",
+      "hub_relevance": "Consolidation among clinical electrophysiology hardware vendors is relevant background for the Hub's EEG/EMG and sleep-monitoring instrumentation work.",
+      "related_assets_raw": null,
+      "evidence_type": "M&A",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Newsroom post dated Oct 28 (year from page URL path/image); deal effective 2026-10-06; terms not disclosed"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 29,
+      "record_id": "NN-20261030-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261030-003",
+     "visibility": "internal",
+     "title": "Ozlo raises $22M Series B to expand from Sleepbuds into tinnitus and broader sleep-health products",
+     "summary": "Sleep-technology company Ozlo raised a $22M Series B led by Modi Ventures (including previously issued convertible instruments), with Resmed and LifeArc among existing investors. Ozlo says it has more than 260,000 customers and will use the funds for R&D and regulatory work toward an FDA submission for a tinnitus product; its lead investor cites biosensing, AI and neuromodulation as the platform direction.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-10-29",
+     "date_discovered": "2026-10-30T03:50-05:00",
+     "date_updated": "2026-10-30T03:50-05:00",
+     "is_new": true,
+     "link": "https://www.globenewswire.com/news-release/2026/10/29/3391321/0/en/ozlo-raises-22-million-series-b-led-by-modi-ventures-to-expand-its-sleep-technology-ecosystem.html",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 33,
+     "score_original": {
+      "value": "33",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Ozlo via GlobeNewswire",
+      "hub_relevance": "Investment in comfort-first, all-night wearables for sleep is adjacent to the Hub's sleep/circadian and low-power wearable engineering interests.",
+      "related_assets_raw": null,
+      "evidence_type": "Funding",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Company press release 2026-10-29 09:00 ET; neuromodulation is investor framing, not an announced product"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 30,
+      "record_id": "NN-20261030-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261030-004",
+     "visibility": "internal",
+     "title": "Ceretas enrols first patient in Phase 2 CERE-CALM trial of portable focused-ultrasound neuromodulation for Alzheimer's behavioral symptoms",
+     "summary": "ASX-listed Ceretas (CTS) enrolled the first patient in CERE-CALM, a 66-patient randomised, double-blind, sham-controlled Phase 2 trial of its portable low-intensity focused ultrasound device for behavioural and psychological symptoms of dementia in Alzheimer's disease. The company calls the trial fully funded ($3.4M of IPO proceeds) with completion expected in H1 2028.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-29",
+     "date_discovered": "2026-10-30T03:50-05:00",
+     "date_updated": "2026-10-30T03:50-05:00",
+     "is_new": true,
+     "link": "https://stockwirex.com/asx-stock-news/biotech-health/cts-ceretas-cere-calm-alzheimers-trial-october-2026/",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 30,
+     "score_original": {
+      "value": "30",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "StockWire X (citing Ceretas ASX announcement)",
+      "hub_relevance": "Shows non-invasive transcranial ultrasound neuromodulation moving into controlled trials, background for the Hub's stimulus-delivery hardware interests.",
+      "related_assets_raw": null,
+      "evidence_type": "Clinical milestone",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Secondary reporting of a 2026-10-29 ASX announcement; registry ACTRN12626000738325"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 31,
+      "record_id": "NN-20261030-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261029-006",
@@ -73,7 +257,7 @@
      "date_published": null,
      "date_discovered": "2026-10-29T03:40-05:00",
      "date_updated": "2026-10-29T03:40-05:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.virtuallabs.ai/conferences-preview.html",
      "secondary_links": [],
      "confidence": "medium",
@@ -118,434 +302,6 @@
       "tab": "News_Log",
       "row": 27,
       "record_id": "NN-20261029-006"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261029-001",
-     "visibility": "internal",
-     "title": "Neuralink reports an ALS participant hit 75 words per minute with its speech BCI in the first week",
-     "summary": "Neuralink said on 28 Oct 2026 that one participant with ALS in its VOICE speech-restoration trial reached 75 words per minute at a 5.8% word error rate on a 125,000-word vocabulary in their first week. The figures are company-reported, have not been peer-reviewed, and Neuralink did not say how many people are in the speech cohort.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-10-28",
-     "date_discovered": "2026-10-29T03:40-05:00",
-     "date_updated": "2026-10-29T03:40-05:00",
-     "is_new": true,
-     "link": "https://teslanorth.com/2026/10/28/neuralink-als-patient-75-words-minute-week-one/",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 52,
-     "score_original": {
-      "value": "52",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Tesla North (citing Neuralink on X; also Inside BCI)",
-      "hub_relevance": "A new high-water mark for implanted speech BCIs, useful as market context for the Hub's wireless electrophysiology and telemetry work.",
-      "related_assets_raw": null,
-      "evidence_type": "Company-reported clinical data",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Company X post 2026-10-28; Inside BCI covered it 2026-10-29 and says the data were presented at the 2026 NEALS meeting. Not peer-reviewed."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 22,
-      "record_id": "NN-20261029-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261029-002",
-     "visibility": "internal",
-     "title": "University of Utah sends home the first participant with the BIOS nerve-interface LUKE Arm in an at-home trial",
-     "summary": "Under an FDA IDE early feasibility study supported by spin-out Biologic Input Output Systems (BIOS), a participant with an arm amputation is the first to use Utah's LUKE Arm with the implanted BIOS direct nerve interface unsupervised at home. The interface gives thought control plus touch sensation, and he will be followed for one year. The interface received FDA Breakthrough Device designation in March 2024.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-10-28",
-     "date_discovered": "2026-10-29T03:40-05:00",
-     "date_updated": "2026-10-29T03:40-05:00",
-     "is_new": true,
-     "link": "https://www.ece.utah.edu/2026/10/28/jacob-georges-direct-nerve-interface-of-thought-controlled-luke-arm-at-tested-at-home/",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 41,
-     "score_original": {
-      "value": "41",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "University of Utah Electrical & Computer Engineering",
-      "hub_relevance": "A neural interface moving from lab-only to unsupervised home use is a reference point for the Hub's work on deployable, long-duration neural recording hardware.",
-      "related_assets_raw": null,
-      "evidence_type": "Clinical milestone",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "University news release on a trial milestone, not a paper; originally published by the Price College of Engineering"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 23,
-      "record_id": "NN-20261029-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261029-003",
-     "visibility": "internal",
-     "title": "Chinese ultrasound maker eSonic launches a functional-ultrasound BCI platform and signs a deal with researchers from Tanter's Paris lab",
-     "summary": "On 22 Oct 2026 Beijing-based eSonic announced a BCI platform built on its ePascal ultrafast ultrasound system and signed a Sino-French cooperation with Physics for Medicine Paris researchers Mathieu Pernot and Clement Papadacci. The company claims 25,000 frames/s through-skull acquisition but cites no supporting data, and no French institution is named as a party.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-10-28",
-     "date_discovered": "2026-10-29T03:40-05:00",
-     "date_updated": "2026-10-29T03:40-05:00",
-     "is_new": true,
-     "link": "https://insidebci.com/news/2026-10-28-esonic-tanter-functional-ultrasound-bci-platform-beijing-sino-french/",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 35,
-     "score_original": {
-      "value": "35",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Inside BCI",
-      "hub_relevance": "Shows functional-ultrasound neuroimaging being commercialized as a BCI platform, adding to the landscape of research neural-recording instruments the Hub tracks.",
-      "related_assets_raw": null,
-      "evidence_type": "Partnership",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Backfill: announced 2026-10-22 (company press release via Sina Finance); Inside BCI analysis 2026-10-28. Relates to the US Treasury BCI outbound-investment rule (NN-20261027-002)."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 24,
-      "record_id": "NN-20261029-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261029-004",
-     "visibility": "internal",
-     "title": "Neumarker partners with a large Northern California health system on EEG-AI prediction of TMS response in depression",
-     "summary": "Neumarker announced a collaboration with the largest health system in Northern California to prospectively test whether its EEG foundation-model AI can predict which depression patients will respond to TMS.",
-     "category": "Software & AI",
-     "subcategory": null,
-     "date_published": "2026-10-28",
-     "date_discovered": "2026-10-29T03:40-05:00",
-     "date_updated": "2026-10-29T03:40-05:00",
-     "is_new": true,
-     "link": "https://www.globenewswire.com/news-release/2026/10/28/3390106/0/en/neumarker-enter-collaboration-to-advance-precision-medicine-in-depression.html",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 33,
-     "score_original": {
-      "value": "33",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Neumarker via GlobeNewswire",
-      "hub_relevance": "Commercial use of EEG foundation models as a clinical biomarker, relevant context for the Hub's neural-signal software and AI work.",
-      "related_assets_raw": null,
-      "evidence_type": "Partnership",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Company press release, 2026-10-28 08:00 ET"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 25,
-      "record_id": "NN-20261029-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261029-005",
-     "visibility": "internal",
-     "title": "electroCore submits FDA 510(k) for its Quell wearable neuromodulation device in chronic chemotherapy-induced peripheral neuropathy",
-     "summary": "electroCore submitted a 510(k) seeking FDA clearance of Quell, its wearable nerve-stimulation device, for chronic chemotherapy-induced peripheral neuropathy. The company says the filing is backed by two studies with 168 subjects, which reported about 40% pain reduction versus 24-33% with sham.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-10-28",
-     "date_discovered": "2026-10-29T03:40-05:00",
-     "date_updated": "2026-10-29T03:40-05:00",
-     "is_new": true,
-     "link": "https://www.globenewswire.com/news-release/2026/10/28/3390124/0/en/electrocore-inc-submits-510-k-premarket-notification-to-fda-seeking-clearance-of-quell-for-the-treatment-of-chronic-chemotherapy-induced-peripheral-neuropathy-cipn.html",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 31,
-     "score_original": {
-      "value": "31",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "electroCore via GlobeNewswire",
-      "hub_relevance": "Shows the regulatory path for a wearable neurostimulator, background for the Hub's wearable and stimulus-delivery engineering.",
-      "related_assets_raw": null,
-      "evidence_type": "Regulatory",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Submission only, not a clearance; efficacy figures are company-reported"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 26,
-      "record_id": "NN-20261029-005"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261026-007",
-     "visibility": "internal",
-     "title": "TU/e PhD research demonstrates body-coupled wideband in-body wireless telemetry for implanted BCIs",
-     "summary": "Chengyao Shi's TU/e thesis (with imec-NL/imec Belgium and Erasmus MC) presents a mm-scale in-body wireless link that uses the body as the communication channel, reporting high-speed data transmission with low power, heat, and footprint and studying brain-movement effects on link reliability.",
-     "category": "Engineering & Components",
-     "subcategory": null,
-     "date_published": "2026-10-21",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": false,
-     "link": "https://www.tue.nl/en/news-and-events/news-overview/21-10-2026-sending-brain-signals-without-overheating-the-brain",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 66,
-     "score_original": {
-      "value": "66",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      }
-     ],
-     "people": [],
-     "details": {
-      "publisher": "Eindhoven University of Technology",
-      "hub_relevance": "Low-power, high-bandwidth implant telemetry is directly relevant to the Hub's wireless sensor and embedded telemetry engineering.",
-      "related_assets_raw": "Hublink",
-      "evidence_type": "Other",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "PhD thesis announcement; thesis title: A mm-scale wideband in-body wireless communication system for implantable/insertable applications"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 8,
-      "record_id": "NN-20261026-007"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261026-006",
-     "visibility": "internal",
-     "title": "CorTec brain interface electrodes record stable signals for more than four years in non-human primates",
-     "summary": "CorTec announced that µECoG arrays implanted in two macaques at Weill Cornell continue recording, with 63 of 64 contacts delivering meaningful signals after more than four years in the animal still under study; data were published in the 10th Graz BCI Conference proceedings. The electrode platform underlies its investigational Brain Interchange system.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-10-21",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": false,
-     "link": "https://www.eqs-news.com/news/corporate/cortec-brain-interface-electrodes-record-stable-signals-for-more-than-four-years/d4836646-4e16-4f71-949e-4a7869bf6506_en",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 62,
-     "score_original": {
-      "value": "62",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "CorTec GmbH via EQS News",
-      "hub_relevance": "Long-term chronic electrode stability data is a reference point for the Hub's electrophysiology instrumentation work.",
-      "related_assets_raw": null,
-      "evidence_type": "Commercial product claim",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Company press release citing conference proceedings"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 7,
-      "record_id": "NN-20261026-006"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261026-009",
-     "visibility": "internal",
-     "title": "Noninvasive EEG BCI lets some unresponsive ICU patients modulate a tone",
-     "summary": "Columbia researchers tested a noninvasive EEG BCI in 41 clinically unresponsive patients with acute brain injury; after brief training about one in three could raise and lower the frequency of a beeping tone, including all patients with covert consciousness detected by a separate exam.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-10-22",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": false,
-     "link": "https://www.cuimc.columbia.edu/news/brain-computer-interface-may-give-unresponsive-icu-patients-voice",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 58,
-     "score_original": {
-      "value": "58",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-008",
-       "name": "ToneTTL",
-       "store_url": "https://neurotechhub.wustl.edu/items/tonettl-convert-an-audio-signal-to-a-digital-pulse/",
-       "github_url": null
-      }
-     ],
-     "people": [],
-     "details": {
-      "publisher": "Columbia University Irving Medical Center",
-      "hub_relevance": "Closed-loop auditory feedback driven by neural signals connects to the Hub's stimulus delivery and audio-to-TTL tooling.",
-      "related_assets_raw": "ToneTTL",
-      "evidence_type": "Peer-reviewed",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "University news release on a published study; journal DOI not captured"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 10,
-      "record_id": "NN-20261026-009"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261027-001",
-     "visibility": "internal",
-     "title": "Paradromics gets FDA approval to expand Connexus BCI study recruitment nationwide",
-     "summary": "FDA approved a protocol amendment to Paradromics' Connect-One early feasibility study that removes the rule that participants live within a four-hour drive of a site, opening recruitment nationwide at UC Davis Health, Mass General Brigham and University of Michigan Health. Connexus is a fully implantable, wireless intracortical BCI for restoring speech.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-10-26",
-     "date_discovered": "2026-10-27T03:45-05:00",
-     "date_updated": "2026-10-27T03:45-05:00",
-     "is_new": false,
-     "link": "https://paradromics.com/news/paradromics-receives-fda-approval-to-expand-connexus-brain-computer-interface-clinical-study-recruitment-nationwide/",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 58,
-     "score_original": {
-      "value": "58",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Paradromics (company newsroom; also Business Wire)",
-      "hub_relevance": "Shows the regulatory path for a fully implanted wireless high-channel recording system; useful context for the Hub's wireless electrophysiology and telemetry work.",
-      "related_assets_raw": null,
-      "evidence_type": "Regulatory",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Company press release dated 2026-10-26; also on Business Wire (20261026275192) and MobiHealthNews"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 14,
-      "record_id": "NN-20261027-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -597,252 +353,22 @@
     },
     {
      "source": "news",
-     "item_id": "news:NN-20261026-008",
+     "item_id": "news:NN-20261029-001",
      "visibility": "internal",
-     "title": "Coherence Neuro raises US$45M Series A co-led by Founders Fund and OpenAI Startup Fund for brain-tumour implant",
-     "summary": "Coherence Neuro announced a $45M Series A on 21 Oct 2026 to move toward a long-term trial of SOMA, an implant intended to monitor glioma recurrence and deliver stimulation; its temporary CIPHER probe has been used intraoperatively in three patients at Royal Melbourne Hospital.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-10-22",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": false,
-     "link": "https://insidebci.com/market/2026-10-22-coherence-neuro-45-million-openai-startup-fund-founders-fund-brain-tumour-implant/",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 55,
-     "score_original": {
-      "value": "55",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Inside BCI",
-      "hub_relevance": "Indicates investor appetite for implantable recording/stimulation hardware, relevant context for the Hub's neurotech commercialization activity.",
-      "related_assets_raw": null,
-      "evidence_type": "Preliminary announcement",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Secondary reporting of company funding announcement"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 9,
-      "record_id": "NN-20261026-008"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261027-002",
-     "visibility": "internal",
-     "title": "US Treasury proposes barring US investment in Chinese brain-computer interface companies under COINS Act rule",
-     "summary": "Treasury's proposed Outbound Investment Security Program rule (FR Doc 2026-21786) adds biotechnology as a prohibited-technology sector, including the development or production of brain-computer interfaces, so US persons would be barred from most new private investments in covered companies in countries of concern such as China. Comments are due 7 Dec 2026.",
-     "category": "Other",
-     "subcategory": null,
-     "date_published": "2026-10-26",
-     "date_discovered": "2026-10-27T03:45-05:00",
-     "date_updated": "2026-10-27T03:45-05:00",
-     "is_new": false,
-     "link": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 55,
-     "score_original": {
-      "value": "55",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Federal Register (US Treasury)",
-      "hub_relevance": "A major US policy move that defines BCIs as a national-security technology and could change neurotech funding and partnerships the Hub works within.",
-      "related_assets_raw": null,
-      "evidence_type": "Policy",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Treasury press release 2026-10-22 (sb0667); FR publication 2026-10-26; BCI analysis via Inside BCI 2026-10-24"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 15,
-      "record_id": "NN-20261027-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261027-003",
-     "visibility": "internal",
-     "title": "Beacon Biosignals acquires Snap Diagnostics to build national channel for EEG-enabled home sleep testing",
-     "summary": "Beacon Biosignals acquired Snap Diagnostics, a home sleep testing provider serving all 50 states, more than doubling its patient reach. It plans to roll out EEG-enabled home sleep testing with its FDA 510(k)-cleared Waveband headband starting in 2027.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-10-22",
-     "date_discovered": "2026-10-27T03:45-05:00",
-     "date_updated": "2026-10-27T03:45-05:00",
-     "is_new": false,
-     "link": "https://beacon.bio/news/beacon-biosignals-acquires-snap-diagnostics-paving-the-way-for-eeg-enabled-home-sleep-testing-in-every-care-setting",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 55,
-     "score_original": {
-      "value": "55",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Beacon Biosignals (company newsroom; also GlobeNewswire)",
-      "hub_relevance": "Consolidation in at-home EEG sleep monitoring is directly adjacent to the Hub's sleep/circadian and wearable-sensing interests.",
-      "related_assets_raw": null,
-      "evidence_type": "M&A",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Backfill: announced 2026-10-22 (just before the 72h window) and missed by the prior run; covered by Neurofounders 2026-10-26"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 16,
-      "record_id": "NN-20261027-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261027-004",
-     "visibility": "internal",
-     "title": "Emotiv launches emotiv.dev browser BCI apps, with real-headset use tied to consent for training its Large Brain Model",
-     "summary": "Emotiv launched emotiv.dev, with seven browser-based apps for its EEG headsets plus Cortex API learning material; a Build section is coming soon. Using a real headset requires consent to EmotivIQ, which lets Emotiv train and license its Large Brain Model on pseudonymised user EEG.",
-     "category": "Software & AI",
-     "subcategory": null,
-     "date_published": "2026-10-23",
-     "date_discovered": "2026-10-27T03:45-05:00",
-     "date_updated": "2026-10-27T03:45-05:00",
-     "is_new": false,
-     "link": "https://insidebci.com/news/2026-10-23-emotiv-dev-browser-bci-experiences-emotiviq-large-brain-model-consent/",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 48,
-     "score_original": {
-      "value": "48",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Inside BCI",
-      "hub_relevance": "A reference point for EEG developer tooling and neural-data consent terms, relevant to how the Hub handles data in its software and cloud pipelines.",
-      "related_assets_raw": null,
-      "evidence_type": "Product launch",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Secondary reporting citing Emotiv primary pages; published 2026-10-23, at the edge of the window"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 17,
-      "record_id": "NN-20261027-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261026-010",
-     "visibility": "internal",
-     "title": "WPI introduces EVOM Auto ElectroZ automated TEER plus impedance spectroscopy platform ahead of SfN 2026",
-     "summary": "WPI announced EVOM Auto ElectroZ, an automated high-throughput platform combining TEER with electrochemical impedance spectroscopy to report cellular TEER, transepithelial capacitance, and a membrane polarization (Tau) ratio, to be shown at Neuroscience 2026 (Nov 14-18).",
-     "category": "Scientific Hardware",
-     "subcategory": null,
-     "date_published": "2026-10-23T07:11-05:00",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": false,
-     "link": "https://wpiinc.com/blogs/all/introducing-evom%e2%84%a2-auto-electroz-at-the-society-for-neuroscience-2026",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 45,
-     "score_original": {
-      "value": "45",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "World Precision Instruments",
-      "hub_relevance": "Commercial benchmark for automated electrical measurement instruments, adjacent to the Hub's instrumentation engineering though not a direct product overlap.",
-      "related_assets_raw": null,
-      "evidence_type": "Commercial product claim",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 11,
-      "record_id": "NN-20261026-010"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261027-005",
-     "visibility": "internal",
-     "title": "UK defense startup NeuroDoctrine demonstrates EEG-headband control of drone swarms",
-     "summary": "NeuroDoctrine, a Manchester defense startup founded by Zied Tayeb, showed a non-invasive headband that reads visual-cortex signals and sends drone commands over Bluetooth. It has controlled up to 10 drones flying together, needs about six hours of calibration per user, and is raising funds.",
+     "title": "Neuralink reports an ALS participant hit 75 words per minute with its speech BCI in the first week",
+     "summary": "Neuralink said on 28 Oct 2026 that one participant with ALS in its VOICE speech-restoration trial reached 75 words per minute at a 5.8% word error rate on a 125,000-word vocabulary in their first week. The figures are company-reported, have not been peer-reviewed, and Neuralink did not say how many people are in the speech cohort.",
      "category": "Neurotechnology Products",
      "subcategory": null,
-     "date_published": "2026-10-26",
-     "date_discovered": "2026-10-27T03:45-05:00",
-     "date_updated": "2026-10-27T03:45-05:00",
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
      "is_new": false,
-     "link": "https://www.nationaldefensemagazine.org/articles/2026/10/26/uk-startup-demonstrates-controlling-drones-via-brain-signals",
+     "link": "https://teslanorth.com/2026/10/28/neuralink-als-patient-75-words-minute-week-one/",
      "secondary_links": [],
      "confidence": "medium",
-     "score": 42,
+     "score": 52,
      "score_original": {
-      "value": "42",
+      "value": "52",
       "scale": "0-100",
       "label": "relevance"
      },
@@ -854,20 +380,66 @@
      "product_matches": [],
      "people": [],
      "details": {
-      "publisher": "National Defense Magazine",
-      "hub_relevance": "Non-invasive BCI moving into military use; a possible defense-sector angle for the Hub's wearable and BLE engineering.",
+      "publisher": "Tesla North (citing Neuralink on X; also Inside BCI)",
+      "hub_relevance": "A new high-water mark for implanted speech BCIs, useful as market context for the Hub's wireless electrophysiology and telemetry work.",
       "related_assets_raw": null,
-      "evidence_type": "Company demonstration",
+      "evidence_type": "Company-reported clinical data",
       "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": "Trade press report of a company demo (late Sept); performance claims are company statements"
+      "review_notes": "Company X post 2026-10-28; Inside BCI covered it 2026-10-29 and says the data were presented at the 2026 NEALS meeting. Not peer-reviewed."
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 18,
-      "record_id": "NN-20261027-005"
+      "row": 22,
+      "record_id": "NN-20261029-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261029-002",
+     "visibility": "internal",
+     "title": "University of Utah sends home the first participant with the BIOS nerve-interface LUKE Arm in an at-home trial",
+     "summary": "Under an FDA IDE early feasibility study supported by spin-out Biologic Input Output Systems (BIOS), a participant with an arm amputation is the first to use Utah's LUKE Arm with the implanted BIOS direct nerve interface unsupervised at home. The interface gives thought control plus touch sensation, and he will be followed for one year. The interface received FDA Breakthrough Device designation in March 2024.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
+     "is_new": false,
+     "link": "https://www.ece.utah.edu/2026/10/28/jacob-georges-direct-nerve-interface-of-thought-controlled-luke-arm-at-tested-at-home/",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 41,
+     "score_original": {
+      "value": "41",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "University of Utah Electrical & Computer Engineering",
+      "hub_relevance": "A neural interface moving from lab-only to unsupervised home use is a reference point for the Hub's work on deployable, long-duration neural recording hardware.",
+      "related_assets_raw": null,
+      "evidence_type": "Clinical milestone",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "University news release on a trial milestone, not a paper; originally published by the Price College of Engineering"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 23,
+      "record_id": "NN-20261029-002"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -919,109 +491,17 @@
     },
     {
      "source": "news",
-     "item_id": "news:NN-20261026-011",
+     "item_id": "news:NN-20261029-003",
      "visibility": "internal",
-     "title": "NeuroXT receives FDA 510(k) clearance for NEXT-Cue AI software for MCI prognosis",
-     "summary": "NeuroXT announced FDA 510(k) clearance of NEXT-Cue, AI software that uses MRI with demographic and cognitive data to support prognostic assessment of progression from mild cognitive impairment.",
-     "category": "Software & AI",
+     "title": "Chinese ultrasound maker eSonic launches a functional-ultrasound BCI platform and signs a deal with researchers from Tanter's Paris lab",
+     "summary": "On 22 Oct 2026 Beijing-based eSonic announced a BCI platform built on its ePascal ultrafast ultrasound system and signed a Sino-French cooperation with Physics for Medicine Paris researchers Mathieu Pernot and Clement Papadacci. The company claims 25,000 frames/s through-skull acquisition but cites no supporting data, and no French institution is named as a party.",
+     "category": "Industry & Commercialization",
      "subcategory": null,
-     "date_published": "2026-10-20T07:00-05:00",
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
      "is_new": false,
-     "link": "https://www.prnewswire.com/news-releases/neuroxt-inc-receives-us-fda-510k-clearance-for-next-cue-ai-software-supporting-prognostic-assessment-in-mild-cognitive-impairment-302913386.html",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 38,
-     "score_original": {
-      "value": "38",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "NeuroXT via PR Newswire",
-      "hub_relevance": "Example of a regulatory path for AI neuro-analytics software, relevant context for the Hub's scientific software and commercialization interests.",
-      "related_assets_raw": null,
-      "evidence_type": "Commercial product claim",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 12,
-      "record_id": "NN-20261026-011"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261027-006",
-     "visibility": "internal",
-     "title": "China's NMPA approves Nurotron's first domestic auditory brainstem implant for young children",
-     "summary": "China's NMPA approved Zhejiang Nurotron's 16-electrode WH-01A auditory brainstem implant through its innovative-device pathway for children aged 2 to under 6 who cannot use cochlear implants. The regulator calls it China's first product that both stimulates and records brainstem neural signals.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-10-26",
-     "date_discovered": "2026-10-27T03:45-05:00",
-     "date_updated": "2026-10-27T03:45-05:00",
-     "is_new": false,
-     "link": "https://insidebci.com/news/2026-10-26-china-nmpa-approves-nurotron-auditory-brainstem-implant-children-wu-hao-shanghai-ninth/",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 38,
-     "score_original": {
-      "value": "38",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Inside BCI",
-      "hub_relevance": "Regulatory milestone for a stimulate-and-record neural implant, useful background on the neurostimulation market.",
-      "related_assets_raw": null,
-      "evidence_type": "Regulatory",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Approved 2026-10-19, NMPA notice 2026-10-20; Inside BCI coverage 2026-10-26"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 19,
-      "record_id": "NN-20261027-006"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261026-012",
-     "visibility": "internal",
-     "title": "Oxford Instruments to preview Imaris 12.0 image-analysis software at SfN 2026",
-     "summary": "Oxford Instruments' SfN 2026 event page says it will give an exclusive preview of Imaris 12.0 at booth 1001 ahead of official launch, highlighting a capability for building and validating reproducible analysis workflows across datasets.",
-     "category": "Software & AI",
-     "subcategory": null,
-     "date_published": null,
-     "date_discovered": "2026-10-26T05:45-05:00",
-     "date_updated": "2026-10-26T05:45-05:00",
-     "is_new": false,
-     "link": "https://www.oxinst.com/events/society-for-neuroscience-2026",
+     "link": "https://insidebci.com/news/2026-10-28-esonic-tanter-functional-ultrasound-bci-platform-beijing-sino-french/",
      "secondary_links": [],
      "confidence": "medium",
      "score": 35,
@@ -1038,20 +518,112 @@
      "product_matches": [],
      "people": [],
      "details": {
-      "publisher": "Oxford Instruments",
-      "hub_relevance": "Tracks reproducible-workflow trends in commercial microscopy analysis software relevant to the Hub's CV/scientific software work.",
+      "publisher": "Inside BCI",
+      "hub_relevance": "Shows functional-ultrasound neuroimaging being commercialized as a BCI platform, adding to the landscape of research neural-recording instruments the Hub tracks.",
       "related_assets_raw": null,
-      "evidence_type": "Preliminary announcement",
+      "evidence_type": "Partnership",
       "doi": null,
       "pmid": null,
       "bot_status": "new",
-      "review_notes": "Event page has no publication date"
+      "review_notes": "Backfill: announced 2026-10-22 (company press release via Sina Finance); Inside BCI analysis 2026-10-28. Relates to the US Treasury BCI outbound-investment rule (NN-20261027-002)."
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
       "tab": "News_Log",
-      "row": 13,
-      "record_id": "NN-20261026-012"
+      "row": 24,
+      "record_id": "NN-20261029-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261029-004",
+     "visibility": "internal",
+     "title": "Neumarker partners with a large Northern California health system on EEG-AI prediction of TMS response in depression",
+     "summary": "Neumarker announced a collaboration with the largest health system in Northern California to prospectively test whether its EEG foundation-model AI can predict which depression patients will respond to TMS.",
+     "category": "Software & AI",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
+     "is_new": false,
+     "link": "https://www.globenewswire.com/news-release/2026/10/28/3390106/0/en/neumarker-enter-collaboration-to-advance-precision-medicine-in-depression.html",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 33,
+     "score_original": {
+      "value": "33",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Neumarker via GlobeNewswire",
+      "hub_relevance": "Commercial use of EEG foundation models as a clinical biomarker, relevant context for the Hub's neural-signal software and AI work.",
+      "related_assets_raw": null,
+      "evidence_type": "Partnership",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Company press release, 2026-10-28 08:00 ET"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 25,
+      "record_id": "NN-20261029-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261029-005",
+     "visibility": "internal",
+     "title": "electroCore submits FDA 510(k) for its Quell wearable neuromodulation device in chronic chemotherapy-induced peripheral neuropathy",
+     "summary": "electroCore submitted a 510(k) seeking FDA clearance of Quell, its wearable nerve-stimulation device, for chronic chemotherapy-induced peripheral neuropathy. The company says the filing is backed by two studies with 168 subjects, which reported about 40% pain reduction versus 24-33% with sham.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-10-28",
+     "date_discovered": "2026-10-29T03:40-05:00",
+     "date_updated": "2026-10-29T03:40-05:00",
+     "is_new": false,
+     "link": "https://www.globenewswire.com/news-release/2026/10/28/3390124/0/en/electrocore-inc-submits-510-k-premarket-notification-to-fda-seeking-clearance-of-quell-for-the-treatment-of-chronic-chemotherapy-induced-peripheral-neuropathy-cipn.html",
+     "secondary_links": [],
+     "confidence": "high",
+     "score": 31,
+     "score_original": {
+      "value": "31",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "electroCore via GlobeNewswire",
+      "hub_relevance": "Shows the regulatory path for a wearable neurostimulator, background for the Hub's wearable and stimulus-delivery engineering.",
+      "related_assets_raw": null,
+      "evidence_type": "Regulatory",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "new",
+      "review_notes": "Submission only, not a clearance; efficacy figures are company-reported"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 26,
+      "record_id": "NN-20261029-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
@@ -1062,36 +634,36 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-10-29T03:48:00-05:00",
+   "last_refreshed": "2026-10-30T03:45:00-05:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 10/22-10/29; OpenAlex, Europe PMC and Crossref all ok (one OpenAlex 401 on pagination, worked around, no coverage loss). 777 screened, 351 new after dedupe (202 datasets), 14 analyzed. Added OPP-055 (Thakor, JHU tactile arena; Collab 65) and OPP-056 (Farzi, Graz; Sales 55); none at 70+. Atlas IDs filled on OPP-049..054 from 9 resolved requests (Relationships already present). 2 Atlas requests filed. Ward paper logged only (ACORN contact). No Brestoff/Dougherty hits.",
-   "next_run": "2026-10-30 03:30 CT",
-   "rows_added_last_run": 2,
-   "new_items_count": 2,
+   "last_run_note": "Window 10/23-10/30; OpenAlex, Europe PMC and Crossref all ok (same OpenAlex 401 on one author chunk's cursor page, re-run in sub-chunks, no coverage loss). 772 screened, 619 dupes by DOI + 26 by title, 125 new non-dataset, 9 analyzed. Added OPP-057 (Borst, Erasmus MC, ultrasonic noise in mouse facility; Collab 55, Sales 40). None at 70+. Atlas IDs filled on OPP-055/056 from resolved requests (Relationships already present). 1 Atlas request filed (REQ-OPP-OPP-057). No pending evaluations. No Brestoff/Dougherty or Outreach Log hits.",
+   "next_run": "2026-10-31 ~3:30 AM CT",
+   "rows_added_last_run": 1,
+   "new_items_count": 1,
    "no_new_items": false,
-   "visible_count": 20,
+   "visible_count": 21,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
     {
      "source": "opportunity",
-     "item_id": "opportunity:OPP-055",
+     "item_id": "opportunity:OPP-057",
      "visibility": "internal",
-     "title": "Scalable high-density tactile arenas for measuring ground-contact forces in freely moving animals",
-     "summary": "Direct, paw-resolved ground-contact force measurement in freely moving rodents (stated: existing dense sensing architectures trade off area, resolution, acquisition speed and hardware complexity).",
+     "title": "An accidental ultrasonic noise source in the mouse facility activating a band of neurons in the inferior colliculus",
+     "summary": "Routine detection of ultrasonic noise contamination in rodent housing (authors' stated recommendation that animal facilities routinely check for ultrasonic noise).",
      "category": "Research Lead",
      "subcategory": "Custom engineering collaboration",
-     "date_published": "2026-10-25",
-     "date_discovered": "2026-10-29",
-     "date_updated": "2026-10-29",
+     "date_published": "2026-10-23",
+     "date_discovered": "2026-10-30",
+     "date_updated": "2026-10-30",
      "is_new": true,
-     "link": "https://doi.org/10.64898/2026.10.22.760735",
+     "link": "https://doi.org/10.1016/j.bbr.2026.116541",
      "secondary_links": [],
      "confidence": "medium",
-     "score": 65,
+     "score": 55,
      "score_original": {
-      "sales": "35",
-      "collab": "65",
+      "sales": "40",
+      "collab": "55",
       "scale": "0-100",
       "normalized_as": "max(sales,collab)"
      },
@@ -1099,21 +671,15 @@
      "matt_feedback": null,
      "next_review_date": null,
      "atlas_ids": [
-      "ATL-000603"
+      "ATL-000607"
      ],
      "related_items": [],
      "product_matches": [
       {
-       "product_id": "PRD-004",
-       "name": "Motorized Rodent Treadmill",
-       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
-       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
-      },
-      {
-       "product_id": "PRD-005",
-       "name": "Tensioned Rodent Unloading Support System (TRUSS)",
-       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
-       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
       },
       {
        "product_id": "PRD-034",
@@ -1124,120 +690,30 @@
      ],
      "people": [
       {
-       "name": "Nitish V. Thakor",
-       "institution": "Johns Hopkins University",
-       "atlas_id": "ATL-000603",
-       "role_note": "last author"
-      },
-      {
-       "name": "Weiwen Lu",
-       "institution": "Johns Hopkins University",
-       "atlas_id": null,
-       "role_note": "first author"
-      }
-     ],
-     "details": {
-      "washu": "No",
-      "preprint": "Yes",
-      "doi": "10.64898/2026.10.22.760735",
-      "facts": "Stated (abstract + CC BY full text): 16,384-taxel modular runway (2-mm pitch, 512 x 128 mm, nominal 1 kHz) with adaptive compressive sampling and synchronized overhead video; Teensy 4.1 readout boards; detected injured-hindlimb unloading and contralateral compensation in a longitudinal rat sciatic nerve injury model. Hardware (KiCad, BOM) released under CERN OHL-P v2, software MIT. Authors' stated limitations: calibration on board-level summed responses, absolute loading error ~5-8% of body mass; 2-mm pitch.",
-      "inferences": "Open hardware with a full BOM could suit Hub fabrication/electronics services for labs wanting to replicate it; ground-contact loading could serve as a readout for TRUSS weight-unloading or treadmill rehabilitation studies. Not stated by the authors; no stated demand or purchasing intent.",
-      "product_matches_raw": "Engineering and prototyping services; Tensioned Rodent Unloading Support System (TRUSS); Motorized Rodent Treadmill",
-      "recommended_action": "Human review; possible technical collaboration (TRUSS unloading validation or replication kits). No outreach from Scout.",
-      "needs_human_review": "Yes",
-      "review_note": "bioRxiv preprint (CC BY); full text read. Sales low (no direct store product). Not in Outreach Log; no existing-relationship overlap. Not in Atlas; resolution request REQ-OPP-OPP-055 filed. Sales rubric: fit 10, recurring 5, organism 15, access 5, gap 0. Collab: instr 25, gap 10, topic 15, proximity 5, open 10.",
-      "bot_state": "New",
-      "analysis_date": "2026-10-29"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
-      "tab": "Opportunities",
-      "row": 20,
-      "record_id": "OPP-055"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "opportunity",
-     "item_id": "opportunity:OPP-056",
-     "visibility": "internal",
-     "title": "Intranasal neuropeptide Y suppresses food intake, reduces sucrose preference and increases circulating corticosterone in obese mice",
-     "summary": "Repeated sucrose intake / sucrose preference and food intake measurements in mice at 3, 24 and 48 h after treatment (stated assays).",
-     "category": "Research Lead",
-     "subcategory": "Existing product sales",
-     "date_published": "2026-10-22",
-     "date_discovered": "2026-10-29",
-     "date_updated": "2026-10-29",
-     "is_new": true,
-     "link": "https://doi.org/10.1016/j.neurot.2026.e01100",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 55,
-     "score_original": {
-      "sales": "55",
-      "collab": "30",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000604"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
-      },
-      {
-       "product_id": "PRD-009",
-       "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
-       "github_url": null
-      },
-      {
-       "product_id": "PRD-015",
-       "name": "FED4 (Feeding Experimentation Device 4)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED4"
-      },
-      {
-       "product_id": "PRD-035",
-       "name": "FED3 (Feeding Experimentation Device 3)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED3"
-      }
-     ],
-     "people": [
-      {
-       "name": "Aitak Farzi",
-       "institution": "Medical University of Graz",
-       "atlas_id": "ATL-000604",
-       "role_note": "last author"
+       "name": "J. Gerard G. Borst",
+       "institution": "Erasmus MC (Rotterdam)",
+       "atlas_id": "ATL-000607",
+       "role_note": "last/corresponding author"
       }
      ],
      "details": {
       "washu": "No",
       "preprint": "No",
-      "doi": "10.1016/j.neurot.2026.e01100",
-      "facts": "Stated (abstract): HFD vs control C57BL/6J mice; light/dark box, splash test, sucrose intake and sucrose preference; intranasal NPY reduced sucrose intake and SP at 3 h in HFD mice and food intake/body weight at 3 h regardless of diet; effects absent in Npy2r-deficient mice. Bottle/intake hardware not stated. Abstract only (Europe PMC lists not OA; full text not read).",
-      "inferences": "Sucrose preference is a two-bottle choice assay, so Two-bottle Sipper Hub or FlightCap could fit; FED3/FED4 could fit the timed food-intake readout (collaboration only). Measurement method unknown; no stated gap or purchasing intent.",
-      "product_matches_raw": "Two-bottle Sipper Hub; FlightCap Lick and Liquid Sensor; FED3 (Feeding Experimentation Device 3); FED4 (Feeding Experimentation Device 4)",
-      "recommended_action": "Human review; Sipper Hub/FlightCap ingestive-behavior segment. No outreach from Scout.",
+      "doi": "10.1016/j.bbr.2026.116541",
+      "facts": "Stated (abstract, Behavioural Brain Research, CC BY): mouse housing room found polluted by an ultrasonic beep from a radio; the beep (and a matched-frequency tone) activated a tonotopic band of inferior colliculus neurons in TRAP2 mice (c-fos); a similar ultrasonic tone was found in more than half of commercially available radios tested; authors recommend facilities routinely check for ultrasonic noise to improve welfare and reproducibility. Detection/recording hardware not stated in abstract; full text not read.",
+      "inferences": "A low-cost, continuously logging ultrasonic noise monitor for animal rooms/home cages could be a Hub custom-engineering or Hublink-sensor collaboration. Inference only: authors do not state a tooling gap, a device need or any purchasing intent; no Hub catalog product currently measures ultrasound.",
+      "product_matches_raw": "Engineering and prototyping services; Hublink",
+      "recommended_action": "Human review; possible collaboration on an ultrasonic facility/home-cage noise monitor. No outreach from Scout.",
       "needs_human_review": "Yes",
-      "review_note": "Journal article, abstract only; intake method unstated. International (Austria). Not in Outreach Log; no existing-relationship overlap. Not in Atlas; resolution request REQ-OPP-OPP-056 filed. Sales rubric: fit 25, recurring 10, organism 15, access 5, gap 0. Collab: instr 10, gap 0, topic 15, proximity 0, open 5.",
+      "review_note": "Journal article (CC BY), abstract only. International (Netherlands). Not in Outreach Log; no existing-relationship overlap. Not in Atlas; resolution request REQ-OPP-OPP-057 filed. Sales rubric: fit 10, recurring 5, organism 15, access 5, gap 5. Collab: instr 15, gap 15, topic 15, proximity 0, open 10.",
       "bot_state": "New",
-      "analysis_date": "2026-10-29"
+      "analysis_date": "2026-10-30"
      },
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
       "tab": "Opportunities",
-      "row": 21,
-      "record_id": "OPP-056"
+      "row": 22,
+      "record_id": "OPP-057"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -1932,6 +1408,90 @@
     },
     {
      "source": "opportunity",
+     "item_id": "opportunity:OPP-055",
+     "visibility": "internal",
+     "title": "Scalable high-density tactile arenas for measuring ground-contact forces in freely moving animals",
+     "summary": "Direct, paw-resolved ground-contact force measurement in freely moving rodents (stated: existing dense sensing architectures trade off area, resolution, acquisition speed and hardware complexity).",
+     "category": "Research Lead",
+     "subcategory": "Custom engineering collaboration",
+     "date_published": "2026-10-25",
+     "date_discovered": "2026-10-29",
+     "date_updated": "2026-10-30",
+     "is_new": false,
+     "link": "https://doi.org/10.64898/2026.10.22.760735",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 65,
+     "score_original": {
+      "sales": "35",
+      "collab": "65",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000603"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-004",
+       "name": "Motorized Rodent Treadmill",
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
+      },
+      {
+       "product_id": "PRD-005",
+       "name": "Tensioned Rodent Unloading Support System (TRUSS)",
+       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Nitish V. Thakor",
+       "institution": "Johns Hopkins University",
+       "atlas_id": "ATL-000603",
+       "role_note": "last author"
+      },
+      {
+       "name": "Weiwen Lu",
+       "institution": "Johns Hopkins University",
+       "atlas_id": null,
+       "role_note": "first author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.10.22.760735",
+      "facts": "Stated (abstract + CC BY full text): 16,384-taxel modular runway (2-mm pitch, 512 x 128 mm, nominal 1 kHz) with adaptive compressive sampling and synchronized overhead video; Teensy 4.1 readout boards; detected injured-hindlimb unloading and contralateral compensation in a longitudinal rat sciatic nerve injury model. Hardware (KiCad, BOM) released under CERN OHL-P v2, software MIT. Authors' stated limitations: calibration on board-level summed responses, absolute loading error ~5-8% of body mass; 2-mm pitch.",
+      "inferences": "Open hardware with a full BOM could suit Hub fabrication/electronics services for labs wanting to replicate it; ground-contact loading could serve as a readout for TRUSS weight-unloading or treadmill rehabilitation studies. Not stated by the authors; no stated demand or purchasing intent.",
+      "product_matches_raw": "Engineering and prototyping services; Tensioned Rodent Unloading Support System (TRUSS); Motorized Rodent Treadmill",
+      "recommended_action": "Human review; possible technical collaboration (TRUSS unloading validation or replication kits). No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "bioRxiv preprint (CC BY); full text read. Sales low (no direct store product). Not in Outreach Log; no existing-relationship overlap. Not in Atlas; resolution request REQ-OPP-OPP-055 filed. Sales rubric: fit 10, recurring 5, organism 15, access 5, gap 0. Collab: instr 25, gap 10, topic 15, proximity 5, open 10.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-29"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 20,
+      "record_id": "OPP-055"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
      "item_id": "opportunity:OPP-010",
      "visibility": "internal",
      "title": "lickcalc : Easy Analysis of Lick Microstructure in Experiments of Rodent Ingestive Behaviour",
@@ -2566,6 +2126,90 @@
       "tab": "Opportunities",
       "row": 5,
       "record_id": "OPP-005"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-056",
+     "visibility": "internal",
+     "title": "Intranasal neuropeptide Y suppresses food intake, reduces sucrose preference and increases circulating corticosterone in obese mice",
+     "summary": "Repeated sucrose intake / sucrose preference and food intake measurements in mice at 3, 24 and 48 h after treatment (stated assays).",
+     "category": "Research Lead",
+     "subcategory": "Existing product sales",
+     "date_published": "2026-10-22",
+     "date_discovered": "2026-10-29",
+     "date_updated": "2026-10-30",
+     "is_new": false,
+     "link": "https://doi.org/10.1016/j.neurot.2026.e01100",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 55,
+     "score_original": {
+      "sales": "55",
+      "collab": "30",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000604"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-007",
+       "name": "FlightCap Lick and Liquid Sensor",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
+       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
+      },
+      {
+       "product_id": "PRD-009",
+       "name": "Two-bottle Sipper Hub",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
+       "github_url": null
+      },
+      {
+       "product_id": "PRD-015",
+       "name": "FED4 (Feeding Experimentation Device 4)",
+       "store_url": null,
+       "github_url": "https://github.com/KravitzLabDevices/FED4"
+      },
+      {
+       "product_id": "PRD-035",
+       "name": "FED3 (Feeding Experimentation Device 3)",
+       "store_url": null,
+       "github_url": "https://github.com/KravitzLabDevices/FED3"
+      }
+     ],
+     "people": [
+      {
+       "name": "Aitak Farzi",
+       "institution": "Medical University of Graz",
+       "atlas_id": "ATL-000604",
+       "role_note": "last author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.1016/j.neurot.2026.e01100",
+      "facts": "Stated (abstract): HFD vs control C57BL/6J mice; light/dark box, splash test, sucrose intake and sucrose preference; intranasal NPY reduced sucrose intake and SP at 3 h in HFD mice and food intake/body weight at 3 h regardless of diet; effects absent in Npy2r-deficient mice. Bottle/intake hardware not stated. Abstract only (Europe PMC lists not OA; full text not read).",
+      "inferences": "Sucrose preference is a two-bottle choice assay, so Two-bottle Sipper Hub or FlightCap could fit; FED3/FED4 could fit the timed food-intake readout (collaboration only). Measurement method unknown; no stated gap or purchasing intent.",
+      "product_matches_raw": "Two-bottle Sipper Hub; FlightCap Lick and Liquid Sensor; FED3 (Feeding Experimentation Device 3); FED4 (Feeding Experimentation Device 4)",
+      "recommended_action": "Human review; Sipper Hub/FlightCap ingestive-behavior segment. No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Journal article, abstract only; intake method unstated. International (Austria). Not in Outreach Log; no existing-relationship overlap. Not in Atlas; resolution request REQ-OPP-OPP-056 filed. Sales rubric: fit 25, recurring 10, organism 15, access 5, gap 0. Collab: instr 10, gap 0, topic 15, proximity 0, open 5.",
+      "bot_state": "New",
+      "analysis_date": "2026-10-29"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 21,
+      "record_id": "OPP-056"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -4311,267 +3955,17 @@
    "title": "Product Leads",
    "source": "ACORN - Leads",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-10-29T03:47:00-05:00",
+   "last_refreshed": "2026-10-30T04:40:00-05:00",
    "last_run_status": "ok",
-   "last_run_note": "Added ACN-032..034 (3 Atlas resolution requests filed); filled Atlas IDs for ACN-030/031 in Leads and Osiejuk in Outreach Log. Two Atlas-ID cells were first written one row off (Leads P19, Outreach Log B35) and immediately restored and verified. Thin candidate pool; only 3 strong leads.",
-   "next_run": "ACORN lead finder daily 3:30 AM CT",
-   "rows_added_last_run": 3,
-   "new_items_count": 3,
-   "no_new_items": false,
-   "visible_count": 6,
+   "last_run_note": "Added Market column to Leads (backfilled 36 rows); added ACN-037..041 (2 Academic, 1 Conservation, 1 Government, 1 Consulting); filled Atlas IDs for ACN-035/036; 5 Atlas requests filed. Skipped Audubon Seabird Institute (sells own sound systems).",
+   "next_run": "2026-10-31 ~3:30 AM CT",
+   "rows_added_last_run": 5,
+   "new_items_count": 0,
+   "no_new_items": true,
+   "visible_count": 1,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-032",
-     "visibility": "internal",
-     "title": "Yuliana Bedolla-Guzmán, Grupo de Ecología y Conservación de Islas (GECI), Ensenada, Mexico",
-     "summary": "Leads GECI's seabird restoration program on Mexico's Pacific islands, using social attraction (decoys, mirrors, colony-call playback) after invasive-mammal eradication; per Bedolla, the sound systems are an amplifier plus loudspeakers on solar panels, set up each spring and run day or night until the birds leave (Mexico News Daily). The 2026 Pacific Rim feasibility guide describes these systems as file player + amp + battery + solar + charge controller in a weatherproof box. Large multi-island, multi-donor program. FLAG: same seabird social-attraction niche as VanderWerf (ACN-002); GECI and Pacific Rim likely collaborate.",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-29",
-     "date_updated": "2026-10-29",
-     "is_new": true,
-     "link": "https://islas.org.mx/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 83,
-     "score_original": {
-      "value": "0.83",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "5",
-       "need": "5",
-       "funding": "3"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000605"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Yuliana Bedolla-Guzmán",
-       "institution": "Grupo de Ecología y Conservación de Islas (GECI), Ensenada, Mexico",
-       "atlas_id": "ATL-000605",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": false
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 3,
-      "record_id": "ACN-032"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-033",
-     "visibility": "internal",
-     "title": "Gary Slater, Ecostudies Institute (Olympia, WA)",
-     "summary": "Executive Director; Ecostudies ran Oregon vesper sparrow conspecific-attraction playback stations 2022-2025 at South Puget Sound prairies (Mazama Meadows, Deschutes Prairie, Glacial Heritage, Scatter Creek, West Rocky Prairie), funded by American Bird Conservancy, Wildlife Forever Fund and a Competitive State Wildlife Grant (2024 OVSP Working Group minutes). Partners with Joint Base Lewis-McChord, a military-base angle. Exact station gear not published. FLAG: same conspecific-attraction niche as Ward (ACN-001), Kus (ACN-015) and Schofield (ACN-016).",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-29",
-     "date_updated": "2026-10-29",
-     "is_new": true,
-     "link": "https://ecoinst.org/conservation-programs/avian-conservation/oregon-vesper-sparrow/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 75,
-     "score_original": {
-      "value": "0.75",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "5",
-       "need": "4",
-       "funding": "3"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Gary Slater",
-       "institution": "Ecostudies Institute (Olympia, WA)",
-       "atlas_id": null,
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": false
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 4,
-      "record_id": "ACN-033"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-034",
-     "visibility": "internal",
-     "title": "Dustin Ranglack, USDA APHIS National Wildlife Research Center (Utah Field Station, Millville)",
-     "summary": "Predator Project Leader testing nonlethal tools for wolf and mountain lion conflict; his team added speakers to drones to haze wolves from cattle in Oregon (human voices worked best; Global Ecol Conserv 2024/25) and is now evaluating which sounds work (gunshots, music). Gear: drone-mounted speakers with frequent battery swaps; a fixed, triggered playback node could extend this to pastures. Federal research budget. FLAG: same sound-deterrent niche as Seiler (ACN-029) and Kuijper (ACN-003).",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-29",
-     "date_updated": "2026-10-29",
-     "is_new": true,
-     "link": "https://www.aphis.usda.gov/national-wildlife-programs/nwrc/careers/nwrc-research-scientists-dr-dustin-h-ranglack-phd",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 67,
-     "score_original": {
-      "value": "0.67",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "3",
-       "need": "4",
-       "funding": "5"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000606"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Dustin Ranglack",
-       "institution": "USDA APHIS National Wildlife Research Center (Utah Field Station, Millville)",
-       "atlas_id": "ATL-000606",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": false
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 5,
-      "record_id": "ACN-034"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-031",
-     "visibility": "internal",
-     "title": "Michael J. Sheriff, University of Massachusetts Dartmouth",
-     "summary": "Runs multi-day predator-call and road-noise playback on free-living small mammals: owl calls (barred, great horned, screech) broadcast day and night on a 4-days-on/4-days-off schedule at ~80 dB from two speakers per trapping grid (Ganci et al., Proc B 2025), plus road-noise x predation-risk playbacks (J Zool 2023 Paper of the Year). Current gear: Kicker KB6000 Bluetooth speakers. Funding: Wild Animal Initiative $60K grant (road noise, juvenile mice) plus other grants. FLAG: same predator-fear playback niche as Orrock (ACN-020) and Kuijper (ACN-003); co-author with Gaynor et al. 2024 Ecol Lett (no overlap with tracked leads found).",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-28",
-     "date_updated": "2026-10-28",
-     "is_new": false,
-     "link": "https://michaeljsheriff.weebly.com/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 83,
-     "score_original": {
-      "value": "0.83",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "5",
-       "need": "5",
-       "funding": "3"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000602"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Michael J. Sheriff",
-       "institution": "University of Massachusetts Dartmouth",
-       "atlas_id": "ATL-000602",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": true
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 2,
-      "record_id": "ACN-031"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
     {
      "source": "acorn",
      "item_id": "acorn:ACN-028",
@@ -4630,80 +4024,16 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 35,
+      "row": 41,
       "record_id": "ACN-028"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-029",
-     "visibility": "internal",
-     "title": "Andreas Seiler, Swedish University of Agricultural Sciences (SLU), Grimsö",
-     "summary": "Leads Trafikverket-funded railway wildlife-warning trials: camera/motion-triggered speakers playing human voices to deter moose and deer (MASS/DASS units; VILTVARNING report 2024). This is exactly the camera-trap-triggered playback researchers keep asking for, and the program buys at agency scale. Uses commercially built HuntTrap units, so need is moderate. FLAG: same ungulate-fear niche as Kuijper (ACN-003); SLU colleagues have co-authored with Kuijper and Zanette.",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-10-27",
-     "date_updated": "2026-10-27",
-     "is_new": false,
-     "link": "https://www.slu.se/en/profilepages/s/andreas-seiler/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 58,
-     "score_original": {
-      "value": "0.58",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "4",
-       "need": "2",
-       "funding": "4"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000592"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Andreas Seiler",
-       "institution": "Swedish University of Agricultural Sciences (SLU), Grimsö",
-       "atlas_id": "ATL-000592",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": false
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 6,
-      "record_id": "ACN-029"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ],
    "pipeline_counts": {
-    "Open": 5,
     "Skipped": 1,
     "Interested": 7,
-    "Contacted": 18,
+    "Contacted": 30,
     "Passed": 2
    }
   }
@@ -4777,7 +4107,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 7,
+      "row": 2,
       "record_id": "ACN-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4846,7 +4176,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 8,
+      "row": 3,
       "record_id": "ACN-015"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4915,7 +4245,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 12,
+      "row": 9,
       "record_id": "ACN-002"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -4984,7 +4314,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 13,
+      "row": 10,
       "record_id": "ACN-003"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5053,7 +4383,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 14,
+      "row": 11,
       "record_id": "ACN-004"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5122,7 +4452,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 15,
+      "row": 12,
       "record_id": "ACN-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5191,7 +4521,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 16,
+      "row": 13,
       "record_id": "ACN-006"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5260,7 +4590,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 17,
+      "row": 14,
       "record_id": "ACN-007"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5329,7 +4659,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 18,
+      "row": 15,
       "record_id": "ACN-008"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5398,7 +4728,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 11,
+      "row": 8,
       "record_id": "ACN-017"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5605,7 +4935,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 25,
+      "row": 27,
       "record_id": "ACN-011"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5674,7 +5004,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 26,
+      "row": 28,
       "record_id": "ACN-012"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5743,7 +5073,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 24,
+      "row": 26,
       "record_id": "ACN-018"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5812,7 +5142,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 31,
+      "row": 37,
       "record_id": "ACN-013"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -5935,7 +5265,12 @@
     "Hub - Funding Scout OPP-014 (Anna Kay Radke): not_found",
     "Hub - Funding Scout OPP-016 (Ben N Greenwood): not_found",
     "Hub - Funding Scout OPP-017 (KC Kent Lloyd): ambiguous",
-    "ACORN - Leads ACN-033 (Gary Slater): not_found"
+    "ACORN - Leads ACN-033 (Gary Slater): not_found",
+    "ACORN - Leads ACN-037 (Linda Welch): open",
+    "ACORN - Leads ACN-038 (Allen F. Evans): open",
+    "ACORN - Leads ACN-039 (Neil R. Jordan): open",
+    "ACORN - Leads ACN-040 (Richard Buchholz): open",
+    "ACORN - Leads ACN-041 (Erin Rogers): open"
    ]
   },
   {
