@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-06T05:10:12-06:00",
+ "generated_at": "2026-11-07T05:03:30-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-06",
+ "edition_date": "2026-11-07",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -51,10 +51,10 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-06T03:35:00-06:00",
+   "last_refreshed": "2026-11-07T03:40:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "48 candidates reviewed, 18 duplicates skipped, 0 failures. Inserted NN-20261106-001 (Neuros Medical ALTIUS Medicare TPT, 44) and NN-20261106-002 (EmotionHelper EEG foundation-model seed, 42). Added 2 Sources. No item scored 90 or higher.",
-   "next_run": "2026-11-07 03:30 America/Chicago",
+   "last_run_note": "52 candidates reviewed, 22 duplicates skipped, 2 inserted (NeuroBionics ARIA £4.6M score 63; Samphire PMDD indication score 46). 3 Sources added. No item >=90. 0 fetch/sheet failures.",
+   "next_run": "Sunday Nov 8, 2026 3:30 AM CT",
    "rows_added_last_run": 2,
    "new_items_count": 2,
    "no_new_items": false,
@@ -62,6 +62,105 @@
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261107-001",
+     "visibility": "internal",
+     "title": "NeuroBionics awarded £4.6M ARIA grant to scale hair-thin endovascular deep brain stimulation",
+     "summary": "NeuroBionics received a £4.6 million grant from the UK Advanced Research + Invention Agency under its £50M Massively Scalable Neurotechnologies programme to accelerate a hair-thin endovascular neuromodulation device delivered through blood vessels. The 36-month project with Oxford, Imperial College London, and the Royal Veterinary College will adapt the evStim platform for brain vasculature, develop targeting models, and run preclinical safety and efficacy work ahead of clinical translation.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-05",
+     "date_discovered": "2026-11-07T03:40-06:00",
+     "date_updated": "2026-11-07T03:40-06:00",
+     "is_new": true,
+     "link": "https://neurobionics.io/press/news/aria-grant-award/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 63,
+     "score_original": {
+      "value": "63",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-026",
+       "name": "Creed DBS",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/Creed-DBS-SiLabs"
+      }
+     ],
+     "people": [],
+     "details": {
+      "publisher": "NeuroBionics",
+      "hub_relevance": "Relevant to Hub interest in neural interfaces and DBS engineering (portfolio includes Creed DBS work); endovascular, minimally invasive neuromodulation is a major industry direction adjacent to lab neurotech.",
+      "related_assets_raw": "Creed DBS",
+      "evidence_type": "press_release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 56,
+      "record_id": "NN-20261107-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261107-002",
+     "visibility": "internal",
+     "title": "Samphire Headband (Nettle) gets expanded UK/EU indication for PMDD anxiety after ADAPT study",
+     "summary": "Samphire Neuroscience announced UK/EU approval expanding the CE-marked Samphire Headband (Nettle) from PMS/period-pain use to assisting management of PMDD mood symptoms, specifically anxiety improvement on GAD-7. The expansion follows the independent ADAPT home tDCS study (n=42; Queen Mary University of London), which reported a 6.4-point vs 2.1-point GAD-7 drop for active vs sham after three cycles (p=0.008).",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-05",
+     "date_discovered": "2026-11-07T03:40-06:00",
+     "date_updated": "2026-11-07T03:40-06:00",
+     "is_new": true,
+     "link": "https://www.samphireneuro.com/blog/samphire-headband-pmdd-approval",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 46,
+     "score_original": {
+      "value": "46",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Samphire Neuroscience",
+      "hub_relevance": "Consumer at-home tDCS neuromodulation product news; limited direct overlap with Hub rodent hardware/store SKUs, but useful industry signal on wearable brain-stimulation commercialization.",
+      "related_assets_raw": null,
+      "evidence_type": "press_release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 57,
+      "record_id": "NN-20261107-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261106-001",
@@ -73,7 +172,7 @@
      "date_published": "2026-11-05",
      "date_discovered": "2026-11-06T03:35-06:00",
      "date_updated": "2026-11-06T03:35-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.prnewswire.com/news-releases/neuros-medical-announces-cms-final-rule-granting-medicare-transitional-pass-through-status-for-the-altius-system-in-2027-calendar-year-rulemaking-302930685.html",
      "secondary_links": [],
      "confidence": "high",
@@ -119,7 +218,7 @@
      "date_published": "2026-11-06",
      "date_discovered": "2026-11-06T03:35-06:00",
      "date_updated": "2026-11-06T03:35-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.vcbeathealth.com/article/64107",
      "secondary_links": [],
      "confidence": "medium",
@@ -344,98 +443,6 @@
       "record_id": "NN-20261105-004"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261104-001",
-     "visibility": "internal",
-     "title": "Shanghai invasive-BCI startup Active Technology (主动科技) raises RMB 464M Angel+ round, bringing total angel funding to about RMB 800M",
-     "summary": "Active Technology, founded in February 2026, closed a RMB 464 million Angel+ round led by Gaorong Ventures, SDIC Pilot Fund and Shanghai Technology Venture Capital, with existing investors including DT Capital and BGI Songhe following on. Together with its RMB 330 million angel round announced in August, total angel funding is about RMB 800 million, reported as a record for a Chinese BCI angel round.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-04",
-     "date_discovered": "2026-11-04T03:38-06:00",
-     "date_updated": "2026-11-04T03:38-06:00",
-     "is_new": false,
-     "link": "https://eu.36kr.com/en/newsflashes/4054838043693954",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 47,
-     "score_original": {
-      "value": "47",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "36Kr",
-      "hub_relevance": "This is another large state-linked raise for a Chinese full-stack invasive BCI company building flexible electrodes, custom chips and 1,024-channel systems, which shows how fast Chinese capital is moving into high-channel-count implant hardware.",
-      "related_assets_raw": null,
-      "evidence_type": "Funding",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Verified 36Kr newsflash (2026-11-04). Corroborated by Sina/投中网 https://finance.sina.cn/tech/2026-11-04/detail-inixqaaw6219300.d.html (founded Feb 2026; Aug 3 angel RMB 330M; motor/vision/emotion product lines). Inside BCI (Aug) reports 1,024-ch 'Tianshu' motor system has a type inspection report."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 46,
-      "record_id": "NN-20261104-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261104-002",
-     "visibility": "internal",
-     "title": "Stanford launches Digital Brain Project to build open brain foundation models from 7T MRI and wearable OPM-MEG data",
-     "summary": "Stanford's Wu Tsai Neurosciences Institute launched a five-year Digital Brain Project, with lead philanthropic support from Mark and Mary Stevens and Clara Wu Tsai, to collect large-scale human brain data using 7T MRI and wearable OPM-MEG and use it to train brain foundation models. Stanford says the data and models will be openly shared through standards such as BIDS/OpenNeuro.",
-     "category": "Software & AI",
-     "subcategory": null,
-     "date_published": "2026-11-02",
-     "date_discovered": "2026-11-04T03:38-06:00",
-     "date_updated": "2026-11-04T03:38-06:00",
-     "is_new": false,
-     "link": "https://news.stanford.edu/stories/2026/11/stanford-digital-brain-project",
-     "secondary_links": [],
-     "confidence": "high",
-     "score": 46,
-     "score_original": {
-      "value": "46",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Stanford Report",
-      "hub_relevance": "Open, large-scale brain foundation models and datasets built with wearable OPM-MEG could become reference resources and benchmarks for Hub neural-data analysis and AI tooling work.",
-      "related_assets_raw": null,
-      "evidence_type": "Funding",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "new",
-      "review_notes": "Institutional initiative/philanthropic launch, not a paper. Also covered by Inside BCI on 2026-11-04."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 47,
-      "record_id": "NN-20261104-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -444,13 +451,13 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-06T03:45:00-06:00",
+   "last_refreshed": "2026-11-07T03:45:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 2026-10-30..11-06. Sources ok (OpenAlex Atlas 80, topics 267, EPMC 109, Crossref 283). Screened 702; DOI-dupes 573; title-dupes 10; kept 119. Added OPP-064 (cage-position phenotyping / Hub Wheel+BEAM3 light logging; sales 55 collab 55 medium). Updated OPP-062/063 Atlas IDs from resolved REQ-OPP-OPP-062/063. Filed REQ-OPP-OPP-064 and -B. Pending evaluations all done. No ER/outreach overlaps. Products not edited.",
-   "next_run": "2026-11-07 ~03:30 CT",
-   "rows_added_last_run": 1,
-   "new_items_count": 1,
-   "no_new_items": false,
+   "last_run_note": "Window 2026-10-31..11-07. Sources ok (OpenAlex Atlas 87, topics 274, EPMC 80, Crossref 283). Screened 691; DOI-dupes 566; title-dupes 9; kept 116; 6 analyzed; 0 added (none met >=50 + medium). Updated OPP-064 Atlas ID ATL-000643; ATL-000644 (relationships already present). No Brestoff/Dougherty hits; Pick (ATL-000644) and McCutcheon (ATL-000182) papers logged only. Products tab re-read only. Next opp_id OPP-065.",
+   "next_run": null,
+   "rows_added_last_run": 0,
+   "new_items_count": 0,
+   "no_new_items": true,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
@@ -465,8 +472,8 @@
      "subcategory": "Existing product sales",
      "date_published": "2026-11-06",
      "date_discovered": "2026-11-06",
-     "date_updated": "2026-11-06",
-     "is_new": true,
+     "date_updated": "2026-11-07",
+     "is_new": false,
      "link": "https://doi.org/10.1038/s41598-026-79912-1",
      "secondary_links": [],
      "confidence": "medium",
@@ -2245,11 +2252,11 @@
    "title": "Product Leads",
    "source": "ACORN - Leads",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-06T03:39:00-06:00",
+   "last_refreshed": "2026-11-07T03:52:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Added ACN-067..071 (2 Academic, 2 Conservation, 1 Government). Atlas: 0 resolved to fill (blank IDs remain not_found/ambiguous). Filed REQ-ACN-ACN-067..071. Deterrence/Media/Consulting slots empty (no strong named buyer). Black Rail niche dense this batch (Marschhauser/Butler/Davis + existing Tegeler) — flagged. Leads re-sorted Open-by-score then rest.",
-   "next_run": "2026-11-07 ~3:30 AM CT",
-   "rows_added_last_run": 5,
+   "last_run_note": "Added ACN-072..075 (2 Academic, 1 Conservation, 1 Consulting); Government slot empty (no current unaffiliated candidate). Deterrence rotation failed: MTU/Keweenaw Ecological Innovations commercializing Averta acoustic deterrents (competitor). Atlas: 0 resolved to fill; no Investigators matches; filed REQ-ACN-ACN-072..075. Leads re-sorted Open-by-score then rest (temp helper col S cleared).",
+   "next_run": "2026-11-08 ~3:30 AM CT",
+   "rows_added_last_run": 4,
    "new_items_count": 0,
    "no_new_items": true,
    "visible_count": 2,
@@ -2383,7 +2390,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 71,
+      "row": 75,
       "record_id": "ACN-028"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -2392,9 +2399,9 @@
    "pipeline_counts": {
     "Open": 1,
     "Skipped": 1,
-    "Contacted": 52,
-    "Interested": 10,
-    "Passed": 6
+    "Contacted": 54,
+    "Interested": 11,
+    "Passed": 7
    }
   }
  ],
@@ -2605,7 +2612,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 13,
+      "row": 15,
       "record_id": "ACN-002"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -2674,7 +2681,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 14,
+      "row": 16,
       "record_id": "ACN-003"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -2743,7 +2750,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 15,
+      "row": 17,
       "record_id": "ACN-004"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -2812,7 +2819,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 16,
+      "row": 18,
       "record_id": "ACN-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -2881,7 +2888,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 17,
+      "row": 19,
       "record_id": "ACN-006"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -2950,7 +2957,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 18,
+      "row": 20,
       "record_id": "ACN-007"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3019,7 +3026,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 19,
+      "row": 21,
       "record_id": "ACN-008"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3088,7 +3095,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 12,
+      "row": 14,
       "record_id": "ACN-017"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3157,7 +3164,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 34,
+      "row": 37,
       "record_id": "ACN-009"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3226,7 +3233,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 35,
+      "row": 38,
       "record_id": "ACN-010"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3295,7 +3302,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 52,
+      "row": 56,
       "record_id": "ACN-011"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3364,7 +3371,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 53,
+      "row": 57,
       "record_id": "ACN-012"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3433,7 +3440,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 51,
+      "row": 55,
       "record_id": "ACN-018"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
@@ -3502,7 +3509,7 @@
      "source_record": {
       "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
       "tab": "Leads",
-      "row": 67,
+      "row": 71,
       "record_id": "ACN-013"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
