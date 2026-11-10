@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-09T05:06:08-06:00",
+ "generated_at": "2026-11-10T05:13:56-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-09",
+ "edition_date": "2026-11-10",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -51,17 +51,162 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-09T03:48:00-06:00",
+   "last_refreshed": "2026-11-10T03:40:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "48 candidates reviewed; inserted NN-20261109-001..005; 13 duplicates skipped; 0 failures. Added 1 Sources row (PEdaily). No scores >= 90.",
-   "next_run": "2026-11-10 3:30 AM CT",
-   "rows_added_last_run": 5,
-   "new_items_count": 5,
+   "last_run_note": "34 candidates, 10 duplicates skipped. Inserted NN-20261110-001..003 (Bio Search/InnerEye 44, Highland ESStim SBIR 42, Novocure Optune Mya FDA Not Approvable 34). 1 non-blocking fetch timeout (Dealroom; verified via primary release). Added 2 Sources. No scores >= 90.",
+   "next_run": "2026-11-11 3:30 AM CT",
+   "rows_added_last_run": 3,
+   "new_items_count": 3,
    "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261110-001",
+     "visibility": "internal",
+     "title": "Japan's Bio Search agrees to acquire Israeli EEG brain-AI company InnerEye in an all-stock share exchange",
+     "summary": "Tokyo biosignal-device and data-analytics firm Bio Search signed a share exchange agreement on 9 November 2026 to acquire 100% of InnerEye (Herzliya, Israel), whose algorithms classify cognitive and decision states from real-time EEG; closing depends on Israeli regulatory approvals and is expected between December 2026 and early January 2027. Bio Search says the combined company will pool EEG and other biosignal data across healthcare, industrial and security uses and targets a NASDAQ listing in 2028.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-09",
+     "date_discovered": "2026-11-10T03:35-06:00",
+     "date_updated": "2026-11-10T03:35-06:00",
+     "is_new": true,
+     "link": "https://biosearch.co.jp/news/news-2026-11-09-0002/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 44,
+     "score_original": {
+      "value": "44",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Bio Search (company press release)",
+      "hub_relevance": "Shows consolidation among EEG analytics companies and the push to pool EEG data for AI models, relevant context for the Hub's sensor-and-data-pipeline work and the data-governance questions around neural data.",
+      "related_assets_raw": null,
+      "evidence_type": "M&A",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 67,
+      "record_id": "NN-20261110-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261110-002",
+     "visibility": "internal",
+     "title": "Highland Instruments wins up to $2.9M NIH NINDS Phase IIB SBIR to advance ESStim noninvasive electrical-plus-ultrasound stimulation for Parkinson's postural instability",
+     "summary": "Highland Instruments (Cambridge, Mass.) received an NINDS Phase IIB SBIR award (R44NS110237) of about $1.5M in current-year funding and about $1.4M recommended for future years to develop ESStim, which combines independently controlled transcranial electrical and transcranial ultrasound stimulation, for postural instability in Parkinson's disease. The company says four prior randomized sham-controlled PD studies (130 patients) showed motor improvements; ESStim is not FDA-approved or commercially distributed.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-09",
+     "date_discovered": "2026-11-10T03:35-06:00",
+     "date_updated": "2026-11-10T03:35-06:00",
+     "is_new": true,
+     "link": "https://www.prlog.org/13182020-highland-instruments-receives-nih-ninds-phase-iib-sbir-award-to-advance-esstim-for-parkinsons-disease.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 42,
+     "score_original": {
+      "value": "42",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-026",
+       "name": "Creed DBS",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/Creed-DBS-SiLabs"
+      }
+     ],
+     "people": [],
+     "details": {
+      "publisher": "Highland Instruments via PRLog",
+      "hub_relevance": "Federal SBIR money keeps flowing to multimodal noninvasive neuromodulation for movement disorders, a reference point for the Hub's stimulation hardware and Parkinson's-related collaboration work.",
+      "related_assets_raw": "Creed DBS",
+      "evidence_type": "Funding",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 68,
+      "record_id": "NN-20261110-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261110-003",
+     "visibility": "internal",
+     "title": "FDA issues Not Approvable Letter for Novocure's Optune Mya Tumor Treating Fields for brain metastases from NSCLC",
+     "summary": "Novocure said on 9 November 2026 that FDA issued a Not Approvable Letter on its PMA for Optune Mya, a Tumor Treating Fields device for adults with brain metastases from non-small cell lung cancer after stereotactic radiation, citing uncertainty about the degree of clinical benefit rather than safety. Novocure plans to meet FDA to see whether approval is possible without new clinical studies.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-09",
+     "date_discovered": "2026-11-10T03:35-06:00",
+     "date_updated": "2026-11-10T03:35-06:00",
+     "is_new": true,
+     "link": "https://investor.novocure.com/news-releases/news-release-details/novocure-provides-regulatory-update-us-fda-premarket-approval",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 34,
+     "score_original": {
+      "value": "34",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Novocure (investor press release / Business Wire)",
+      "hub_relevance": "A high-profile FDA rejection of a brain-applied electric-field device on efficacy grounds, mainly regulatory context for neuro-device evidence standards with little direct overlap with Hub tools.",
+      "related_assets_raw": null,
+      "evidence_type": "Regulatory",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 69,
+      "record_id": "NN-20261110-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261109-001",
@@ -73,7 +218,7 @@
      "date_published": "2026-11-09",
      "date_discovered": "2026-11-09T03:45-06:00",
      "date_updated": "2026-11-09T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.neurabc.com/xinnao-technologys-wireless-dry-electrode-eeg-system-clears-class-ii-medical-device-registration/",
      "secondary_links": [],
      "confidence": null,
@@ -119,7 +264,7 @@
      "date_published": "2026-11-03",
      "date_discovered": "2026-11-09T03:45-06:00",
      "date_updated": "2026-11-09T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://entrepreneursofnewyork.com/startups/janus-labs-1-8-million-pre-seed-new-york-angels-pet-health-neuro-ai",
      "secondary_links": [],
      "confidence": null,
@@ -172,7 +317,7 @@
      "date_published": "2026-11-09",
      "date_discovered": "2026-11-09T03:45-06:00",
      "date_updated": "2026-11-09T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://news.pedaily.cn/202611/571515.shtml",
      "secondary_links": [],
      "confidence": null,
@@ -218,7 +363,7 @@
      "date_published": "2026-11-06",
      "date_discovered": "2026-11-09T03:45-06:00",
      "date_updated": "2026-11-09T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.chinadaily.com.cn/a/202611/06/WS6aedb48be4b03ebf8519aea3_1.html",
      "secondary_links": [],
      "confidence": null,
@@ -271,7 +416,7 @@
      "date_published": "2026-11-09",
      "date_discovered": "2026-11-09T03:45-06:00",
      "date_updated": "2026-11-09T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycmtu6289164.shtml",
      "secondary_links": [],
      "confidence": null,
@@ -305,144 +450,6 @@
       "record_id": "NN-20261109-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261108-001",
-     "visibility": "internal",
-     "title": "Science investigation finds consumer EEG wearable makers trained AI brain foundation models on users' data without disclosing it in privacy policies",
-     "summary": "A yearlong Science news investigation (Pulitzer Center AI Accountability Network) reviewed privacy policies of 57 consumer EEG companies and found that none of the firms building brain foundation models initially disclosed that training in their policies; Interaxon (Muse) said it had trained on about 50,000 hours of user EEG and Emotiv on data from higher-end device users, and both updated their policies after Science's inquiries. Only six companies explicitly said they would not sell brain data, and more than two-thirds allow data transfer on acquisition; a companion piece covers EEG fatigue helmets and caps used on Chinese worksites and by traffic police.",
-     "category": "Other",
-     "subcategory": null,
-     "date_published": "2026-11-04",
-     "date_discovered": "2026-11-08T03:40-06:00",
-     "date_updated": "2026-11-08T03:40-06:00",
-     "is_new": false,
-     "link": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 52,
-     "score_original": {
-      "value": "52",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Science (news) / Inside BCI",
-      "hub_relevance": "Neural-data consent and governance pressure on EEG device makers is directly relevant to how the Hub designs data pipelines and consent language for any human-facing or cloud-synced sensing work.",
-      "related_assets_raw": null,
-      "evidence_type": "news_investigation",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 58,
-      "record_id": "NN-20261108-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261108-003",
-     "visibility": "internal",
-     "title": "Mindtrix (明视脑机) closes pre-A and pre-A+ rounds, taking total funding above RMB 500M for its cortical visual-reconstruction BCI",
-     "summary": "Chinese invasive-BCI company Mindtrix (明视脑机) completed back-to-back pre-A (led by Puhua Capital) and pre-A+ (co-led by Shanghai Science and Technology Venture Capital Group and Minhang state platform Minjin Tou) rounds, bringing cumulative funding above RMB 500 million about two years after founding. Proceeds go to engineering a 1,024-channel visual-cortex reconstruction system, type testing and registration-inspection prep, and multicenter clinical studies; the company reports 7 investigator-initiated human implants with no serious adverse events.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-08",
-     "date_discovered": "2026-11-08T03:40-06:00",
-     "date_updated": "2026-11-08T03:40-06:00",
-     "is_new": false,
-     "link": "https://www.vbdata.cn/1519103690",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 44,
-     "score_original": {
-      "value": "44",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "VCBeat / 动脉网",
-      "hub_relevance": "Another large Chinese visual-cortex 'write' BCI round, showing capital flowing to high-channel-count stimulation hardware relevant to the Hub's neural-interface engineering landscape.",
-      "related_assets_raw": null,
-      "evidence_type": "Funding",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 60,
-      "record_id": "NN-20261108-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261108-002",
-     "visibility": "internal",
-     "title": "ARK Invest files to launch an ARK Brain Computer Interfaces & Surgical Robotics ETF",
-     "summary": "ARK ETF Trust filed a preliminary prospectus with the SEC on 6 November 2026 for an actively managed ARK Brain Computer Interfaces & Surgical Robotics ETF, among 14 thematic ETFs, that would invest in BCI developers and robotic surgical system makers. The fund expects to gain exposure mainly through total return swaps alongside direct equity and possibly private or restricted securities; it is not yet launched and has no ticker.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-06",
-     "date_discovered": "2026-11-08T03:40-06:00",
-     "date_updated": "2026-11-08T03:40-06:00",
-     "is_new": false,
-     "link": "https://etfshelf.com/etf-newswire/ark-files-etf-targeting-brain-interfaces-and-surgical-robotics-4589",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 42,
-     "score_original": {
-      "value": "42",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "ETF Newswire (etfshelf) / Inside BCI",
-      "hub_relevance": "Signals BCI becoming a public-market investment theme, useful context for the Hub's commercialization and investor conversations around neurotech hardware.",
-      "related_assets_raw": null,
-      "evidence_type": "regulatory_filing_coverage",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 59,
-      "record_id": "NN-20261108-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -451,13 +458,13 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-09T03:50:00-06:00",
+   "last_refreshed": "2026-11-10T03:38:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Top 10 ranked (3 new: OPP-060, OPP-059, OPP-062); catalog refresh found ACORN pre-order $799 to $649; no Atlas filings; Page: https://cursor.com/canvas/store-f99758ad-d50d-4bee-a065-b8a60a3cbb3d/00844e0d-bf29-4d37-a2ed-72feb665ef6f",
-   "next_run": "2026-11-16 03:30 CT",
+   "last_run_note": "Window 2026-11-03..11-10; sources OpenAlex/Europe PMC/Crossref all ok. 636 screened, 466 already held, 163 triaged, 8 analyzed; none met bar (best: Lois/Meister lifelong maze memory ~25/45, VGLUT3 social defeat ~35/35). Updated OPP-065 Atlas ID -> ATL-000657 (REQ-OPP-OPP-065 resolved). No Atlas requests filed; no existing-relationship rows; pending evaluations none.",
+   "next_run": "2026-11-11 ~03:30 CT",
    "rows_added_last_run": 0,
-   "new_items_count": 1,
-   "no_new_items": false,
+   "new_items_count": 0,
+   "no_new_items": true,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
@@ -472,8 +479,8 @@
      "subcategory": "Existing product sales",
      "date_published": "2026-11-07",
      "date_discovered": "2026-11-09",
-     "date_updated": "2026-11-09",
-     "is_new": true,
+     "date_updated": "2026-11-10",
+     "is_new": false,
      "link": "https://doi.org/10.1093/pnasnexus/pgag387",
      "secondary_links": [],
      "confidence": "medium",
@@ -1818,8 +1825,8 @@
    "last_run_note": "Added INN-019 (BRAIN Tech Partnerships forecast) and INN-020 (Tumbly kit); updated INN-006 (R50 status/next step) and INN-009 (ACORN price). Products sheet: ACORN price $799 to $649, Last Verified on 9 store rows, Tumbly note on PRD-011. Digest Page updated. No new Feedback Log entries. Teammate sheets read (Funding, News); no agents messaged.",
    "next_run": "Mon Nov 16, 2026 ~3:30 AM CT",
    "rows_added_last_run": 2,
-   "new_items_count": 2,
-   "no_new_items": false,
+   "new_items_count": 0,
+   "no_new_items": true,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
@@ -1835,7 +1842,7 @@
      "date_published": null,
      "date_discovered": "2026-11-09",
      "date_updated": "2026-11-09",
-     "is_new": true,
+     "is_new": false,
      "link": "https://simpler.grants.gov/opportunity/c2bb6524-a16b-499a-9049-73f7b56b1d42",
      "secondary_links": [],
      "confidence": "medium",
@@ -1906,7 +1913,7 @@
      "date_published": null,
      "date_discovered": "2026-11-09",
      "date_updated": "2026-11-09",
-     "is_new": true,
+     "is_new": false,
      "link": "https://doi.org/10.64898/2026.10.19.760239",
      "secondary_links": [
       "https://github.com/KravitzLabDevices/Tumbly",
@@ -2319,197 +2326,12 @@
    "last_run_note": "Phase II 1/10 per segment (Consulting ACN-079, Deterrence ACN-080, Zoo ACN-081). Filled Atlas IDs for ACN-076..078. ACN-080 email unverified at source; ACN-081 general inbox only.",
    "next_run": "2026-11-10 ~03:00 CT",
    "rows_added_last_run": 3,
-   "new_items_count": 3,
-   "no_new_items": false,
+   "new_items_count": 0,
+   "no_new_items": true,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-079",
-     "visibility": "internal",
-     "title": "André F. Raine (Science Director), Archipelago Research and Conservation (ARC), Hanapēpē, Kauaʻi — ecological consultancy; Honopū social attraction site",
-     "summary": "Seabird consultancy selling colony creation via translocation + social attraction to land managers/USFWS/DLNR clients; runs the Honopū social attraction site (Navy REPI/NFWF-funded Honopū Seabird Conservation Initiative). Playback gear/vendor not published. Raine is co-lead/Science Director, so likely buyer/specifier. Application: scheduled night-time colony call playback at fenced sites.",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-11-09",
-     "date_updated": "2026-11-09",
-     "is_new": true,
-     "link": "https://www.archipelagoresearchandconservation.com/andre-raine",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 83,
-     "score_original": {
-      "value": "0.83",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "5",
-       "need": "4",
-       "funding": "4"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000656"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "André F. Raine (Science Director)",
-       "institution": "Archipelago Research and Conservation (ARC), Hanapēpē, Kauaʻi — ecological consultancy; Honopū social attraction site",
-       "atlas_id": "ATL-000656",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": true
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 3,
-      "record_id": "ACN-079"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-080",
-     "visibility": "internal",
-     "title": "Cody Baciuska (Vice President & Co-Founder), Loomacres Wildlife Management (NY; airport wildlife hazard services, nationwide)",
-     "summary": "Private airport wildlife hazard firm (WHAs, WHMPs, mitigation at JFK, LaGuardia, Nashville); goose/waterfowl harassment toolkit includes auditory distress calls, pyrotechnics, lasers, effigies, border collies. Distress-call gear/vendor not published. Co-founder/VP and first private-sector FAA-qualified airport biologist, so purchasing authority likely. Application: scheduled outdoor distress-call playback as one tool in an integrated program (no validated deterrence claims).",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-11-09",
-     "date_updated": "2026-11-09",
-     "is_new": true,
-     "link": "https://www.airportwildlife.com/meet-the-team.html",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 58,
-     "score_original": {
-      "value": "0.58",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "3",
-       "need": "3",
-       "funding": "4"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Cody Baciuska (Vice President & Co-Founder)",
-       "institution": "Loomacres Wildlife Management (NY; airport wildlife hazard services, nationwide)",
-       "atlas_id": null,
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": true
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 4,
-      "record_id": "ACN-080"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "acorn",
-     "item_id": "acorn:ACN-081",
-     "visibility": "internal",
-     "title": "Jack Gradidge (Conservation Officer), Folly Farm Adventure Park and Zoo (Pembrokeshire, Wales) — Hafod yr Adar nesting tower",
-     "summary": "BIAZA zoo that built a 6.2 m multi-species nesting tower (16 swift boxes, 12 house martin cups, 7 swallow cups) in 2025 with a 'specialist bird call system' fitted to attract birds; grant-funded (Pembrokeshire Coast Charitable Trust). Advising a Ceredigion community group to replicate it. Gear vendor not named (likely a commercial swift caller). Application: scheduled multi-species call playback + visitor education.",
-     "category": "Product Lead",
-     "subcategory": "ACORN",
-     "date_published": null,
-     "date_discovered": "2026-11-09",
-     "date_updated": "2026-11-09",
-     "is_new": true,
-     "link": "https://biaza.org.uk/news/detail/blog-hafod-yr-adar-the-birds-summer-dwelling-creating-nesting-opportunities-for-native-birds-at-folly-farm",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 50,
-     "score_original": {
-      "value": "0.50",
-      "scale": "0-1",
-      "components_1_5": {
-       "relevance": "3",
-       "need": "3",
-       "funding": "3"
-      }
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-001",
-       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
-       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
-       "github_url": "https://github.com/Neurotech-Hub/ACORN"
-      }
-     ],
-     "people": [
-      {
-       "name": "Jack Gradidge (Conservation Officer)",
-       "institution": "Folly Farm Adventure Park and Zoo (Pembrokeshire, Wales) — Hafod yr Adar nesting tower",
-       "atlas_id": null,
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "pipeline_status": "Open",
-      "outreach_notes": {
-       "visibility": "internal_only",
-       "present": true
-      }
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
-      "tab": "Leads",
-      "row": 5,
-      "record_id": "ACN-081"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
     {
      "source": "acorn",
      "item_id": "acorn:ACN-076",
@@ -2639,6 +2461,69 @@
       "tab": "Leads",
       "row": 2,
       "record_id": "ACN-031"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-079",
+     "visibility": "internal",
+     "title": "André F. Raine (Science Director), Archipelago Research and Conservation (ARC), Hanapēpē, Kauaʻi — ecological consultancy; Honopū social attraction site",
+     "summary": "Seabird consultancy selling colony creation via translocation + social attraction to land managers/USFWS/DLNR clients; runs the Honopū social attraction site (Navy REPI/NFWF-funded Honopū Seabird Conservation Initiative). Playback gear/vendor not published. Raine is co-lead/Science Director, so likely buyer/specifier. Application: scheduled night-time colony call playback at fenced sites.",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-11-09",
+     "date_updated": "2026-11-09",
+     "is_new": false,
+     "link": "https://www.archipelagoresearchandconservation.com/andre-raine",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 83,
+     "score_original": {
+      "value": "0.83",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "5",
+       "need": "4",
+       "funding": "4"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000656"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "André F. Raine (Science Director)",
+       "institution": "Archipelago Research and Conservation (ARC), Hanapēpē, Kauaʻi — ecological consultancy; Honopū social attraction site",
+       "atlas_id": "ATL-000656",
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": true
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 3,
+      "record_id": "ACN-079"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     },
@@ -2830,11 +2715,133 @@
       "record_id": "ACN-028"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-080",
+     "visibility": "internal",
+     "title": "Cody Baciuska (Vice President & Co-Founder), Loomacres Wildlife Management (NY; airport wildlife hazard services, nationwide)",
+     "summary": "Private airport wildlife hazard firm (WHAs, WHMPs, mitigation at JFK, LaGuardia, Nashville); goose/waterfowl harassment toolkit includes auditory distress calls, pyrotechnics, lasers, effigies, border collies. Distress-call gear/vendor not published. Co-founder/VP and first private-sector FAA-qualified airport biologist, so purchasing authority likely. Application: scheduled outdoor distress-call playback as one tool in an integrated program (no validated deterrence claims).",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-11-09",
+     "date_updated": "2026-11-09",
+     "is_new": false,
+     "link": "https://www.airportwildlife.com/meet-the-team.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 58,
+     "score_original": {
+      "value": "0.58",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "3",
+       "need": "3",
+       "funding": "4"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Cody Baciuska (Vice President & Co-Founder)",
+       "institution": "Loomacres Wildlife Management (NY; airport wildlife hazard services, nationwide)",
+       "atlas_id": null,
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": true
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 4,
+      "record_id": "ACN-080"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "acorn",
+     "item_id": "acorn:ACN-081",
+     "visibility": "internal",
+     "title": "Jack Gradidge (Conservation Officer), Folly Farm Adventure Park and Zoo (Pembrokeshire, Wales) — Hafod yr Adar nesting tower",
+     "summary": "BIAZA zoo that built a 6.2 m multi-species nesting tower (16 swift boxes, 12 house martin cups, 7 swallow cups) in 2025 with a 'specialist bird call system' fitted to attract birds; grant-funded (Pembrokeshire Coast Charitable Trust). Advising a Ceredigion community group to replicate it. Gear vendor not named (likely a commercial swift caller). Application: scheduled multi-species call playback + visitor education.",
+     "category": "Product Lead",
+     "subcategory": "ACORN",
+     "date_published": null,
+     "date_discovered": "2026-11-09",
+     "date_updated": "2026-11-09",
+     "is_new": false,
+     "link": "https://biaza.org.uk/news/detail/blog-hafod-yr-adar-the-birds-summer-dwelling-creating-nesting-opportunities-for-native-birds-at-folly-farm",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 50,
+     "score_original": {
+      "value": "0.50",
+      "scale": "0-1",
+      "components_1_5": {
+       "relevance": "3",
+       "need": "3",
+       "funding": "3"
+      }
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Jack Gradidge (Conservation Officer)",
+       "institution": "Folly Farm Adventure Park and Zoo (Pembrokeshire, Wales) — Hafod yr Adar nesting tower",
+       "atlas_id": null,
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "pipeline_status": "Open",
+      "outreach_notes": {
+       "visibility": "internal_only",
+       "present": true
+      }
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1SfP0CHfZSOXGdInD-Vv5c9ADPcKb0PsVQRY1zAEqQfY/edit",
+      "tab": "Leads",
+      "row": 5,
+      "record_id": "ACN-081"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ],
    "pipeline_counts": {
-    "Open": 4,
     "Skipped": 4,
+    "Open": 4,
     "Contacted": 54,
     "Interested": 11,
     "Passed": 7
