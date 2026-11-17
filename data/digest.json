@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-16T05:24:25-06:00",
+ "generated_at": "2026-11-17T05:22:03-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-16",
+ "edition_date": "2026-11-17",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -17,7 +17,7 @@
   {
    "key": "news",
    "title": "News",
-   "count": 7
+   "count": 8
   },
   {
    "key": "opportunity",
@@ -51,17 +51,271 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-16T03:48:00-06:00",
+   "last_refreshed": "2026-11-17T03:45:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "38 candidates reviewed; inserted NN-20261116-001 (NeuroXess Simulated Life BCI facility, 47) and -002 (Yuanniu Tech sleep-BCI Series A, 43); 14 duplicates skipped; SfN research items rejected as papers. Non-blocking: MedTech Dive neurology topic 404, GlobeNewswire keyword RSS empty. Added 1 Source. No items >= 90.",
-   "next_run": "2026-11-17 3:30 AM CT",
-   "rows_added_last_run": 2,
-   "new_items_count": 2,
+   "last_run_note": "Inserted NN-20261117-001..005 (Cognito HOPE, Indivi-Cogitat, MindMetrix-Wyss, MindMaze CHF 4M, Motif RESONATE). 16 duplicates skipped; 2 non-blocking fetch failures (Cognito and MindMetrix Business Wire originals timed out; corroborated from Picower/ADDF/Quartz and StreetInsider). Sources tab unchanged. No scores >= 90.",
+   "next_run": "2026-11-18 03:30 CT",
+   "rows_added_last_run": 5,
+   "new_items_count": 5,
    "no_new_items": false,
-   "visible_count": 7,
+   "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261117-001",
+     "visibility": "internal",
+     "title": "Cognito's Spectris AD 40 Hz light-and-sound headset misses its primary endpoint in the 12-month HOPE pivotal trial, but the company will seek FDA authorization after benefits in mild Alzheimer's",
+     "summary": "At CTAD on 16 November 2026, Cognito Therapeutics reported that its Phase 3 HOPE study of Spectris AD, an at-home 40 Hz audiovisual gamma-stimulation device, did not meet its primary endpoint across mild and moderate Alzheimer's (moderate group showed no benefit). In the prespecified mild subgroup (n=395), it reported nominally significant slowing of decline on ADCS-ADL (56%), ADCS-iADL (53%) and CDR-SB (47%), no unanticipated adverse device effects, and plans to engage the FDA on authorization for early symptomatic Alzheimer's.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-16",
+     "date_discovered": "2026-11-17T03:45-06:00",
+     "date_updated": "2026-11-17T03:45-06:00",
+     "is_new": true,
+     "link": "https://picower.mit.edu/news/mild-alzheimers-patients-benefit-40hz-sensory-stimulation-national-clinical-trial",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 62,
+     "score_original": {
+      "value": "62",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "MIT Picower Institute; ADDF via PR Newswire; Quartz (citing NYT)",
+      "hub_relevance": "The largest pivotal readout yet for a consumer-style sensory-stimulation device built on mouse 40 Hz work is a bellwether for how rodent-to-human neuromodulation translation, and at-home adherence tracking, gets judged by regulators.",
+      "related_assets_raw": null,
+      "evidence_type": "Clinical trial result (company-reported)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Company topline presented at CTAD, not peer reviewed. Picower reports 663 participants (395 mild, 268 moderate); Quartz/NYT cite 673. ADDF release: https://www.prnewswire.com/news-releases/cognito-reports-pivotal-phase-3-results-for-spectris-ad-a-non-invasive-at-home-approach-for-alzheimers-treatment-backed-by-addf-investment-302941264.html ; Quartz: https://qz.com/cognito-spectris-alzheimers-headset-trial-primary-goal-111626 . Cognito's own Business Wire release (businesswire.com/news/home/20261116639625) timed out on fetch."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 91,
+      "record_id": "NN-20261117-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261117-002",
+     "visibility": "internal",
+     "title": "Swiss digital-biomarker company Indivi acquires Imperial College spin-out Cogitat and its NeuroRVQ EEG foundation model",
+     "summary": "Basel-based Indivi, which provides smartphone motor and cognitive assessments for pharma trials, has acquired Cogitat, an Imperial College London spin-out whose EEG foundation model NeuroRVQ is designed to decode brain signals across people and devices without per-user training. Indivi plans to use the model to detect early treatment effects in Alzheimer's and related dementia trials; deal terms were not disclosed.",
+     "category": "Software & AI",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-17T03:45-06:00",
+     "date_updated": "2026-11-17T03:45-06:00",
+     "is_new": true,
+     "link": "https://tech.eu/2026/11/17/swiss-neurotech-company-indivi-acquires-imperial-college-spin-out-cogitat-to-advance-ai-powered-brain-monitoring/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 50,
+     "score_original": {
+      "value": "50",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Tech.eu",
+      "hub_relevance": "Shows EEG foundation models becoming acquirable commercial assets for trial endpoints, relevant context for how the Hub's biosignal logging data could be packaged for analysis and pharma use.",
+      "related_assets_raw": null,
+      "evidence_type": "M&A",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Terms undisclosed. Also covered by Dealroom News (dealroom.co/news/173392). Cogitat model page: https://www.cogitat.io/neurorvq.html"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 92,
+      "record_id": "NN-20261117-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261117-005",
+     "visibility": "internal",
+     "title": "UTHealth Houston activates a site and begins recruiting for Motif Neurotech's RESONATE early feasibility trial of its externally powered cortical stimulation implant for depression",
+     "summary": "UTHealth Houston's Center for Interventional Psychiatry said on 16 November 2026 its site is activated and recruiting for RESONATE (NCT07594483), a multicenter, single-arm, open-label early feasibility study sponsored by Motif Neurotech. The study tests the Motif XCS System, a small implant seated in a skull opening against the dura over left DLPFC, powered and controlled by an external wearable, for 12-month safety in treatment-resistant depression.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-16",
+     "date_discovered": "2026-11-17T03:45-06:00",
+     "date_updated": "2026-11-17T03:45-06:00",
+     "is_new": true,
+     "link": "https://clinicaltrials.gov/study/NCT07594483",
+     "secondary_links": [
+      "https://med.uth.edu/psychiatry/2026/11/16/resonate-trial-brain-stimulation-depression-recruitment/"
+     ],
+     "confidence": null,
+     "score": 40,
+     "score_original": {
+      "value": "40",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-026",
+       "name": "Creed DBS",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/Creed-DBS-SiLabs"
+      }
+     ],
+     "people": [],
+     "details": {
+      "publisher": "UTHealth Houston McGovern Medical School",
+      "hub_relevance": "A battery-free implant powered by an external wearable is a design pattern directly relevant to the Hub's low-power wireless stimulation and logging engineering.",
+      "related_assets_raw": "Creed DBS",
+      "evidence_type": "Clinical trial milestone",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Site-activation announcement; enrolment numbers and other sites not given on the page. ClinicalTrials.gov API (checked 11-17) confirms NCT07594483 RESONATE, sponsor Motif Neurotech, status Recruiting."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 95,
+      "record_id": "NN-20261117-005"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261117-003",
+     "visibility": "internal",
+     "title": "ETH Zurich pupillometry-biofeedback spin-out MindMetrix becomes a Wyss Geneva venture, targeting PTSD first",
+     "summary": "Wyss Geneva announced on 16 November 2026 that MindMetrix AG, a spin-off from ETH Zurich's Neural Control of Movement Lab, joined its venture program with early capital and engineering, regulatory and clinical support. MindMetrix uses pupillometry as a readout of brainstem arousal for live biofeedback via its myflow app and will advance toward clinical use starting with PTSD.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-16",
+     "date_discovered": "2026-11-17T03:45-06:00",
+     "date_updated": "2026-11-17T03:45-06:00",
+     "is_new": true,
+     "link": "https://www.businesswire.com/news/home/20261116303495/en/",
+     "secondary_links": [
+      "https://www.streetinsider.com/Business+Wire/What+Our+Pupils+Reveal%3A+MindMetrix+Joins+Wyss+Geneva+to+Bring+Eye-Based+Biofeedback+to+Mental+Health/27350272.html"
+     ],
+     "confidence": null,
+     "score": 38,
+     "score_original": {
+      "value": "38",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Business Wire (via StreetInsider)",
+      "hub_relevance": "Pupil-based arousal readouts are a low-cost physiological signal the Hub could pair with behavioral and environmental logging in human or rodent studies.",
+      "related_assets_raw": null,
+      "evidence_type": "Company milestone",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Investment amount not disclosed. Business Wire original linked from the StreetInsider copy (direct fetch timed out)."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 93,
+      "record_id": "NN-20261117-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261117-004",
+     "visibility": "internal",
+     "title": "MindMaze Therapeutics secures up to CHF 4M from strategic investors to scale its neurorehabilitation platform and launches tablet-based MindMotion Lite for home use",
+     "summary": "SIX-listed MindMaze Therapeutics signed investment commitments of up to CHF 4 million (CHF 3M in Nov-Dec 2026 plus a CHF 1M option to Feb 2027) in shares and mandatory convertible notes at CHF 0.12, with warrants, to fund wider commercial deployment. It cited the launch of MindMotion Lite, a tablet-based home rehabilitation product, and terminated the unfunded CHF 4M remainder of a May 2026 facility.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-17T03:45-06:00",
+     "date_updated": "2026-11-17T03:45-06:00",
+     "is_new": true,
+     "link": "https://www.eqs-news.com/news/ad-hoc/mindmaze-therapeutics-announces-chf-4-million-financing/7e6d5d2a-d3f9-4448-aa4f-0222e2dd1675_en",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 32,
+     "score_original": {
+      "value": "32",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-004",
+       "name": "Motorized Rodent Treadmill",
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
+      },
+      {
+       "product_id": "PRD-005",
+       "name": "Tensioned Rodent Unloading Support System (TRUSS)",
+       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
+      }
+     ],
+     "people": [],
+     "details": {
+      "publisher": "EQS News (SIX ad hoc release)",
+      "hub_relevance": "Small-cap financing signals for a sensor- and software-based neurorehab company are market context for the Hub's commercialization of rehab-adjacent rodent apparatus like the treadmill and TRUSS.",
+      "related_assets_raw": "Motorized Rodent Treadmill; Tensioned Rodent Unloading Support System (TRUSS)",
+      "evidence_type": "Funding",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Primary issuer ad hoc announcement dated 17-Nov-2026 07:00 CET."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 94,
+      "record_id": "NN-20261117-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261116-001",
@@ -73,7 +327,7 @@
      "date_published": "2026-11-16",
      "date_discovered": "2026-11-16T03:45-06:00",
      "date_updated": "2026-11-16T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwzf1269647.shtml",
      "secondary_links": [],
      "confidence": null,
@@ -119,7 +373,7 @@
      "date_published": "2026-11-16",
      "date_discovered": "2026-11-16T03:45-06:00",
      "date_updated": "2026-11-16T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://news.pedaily.cn/202611/571910.shtml",
      "secondary_links": [],
      "confidence": null,
@@ -224,190 +478,6 @@
       "record_id": "NN-20261115-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261115-002",
-     "visibility": "internal",
-     "title": "3i and panluminate partner to commercialize panoptix, a light-sheet microscope built for pan-expansion microscopy connectomics, ahead of an SfN 2026 debut",
-     "summary": "3i and Yale spinout panluminate announced on 11 November 2026 that 3i will manufacture and deliver panoptix, a light-sheet system designed for panluminate's pan-ExM samples, which expand tissue about 8,000-fold in volume to resolve synapses and trace circuits. The companies say it can hold a whole expanded fly brain, and it is on show at panluminate's booth 2126 at Neuroscience 2026.",
-     "category": "Scientific Hardware",
-     "subcategory": null,
-     "date_published": "2026-11-11",
-     "date_discovered": "2026-11-15T03:45-06:00",
-     "date_updated": "2026-11-15T03:45-06:00",
-     "is_new": false,
-     "link": "https://www.intelligent-imaging.com/3i-and-panluminate-announce-partnership",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 44,
-     "score_original": {
-      "value": "44",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "3i (Intelligent Imaging Innovations) company news",
-      "hub_relevance": "A turnkey expansion-microscopy and imaging pipeline that WashU connectomics and synapse-imaging labs may ask the Hub about when scoping imaging or sample-handling hardware.",
-      "related_assets_raw": null,
-      "evidence_type": "Partnership / product launch",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Edge of window (11-11) and not logged by the 11-12 to 11-14 runs. Price not disclosed. panluminate product page: https://www.panluminate.com/panoptix."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 86,
-      "record_id": "NN-20261115-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261115-003",
-     "visibility": "internal",
-     "title": "Teledyne Photometrics launches Retiga XL60, a 60-megapixel large-field scientific camera for spatial omics, cleared-tissue and light-sheet imaging",
-     "summary": "Teledyne Photometrics announced on 12 November 2026 the Retiga XL60, a camera built on a 60-megapixel Sony CMOS sensor and offered in 43 mm full-sensor and 22 mm field-of-view models, with more field-of-view options planned for 2027. It targets spatial omics, cleared tissue, light-sheet and high-content microscopy and is being shown at Neuroscience 2026, Booth 1708.",
-     "category": "Scientific Hardware",
-     "subcategory": null,
-     "date_published": "2026-11-12",
-     "date_discovered": "2026-11-15T03:45-06:00",
-     "date_updated": "2026-11-15T03:45-06:00",
-     "is_new": false,
-     "link": "https://www.teledynevisionsolutions.com/company/news/photometrics/teledyne-photometrics-introduces-the-retiga-xl60/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 37,
-     "score_original": {
-      "value": "37",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Teledyne Vision Solutions (company newsroom)",
-      "hub_relevance": "Large-format camera option for whole-section and cleared-brain imaging rigs that Hub engineers may be asked to integrate or spec for WashU imaging labs.",
-      "related_assets_raw": null,
-      "evidence_type": "Product launch",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Price and frame rates not disclosed in release. General life-science imaging product, not neuro-specific."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 87,
-      "record_id": "NN-20261115-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261115-004",
-     "visibility": "internal",
-     "title": "World Economic Forum council and Duke's Cognitive Futures Lab open voluntary Neurotechnology Industry Best Practice Commitments for signature, to be benchmarked by a NeuroTrust Index",
-     "summary": "The WEF Global Future Council on Neurotechnology, working with Duke University's Cognitive Futures Lab (Nita Farahany), has launched a set of industry best-practice commitments covering transparency, handling of neural and mental-state data and user self-determination, and is inviting companies and organizations to sign. Farahany says signatories will be assessed with a NeuroTrust Index.",
-     "category": "Other",
-     "subcategory": null,
-     "date_published": null,
-     "date_discovered": "2026-11-15T03:45-06:00",
-     "date_updated": "2026-11-15T03:45-06:00",
-     "is_new": false,
-     "link": "https://initiatives.weforum.org/global-future-council-on-neurotechnology/custom",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 30,
-     "score_original": {
-      "value": "30",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "World Economic Forum Global Future Council on Neurotechnology (initiative page)",
-      "hub_relevance": "A voluntary trust and neural-data benchmark that human-facing EEG or wearable projects the Hub supports may be asked to follow; no direct effect on the Hub's animal-research tools.",
-      "related_assets_raw": null,
-      "evidence_type": "Policy",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Backfill. Launched in early November 2026: Nita Farahany's LinkedIn announcement post is about a week old as of 11-15, but the WEF page gives no date, so published_at is left blank. Voluntary and non-binding. Also mentioned in a Neurofounders neural-data policy feature (11-15)."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 88,
-      "record_id": "NN-20261115-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261114-001",
-     "visibility": "internal",
-     "title": "Precision Neuroscience partners with Team Gleason to build an ALS-community feedback channel into development of its Layer 7 BCI",
-     "summary": "Precision Neuroscience and the ALS nonprofit Team Gleason announced on 13 November 2026 a partnership that sets up a structured way for people living with ALS, their families and caregivers to give Precision feedback as its Layer 7 cortical surface BCI continues in development. The two will also run joint education on Layer 7 for the ALS community and clinicians, starting with a shared presence at the American Speech-Language-Hearing Association conference.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-13",
-     "date_discovered": "2026-11-14T03:45-06:00",
-     "date_updated": "2026-11-14T03:45-06:00",
-     "is_new": false,
-     "link": "https://teamgleason.org/precision-neuroscience-and-team-gleason-partner-to-give-the-als-community-a-voice-in-brain-computer-interface-development/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 30,
-     "score_original": {
-      "value": "30",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Team Gleason / Precision Neuroscience (joint press release)",
-      "hub_relevance": "Shows implanted-BCI sponsors formalizing end-user input into device design, useful context for Hub engineering reviews of assistive and BCI-adjacent projects; no direct overlap with Hub tools.",
-      "related_assets_raw": null,
-      "evidence_type": "Partnership",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "No financial terms. Team Gleason also has a separate, earlier renewed partnership with Synchron (not new). Separate from Precision's Abu Dhabi site (NN-20261030-001)."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 84,
-      "record_id": "NN-20261114-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -416,10 +486,10 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-16T03:32:00-06:00",
+   "last_refreshed": "2026-11-17T03:35:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Page published: https://cursor.com/canvas/store-f99758ad-d50d-4bee-a065-b8a60a3cbb3d/0592810e-c976-4e4e-9439-16441129d6eb. Ranked 10 of 30 rows (1 new: OPP-066; OPP-004 dropped); no Pursue/Investigate/Decline set. Catalog: ACORN $649->$799, BEAM3 $199->$249, Hub Wheel $179->$229, Treadmill $499->$599 (Products sheet PRD-001..004 still old prices). No Atlas filings. OPP-052 Osiejuk already contacted via ACORN; no Scout outreach.",
-   "next_run": "2026-11-23 03:30 CT",
+   "last_run_note": "All 3 sources OK (OpenAlex Atlas 43 + topics 265, Europe PMC 60, Crossref 276); 613 screened, 100 new, 8 analyzed; none reached 50/medium. No Atlas changes, no pending evaluations, no existing-relationship or Outreach Log overlaps.",
+   "next_run": "2026-11-18 03:30",
    "rows_added_last_run": 0,
    "new_items_count": 0,
    "no_new_items": true,
@@ -1789,8 +1859,8 @@
    "last_run_note": "Tracker: added INN-021 (NSF MRI 27-500); updated INN-003 (price increases + Camus competitor), INN-006 (R50 go/no-go date passed; reverified), INN-009 (ACORN back to $799). Products: PRD-001..004 prices updated (ACORN $799, BEAM3 $249, Hub Wheel $229, Treadmill $599), Last Verified on 9 store rows, added PRD-036 Bpod-MVP. Digest Page updated in place. Store per-product pages not re-fetched (curl TLS error; store listing read via web fetch). McKnight Tech award checked: discontinued. No new Feedback Log entries; no agents messaged.",
    "next_run": "Mon Nov 23, 2026 ~3:30 AM CT",
    "rows_added_last_run": 2,
-   "new_items_count": 1,
-   "no_new_items": false,
+   "new_items_count": 0,
+   "no_new_items": true,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
@@ -1806,7 +1876,7 @@
      "date_published": null,
      "date_discovered": "2026-11-16",
      "date_updated": "2026-11-16",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.nsf.gov/funding/opportunities/mri-major-research-instrumentation-program/nsf27-500/solicitation",
      "secondary_links": [
       "https://simpler.grants.gov/opportunity/0c64f742-4aa2-46c6-8493-a615d5e624f1"
