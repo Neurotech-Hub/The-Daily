@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-17T05:22:03-06:00",
+ "generated_at": "2026-11-18T05:25:22-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-17",
+ "edition_date": "2026-11-18",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -51,17 +51,343 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-17T03:45:00-06:00",
+   "last_refreshed": "2026-11-18T03:52:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Inserted NN-20261117-001..005 (Cognito HOPE, Indivi-Cogitat, MindMetrix-Wyss, MindMaze CHF 4M, Motif RESONATE). 16 duplicates skipped; 2 non-blocking fetch failures (Cognito and MindMetrix Business Wire originals timed out; corroborated from Picower/ADDF/Quartz and StreetInsider). Sources tab unchanged. No scores >= 90.",
-   "next_run": "2026-11-18 03:30 CT",
-   "rows_added_last_run": 5,
-   "new_items_count": 5,
+   "last_run_note": "38 candidates, 7 inserted (NN-20261118-001..007; top: Science Corp $400M Series D, 56), 12 duplicates skipped. 1 non-blocking fetch timeout (Dealroom). No scores >= 90. Sources tab unchanged.",
+   "next_run": "2026-11-19 03:30 CT",
+   "rows_added_last_run": 7,
+   "new_items_count": 7,
    "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261118-001",
+     "visibility": "internal",
+     "title": "Science Corporation raises a $400M Series D (reported $3.5B valuation) to expand PRIMA vision-restoring implant sales in Europe, pursue a US HDE launch, and fund its biohybrid neural interface",
+     "summary": "Science Corporation announced on 17 November 2026 a $400M Series D with Khosla Ventures, the Ackman Oxman Institute, Tenet Healthcare, 885 Capital, Y Combinator and PLC Neurotech, bringing total funding above $900M; TechCrunch reported a $3.5B valuation. Proceeds go to PRIMA availability across Europe, a US launch via the FDA Humanitarian Device Exemption pathway, manufacturing, and its biohybrid neural-interface program.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-18T03:50-06:00",
+     "date_updated": "2026-11-18T03:50-06:00",
+     "is_new": true,
+     "link": "https://science.xyz/news/series-d/",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 56,
+     "score_original": {
+      "value": "56",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Science Corporation (company blog); TechCrunch",
+      "hub_relevance": "One of the largest BCI financings of 2026, it signals investor appetite for implant manufacturing and neural-interface infrastructure that shapes the vendor and talent landscape the Hub engineers within.",
+      "related_assets_raw": null,
+      "evidence_type": "Funding",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Valuation is from TechCrunch (person familiar with the deal), not the company post: https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/ . Also covered by Inside BCI and SiliconANGLE."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 96,
+      "record_id": "NN-20261118-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261118-002",
+     "visibility": "internal",
+     "title": "Neuralink is granted US Patent 12,797,514 on a 'cell-based brain-machine interface' built from engineered neurons grafted onto the cortical surface",
+     "summary": "The USPTO granted Neuralink US 12,797,514 B2 on 17 November 2026 (application filed December 2021), covering a 'Layer Zero' of genetically modified neurons engrafted above cortical layer 1 that integrate with host cortex and are read optically or via surface electrodes and written to with light or low-power stimulation. Named inventors include Max Hodak and Alan Mardinly, who later co-founded Science Corporation, which is pursuing a biohybrid interface.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-18T03:50-06:00",
+     "date_updated": "2026-11-18T03:50-06:00",
+     "is_new": true,
+     "link": "https://patents.google.com/patent/US20230077899A1/en",
+     "secondary_links": [
+      "https://www.neurabc.com/neuralinks-layer-zero-patent-lands-no-electrodes-just-a-living-neuronal-layer/"
+     ],
+     "confidence": null,
+     "score": 46,
+     "score_original": {
+      "value": "46",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "NeurABC",
+      "hub_relevance": "IP around non-penetrating, cell-based interfaces may shape which surface-recording and optogenetic approaches the Hub's investigators and partners can commercialize.",
+      "related_assets_raw": null,
+      "evidence_type": "Patent grant",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Patent grant date and number also reported by Inside BCI (homepage, 18 Nov) and RuntimeWire (17 Nov). Validated in mice only per the patent disclosure."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 97,
+      "record_id": "NN-20261118-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261118-003",
+     "visibility": "internal",
+     "title": "Alljoined unveils AIR-O, a model it says reconstructs images of what a person is attending to in real time from noninvasive EEG",
+     "summary": "Noninvasive-BCI startup Alljoined introduced AIR-O on 17 November 2026, a model it says generates an image from scratch in real time depicting where a person is focusing attention, using only noninvasive brain data (EEG per commentators). The company site lists a November 2026 multi-object attention demo; no peer-reviewed validation or product availability was announced.",
+     "category": "Software & AI",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-18T03:50-06:00",
+     "date_updated": "2026-11-18T03:50-06:00",
+     "is_new": true,
+     "link": "https://www.alljoined.com/",
+     "secondary_links": [
+      "https://digg.com/ai/hcjzpius"
+     ],
+     "confidence": null,
+     "score": 44,
+     "score_original": {
+      "value": "44",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Digg (aggregating Alljoined announcement on X)",
+      "hub_relevance": "EEG decoding built on consumer-grade hardware and large open datasets shows where low-cost neural recording plus AI is heading, relevant to Hub investigators weighing EEG-based behavioral readouts.",
+      "related_assets_raw": null,
+      "evidence_type": "Product announcement",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Primary source is Alljoined's X post (quoted on the Digg page); demo only, performance claims unverified. Prior Alljoined ENIGMA work is an arXiv preprint (not used as source)."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 98,
+      "record_id": "NN-20261118-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261118-004",
+     "visibility": "internal",
+     "title": "Sine Health receives FDA 510(k) clearance (K261026) for smartphone-only passive essential tremor monitoring",
+     "summary": "Stockholm-based Sine Health (formerly Nordic Kinetics) announced FDA 510(k) clearance K261026 for Sine, an app that passively measures essential tremor using a patient's own smartphone sensors between clinic visits. It follows the company's June 2026 clearance of an Apple Watch-based Parkinson's monitoring system.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-18T03:50-06:00",
+     "date_updated": "2026-11-18T03:50-06:00",
+     "is_new": true,
+     "link": "https://www.prnewswire.com/news-releases/sine-health-receives-fda-510k-clearance-for-the-first-smartphone-essential-tremor-monitoring-device-302942052.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 40,
+     "score_original": {
+      "value": "40",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "PR Newswire",
+      "hub_relevance": "Clearance of passive, sensor-based home monitoring software is a regulatory precedent for the continuous motion-logging approach behind Hub devices like BEAM3.",
+      "related_assets_raw": null,
+      "evidence_type": "Regulatory clearance",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Company claims it is the first FDA-cleared smartphone-only essential tremor monitor."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 99,
+      "record_id": "NN-20261118-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261118-005",
+     "visibility": "internal",
+     "title": "Nyxoah wins a default decision against Inspire Medical Systems at the Unified Patent Court (Munich) over its hypoglossal neurostimulation patent",
+     "summary": "Nyxoah said on 18 November 2026 that the UPC Court of First Instance in Munich issued a decision by default in its favor in its infringement case against Inspire Medical Systems over European Patent 2 760 534. Nyxoah, maker of the battery-free Genio hypoglossal nerve stimulator for obstructive sleep apnea, said it is considering enforcement options; no damages or injunction details were disclosed.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-18",
+     "date_discovered": "2026-11-18T03:50-06:00",
+     "date_updated": "2026-11-18T03:50-06:00",
+     "is_new": true,
+     "link": "https://www.globenewswire.com/news-release/2026/11/18/3405385/0/en/nyxoah-obtains-default-decision-against-inspire-medical-systems-in-unified-patent-court-case.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 31,
+     "score_original": {
+      "value": "31",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "GlobeNewswire (Nyxoah)",
+      "hub_relevance": "Patent litigation between the two leading sleep-apnea neurostimulator makers is market context for implantable stimulation IP rather than something the Hub will act on.",
+      "related_assets_raw": null,
+      "evidence_type": "Legal / IP",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Default decision (Inspire did not defend); Seeking Alpha and the UPC docket UPC-CFI-0001797/2025 also reference it."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 100,
+      "record_id": "NN-20261118-005"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261118-006",
+     "visibility": "internal",
+     "title": "Firefly Neuroscience reports a 373% year-over-year rise in pediatric ADHD scans on its FDA-cleared Evoke EEG platform and cross-sells NeuroSigma's Monarch eTNS",
+     "summary": "Nasdaq-listed Firefly Neuroscience reported a 373% YoY (4.7x) increase in under-18 ADHD/attention scans on its 510(k)-cleared Evoke EEG/ERP platform and cited a 200,000+ scan dataset for AI models. It is using its clinician network to distribute NeuroSigma's FDA-cleared Monarch eTNS pediatric ADHD stimulator under a September 2026 agreement.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-18T03:50-06:00",
+     "date_updated": "2026-11-18T03:50-06:00",
+     "is_new": true,
+     "link": "https://www.globenewswire.com/news-release/2026/11/17/3404500/0/en/firefly-neuroscience-reports-373-year-over-year-increase-in-u18-adhd-evoke-scans-as-commercial-expansion-accelerates.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 29,
+     "score_original": {
+      "value": "29",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "GlobeNewswire (Firefly Neuroscience)",
+      "hub_relevance": "Commercial traction for clinical EEG/ERP analytics is market context for EEG-based tools, with no direct overlap with Hub products.",
+      "related_assets_raw": null,
+      "evidence_type": "Company milestone",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Company-reported utilization metric; absolute scan counts and revenue not disclosed."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 101,
+      "record_id": "NN-20261118-006"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261118-007",
+     "visibility": "internal",
+     "title": "Guangzhou's Tianhe district launches a BCI investment drive for its 'Guangzhou Brain Valley', with a RMB 2B district fund (RMB 200M first close) and hospital-company BCI deals",
+     "summary": "At a 17 November 2026 BCI industry investment conference, Guangzhou's Tianhe district outlined its 'Guangzhou Brain Valley' pilot zone, a district industry fund of RMB 2B (first phase RMB 200M) for seed/early hard-tech projects, and up to RMB 3M conversion grants. The Third Affiliated Hospital of Sun Yat-sen University signed with Neuracle (博睿康) and plans a ~4,000 m2 BCI and neuromodulation center, and Jinan University First Affiliated Hospital signed with Zhejiang Roulin (柔灵科技) on noninvasive sleep BCI.",
+     "category": "Other",
+     "subcategory": null,
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-18T03:50-06:00",
+     "date_updated": "2026-11-18T03:50-06:00",
+     "is_new": true,
+     "link": "http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11107772.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 28,
+     "score_original": {
+      "value": "28",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Tianhe District Government (投资天河)",
+      "hub_relevance": "Another Chinese regional BCI subsidy program adds to the policy-driven competition in neural-interface hardware, which is context for the Hub rather than an opportunity.",
+      "related_assets_raw": null,
+      "evidence_type": "Policy",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Chinese-language government page posted 2026-11-18 10:52 (Beijing time) about the 11-17 event. Similar regional-policy items: NN-20261109-005 (Shanghai)."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 102,
+      "record_id": "NN-20261118-007"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261117-001",
@@ -73,7 +399,7 @@
      "date_published": "2026-11-16",
      "date_discovered": "2026-11-17T03:45-06:00",
      "date_updated": "2026-11-17T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://picower.mit.edu/news/mild-alzheimers-patients-benefit-40hz-sensory-stimulation-national-clinical-trial",
      "secondary_links": [],
      "confidence": null,
@@ -107,377 +433,6 @@
       "record_id": "NN-20261117-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261117-002",
-     "visibility": "internal",
-     "title": "Swiss digital-biomarker company Indivi acquires Imperial College spin-out Cogitat and its NeuroRVQ EEG foundation model",
-     "summary": "Basel-based Indivi, which provides smartphone motor and cognitive assessments for pharma trials, has acquired Cogitat, an Imperial College London spin-out whose EEG foundation model NeuroRVQ is designed to decode brain signals across people and devices without per-user training. Indivi plans to use the model to detect early treatment effects in Alzheimer's and related dementia trials; deal terms were not disclosed.",
-     "category": "Software & AI",
-     "subcategory": null,
-     "date_published": "2026-11-17",
-     "date_discovered": "2026-11-17T03:45-06:00",
-     "date_updated": "2026-11-17T03:45-06:00",
-     "is_new": true,
-     "link": "https://tech.eu/2026/11/17/swiss-neurotech-company-indivi-acquires-imperial-college-spin-out-cogitat-to-advance-ai-powered-brain-monitoring/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 50,
-     "score_original": {
-      "value": "50",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Tech.eu",
-      "hub_relevance": "Shows EEG foundation models becoming acquirable commercial assets for trial endpoints, relevant context for how the Hub's biosignal logging data could be packaged for analysis and pharma use.",
-      "related_assets_raw": null,
-      "evidence_type": "M&A",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Terms undisclosed. Also covered by Dealroom News (dealroom.co/news/173392). Cogitat model page: https://www.cogitat.io/neurorvq.html"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 92,
-      "record_id": "NN-20261117-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261117-005",
-     "visibility": "internal",
-     "title": "UTHealth Houston activates a site and begins recruiting for Motif Neurotech's RESONATE early feasibility trial of its externally powered cortical stimulation implant for depression",
-     "summary": "UTHealth Houston's Center for Interventional Psychiatry said on 16 November 2026 its site is activated and recruiting for RESONATE (NCT07594483), a multicenter, single-arm, open-label early feasibility study sponsored by Motif Neurotech. The study tests the Motif XCS System, a small implant seated in a skull opening against the dura over left DLPFC, powered and controlled by an external wearable, for 12-month safety in treatment-resistant depression.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-16",
-     "date_discovered": "2026-11-17T03:45-06:00",
-     "date_updated": "2026-11-17T03:45-06:00",
-     "is_new": true,
-     "link": "https://clinicaltrials.gov/study/NCT07594483",
-     "secondary_links": [
-      "https://med.uth.edu/psychiatry/2026/11/16/resonate-trial-brain-stimulation-depression-recruitment/"
-     ],
-     "confidence": null,
-     "score": 40,
-     "score_original": {
-      "value": "40",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-026",
-       "name": "Creed DBS",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/Creed-DBS-SiLabs"
-      }
-     ],
-     "people": [],
-     "details": {
-      "publisher": "UTHealth Houston McGovern Medical School",
-      "hub_relevance": "A battery-free implant powered by an external wearable is a design pattern directly relevant to the Hub's low-power wireless stimulation and logging engineering.",
-      "related_assets_raw": "Creed DBS",
-      "evidence_type": "Clinical trial milestone",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Site-activation announcement; enrolment numbers and other sites not given on the page. ClinicalTrials.gov API (checked 11-17) confirms NCT07594483 RESONATE, sponsor Motif Neurotech, status Recruiting."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 95,
-      "record_id": "NN-20261117-005"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261117-003",
-     "visibility": "internal",
-     "title": "ETH Zurich pupillometry-biofeedback spin-out MindMetrix becomes a Wyss Geneva venture, targeting PTSD first",
-     "summary": "Wyss Geneva announced on 16 November 2026 that MindMetrix AG, a spin-off from ETH Zurich's Neural Control of Movement Lab, joined its venture program with early capital and engineering, regulatory and clinical support. MindMetrix uses pupillometry as a readout of brainstem arousal for live biofeedback via its myflow app and will advance toward clinical use starting with PTSD.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-16",
-     "date_discovered": "2026-11-17T03:45-06:00",
-     "date_updated": "2026-11-17T03:45-06:00",
-     "is_new": true,
-     "link": "https://www.businesswire.com/news/home/20261116303495/en/",
-     "secondary_links": [
-      "https://www.streetinsider.com/Business+Wire/What+Our+Pupils+Reveal%3A+MindMetrix+Joins+Wyss+Geneva+to+Bring+Eye-Based+Biofeedback+to+Mental+Health/27350272.html"
-     ],
-     "confidence": null,
-     "score": 38,
-     "score_original": {
-      "value": "38",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Business Wire (via StreetInsider)",
-      "hub_relevance": "Pupil-based arousal readouts are a low-cost physiological signal the Hub could pair with behavioral and environmental logging in human or rodent studies.",
-      "related_assets_raw": null,
-      "evidence_type": "Company milestone",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Investment amount not disclosed. Business Wire original linked from the StreetInsider copy (direct fetch timed out)."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 93,
-      "record_id": "NN-20261117-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261117-004",
-     "visibility": "internal",
-     "title": "MindMaze Therapeutics secures up to CHF 4M from strategic investors to scale its neurorehabilitation platform and launches tablet-based MindMotion Lite for home use",
-     "summary": "SIX-listed MindMaze Therapeutics signed investment commitments of up to CHF 4 million (CHF 3M in Nov-Dec 2026 plus a CHF 1M option to Feb 2027) in shares and mandatory convertible notes at CHF 0.12, with warrants, to fund wider commercial deployment. It cited the launch of MindMotion Lite, a tablet-based home rehabilitation product, and terminated the unfunded CHF 4M remainder of a May 2026 facility.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-17",
-     "date_discovered": "2026-11-17T03:45-06:00",
-     "date_updated": "2026-11-17T03:45-06:00",
-     "is_new": true,
-     "link": "https://www.eqs-news.com/news/ad-hoc/mindmaze-therapeutics-announces-chf-4-million-financing/7e6d5d2a-d3f9-4448-aa4f-0222e2dd1675_en",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 32,
-     "score_original": {
-      "value": "32",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-004",
-       "name": "Motorized Rodent Treadmill",
-       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
-       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
-      },
-      {
-       "product_id": "PRD-005",
-       "name": "Tensioned Rodent Unloading Support System (TRUSS)",
-       "store_url": "https://neurotechhub.wustl.edu/items/tensioned-rodent-unloading-support-system-truss/",
-       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino/tree/main/examples/Truss"
-      }
-     ],
-     "people": [],
-     "details": {
-      "publisher": "EQS News (SIX ad hoc release)",
-      "hub_relevance": "Small-cap financing signals for a sensor- and software-based neurorehab company are market context for the Hub's commercialization of rehab-adjacent rodent apparatus like the treadmill and TRUSS.",
-      "related_assets_raw": "Motorized Rodent Treadmill; Tensioned Rodent Unloading Support System (TRUSS)",
-      "evidence_type": "Funding",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Primary issuer ad hoc announcement dated 17-Nov-2026 07:00 CET."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 94,
-      "record_id": "NN-20261117-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261116-001",
-     "visibility": "internal",
-     "title": "NeuroXess opens a 'Simulated Life' BCI test facility and reports 84% first-attempt completion of continuous daily tasks by a paralysed participant using its fully implanted wireless BCI with AI",
-     "summary": "On 16 November 2026 NeuroXess (脑虎科技) disclosed that a participant with high-level paraplegia used its fully implanted, fully wireless BCI together with an AI system to do continuous travel, shopping, home and social tasks in its 'Simulated Life' test facility. The company reports core decoding latency under 50 ms, 84% first-attempt completion of continuous tasks such as going out, avoiding obstacles and moving forward, more than 95% success grasping small objects with a brain-controlled exoskeleton glove, and new-task training time cut from 10.5 to 2 hours; the facility can host 20 people and is expected to collect about 18,000 hours of interaction data a year.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-16",
-     "date_discovered": "2026-11-16T03:45-06:00",
-     "date_updated": "2026-11-16T03:45-06:00",
-     "is_new": false,
-     "link": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniywwzf1269647.shtml",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 47,
-     "score_original": {
-      "value": "47",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Sina Finance / Jiemian (界面新闻); also Guandian",
-      "hub_relevance": "A purpose-built facility that collects real-world neural and behavioral data from implanted wireless users is a reference design for the Hub's work on wireless logging and synchronized behavior/neural data pipelines.",
-      "related_assets_raw": null,
-      "evidence_type": "Company milestone",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Company-reported figures (one participant), not peer reviewed. Separate event from the RMB 700M Series B (NN-20261028-001). Guandian corroborates: https://www.guandian.cn/article/20261116/628020.html"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 89,
-      "record_id": "NN-20261116-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261116-002",
-     "visibility": "internal",
-     "title": "Beijing sleep-BCI company Yuanniu Technology (元纽科技) raises a Series A of tens of millions of yuan for its full-montage dry-electrode PSG",
-     "summary": "Yuanniu Technology, a Beijing company building sleep-focused BCI products on full-montage EEG, closed a Series A of tens of millions of yuan from Taiyi Investment, after earlier backing from Lingyi Ventures and Aeonmed. The money goes to hospital and out-of-hospital rollout of its first product, a dry-electrode full-montage polysomnography (PSG) system, a Hunan production base, sleep and disease AI models, neuromodulation products for anxiety/panic and OSA, and preparing CE/FDA applications for a second-generation device.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-16",
-     "date_discovered": "2026-11-16T03:45-06:00",
-     "date_updated": "2026-11-16T03:45-06:00",
-     "is_new": false,
-     "link": "https://news.pedaily.cn/202611/571910.shtml",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 43,
-     "score_original": {
-      "value": "43",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "投资界 (PEdaily)",
-      "hub_relevance": "Dry-electrode, full-montage overnight EEG/PSG hardware heading to scale production is relevant market context for the Hub's low-power biosignal logger and sleep-recording design work.",
-      "related_assets_raw": null,
-      "evidence_type": "Funding",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Exact amount undisclosed. Single primary source (PEdaily, 11-16). Company says it already holds a registration certificate and hospital sales; certificate details not given."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 90,
-      "record_id": "NN-20261116-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261115-001",
-     "visibility": "internal",
-     "title": "Virtual Labs launches MouseOS, a cloud behavioral-video analysis platform for rodent labs that is free to academic labs apart from compute and storage costs, and is demoing it at SfN 2026",
-     "summary": "Virtual Labs announced MouseOS on 3 November 2026: a cloud platform that runs tracking, markerless pose estimation, behavior classification/ethograms, gait and study dashboards on video from any camera, vendor or assay, plus an agentic importer that catalogs lab metadata and can learn a lab's own manual scoring. Academic labs pay no license fee, only metered compute and storage; it pairs with the company's PolarEye camera and is being demonstrated at Neuroscience 2026 (Booth 429, 14-18 Nov).",
-     "category": "Software & AI",
-     "subcategory": null,
-     "date_published": "2026-11-03",
-     "date_discovered": "2026-11-15T03:45-06:00",
-     "date_updated": "2026-11-15T03:45-06:00",
-     "is_new": false,
-     "link": "https://www.virtuallabs.ai/mouseos.html",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 64,
-     "score_original": {
-      "value": "64",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      },
-      {
-       "product_id": "PRD-014",
-       "name": "Spatial Foraging Platform (SFP)",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/SpatialForagingPlatform-ProjectManager"
-      }
-     ],
-     "people": [],
-     "details": {
-      "publisher": "Virtual Labs (company press release via LinkedIn; product page)",
-      "hub_relevance": "Directly overlaps the home-cage and behavioral phenotyping workflows Hub devices support, as a free video-analysis layer labs may want to combine with BEAM3 or Hub Wheel sensor data and SFP foraging experiments.",
-      "related_assets_raw": "Body Event Analysis Module 3 (BEAM3); Hub Wheel with Hublink; Spatial Foraging Platform (SFP)",
-      "evidence_type": "Product launch",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Backfill: the 3 Nov press release was missed by earlier runs and resurfaced through SfN previews. The press release says early access is open now, but the product page says it opens to test users in January 2027, with iPad/phone apps due March 2027. Academic-plan data helps train company models (opt-out for proprietary studies). Not the same item as PolarEye camera NN-20261029-006."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 85,
-      "record_id": "NN-20261115-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -486,17 +441,89 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-17T03:35:00-06:00",
+   "last_refreshed": "2026-11-18T03:45:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "All 3 sources OK (OpenAlex Atlas 43 + topics 265, Europe PMC 60, Crossref 276); 613 screened, 100 new, 8 analyzed; none reached 50/medium. No Atlas changes, no pending evaluations, no existing-relationship or Outreach Log overlaps.",
-   "next_run": "2026-11-18 03:30",
-   "rows_added_last_run": 0,
-   "new_items_count": 0,
-   "no_new_items": true,
+   "last_run_note": "Window 2026-11-11..18; 865 screened, 130 triaged, 8 analyzed; added OPP-067 (Lukkes, Indiana; Sales 60/Collab 35, medium); REQ-OPP-OPP-067 filed in Atlas. No errors. OpenAlex attributes 281 works this week to Atlas ATL-000424 (likely profile over-merge; nearly all dupes).",
+   "next_run": "2026-11-19 03:30 CT",
+   "rows_added_last_run": 1,
+   "new_items_count": 1,
+   "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-067",
+     "visibility": "internal",
+     "title": "Adolescent social isolation and re-socialization increases alcohol intake and aversion-resistant drinking in male and female rats",
+     "summary": "Long-running home-cage two-bottle choice alcohol vs water drinking in 144 male and female Wistar rats. Phases: 24 h intermittent access for 13 weeks with first-60-min front-loading intake from week 6; 20-min limited daily access; quinine aversion-resistant drinking; re-exposure after an 18-week abstinence (through week 57) (stated methods).",
+     "category": "Research Lead",
+     "subcategory": "Existing product sales",
+     "date_published": "2026-11-17",
+     "date_discovered": "2026-11-18",
+     "date_updated": "2026-11-18",
+     "is_new": true,
+     "link": "https://doi.org/10.1007/s00213-026-07215-4",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 60,
+     "score_original": {
+      "sales": "60",
+      "collab": "35",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000659"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-007",
+       "name": "FlightCap Lick and Liquid Sensor",
+       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
+       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
+      },
+      {
+       "product_id": "PRD-009",
+       "name": "Two-bottle Sipper Hub",
+       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Jodi L. Lukkes",
+       "institution": "Indiana University School of Medicine, Department of Psychiatry (Indianapolis, IN)",
+       "atlas_id": "ATL-000659",
+       "role_note": "last/corresponding author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.1007/s00213-026-07215-4",
+      "facts": "Stated (open-access full text, CC BY, read): rats single-housed from P80 in cages with two holes fitted with custom-created two-bottle holders for angled sippers; 20% alcohol vs water on alternate days for 24 h (MWF); fluid consumption determined by bottle weight before/after 24 h access across 13 weeks; first-hour intake measured from week 6 to model front-loading; then LDA-20 Mon-Fri, ARD 1-2x/week with quinine 10 or 60 mg/L, IAP 2, 18-week withdrawal, IAP 3; n=6-18/group, 144 rats. Funding: NIAAA P60AA007611 pilot, NIMH R56MH132674, Indiana CTSI. Authors state future studies will investigate neural mechanisms.",
+      "inferences": "Two-bottle Sipper Hub (two sipper bottles, optional port sensors) and FlightCap (mL-level and per-lick data) match the home-cage two-bottle paradigm and could log the front-loading/first-hour and 20-min sessions continuously instead of by hand-weighing. The lab already uses custom bottle holders, so current setup may be adequate; rat compatibility of Hub sippers is not confirmed in the catalog. No stated gap or purchasing intent.",
+      "product_matches_raw": "Two-bottle Sipper Hub; FlightCap Lick and Liquid Sensor",
+      "recommended_action": "Monitor/human review as alcohol-drinking segment lead (Sipper Hub/FlightCap), similar to OPP-053/OPP-061. No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Full text read under CC BY (Springer open access). Equipment facts come from Methods; no stated need for automation. Not in Outreach Log; no existing-relationship overlap; not WashU. Key investigator not in Atlas (no match by ORCID 0000-0001-6450-6834, OpenAlex A5007936060, or name+institution); REQ-OPP-OPP-067 filed 2026-11-18. Co-author Frederic W. Hopf (ORCID 0000-0001-9712-7566) is an established ARD researcher; not filed.",
+      "bot_state": "New",
+      "analysis_date": "2026-11-18"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 32,
+      "record_id": "OPP-067"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "opportunity",
      "item_id": "opportunity:OPP-066",
@@ -1091,103 +1118,6 @@
       "tab": "Opportunities",
       "row": 26,
       "record_id": "OPP-061"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "opportunity",
-     "item_id": "opportunity:OPP-059",
-     "visibility": "internal",
-     "title": "Chronic non-24-h light–dark cycles alter healthspan measures but not overall survival in male C57BL/6 J mice",
-     "summary": "Longitudinal home-cage circadian phenotyping across the lifespan of group-housed aging mice (stated method); authors state phase-resolved food intake was not available for individual animals in home-cage longitudinal assessment (stated limitation).",
-     "category": "Research Lead",
-     "subcategory": "Existing product sales",
-     "date_published": "2026-10-31",
-     "date_discovered": "2026-11-03",
-     "date_updated": "2026-11-04",
-     "is_new": false,
-     "link": "https://doi.org/10.1007/s11357-026-02568-2",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 65,
-     "score_original": {
-      "sales": "65",
-      "collab": "65",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000626",
-      "ATL-000627"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      },
-      {
-       "product_id": "PRD-015",
-       "name": "FED4 (Feeding Experimentation Device 4)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED4"
-      },
-      {
-       "product_id": "PRD-035",
-       "name": "FED3 (Feeding Experimentation Device 3)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED3"
-      }
-     ],
-     "people": [
-      {
-       "name": "Daniel L. Smith Jr.",
-       "institution": "University of Alabama at Birmingham (Nutrition Sciences; Nathan Shock Center) / Baylor College of Medicine (USDA-ARS CNRC)",
-       "atlas_id": "ATL-000626",
-       "role_note": "first/corresponding author"
-      },
-      {
-       "name": "David B. Allison",
-       "institution": "University of Alabama at Birmingham (Nutrition Sciences; Nathan Shock Center) / Baylor College of Medicine (USDA-ARS CNRC)",
-       "atlas_id": "ATL-000627",
-       "role_note": "last/corresponding author"
-      }
-     ],
-     "details": {
-      "washu": "No",
-      "preprint": "No",
-      "doi": "10.1007/s11357-026-02568-2",
-      "facts": "Stated (full text, GeroScience, open access CC BY): 240 male C57BL/6J, lifespan study under T~22/24/26-h seasonal light cycles; group housed (<=3/cage); food intake measured weekly by manual cage-level weighing; light cycles verified with HOBO light pendant loggers; wheel running only for 3 days at ~28 months in Respironics Mini-Mitter chambers (VitalView); TSE LabMaster calorimetry at ~1 and ~2 yr. Limitation stated: phase-resolved intake not available for individual home-cage animals; group housing limits individual intake precision. Data/code on OSF.",
-      "inferences": "Continuous in-cage wheel and light/environment logging (Hub Wheel with Hublink, BEAM3) could replace short legacy wheel sessions and separate light loggers; FED3/FED4 pellet-level timing could address the stated feeding-phase gap (collaboration, not sales; group housing limits per-animal attribution). No purchasing intent stated; this study is complete.",
-      "product_matches_raw": "Hub Wheel with Hublink; Body Event Analysis Module 3 (BEAM3); FED3 (Feeding Experimentation Device 3); FED4 (Feeding Experimentation Device 4)",
-      "recommended_action": "Human review; candidate for aging/circadian home-cage segment (Hub Wheel/BEAM3) and a possible FED3/FED4 feeding-rhythm collaboration. No outreach from Scout.",
-      "needs_human_review": "Yes",
-      "review_note": "Open access full text read for methods. Not in Outreach Log; no existing-relationship overlap. Neither key investigator in Atlas; REQ-OPP-OPP-059 (Smith) and REQ-OPP-OPP-059-B (Allison) filed 2026-11-03.",
-      "bot_state": "New",
-      "analysis_date": "2026-11-03"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
-      "tab": "Opportunities",
-      "row": 24,
-      "record_id": "OPP-059"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
