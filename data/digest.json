@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-22T05:25:30-06:00",
+ "generated_at": "2026-11-23T05:23:06-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-22",
+ "edition_date": "2026-11-23",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -51,17 +51,63 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-22T03:50:00-06:00",
+   "last_refreshed": "2026-11-23T03:58:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Reviewed 30 candidates, skipped 12 duplicates, added 2 sources (The Neurotech Pub; Science and Technology Daily/Beijing Daily). Added NN-20261122-001 (CAICT BCI report and 15-product launch at the Beijing Changping BCI Conference, score 44) and -002 (Exicure stake in NeuroQ X-CUE, score 28). No item scored 90 or higher. 1 non-blocking fetch timeout (Neurobit release, read via curl); 0 sheet failures.",
-   "next_run": "2026-11-23 03:30 CT",
-   "rows_added_last_run": 2,
-   "new_items_count": 2,
+   "last_run_note": "Reviewed 38 candidates (quiet weekend), skipped 18 duplicates. Added NN-20261123-001 (Chengdu BCI innovation alliance and 60+ company white paper, score 27). Deferred PiEEG XR Kickstarter (goes live 11-23) and MIIT BCI standards working group (Nov 25-26). No item scored 90 or higher. 0 fetch failures; 0 sheet failures. Sources tab unchanged.",
+   "next_run": "2026-11-24 03:30 CT",
+   "rows_added_last_run": 1,
+   "new_items_count": 1,
    "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261123-001",
+     "visibility": "internal",
+     "title": "Chengdu launches a university-enterprise BCI innovation alliance and a white paper counting 60+ local BCI companies in a push to become western China's BCI hub",
+     "summary": "A Chengdu university-enterprise BCI innovation alliance, initiated by UESTC professor Yao Dezhong, was inaugurated on Nov 20 at a Chengdu Science and Technology Bureau matchmaking event, alongside a white paper saying the city hosts more than 60 BCI companies. Officials said sleep-regulation and autism-intervention products from the China-Cuba neurotechnology lab are about to reach market, and more than a dozen products were shown, including a thought-controlled drone headband and a noninvasive sleep headband.",
+     "category": "Other",
+     "subcategory": null,
+     "date_published": "2026-11-23",
+     "date_discovered": "2026-11-23T03:55-06:00",
+     "date_updated": "2026-11-23T03:55-06:00",
+     "is_new": true,
+     "link": "https://www.prnewswire.com/news-releases/chengdu-targets-west-chinas-brain-computer-interface-hub-302947831.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 27,
+     "score_original": {
+      "value": "27",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "PR Newswire (Chengdu Science and Technology Bureau)",
+      "hub_relevance": "Another Chinese regional BCI cluster push (after Guangzhou and Shanghai) is competitive-landscape context for the Hub's low-cost EEG and wearable hardware, not a direct opportunity.",
+      "related_assets_raw": null,
+      "evidence_type": "Government press release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": "Government-sponsored PR Newswire release, datelined Chengdu Nov 23 (posted Nov 22 21:21 ET); alliance inaugurated Nov 20. Product-readiness claims are officials' statements. Similar regional-policy item: NN-20261118-007 (Guangzhou Tianhe)."
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 123,
+      "record_id": "NN-20261123-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261122-001",
@@ -73,7 +119,7 @@
      "date_published": "2026-11-21",
      "date_discovered": "2026-11-22T03:45-06:00",
      "date_updated": "2026-11-22T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://news.bjd.com.cn/2026/11/21/12038883.shtml",
      "secondary_links": [],
      "confidence": null,
@@ -119,7 +165,7 @@
      "date_published": "2026-11-20",
      "date_discovered": "2026-11-22T03:45-06:00",
      "date_updated": "2026-11-22T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.sec.gov/Archives/edgar/data/1698530/000119312526469804/xcur-ex99_1.htm",
      "secondary_links": [],
      "confidence": null,
@@ -385,52 +431,6 @@
       "record_id": "NN-20261121-005"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261121-006",
-     "visibility": "internal",
-     "title": "Neuralink posts a video of a clinical-trial participant playing GTA VI with its brain implant, a day after the game's release",
-     "summary": "Neuralink shared a two-minute clip on November 20 of an unnamed trial participant steering a speedboat in Grand Theft Auto VI via its Telepathy implant, with a live neural-decoding dashboard and controller graphic on screen. The company says console control is an experimental feature not available to all participants; Musk separately said Blindsight awaits regulatory approval.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-20",
-     "date_discovered": "2026-11-21T03:40-06:00",
-     "date_updated": "2026-11-21T03:40-06:00",
-     "is_new": false,
-     "link": "https://interestingengineering.com/culture/neuralink-brain-implant-gta-vi-blindsight-approval",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 30,
-     "score_original": {
-      "value": "30",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Interesting Engineering (citing Neuralink on X)",
-      "hub_relevance": "High-visibility consumer-facing BCI demo; awareness context only for the Hub.",
-      "related_assets_raw": null,
-      "evidence_type": "Company demonstration",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Demonstration video only; no performance data. Also covered by Tesla North 2026-11-20."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 120,
-      "record_id": "NN-20261121-006"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -439,10 +439,10 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-22T03:45:00-06:00",
+   "last_refreshed": "2026-11-23T04:05:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 2026-11-15..22: OpenAlex (Atlas+topics), Europe PMC, Crossref all ok. 940 screened, 139 new after dedupe, 8 analyzed, 0 qualified. No Atlas changes, no existing-relationship hits.",
-   "next_run": "2026-11-23 ~3:30 AM CT (daily) + weekly report",
+   "last_run_note": "Window 11/16-11/23: 955 screened (OpenAlex Atlas 335, topics 260, Crossref 281, Europe PMC 126), 92 new after DOI dedupe, 5 analyzed, 0 qualified. Europe PMC slow with transient HTTP 500s, recovered on retry. No pending evaluations, no Atlas requests to resolve or file, no existing-relationship or Outreach Log hits.",
+   "next_run": "2026-11-24 03:30 CT",
    "rows_added_last_run": 0,
    "new_items_count": 0,
    "no_new_items": true,
@@ -1132,17 +1132,103 @@
    "title": "Funded Research",
    "source": "Hub - Funding Scout",
    "cadence": "Weekly Mon 3:30 AM; monthly recheck 1st",
-   "last_refreshed": "2026-11-16T03:55:00-06:00",
-   "last_run_status": "ok",
-   "last_run_note": "Window Nov 7-16: NIH RePORTER 103 award notices (78 continuations, 8 new, 5 renewals, 1 supplement; 0 WashU, 2 St. Louis VA, both non-matching), NSF 8 awards. 0 new Opportunities (no credible Hub technical match; top candidates were VA/NIMH continuations with established setups). 11 evaluated awards appended to Grants (rows 142-152). No changes to the 18 existing Opportunities rows; all already have Atlas IDs, no open Funding Scout resolution requests, no new Atlas requests. No new Feedback Log entries since 2026-10-27. Coverage note: award volume remains low (similar to prior weeks); USAspending not queried. No outreach.",
-   "next_run": "Mon Nov 23, 2026 03:30 CT",
-   "rows_added_last_run": 0,
+   "last_refreshed": "2026-11-23T04:00:00-06:00",
+   "last_run_status": "partial",
+   "last_run_note": "1 new opportunity: OPP-019 Erik Sean Carlson (VA Puget Sound, I01RX003829, mTBI balance vs exercise training; Hub Wheel/Treadmill; Sales 47, Collab 45, Medium-Low). OPP-019 cols A-X written, but the write of Disposition=New and Last Updated (Z20:AA20) did not run (approval card expired); needs Disposition New + Last Updated 2026-11-23. Atlas: Carlson unmatched, requested REQ-FUN-OPP-019 (ORCID 0000-0002-6662-7856, OpenAlex A5046075791); no previously filed requests pending. 10 evaluated awards for Grants. Source: NIH RePORTER award_notice_date 2026-11-14..23 (166 notices: 112 continuations, 36 new, 10 renewals, 1 supplement; mostly NIAID 82 and VA 54). VA award amounts not published in RePORTER. NSF Awards API returned only 8 awards for the window (no BIO/IOS), so NSF coverage is thin. USAspending not queried. Related pubs (OpenAlex A5046075791) show cerebellar cognition work; no published balance-training paper yet, so confidence Medium-Low.",
+   "next_run": "2026-11-30 03:30 CT",
+   "rows_added_last_run": 1,
    "new_items_count": 0,
    "no_new_items": true,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "funding",
+     "item_id": "funding:OPP-019",
+     "visibility": "internal",
+     "title": "Recruitment of Cerebellar Circuits with Balance Training for Cognitive Rehabilitation in a Mouse Model of Mild Traumatic Brain Injury",
+     "summary": "Explicit: aims compare rotarod-based balance training against separate exercise interventions in mTBI mice, designed to isolate balance effects from exercise, with DREADD manipulation of lateral cerebellar nucleus during training. Inferred: the exercise-control arm needs a standardized, quantifiable exercise apparatus (wheel or treadmill); which apparatus they use is not stated.",
+     "category": "Funded Research",
+     "subcategory": "External",
+     "date_published": "2026-11-19",
+     "date_discovered": null,
+     "date_updated": null,
+     "is_new": false,
+     "link": "https://reporter.nih.gov/project-details/11416165",
+     "secondary_links": [],
+     "confidence": "medium-low",
+     "score": 47,
+     "score_original": {
+      "sales": "47",
+      "collab": "45",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)",
+      "sales_components": "20/14/6/0/7",
+      "collab_components": "16/12/4/0/13"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-002",
+       "name": "Body Event Analysis Module 3 (BEAM3)",
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-003",
+       "name": "Hub Wheel with Hublink",
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-004",
+       "name": "Motorized Rodent Treadmill",
+       "store_url": "https://neurotechhub.wustl.edu/items/rodent-treadmill/",
+       "github_url": "https://github.com/Neurotech-Hub/StepScreen-Arduino"
+      },
+      {
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+      }
+     ],
+     "people": [
+      {
+       "name": "Erik Sean Carlson",
+       "institution": "VA PUGET SOUND HEALTHCARE SYSTEM",
+       "atlas_id": null,
+       "role_note": "PI"
+      }
+     ],
+     "details": {
+      "award_id": "I01RX003829",
+      "agency": "VA (RR&D)",
+      "award_type": "non-competing continuation",
+      "award_amount_usd": null,
+      "amount_basis": "fiscal-year award amount",
+      "notice_date": "2026-11-19",
+      "project_end": "2027-09-30",
+      "is_deadline": false,
+      "need_basis": "explicit (exercise vs balance intervention design); inferred (wheel/treadmill hardware need)",
+      "hub_match_raw": "Hub Wheel with Hublink (voluntary exercise arm with logged wheel turns); Motorized Rodent Treadmill (forced exercise arm, mouse 2in version); BEAM3 optional in-cage activity readout. No product capability claimed beyond store listings.",
+      "recommended_action": "No prior contact in Outreach Log. Low-priority external lead: award is year 4 of 4 (ends 2027-09-30), so exercise equipment is likely already in place; confirm from the next paper or a renewal whether they use wheel vs treadmill exercise before any outreach (outreach only if Matt authorizes). Watch for an RX renewal in 2027.",
+      "bot_review_status": "pending human review",
+      "atlas_status": "PENDING REQUEST"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1WJ4iJ3f9qTO6TkRNGrzbf-thPEsVMcxKJvS1YkDqguo/edit",
+      "tab": "Opportunities",
+      "row": 20,
+      "record_id": "OPP-019"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "funding",
      "item_id": "funding:OPP-018",
@@ -1704,82 +1790,6 @@
       "record_id": "OPP-013"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "funding",
-     "item_id": "funding:OPP-014",
-     "visibility": "internal",
-     "title": "Sex chromosome contributions to alcohol drinking behaviors",
-     "summary": "Two-bottle choice alcohol drinking tasks in Four Core Genotypes / gonadectomized mice",
-     "category": "Funded Research",
-     "subcategory": "External",
-     "date_published": "2026-07-22",
-     "date_discovered": null,
-     "date_updated": "2026-11-01",
-     "is_new": false,
-     "link": "https://reporter.nih.gov/project-details/11404942",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 72,
-     "score_original": {
-      "sales": "72",
-      "collab": "51",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)",
-      "sales_components": "25/20/14/3/10",
-      "collab_components": "16/14/6/5/10"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000586"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
-      },
-      {
-       "product_id": "PRD-009",
-       "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
-       "github_url": null
-      }
-     ],
-     "people": [
-      {
-       "name": "Anna Kay Radke",
-       "institution": "MIAMI UNIVERSITY OXFORD",
-       "atlas_id": "ATL-000586",
-       "role_note": "PI"
-      }
-     ],
-     "details": {
-      "award_id": "R01AA031463",
-      "agency": "NIAAA",
-      "award_type": "non-competing continuation",
-      "award_amount_usd": 321102,
-      "amount_basis": "fiscal-year award amount",
-      "notice_date": "2026-07-22",
-      "project_end": "2029-07-31",
-      "is_deadline": false,
-      "need_basis": "explicit (two-bottle choice); inferred (automated lick/intake logging)",
-      "hub_match_raw": "Two-bottle Sipper Hub; FlightCap Lick and Liquid Sensor (Pre-order)",
-      "recommended_action": "Low-touch product awareness for Sipper Hub/FlightCap after authorization. Not in Outreach Log.",
-      "bot_review_status": "pending human review",
-      "atlas_status": "RESOLVED ATL-000586"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1WJ4iJ3f9qTO6TkRNGrzbf-thPEsVMcxKJvS1YkDqguo/edit",
-      "tab": "Opportunities",
-      "row": 15,
-      "record_id": "OPP-014"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -1788,17 +1798,70 @@
    "title": "Innovation Opportunities",
    "source": "Hub - Innovation Scout",
    "cadence": "Weekly Mon 3:30 AM",
-   "last_refreshed": "2026-11-16T04:10:00-06:00",
+   "last_refreshed": "2026-11-23T04:05:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Tracker: added INN-021 (NSF MRI 27-500); updated INN-003 (price increases + Camus competitor), INN-006 (R50 go/no-go date passed; reverified), INN-009 (ACORN back to $799). Products: PRD-001..004 prices updated (ACORN $799, BEAM3 $249, Hub Wheel $229, Treadmill $599), Last Verified on 9 store rows, added PRD-036 Bpod-MVP. Digest Page updated in place. Store per-product pages not re-fetched (curl TLS error; store listing read via web fetch). McKnight Tech award checked: discontinued. No new Feedback Log entries; no agents messaged.",
-   "next_run": "Mon Nov 23, 2026 ~3:30 AM CT",
+   "last_run_note": "Tracker: added INN-022 (RFA-MH-28-110 forecast); updated INN-005 (Olden Labs DOME competitor) and INN-006 (R50 reverified, due Dec 4). Products: added PRD-037 Chronolume; Last Verified refreshed on 9 store rows (no price or status changes). Digest Page updated. No new Feedback Log entries. Read Opportunity Scout's Nov 23 report.",
+   "next_run": "Mon Nov 30, 2026 ~3:30 AM CT",
    "rows_added_last_run": 2,
-   "new_items_count": 0,
-   "no_new_items": true,
+   "new_items_count": 1,
+   "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "innovation",
+     "item_id": "innovation:INN-022",
+     "visibility": "internal",
+     "title": "NIH BRAIN 'Development and Validation of Novel Tools and New Approaches for Neuroscience Research' (RFA-MH-28-110): forecast, est. post Feb 10, 2027, est. due Jun 10, 2027",
+     "summary": "Forecast NOFO that consolidates three current BRAIN tool-development programs. It covers new recording and modulation technologies in any modality (optical, electrical, magnetic, acoustic) at any stage, from early concepts to optimizing existing instrumentation for broad adoption. Behavior-only devices (wheels, loggers) fit poorly: the scope is cell- and circuit-level tools, so a Hub role would be as engineering partner on a faculty-led neural recording/stimulation project. Forecast only (last updated Jun 25, 2026); details may change when it posts.",
+     "category": "Innovation",
+     "subcategory": "Funding",
+     "date_published": null,
+     "date_discovered": "2026-11-23",
+     "date_updated": "2026-11-23",
+     "is_new": true,
+     "link": "https://simpler.grants.gov/opportunity/59fa608f-e4ca-4ca9-b06c-6b499711f535",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": null,
+     "score_original": null,
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-026",
+       "name": "Creed DBS",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/Creed-DBS-SiLabs"
+      },
+      {
+       "product_id": "PRD-037",
+       "name": "Chronolume",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/Chronolume"
+      }
+     ],
+     "people": [],
+     "details": {
+      "hub_asset": "Hub instrumentation for neural recording/modulation (e.g., Creed DBS, Chronolume; both GitHub projects, not products); Hub engineering staff",
+      "potential_value": "$12M total, ~10 awards expected (forecast); award ceiling not specified",
+      "effort": "High",
+      "priority": "Medium",
+      "recommended_action": "Monitor: when the NOFO posts (est. Feb 10, 2027), check scope and identify a WashU faculty PI with a neural recording/stimulation tool the Hub could co-develop",
+      "bot_status": "Forecasted (est. post Feb 10, 2027; est. due Jun 10, 2027)"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
+      "tab": "Opportunities",
+      "row": 23,
+      "record_id": "INN-022"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "innovation",
      "item_id": "innovation:INN-021",
@@ -2240,57 +2303,6 @@
       "tab": "Opportunities",
       "row": 14,
       "record_id": "INN-013"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "innovation",
-     "item_id": "innovation:INN-014",
-     "visibility": "internal",
-     "title": "Cage-scale programmable spatial foraging compatible with chronic neural recording",
-     "summary": "Open naturalistic-foraging platforms are either room-scale or head-fixed. SWC's Aeon habitat is about 2.7 x 2.4 m with wheel-based foraging patches. Dynamic-foraging tasks such as Allen's are rig-based. FED3 offers single-location operant feeding in the home cage. No widely adopted tool appears to turn a standard home-cage floor into a distributed, programmable reward and cue field that works with chronic recordings, which is SFP's design. This is a hypothesis from a desk scan, not a validated gap: no user survey or demand data yet, and SFP is alpha stage and not for sale.",
-     "category": "Innovation",
-     "subcategory": "Market Gap",
-     "date_published": null,
-     "date_discovered": "2026-11-02",
-     "date_updated": "2026-11-02",
-     "is_new": false,
-     "link": "https://aeon.swc.ucl.ac.uk/user/aeon_modules/hardware/habitat/",
-     "secondary_links": [
-      "https://doi.org/10.1101/2025.07.31.664513",
-      "https://github.com/AllenNeuralDynamics/dynamic-foraging-task",
-      "https://github.com/Neurotech-Hub/SpatialForagingPlatform-ProjectManager"
-     ],
-     "confidence": "medium",
-     "score": null,
-     "score_original": null,
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-014",
-       "name": "Spatial Foraging Platform (SFP)",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/SpatialForagingPlatform-ProjectManager"
-      }
-     ],
-     "people": [],
-     "details": {
-      "hub_asset": "Spatial Foraging Platform (SFP; McDonnell-funded, in development)",
-      "potential_value": "Strategic: positions SFP for dissemination (e.g., future BRAIN U24 or BBQS fit) and early-adopter pilots; revenue unknown",
-      "effort": "Low",
-      "priority": "Low",
-      "recommended_action": "Write an internal one-page comparison (SFP vs Aeon vs FED3 vs head-fixed foraging rigs) with Jemin to set the dissemination pitch; revisit when SFP reaches beta",
-      "bot_status": "Hypothesis"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/11SELpAX8HMzIxqVV9LnLWHqowdQj1oH9HEhWG5qUKPE/edit",
-      "tab": "Opportunities",
-      "row": 15,
-      "record_id": "INN-014"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
@@ -3622,7 +3634,8 @@
     "ACORN - Leads ACN-066 (Christy Hand): not_found",
     "ACORN - Leads ACN-067 (Sara Marschhauser): not_found",
     "ACORN - Leads ACN-080 (Cody Baciuska): not_found",
-    "ACORN - Leads ACN-081 (Jack Gradidge): not_found"
+    "ACORN - Leads ACN-081 (Jack Gradidge): not_found",
+    "Hub - Funding Scout OPP-019 (Erik Sean Carlson): open"
    ]
   },
   {
