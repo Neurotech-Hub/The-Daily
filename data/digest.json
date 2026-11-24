@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-23T05:23:06-06:00",
+ "generated_at": "2026-11-24T05:21:29-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-23",
+ "edition_date": "2026-11-24",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -17,7 +17,7 @@
   {
    "key": "news",
    "title": "News",
-   "count": 8
+   "count": 7
   },
   {
    "key": "opportunity",
@@ -51,17 +51,203 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-23T03:58:00-06:00",
+   "last_refreshed": "2026-11-24T03:50:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Reviewed 38 candidates (quiet weekend), skipped 18 duplicates. Added NN-20261123-001 (Chengdu BCI innovation alliance and 60+ company white paper, score 27). Deferred PiEEG XR Kickstarter (goes live 11-23) and MIIT BCI standards working group (Nov 25-26). No item scored 90 or higher. 0 fetch failures; 0 sheet failures. Sources tab unchanged.",
-   "next_run": "2026-11-24 03:30 CT",
-   "rows_added_last_run": 1,
-   "new_items_count": 1,
+   "last_run_note": "Reviewed 45 candidates, skipped 13 duplicates. Added NN-20261124-001 Paradromics-NVIDIA speech-BCI compute collaboration (52), -002 FUTRUE 512-electrode BCI first acute human implant at TUM (42), -003 PiEEG XR Kickstarter (45), -004 OYMotion Series D (28). Deferred MIIT BCI standards working group (Nov 25-26). No item scored 90 or higher. 2 non-blocking fetch timeouts (verified via alternate pages); 0 sheet failures. Sources tab unchanged.",
+   "next_run": "2026-11-25 03:30 CT",
+   "rows_added_last_run": 4,
+   "new_items_count": 4,
    "no_new_items": false,
-   "visible_count": 8,
+   "visible_count": 7,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261124-001",
+     "visibility": "internal",
+     "title": "Paradromics and NVIDIA announce a technical collaboration to run Connexus speech-BCI decoding on NVIDIA Holoscan and Jetson/IGX edge computing, targeting <10 ms brain-to-speech latency",
+     "summary": "Paradromics will integrate NVIDIA Holoscan and edge computing into its BCI development stack, starting with speech restoration (targets: <10 ms compute/transport latency for direct brain-to-speech, <100 ms for brain-to-text-to-speech) and background decoder recalibration, then motor control and vision-language-action models in 2027. It also plans to deploy NVIDIA IGX/Holoscan-ready systems to its APEX academic partners; no financial terms were disclosed.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-23",
+     "date_discovered": "2026-11-24T03:45-06:00",
+     "date_updated": "2026-11-24T03:45-06:00",
+     "is_new": true,
+     "link": "https://www.businesswire.com/news/home/20261123124193/en/Paradromics-Advances-High-Performance-AI-Computing-for-Brain-Computer-Interfaces-with-NVIDIA",
+     "secondary_links": [
+      "https://www.biospace.com/press-releases/paradromics-advances-high-performance-ai-computing-for-brain-computer-interfaces-with-nvidia"
+     ],
+     "confidence": null,
+     "score": 52,
+     "score_original": {
+      "value": "52",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Paradromics press release (Business Wire via BioSpace)",
+      "hub_relevance": "Signals a push to shrink BCI external compute into low-power, wearable edge hardware, the same size-weight-power problem the Hub works on in its embedded loggers, though there is no direct product overlap.",
+      "related_assets_raw": null,
+      "evidence_type": "Company press release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 124,
+      "record_id": "NN-20261124-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261124-003",
+     "visibility": "internal",
+     "title": "PiEEG launches its PiEEG XR Kickstarter: a snap-in dry-electrode EEG/EOG/facial-EMG face interface for Meta Quest 3/3S, with a 16-channel Academic kit that streams over LSL",
+     "summary": "PiEEG opened an all-or-nothing Kickstarter on November 23 (ends December 31, 2026) for PiEEG XR, which replaces a VR headset face cushion with 8 sensors reading expressions, blinks and focus, plus a 16-channel Academic configuration (IronBCI-16) with LSL sync and CSV export. MoguLive reports tiers from GBP 250 (IronBCI-16 Pro board) and GBP 499 (Quest 3/3S early bird) to GBP 3,000 (Academic Research Kit), with delivery planned for February-June 2027.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-23",
+     "date_discovered": "2026-11-24T03:45-06:00",
+     "date_updated": "2026-11-24T03:45-06:00",
+     "is_new": true,
+     "link": "https://www.kickstarter.com/projects/pieeg/pieeg-xr-neural-face-interface-for-spatial-computing",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 45,
+     "score_original": {
+      "value": "45",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Kickstarter (PiEEG); MoguLive",
+      "hub_relevance": "Low-cost, research-grade dry EEG with LSL sync is a practical benchmark and possible companion for the Hub's affordable open behavioral and physiology hardware.",
+      "related_assets_raw": null,
+      "evidence_type": "Company crowdfunding launch",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 126,
+      "record_id": "NN-20261124-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261124-002",
+     "visibility": "internal",
+     "title": "Munich startup FUTRUE Neurosciences' 512-electrode surface micro-ECoG BCI prototype is used in a human for the first time, in an acute implantation during awake tumor surgery at TUM University Hospital",
+     "summary": "On November 23, TUM University Hospital neurosurgeons temporarily placed a FUTRUE Neurosciences prototype interface, 512 microelectrodes resting on the brain surface designed both to record and to stimulate, during an awake brain-tumor operation and removed it after collecting data; further measurements are planned. TUM frames the work, under its new Research Alliance for Neurotechnology and Neuroassistive Systems, as a push for European-developed BCIs.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-24T03:45-06:00",
+     "date_updated": "2026-11-24T03:45-06:00",
+     "is_new": true,
+     "link": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/forschende-der-tum-testen-neuartige-hirn-computer-schnittstelle",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 42,
+     "score_original": {
+      "value": "42",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Technical University of Munich press release",
+      "hub_relevance": "Early clinical milestone for a European high-channel-count surface-array company; competitive-landscape context for the Hub's electrophysiology interests, not a direct opportunity.",
+      "related_assets_raw": null,
+      "evidence_type": "University press release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 125,
+      "record_id": "NN-20261124-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261124-004",
+     "visibility": "internal",
+     "title": "Shanghai EMG/BCI and dexterous-hand maker OYMotion (傲意科技) closes a Series D of several hundred million yuan, its second round of 2026",
+     "summary": "OYMotion announced a Series D of several hundred million RMB, co-invested by Zhongbing Shunjing (China North Industries Group), Changjiang Capital and Optics Valley Industrial Investment, following a C round earlier this year led by CICC Capital's brain science fund. The company, which started in AI EMG algorithms, sells 20+ dexterous-hand and gripper SKUs to nearly 200 embodied-AI companies and an EMG-EGO data-capture system, and runs a factory in Zhuhai.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-23",
+     "date_discovered": "2026-11-24T03:45-06:00",
+     "date_updated": "2026-11-24T03:45-06:00",
+     "is_new": true,
+     "link": "https://www.jiemian.com/article/15360003.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 28,
+     "score_original": {
+      "value": "28",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Jiemian News (界面新闻)",
+      "hub_relevance": "Peripheral: shows Chinese neural-signal (EMG) interface companies shifting capital toward robotics; no direct overlap with Hub products.",
+      "related_assets_raw": null,
+      "evidence_type": "News report (company announcement)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 127,
+      "record_id": "NN-20261124-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261123-001",
@@ -73,7 +259,7 @@
      "date_published": "2026-11-23",
      "date_discovered": "2026-11-23T03:55-06:00",
      "date_updated": "2026-11-23T03:55-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.prnewswire.com/news-releases/chengdu-targets-west-chinas-brain-computer-interface-hub-302947831.html",
      "secondary_links": [],
      "confidence": null,
@@ -199,238 +385,6 @@
       "record_id": "NN-20261122-002"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261121-001",
-     "visibility": "internal",
-     "title": "Shanghai neuromodulation and research-instrument maker Quanlan Technology (全澜科技) closes a Series A of tens of millions of yuan",
-     "summary": "Quanlan Technology, which develops non-invasive neuromodulation therapies and devices for brain disorders such as Parkinson's disease and depression and also supplies neuroscience research instruments, closed a Series A of tens of millions of yuan from Xunshang VC, Songhe Capital, Shanghai Sci-Tech VC, Nanhui VC, Green River Investment and Lingyi Investment. Dealroom reports the money will fund clinical validation, regulatory filings and R&D hiring.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-19",
-     "date_discovered": "2026-11-21T03:40-06:00",
-     "date_updated": "2026-11-21T03:40-06:00",
-     "is_new": false,
-     "link": "https://dealroom.co/news/174104-china-s-quanlan-raises-tens-of-millions-in-series-a-for-brain-therapy-de",
-     "secondary_links": [
-      "https://www.ifastdata.com/2026/11/19/%e4%b8%8a%e6%b5%b7%e9%9d%9e%e4%be%b5%e5%85%a5%e6%80%a7%e7%a5%9e%e7%bb%8f%e8%b0%83%e6%8e%a7%e7%96%97%e6%b3%95%e4%b8%8e%e8%ae%be%e5%a4%87%e7%a0%94%e5%8f%91%e5%95%86%e5%85%a8%e6%be%9c%e7%a7%91%e6%8a%80/"
-     ],
-     "confidence": null,
-     "score": 48,
-     "score_original": {
-      "value": "48",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Fastdata极数 (ifastdata)",
-      "hub_relevance": "A Chinese company pairing clinical neuromodulation with a research-instrument line is a commercial comparator for the Hub's lab-instrumentation and stimulation engineering services.",
-      "related_assets_raw": null,
-      "evidence_type": "Funding",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "ifastdata item dated 2026-11-19; Dealroom summary 2026-11-18 19:31 UTC (13:31 CT). Exact amount undisclosed; specific research instruments not named."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 115,
-      "record_id": "NN-20261121-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261121-002",
-     "visibility": "internal",
-     "title": "Hangzhou closed-loop implantable BCI company Kingstronics (青石永隽) raises a Series A of several hundred million yuan for refractory-depression neuromodulation trials",
-     "summary": "Kingstronics, the first spinout of the Zhejiang University–Yuhang Nanhu Brain-Computer Interdisciplinary Institute, raised a Series A of several hundred million yuan from Shenzhen Capital Group, Puhua Capital, Songhe Capital and others to fund registration trials and Class III filings for a digital neuroelectrophysiology system and a rechargeable implantable deep brain stimulator. Its closed-loop approach tracks intracranial emotion biomarkers to adapt stimulation for treatment-resistant depression.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-20",
-     "date_discovered": "2026-11-21T03:40-06:00",
-     "date_updated": "2026-11-21T03:40-06:00",
-     "is_new": false,
-     "link": "http://www.puhuacapital.com/index.php/news/info/343",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 46,
-     "score_original": {
-      "value": "46",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Puhua Capital (investor announcement)",
-      "hub_relevance": "Closed-loop record-and-stimulate hardware for psychiatric indications is a fast-growing funded segment relevant to the Hub's electrophysiology and stimulation engineering expertise.",
-      "related_assets_raw": null,
-      "evidence_type": "Funding",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Investor post dated 2026-11-20; first media reports 2026-11-18 (Tencent News, ITBear; Dealroom 2026-11-18 19:07 UTC says round led by Shenzhen Capital Group). Exact amount undisclosed (数亿元). First-patient no-relapse claim is company-reported."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 116,
-      "record_id": "NN-20261121-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261121-003",
-     "visibility": "internal",
-     "title": "Protocol Labs' PL Neuro launches Neuro Atlas, a public tracker of neurotech milestones, capability trends and BCI funding, as Juan Benet files to raise a neurotech venture fund",
-     "summary": "PL Neuro launched Neuro Atlas on November 19, an interactive resource combining a company milestone timeline, field-velocity charts (e.g., simultaneously recorded neurons, connectome size, BCI communication rates) and a BCI Funding Index. Inside BCI separately reports that PLC Neurotech Fund I LP, whose general partner's sole member is Juan Benet, filed an SEC Form D on 29 October for BCI, neuro-AI and connectomics investing, with no money raised yet.",
-     "category": "Other",
-     "subcategory": null,
-     "date_published": "2026-11-19",
-     "date_discovered": "2026-11-21T03:40-06:00",
-     "date_updated": "2026-11-21T03:40-06:00",
-     "is_new": false,
-     "link": "https://www.plneuro.xyz/insights/introducing-neuro-atlas/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 44,
-     "score_original": {
-      "value": "44",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "PL Neuro (Protocol Labs) / Inside BCI",
-      "hub_relevance": "A free, sourced landscape of neurotech milestones and funding is a useful reference for Hub market scans and positioning, and it accepts primary-source submissions.",
-      "related_assets_raw": null,
-      "evidence_type": "Product launch",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Fund detail from Inside BCI 2026-11-20 (https://insidebci.com/market/2026-11-20-juan-benet-plc-neurotech-fund-i-form-d-neurotech-venture-fund/). Atlas code at github.com/protocol/neuro-atlas (not separately reviewed). PLC Neurotech also listed as a Science Corp Series D investor (NN-20261118-001)."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 117,
-      "record_id": "NN-20261121-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261121-004",
-     "visibility": "internal",
-     "title": "Brain Ultimate receives FDA 510(k) clearance (K262748) for its TMS system as an adjunct treatment for major depressive disorder in adolescents aged 15–21",
-     "summary": "Alpharetta, Georgia-based Brain Ultimate said FDA cleared its Ultimate rTMS on November 19, 2026 as an adjunct treatment for MDD in patients aged 15–21, adding to its adult MDD and OCD clearances. The company says its M-Series system is used at 75+ US clinics; its neuronavigation clearance remains adults-only.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-20",
-     "date_discovered": "2026-11-21T03:40-06:00",
-     "date_updated": "2026-11-21T03:40-06:00",
-     "is_new": false,
-     "link": "https://www.brainultimate.com/2026/11/20/tms-for-adolescents-fda-clearance/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 40,
-     "score_original": {
-      "value": "40",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Brain Ultimate (company press release)",
-      "hub_relevance": "Shows continuing label expansion among smaller US TMS makers, market context for the Hub's stimulation and neuronavigation hardware interests rather than a direct opportunity.",
-      "related_assets_raw": null,
-      "evidence_type": "Regulatory",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Company release 2026-11-20; clearance date 2026-11-19 per company. FDA database entry for K262748 not yet checked. Other TMS systems have held adolescent adjunct clearances since 2024."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 118,
-      "record_id": "NN-20261121-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261121-005",
-     "visibility": "internal",
-     "title": "Jiangsu's first invasive-BCI patient, a 26-year-old with cervical spinal cord injury, drives a wheelchair by thought at Affiliated Hospital of Nantong University",
-     "summary": "On November 19, a woman implanted in June with a wireless flexible-electrode BCI under a clinical study at the Affiliated Hospital of Nantong University moved a special wheelchair forward, backward, stopped and turned by intention. The hospital calls it Jiangsu's first and China's third such invasive BCI surgery and plans decoding for brain-controlled gloves and exoskeletons next.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-20",
-     "date_discovered": "2026-11-21T03:40-06:00",
-     "date_updated": "2026-11-21T03:40-06:00",
-     "is_new": false,
-     "link": "https://www.chinanews.com.cn/sh/2026/11-20/10735221.shtml",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 30,
-     "score_original": {
-      "value": "30",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "China News Service (中国新闻网)",
-      "hub_relevance": "Adds to the steady stream of Chinese hospital BCI clinical milestones, field context for the Hub rather than a direct opportunity.",
-      "related_assets_raw": null,
-      "evidence_type": "Clinical milestone",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Implant manufacturer not named in the report. 'Third in China' claim is the hospital's framing."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 119,
-      "record_id": "NN-20261121-005"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -439,10 +393,10 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-23T04:05:00-06:00",
+   "last_refreshed": "2026-11-24T03:55:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 11/16-11/23: 955 screened (OpenAlex Atlas 335, topics 260, Crossref 281, Europe PMC 126), 92 new after DOI dedupe, 5 analyzed, 0 qualified. Europe PMC slow with transient HTTP 500s, recovered on retry. No pending evaluations, no Atlas requests to resolve or file, no existing-relationship or Outreach Log hits.",
-   "next_run": "2026-11-24 03:30 CT",
+   "last_run_note": "Window 11/17-11/24; 657 screened, 96 new, 8 analyzed, 0 qualified (best ~35-40). All sources ok; Atlas unchanged (ATL-000660); no relationship/outreach overlaps.",
+   "next_run": "2026-11-25 03:30",
    "rows_added_last_run": 0,
    "new_items_count": 0,
    "no_new_items": true,
@@ -1153,7 +1107,7 @@
      "subcategory": "External",
      "date_published": "2026-11-19",
      "date_discovered": null,
-     "date_updated": null,
+     "date_updated": "2026-11-23",
      "is_new": false,
      "link": "https://reporter.nih.gov/project-details/11416165",
      "secondary_links": [],
@@ -1170,7 +1124,9 @@
      "disposition": "New",
      "matt_feedback": null,
      "next_review_date": null,
-     "atlas_ids": [],
+     "atlas_ids": [
+      "ATL-000661"
+     ],
      "related_items": [],
      "product_matches": [
       {
@@ -1202,7 +1158,7 @@
       {
        "name": "Erik Sean Carlson",
        "institution": "VA PUGET SOUND HEALTHCARE SYSTEM",
-       "atlas_id": null,
+       "atlas_id": "ATL-000661",
        "role_note": "PI"
       }
      ],
@@ -1803,8 +1759,8 @@
    "last_run_note": "Tracker: added INN-022 (RFA-MH-28-110 forecast); updated INN-005 (Olden Labs DOME competitor) and INN-006 (R50 reverified, due Dec 4). Products: added PRD-037 Chronolume; Last Verified refreshed on 9 store rows (no price or status changes). Digest Page updated. No new Feedback Log entries. Read Opportunity Scout's Nov 23 report.",
    "next_run": "Mon Nov 30, 2026 ~3:30 AM CT",
    "rows_added_last_run": 2,
-   "new_items_count": 1,
-   "no_new_items": false,
+   "new_items_count": 0,
+   "no_new_items": true,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
@@ -1820,7 +1776,7 @@
      "date_published": null,
      "date_discovered": "2026-11-23",
      "date_updated": "2026-11-23",
-     "is_new": true,
+     "is_new": false,
      "link": "https://simpler.grants.gov/opportunity/59fa608f-e4ca-4ca9-b06c-6b499711f535",
      "secondary_links": [],
      "confidence": "medium",
@@ -3634,8 +3590,7 @@
     "ACORN - Leads ACN-066 (Christy Hand): not_found",
     "ACORN - Leads ACN-067 (Sara Marschhauser): not_found",
     "ACORN - Leads ACN-080 (Cody Baciuska): not_found",
-    "ACORN - Leads ACN-081 (Jack Gradidge): not_found",
-    "Hub - Funding Scout OPP-019 (Erik Sean Carlson): open"
+    "ACORN - Leads ACN-081 (Jack Gradidge): not_found"
    ]
   },
   {
