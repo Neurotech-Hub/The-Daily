@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-24T05:21:29-06:00",
+ "generated_at": "2026-11-25T05:24:15-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-24",
+ "edition_date": "2026-11-25",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -17,7 +17,7 @@
   {
    "key": "news",
    "title": "News",
-   "count": 7
+   "count": 8
   },
   {
    "key": "opportunity",
@@ -51,17 +51,346 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-24T03:50:00-06:00",
+   "last_refreshed": "2026-11-25T03:37:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Reviewed 45 candidates, skipped 13 duplicates. Added NN-20261124-001 Paradromics-NVIDIA speech-BCI compute collaboration (52), -002 FUTRUE 512-electrode BCI first acute human implant at TUM (42), -003 PiEEG XR Kickstarter (45), -004 OYMotion Series D (28). Deferred MIIT BCI standards working group (Nov 25-26). No item scored 90 or higher. 2 non-blocking fetch timeouts (verified via alternate pages); 0 sheet failures. Sources tab unchanged.",
-   "next_run": "2026-11-25 03:30 CT",
-   "rows_added_last_run": 4,
-   "new_items_count": 4,
+   "last_run_note": "42 candidates reviewed, 7 inserted (NN-20261125-001..007), 17 duplicates skipped. No scores >= 90 (top: DeepAxtiv 46). Non-blocking: one Business Wire fetch timeout, verified via BioSpace.",
+   "next_run": "2026-11-26 3:30 AM CT",
+   "rows_added_last_run": 7,
+   "new_items_count": 7,
    "no_new_items": false,
-   "visible_count": 7,
+   "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261125-001",
+     "visibility": "internal",
+     "title": "Zhejiang University-led team unveils DeepAxtiv, a closed-loop invasive BCI neuromodulation system for treatment-resistant depression, reporting response in all six patients of an early trial",
+     "summary": "On November 24, a Zhejiang University-led consortium of seven institutions launched DeepAxtiv, an invasive BCI that uses individualized target selection, symptom sensing and adaptive stimulation-parameter optimization for treatment-resistant depression; it reports a 100% response rate and 83% remission in a six-patient prospective trial, with effects in 1-8 weeks. Two core products have passed third-party national device testing ahead of planned registration trials; the team is led by Wang Yueming, founder of Kingstronics (NN-20261121-002).",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-25T03:36-06:00",
+     "date_updated": "2026-11-25T03:36-06:00",
+     "is_new": true,
+     "link": "http://www.news.zju.edu.cn/2026/1125/c775a3230954/page.htm",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 46,
+     "score_original": {
+      "value": "46",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-026",
+       "name": "Creed DBS",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/Creed-DBS-SiLabs"
+      }
+     ],
+     "people": [],
+     "details": {
+      "publisher": "Zhejiang University News (reprinting People's Daily)",
+      "hub_relevance": "Shows closed-loop, sensing-plus-stimulation psychiatric neuromodulation moving toward registration trials in China, which is useful competitive context for the Hub's closed-loop and DBS-related tool work (e.g., rodent DBS projects).",
+      "related_assets_raw": "Creed DBS",
+      "evidence_type": "University news release (system launch; not peer-reviewed)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 128,
+      "record_id": "NN-20261125-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261125-002",
+     "visibility": "internal",
+     "title": "China's MIIT formally establishes the working group of its Brain-Computer Interface Standardization Technical Committee, with eight subgroups spanning hardware, software, data, safety and medical use",
+     "summary": "At the MIIT BCI Standards Week opening in Wuhan on November 25, the ministry announced the committee's working group, with eight subgroups (overall, hardware, software, data, product systems, applications, safety governance and medical industry) drawing members from universities, institutes, companies and hospitals. The event also released a 2026 research report on evaluating BCI decoding algorithms, built around a motor-imagery test case.",
+     "category": "Other",
+     "subcategory": null,
+     "date_published": "2026-11-25",
+     "date_discovered": "2026-11-25T03:36-06:00",
+     "date_updated": "2026-11-25T03:36-06:00",
+     "is_new": true,
+     "link": "https://www.chinanews.com/cj/2026/11-25/10737557.shtml",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 38,
+     "score_original": {
+      "value": "38",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "China News Service (中国新闻网)",
+      "hub_relevance": "National BCI standards for neural-signal acquisition hardware, interfaces and decoder evaluation could shape the specifications and test methods that research-grade recording hardware is benchmarked against.",
+      "related_assets_raw": null,
+      "evidence_type": "News report (government announcement)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 129,
+      "record_id": "NN-20261125-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261125-003",
+     "visibility": "internal",
+     "title": "European Investment Bank provides €25M venture debt to Salvia BioElectronics for its implantable MySalvia migraine neuromodulation system",
+     "summary": "The EIB signed a €25 million venture-debt agreement, backed by InvestEU, with Eindhoven-based Salvia BioElectronics to fund continued clinical development of MySalvia, two ultra-thin subcutaneous implants paired with a small wearable that stimulate nerves involved in migraine. Salvia's pivotal US study RECLAIM-II (NCT07719608) is under way, and the company is also exploring chronic cluster headache.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-25T03:36-06:00",
+     "date_updated": "2026-11-25T03:36-06:00",
+     "is_new": true,
+     "link": "https://www.eib.org/en/press/all/2026-433-salvia-bioelectronics-lands-eur25-million-european-financing-to-bring-relief-for-people-with-resistant-migraine",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 34,
+     "score_original": {
+      "value": "34",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "European Investment Bank press release",
+      "hub_relevance": "Peripheral-nerve neuromodulation financing; competitive-landscape context for the Hub's stimulation hardware interests, not a direct opportunity.",
+      "related_assets_raw": null,
+      "evidence_type": "Funder press release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 130,
+      "record_id": "NN-20261125-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261125-004",
+     "visibility": "internal",
+     "title": "Centile Bio and Geisinger agree to turn hundreds of thousands of archived clinical brain MRIs into a standardized, population-referenced quantitative imaging resource",
+     "summary": "Computational neuroimaging company Centile Bioscience will use its platform, built on the 2022 lifespan brain-charts work, to de-identify, quality-control and quantify Geisinger's routine clinical brain MRI archive into brain and cranium metrics benchmarked against population models. The resource is meant to link with Geisinger's EHR, genomic and MyCode biobank data and to track within-patient change over time.",
+     "category": "Software & AI",
+     "subcategory": null,
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-25T03:36-06:00",
+     "date_updated": "2026-11-25T03:36-06:00",
+     "is_new": true,
+     "link": "https://www.biospace.com/press-releases/centile-bio-and-geisinger-build-a-population-scale-brain-imaging-resource",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 32,
+     "score_original": {
+      "value": "32",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Business Wire via BioSpace",
+      "hub_relevance": "Example of commercial tools for harmonizing multi-scanner brain imaging into research-grade datasets, relevant to WashU neuroimaging collaborators rather than to Hub hardware.",
+      "related_assets_raw": null,
+      "evidence_type": "Company press release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 131,
+      "record_id": "NN-20261125-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261125-005",
+     "visibility": "internal",
+     "title": "Medtronic Q2 FY2027: Neuroscience revenue $2.705B (+3.2% organic), with Neuromodulation down 2.2% organically while Cranial & Spinal grew",
+     "summary": "Medtronic reported Neuroscience Portfolio revenue of $2.705 billion for the quarter ended October 30, 2026, up 5.1% reported and 3.2% organic, with Cranial & Spinal Technologies up mid-single digits and Neuromodulation at $546 million (down 2.2% organic). The release also recorded $206 million of accelerated intangible amortization within the Neuroscience Portfolio.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-25T03:36-06:00",
+     "date_updated": "2026-11-25T03:36-06:00",
+     "is_new": true,
+     "link": "https://news.medtronic.com/2026-11-24-Medtronic-reports-second-quarter-fiscal-2027-results-performance-reflects-consistent-execution-across-the-portfolio",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 30,
+     "score_original": {
+      "value": "30",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Medtronic newsroom",
+      "hub_relevance": "The largest neuromodulation incumbent posting an organic decline is a useful market signal for neuromodulation commercialization discussions with Hub partners and investors.",
+      "related_assets_raw": null,
+      "evidence_type": "Company earnings release",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 132,
+      "record_id": "NN-20261125-005"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261125-006",
+     "visibility": "internal",
+     "title": "Shanghai cortical-BCI startup APerceptia (谱思科技) closes a seed round of several million yuan, led solely by Chenhui Ventures, for a minimally invasive flexible-mesh cortical interface",
+     "summary": "APerceptia, founded in July 2026 by ShanghaiTech assistant professor Zhu Xingjun with Chenhui Ventures, will use the seed money to build a prototype soft mesh electrode delivered through a 1-2 mm burr hole to self-deploy on the cortical surface, and to prove the principle of a nanoparticle-mediated noninvasive cortical interface. It plans animal studies in 2027 and an investigator-initiated human trial in 2028, targeting cervical spinal cord injury and ALS.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-25T03:36-06:00",
+     "date_updated": "2026-11-25T03:36-06:00",
+     "is_new": true,
+     "link": "https://news.pedaily.cn/202611/572307.shtml",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 30,
+     "score_original": {
+      "value": "30",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "PEdaily (投资界)",
+      "hub_relevance": "Early-stage flexible-electrode BCI spinout from academia, a comparable model for how Hub-adjacent electrode and interface work gets turned into companies.",
+      "related_assets_raw": null,
+      "evidence_type": "News report (company announcement)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 133,
+      "record_id": "NN-20261125-006"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261125-007",
+     "visibility": "internal",
+     "title": "Chengdu's West Brain Valley holds a launch event for several BCI products, including an AIGC EEG music headset, an Alzheimer's screening device, a lab EEG analyzer and a BCI operating system",
+     "summary": "At a November 25 event in Chengdu's Jinjiang district, which holds China's only national 'BCI full-ecosystem validation scenario' designation, companies launched products including Xinnao Technology's EEG/heart-rate headphones that generate music, Huidong Technology's Alzheimer's screening device, an EEG analyzer from Naoyu Tansuo aimed at moving university-lab technology into professional instruments, and Naoyun Matrix's MindSoul BCI operating system, which works with multiple EEG headsets.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-25",
+     "date_discovered": "2026-11-25T03:36-06:00",
+     "date_updated": "2026-11-25T03:36-06:00",
+     "is_new": true,
+     "link": "https://www.chinanews.com.cn/sh/2026/11-25/10737614.shtml",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 30,
+     "score_original": {
+      "value": "30",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "China News Service (中国新闻网)",
+      "hub_relevance": "Shows Chinese municipal programs packaging lab EEG instruments and consumer EEG devices for market, relevant context for the Hub's research-to-product path for low-cost physiology hardware.",
+      "related_assets_raw": null,
+      "evidence_type": "News report (product launch event)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 134,
+      "record_id": "NN-20261125-007"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261124-001",
@@ -73,7 +402,7 @@
      "date_published": "2026-11-23",
      "date_discovered": "2026-11-24T03:45-06:00",
      "date_updated": "2026-11-24T03:45-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.businesswire.com/news/home/20261123124193/en/Paradromics-Advances-High-Performance-AI-Computing-for-Brain-Computer-Interfaces-with-NVIDIA",
      "secondary_links": [
       "https://www.biospace.com/press-releases/paradromics-advances-high-performance-ai-computing-for-brain-computer-interfaces-with-nvidia"
@@ -109,282 +438,6 @@
       "record_id": "NN-20261124-001"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261124-003",
-     "visibility": "internal",
-     "title": "PiEEG launches its PiEEG XR Kickstarter: a snap-in dry-electrode EEG/EOG/facial-EMG face interface for Meta Quest 3/3S, with a 16-channel Academic kit that streams over LSL",
-     "summary": "PiEEG opened an all-or-nothing Kickstarter on November 23 (ends December 31, 2026) for PiEEG XR, which replaces a VR headset face cushion with 8 sensors reading expressions, blinks and focus, plus a 16-channel Academic configuration (IronBCI-16) with LSL sync and CSV export. MoguLive reports tiers from GBP 250 (IronBCI-16 Pro board) and GBP 499 (Quest 3/3S early bird) to GBP 3,000 (Academic Research Kit), with delivery planned for February-June 2027.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-23",
-     "date_discovered": "2026-11-24T03:45-06:00",
-     "date_updated": "2026-11-24T03:45-06:00",
-     "is_new": true,
-     "link": "https://www.kickstarter.com/projects/pieeg/pieeg-xr-neural-face-interface-for-spatial-computing",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 45,
-     "score_original": {
-      "value": "45",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Kickstarter (PiEEG); MoguLive",
-      "hub_relevance": "Low-cost, research-grade dry EEG with LSL sync is a practical benchmark and possible companion for the Hub's affordable open behavioral and physiology hardware.",
-      "related_assets_raw": null,
-      "evidence_type": "Company crowdfunding launch",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 126,
-      "record_id": "NN-20261124-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261124-002",
-     "visibility": "internal",
-     "title": "Munich startup FUTRUE Neurosciences' 512-electrode surface micro-ECoG BCI prototype is used in a human for the first time, in an acute implantation during awake tumor surgery at TUM University Hospital",
-     "summary": "On November 23, TUM University Hospital neurosurgeons temporarily placed a FUTRUE Neurosciences prototype interface, 512 microelectrodes resting on the brain surface designed both to record and to stimulate, during an awake brain-tumor operation and removed it after collecting data; further measurements are planned. TUM frames the work, under its new Research Alliance for Neurotechnology and Neuroassistive Systems, as a push for European-developed BCIs.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-24",
-     "date_discovered": "2026-11-24T03:45-06:00",
-     "date_updated": "2026-11-24T03:45-06:00",
-     "is_new": true,
-     "link": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/forschende-der-tum-testen-neuartige-hirn-computer-schnittstelle",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 42,
-     "score_original": {
-      "value": "42",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Technical University of Munich press release",
-      "hub_relevance": "Early clinical milestone for a European high-channel-count surface-array company; competitive-landscape context for the Hub's electrophysiology interests, not a direct opportunity.",
-      "related_assets_raw": null,
-      "evidence_type": "University press release",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 125,
-      "record_id": "NN-20261124-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261124-004",
-     "visibility": "internal",
-     "title": "Shanghai EMG/BCI and dexterous-hand maker OYMotion (傲意科技) closes a Series D of several hundred million yuan, its second round of 2026",
-     "summary": "OYMotion announced a Series D of several hundred million RMB, co-invested by Zhongbing Shunjing (China North Industries Group), Changjiang Capital and Optics Valley Industrial Investment, following a C round earlier this year led by CICC Capital's brain science fund. The company, which started in AI EMG algorithms, sells 20+ dexterous-hand and gripper SKUs to nearly 200 embodied-AI companies and an EMG-EGO data-capture system, and runs a factory in Zhuhai.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-23",
-     "date_discovered": "2026-11-24T03:45-06:00",
-     "date_updated": "2026-11-24T03:45-06:00",
-     "is_new": true,
-     "link": "https://www.jiemian.com/article/15360003.html",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 28,
-     "score_original": {
-      "value": "28",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Jiemian News (界面新闻)",
-      "hub_relevance": "Peripheral: shows Chinese neural-signal (EMG) interface companies shifting capital toward robotics; no direct overlap with Hub products.",
-      "related_assets_raw": null,
-      "evidence_type": "News report (company announcement)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 127,
-      "record_id": "NN-20261124-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261123-001",
-     "visibility": "internal",
-     "title": "Chengdu launches a university-enterprise BCI innovation alliance and a white paper counting 60+ local BCI companies in a push to become western China's BCI hub",
-     "summary": "A Chengdu university-enterprise BCI innovation alliance, initiated by UESTC professor Yao Dezhong, was inaugurated on Nov 20 at a Chengdu Science and Technology Bureau matchmaking event, alongside a white paper saying the city hosts more than 60 BCI companies. Officials said sleep-regulation and autism-intervention products from the China-Cuba neurotechnology lab are about to reach market, and more than a dozen products were shown, including a thought-controlled drone headband and a noninvasive sleep headband.",
-     "category": "Other",
-     "subcategory": null,
-     "date_published": "2026-11-23",
-     "date_discovered": "2026-11-23T03:55-06:00",
-     "date_updated": "2026-11-23T03:55-06:00",
-     "is_new": false,
-     "link": "https://www.prnewswire.com/news-releases/chengdu-targets-west-chinas-brain-computer-interface-hub-302947831.html",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 27,
-     "score_original": {
-      "value": "27",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "PR Newswire (Chengdu Science and Technology Bureau)",
-      "hub_relevance": "Another Chinese regional BCI cluster push (after Guangzhou and Shanghai) is competitive-landscape context for the Hub's low-cost EEG and wearable hardware, not a direct opportunity.",
-      "related_assets_raw": null,
-      "evidence_type": "Government press release",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Government-sponsored PR Newswire release, datelined Chengdu Nov 23 (posted Nov 22 21:21 ET); alliance inaugurated Nov 20. Product-readiness claims are officials' statements. Similar regional-policy item: NN-20261118-007 (Guangzhou Tianhe)."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 123,
-      "record_id": "NN-20261123-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261122-001",
-     "visibility": "internal",
-     "title": "CAICT releases its 2026 BCI Innovation and Development Research Report (1,175 BCI companies worldwide) and names 15 landmark achievements at the Beijing Changping BCI Conference, followed by a 15-product launch",
-     "summary": "At the 2026 BCI Conference in Changping (Nov 19-22), CAICT released a report counting 1,175 BCI companies worldwide (up from 800+), with 190+ Chinese firms (77.4%) clustered in three city regions and revenue still mainly from research and medical uses; it also named 15 landmark achievements, including Neucyber's Beinao-1 128-channel wireless implant (40+ human implants, Class III filing planned early 2027). A separate CAICT-organized launch on Nov 22 (Science and Technology Daily) unveiled 15 products, including implants, an EEG-fNIRS active-electrode imaging system and a low-noise 8-channel 24-bit EEG ADC.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-21",
-     "date_discovered": "2026-11-22T03:45-06:00",
-     "date_updated": "2026-11-22T03:45-06:00",
-     "is_new": false,
-     "link": "https://news.bjd.com.cn/2026/11/21/12038883.shtml",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 44,
-     "score_original": {
-      "value": "44",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Beijing Daily (北京日报)",
-      "hub_relevance": "State-backed market sizing and a component-level launch (EEG ADC, EEG-fNIRS) give the Hub benchmark context on the scale and direction of China's BCI supply chain.",
-      "related_assets_raw": null,
-      "evidence_type": "Industry report / conference announcement",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Full report and complete achievement list not yet public; figures from Chinese media summaries. Product launch source: https://www.stdaily.com/web/gdxw/2026-11/22/content_617208.html. Resolves the deferred 11-20 recheck."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 121,
-      "record_id": "NN-20261122-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261122-002",
-     "visibility": "internal",
-     "title": "Exicure agrees to take a 20-100% stake in NeuroQ Biologics, owner of X-CUE augmented-reality glasses for Parkinson's freezing of gait, and plans up to $500K for clinical evaluation",
-     "summary": "Nasdaq-listed Exicure signed a strategic investment agreement on November 19 with NeuroQ Biologics and Laonz to acquire 20% to 100% of NeuroQ, mainly via share exchange, and then provide up to US$500,000 toward X-CUE's clinical evaluation, regulatory work and commercialization. X-CUE uses AR visual cues for freezing-of-gait episodes and is entering a planned clinical evaluation of about six months.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-20",
-     "date_discovered": "2026-11-22T03:45-06:00",
-     "date_updated": "2026-11-22T03:45-06:00",
-     "is_new": false,
-     "link": "https://www.sec.gov/Archives/edgar/data/1698530/000119312526469804/xcur-ex99_1.htm",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 28,
-     "score_original": {
-      "value": "28",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Exicure press release (SEC 8-K Exhibit 99.1)",
-      "hub_relevance": "Minor deal: a biotech pivoting into a wearable neuro-assistive device; peripheral context for the Hub with no direct product overlap.",
-      "related_assets_raw": null,
-      "evidence_type": "Company press release (SEC filing)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": "Final stake, exchange ratio and terms still to be set by later agreements; funding subject to approvals and availability."
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 122,
-      "record_id": "NN-20261122-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -393,17 +446,180 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-24T03:55:00-06:00",
+   "last_refreshed": "2026-11-25T03:40:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 11/17-11/24; 657 screened, 96 new, 8 analyzed, 0 qualified (best ~35-40). All sources ok; Atlas unchanged (ATL-000660); no relationship/outreach overlaps.",
-   "next_run": "2026-11-25 03:30",
-   "rows_added_last_run": 0,
-   "new_items_count": 0,
-   "no_new_items": true,
+   "last_run_note": "Window 2026-11-18..25. OpenAlex Atlas 57 + topics 245, Europe PMC 103 (46 queries, 0 failed after retries), Crossref 277; 638 unique, 148 new after DOI dedupe, 126 after title dedupe; 11 analyzed; 2 qualified (OPP-069 Lerch/Chien 35/60, OPP-070 Cui/Papaneri NIEHS 40/65, both medium, none >=70). 4 Atlas Resolution Requests filed; no existing-relationship or Outreach Log overlaps; no pending evaluations.",
+   "next_run": "2026-11-26 03:31 CT",
+   "rows_added_last_run": 2,
+   "new_items_count": 2,
+   "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-070",
+     "visibility": "internal",
+     "title": "Dynamic Weight Signatures as a Novel Biomarker of Motor Dysfunction in Mouse Models",
+     "summary": "Stated aim: a simple, noninvasive, less data-intensive way to detect disease-associated motor abnormalities (tremor-like movement, unstable locomotion) from high-frequency weight recordings; authors state the approach is adaptable for home-cage monitoring. No stated need for outside engineering help.",
+     "category": "Research Lead",
+     "subcategory": "Custom engineering collaboration",
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-25",
+     "date_updated": "2026-11-25",
+     "is_new": true,
+     "link": "https://doi.org/10.64898/2026.11.23.768678",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 65,
+     "score_original": {
+      "sales": "40",
+      "collab": "65",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000663",
+      "ATL-000664"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-002",
+       "name": "Body Event Analysis Module 3 (BEAM3)",
+       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Guohong Cui",
+       "institution": "National Institute of Environmental Health Sciences (NIEHS), NIH (Research Triangle Park, NC)",
+       "atlas_id": "ATL-000663",
+       "role_note": "last author"
+      },
+      {
+       "name": "Amy B. Papaneri",
+       "institution": "National Institute of Environmental Health Sciences (NIEHS), NIH (Research Triangle Park, NC)",
+       "atlas_id": "ATL-000664",
+       "role_note": "first author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.11.23.768678",
+      "facts": "Stated (bioRxiv preprint, CC0 per Crossref; abstract only, full text not retrievable from the box): high-precision industrial weighing module recorded high-frequency weight of freely moving mice. Aging MitoPark mice spent more time non-ambulatory and showed less stable locomotion; weight-frequency analysis quantified irregular motor activity and tremor-like movement, detected early symptoms and levodopa-induced restoration. Authors say it is less data-intensive than video, adaptable for home-cage monitoring, potentially translatable to clinical/home use.",
+      "inferences": "My inference, not stated by the authors: turning a bench weighing module into a low-power, wireless home-cage device is the kind of custom instrumentation the Hub does (electronics + Hublink data path); BEAM3 is an adjacent in-cage movement logger and could be a complement or benchmark. No purchasing intent assumed; NIEHS group builds its own setup.",
+      "product_matches_raw": "Engineering and prototyping services; Body Event Analysis Module 3 (BEAM3); Hublink",
+      "recommended_action": "Human review as an instrumentation collaboration lead (home-cage weight-signal sensing; Parkinson's model motor phenotyping). No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Preprint posted 2026-11-24 (bioRxiv v1; license CC0 per Crossref). Abstract only. Affiliations from Crossref metadata (all NIEHS). No published version or earlier preprint matched in DOI/title dedupe. Not in Outreach Log; no existing-relationship overlap; not WashU. Key investigators not in Atlas (no match by ORCID 0000-0002-4555-028X / OpenAlex A5010542008 for Cui, ORCID 0000-0003-2144-2441 / OpenAlex A5046835059 for Papaneri, or name+institution; Atlas ATL-000218 Jianmin Cui is a different person); REQ-OPP-OPP-070 and REQ-OPP-OPP-070-B filed 2026-11-25. Sales components fit10/recurring5/organism15/access10/gap0; collab instr25/gap5/topic20/proximity5/open10.",
+      "bot_state": "New",
+      "analysis_date": "2026-11-25"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 35,
+      "record_id": "OPP-070"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-069",
+     "visibility": "internal",
+     "title": "An information theoretic approach to evaluating social behaviour in mice using automated home-cage monitoring",
+     "summary": "Stated problem: automated home-cage monitoring allows continuous, longitudinal assessment of group-housed mice, but methods for quantifying social behaviour in that setting remain limited. No stated need for new hardware or outside help.",
+     "category": "Research Lead",
+     "subcategory": "Scientific research collaboration",
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-25",
+     "date_updated": "2026-11-25",
+     "is_new": true,
+     "link": "https://doi.org/10.64898/2026.11.23.767392",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 60,
+     "score_original": {
+      "sales": "35",
+      "collab": "60",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000662"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-006",
+       "name": "Juxta Social Proximity Loggers (Gen5)",
+       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
+       "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
+      },
+      {
+       "product_id": "PRD-013",
+       "name": "Juxta apps and tools",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/Juxta5-iOS"
+      }
+     ],
+     "people": [
+      {
+       "name": "Jason P. Lerch",
+       "institution": "University of Toronto / Mouse Imaging Centre, The Hospital for Sick Children (Toronto); Lerch also Oxford Centre for Integrative Neuroimaging (FMRIB), University of Oxford",
+       "atlas_id": "ATL-000662",
+       "role_note": "last author"
+      },
+      {
+       "name": "Tiffany Chien",
+       "institution": "University of Toronto / Mouse Imaging Centre, The Hospital for Sick Children (Toronto); Lerch also Oxford Centre for Integrative Neuroimaging (FMRIB), University of Oxford",
+       "atlas_id": null,
+       "role_note": "first/corresponding author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "Yes",
+      "doi": "10.64898/2026.11.23.767392",
+      "facts": "Stated (bioRxiv preprint, CC BY; abstract only, full text not retrievable from the box): mutual information (MI) between cagemates computed from longitudinal RFID-based positional data from group-housed mice in an automated home-cage monitoring system, tested against a constrained null model that preserves individual movement. C57BL/6J vs BTBR: MI recapitulated known sociability differences, high test-retest reliability, correlated with manually video-scored social behaviour; varied across genetic backgrounds and differed from three-chamber sociability; in vivo MRI showed distinct neuroanatomical correlates. The RFID system vendor/model is not named in the abstract.",
+      "inferences": "My inference, not stated by the authors: the MI-vs-null framework for pairwise dependence could transfer to Juxta pairwise proximity logs (Juxta logs proximity to other animals for up to 1 month), suggesting an analysis/validation collaboration (e.g., comparing RFID-position MI with direct proximity contacts). Lab already has an RFID home-cage system, so sales potential is low.",
+      "product_matches_raw": "Juxta Social Proximity Loggers (Gen5); Juxta apps and tools",
+      "recommended_action": "Human review as an analysis-methods collaboration lead for Juxta (home-cage social dependence metrics). No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Preprint posted 2026-11-24 (bioRxiv v1, CC BY per bioRxiv API). Abstract only; equipment claims limited to 'RFID-based positional data' as stated. No published version or earlier preprint matched in DOI/title dedupe. Not in Outreach Log; no existing-relationship overlap; not WashU. Key investigators not in Atlas (no match by ORCID 0000-0001-6164-2881 / OpenAlex A5054476201 for Lerch, ORCID 0000-0002-8449-8306 for Chien, or name+institution); REQ-OPP-OPP-069 and REQ-OPP-OPP-069-B filed 2026-11-25. Sales components fit10/recurring5/organism15/access5/gap0; collab instr15/gap15/topic20/proximity0/open10.",
+      "bot_state": "New",
+      "analysis_date": "2026-11-25"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 34,
+      "record_id": "OPP-069"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "opportunity",
      "item_id": "opportunity:OPP-068",
@@ -901,181 +1117,6 @@
       "tab": "Opportunities",
       "row": 27,
       "record_id": "OPP-062"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "opportunity",
-     "item_id": "opportunity:OPP-063",
-     "visibility": "internal",
-     "title": "Exploring exploration: A multidimensional analysis of exploration across standardised and semi-natural contexts in rats",
-     "summary": "Continuous individual movement and space-use tracking of group-housed female rats over 6 weeks in an 8-cage semi-natural environment (stated method). Stated limitations: RFID tracking could not tell whether brief visits included vigilance or risk assessment; future work is proposed to combine movements with video/pose estimation and to model group members' movements to show social dependencies and social networks.",
-     "category": "Research Lead",
-     "subcategory": "Existing product sales",
-     "date_published": "2026-11-02",
-     "date_discovered": "2026-11-05",
-     "date_updated": "2026-11-06",
-     "is_new": false,
-     "link": "https://doi.org/10.32942/x2nh6z",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 60,
-     "score_original": {
-      "sales": "55",
-      "collab": "60",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000638",
-      "ATL-000639"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-006",
-       "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
-       "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
-      }
-     ],
-     "people": [
-      {
-       "name": "S. Helene Richter",
-       "institution": "University of Münster (Department of Behavioural Biology) / JICE, Münster and Bielefeld, Germany",
-       "atlas_id": "ATL-000638",
-       "role_note": "last author"
-      },
-      {
-       "name": "Louisa Bierbaum",
-       "institution": "University of Münster (Department of Behavioural Biology) / JICE, Münster and Bielefeld, Germany",
-       "atlas_id": "ATL-000639",
-       "role_note": "first/corresponding author"
-      }
-     ],
-     "details": {
-      "washu": "No",
-      "preprint": "Yes",
-      "doi": "10.32942/x2nh6z",
-      "facts": "Stated (full text, EcoEvoRxiv preprint, CC BY-NC-ND 4.0): female laboratory rats; three repeated Open Field tests plus six weeks of continuous RFID tracking (Euro I.D. system, 20 ring antennas at tunnels, 125 kHz readers, subcutaneous transponders); foraging and simulated risk events in manipulated cages; individual exploration was repeatable within contexts; continuous-time Markov chain modelling of RFID movements.",
-      "inferences": "Juxta proximity loggers (proximity plus movement and temperature, up to 1 month) could add the social-network layer the authors propose, and BEAM3 in-cage movement logging could add within-cage activity that RFID tunnel reads miss. Rat wear-fit and equivalence to RFID data are untested. The lab already has an RFID system; no purchasing intent stated.",
-      "product_matches_raw": "Juxta Social Proximity Loggers (Gen5); Body Event Analysis Module 3 (BEAM3)",
-      "recommended_action": "Monitor/human review as semi-natural-environment social monitoring segment lead (Juxta/BEAM3). No outreach from Scout.",
-      "needs_human_review": "Yes",
-      "review_note": "Preprint (not peer reviewed); open-license full text read. Not in Outreach Log; no existing-relationship overlap. Neither investigator in Atlas; REQ-OPP-OPP-063 (Richter) and REQ-OPP-OPP-063-B (Bierbaum) filed 2026-11-05. Paper authorship lists Richter under OpenAlex A5160377464 (no ORCID); main profile A5009151578 / ORCID 0000-0001-5990-0087 (same name and institutions; Atlas to confirm).",
-      "bot_state": "New",
-      "analysis_date": "2026-11-05"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
-      "tab": "Opportunities",
-      "row": 28,
-      "record_id": "OPP-063"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "opportunity",
-     "item_id": "opportunity:OPP-060",
-     "visibility": "internal",
-     "title": "Standard touchscreen test procedures shift circadian rhythms in mice: a modified protocol to minimize circadian confounds",
-     "summary": "Continuous home-cage circadian activity monitoring of mice undergoing daily operant/touchscreen testing, with control of chamber and home-cage lighting (stated method); authors state individual activity records were not available for pair-housed females because overhead PIR sensors give a cage-level aggregate (stated limitation).",
-     "category": "Research Lead",
-     "subcategory": "Scientific research collaboration",
-     "date_published": "2026-11-03",
-     "date_discovered": "2026-11-04",
-     "date_updated": "2026-11-05",
-     "is_new": false,
-     "link": "https://doi.org/10.64898/2026.10.27.762380",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 70,
-     "score_original": {
-      "sales": "65",
-      "collab": "70",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000633"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-006",
-       "name": "Juxta Social Proximity Loggers (Gen5)",
-       "store_url": "https://neurotechhub.wustl.edu/items/juxta-social-proximity-loggers/",
-       "github_url": "https://github.com/Neurotech-Hub/Juxta5-nRF"
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      },
-      {
-       "product_id": "PRD-015",
-       "name": "FED4 (Feeding Experimentation Device 4)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED4"
-      },
-      {
-       "product_id": "PRD-035",
-       "name": "FED3 (Feeding Experimentation Device 3)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED3"
-      }
-     ],
-     "people": [
-      {
-       "name": "Brianne A. Kent",
-       "institution": "Simon Fraser University (Burnaby, BC, Canada)",
-       "atlas_id": "ATL-000633",
-       "role_note": "last/corresponding author"
-      }
-     ],
-     "details": {
-      "washu": "No",
-      "preprint": "Yes",
-      "doi": "10.64898/2026.10.27.762380",
-      "facts": "Stated (full text, bioRxiv preprint, CC BY-NC 4.0): Bussey-Saksida touchscreen chambers (Campden/Lafayette ABET II, Whisker); home-cage locomotor activity by overhead passive-infrared sensors with ClockLab (Actimetrics); standard screen light (~21 lux) caused ~3.5 h phase delay after 7 days of early-dark testing; 10 lighting conditions tested; recommendations include treating the chamber as a light source, brighter home-cage lighting, removing short-wavelength light, periodic DD probes. Limitations stated: pair-housed females lacked individual activity records (aggregate could mask one mouse shifting); bright home-cage light levels difficult to standardize.",
-      "inferences": "Per-animal wearable movement plus proximity logging (Juxta) could give individual activity rhythms in pair-housed mice; Hub Wheel with Hublink logs wheel turns and in-cage light, which could document home-cage lux alongside rhythms; FED3/FED4 home-cage operant testing could be a low-light alternative to moving mice to touchscreen chambers (collaboration, not sales). Equivalence of these devices to PIR/ClockLab phase estimates is untested. No purchasing intent stated; lab already has PIR/ClockLab.",
-      "product_matches_raw": "Juxta Social Proximity Loggers (Gen5); Hub Wheel with Hublink; Body Event Analysis Module 3 (BEAM3); FED3 (Feeding Experimentation Device 3); FED4 (Feeding Experimentation Device 4)",
-      "recommended_action": "Human review; strong methods fit for circadian/operant segment (individual rhythms in pair housing, in-cage light logging, home-cage operant alternative via FED3/FED4). No outreach from Scout.",
-      "needs_human_review": "Yes",
-      "review_note": "Preprint (not peer reviewed); open-license full text read for methods. Not in Outreach Log; no existing-relationship overlap. Key investigator not in Atlas; REQ-OPP-OPP-060 filed 2026-11-04. Co-author Ralph Mistlberger (SFU) is a senior circadian PI, not listed as key.",
-      "bot_state": "New",
-      "analysis_date": "2026-11-04"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
-      "tab": "Opportunities",
-      "row": 25,
-      "record_id": "OPP-060"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
@@ -3590,7 +3631,8 @@
     "ACORN - Leads ACN-066 (Christy Hand): not_found",
     "ACORN - Leads ACN-067 (Sara Marschhauser): not_found",
     "ACORN - Leads ACN-080 (Cody Baciuska): not_found",
-    "ACORN - Leads ACN-081 (Jack Gradidge): not_found"
+    "ACORN - Leads ACN-081 (Jack Gradidge): not_found",
+    "Hub - Opportunity Scout OPP-069 (Tiffany Chien): not_found"
    ]
   },
   {
