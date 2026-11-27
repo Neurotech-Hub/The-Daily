@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-26T05:29:27-06:00",
+ "generated_at": "2026-11-27T05:22:03-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-26",
+ "edition_date": "2026-11-27",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -51,17 +51,201 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-26T03:42:00-06:00",
+   "last_refreshed": "2026-11-27T03:58:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "47 candidates reviewed, 7 inserted (NN-20261126-001..007), 20 duplicates skipped. No scores >= 90 (top: Neuralink LINK Pivotal FDA approval 58). Light Thanksgiving volume. No failures.",
-   "next_run": "2026-11-27 3:30 AM CT",
-   "rows_added_last_run": 7,
-   "new_items_count": 7,
+   "last_run_note": "Nov 24-27 window, Thanksgiving light volume. 44 candidates, 4 inserted (NN-20261127-001..004; top Fudan/StairMed Mandarin speech BCI, 48), 22 duplicates skipped, 0 failures. X searchNews tool unavailable (web search used). No scores >= 90.",
+   "next_run": "2026-11-28 03:30 CT",
+   "rows_added_last_run": 4,
+   "new_items_count": 4,
    "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261127-001",
+     "visibility": "internal",
+     "title": "Fudan University's Huashan Hospital and StairMed (阶梯医疗) unveil a dual-target Mandarin speech BCI; China's first wireless invasive Chinese-language BCI trial participant, an ALS patient, decodes silent speech at about 110 characters per minute",
+     "summary": "At a Nov 26 press event, Fudan/Huashan Hospital, the CAS brain-science center, StairMed and ShanghaiTech reported that an ALS patient implanted in September with StairMed's wireless fully invasive system (two 256-channel ultra-flexible arrays, one for articulation and one for tone) reached over 90% real-time character accuracy at about 110 characters/min in silent speech (over 95% at about 80/min when vocalizing), with output in her cloned voice. The team says it will widen clinical validation and extend to post-stroke aphasia.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-26",
+     "date_discovered": "2026-11-27T03:55-06:00",
+     "date_updated": "2026-11-27T03:55-06:00",
+     "is_new": true,
+     "link": "https://news.fudan.edu.cn/2026/1127/c1247a151272/page.htm",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 48,
+     "score_original": {
+      "value": "48",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Fudan University News (复旦大学新闻文化网)",
+      "hub_relevance": "Shows Chinese implant makers like StairMed moving into speech-decoding BCI trials that compete directly with US speech-BCI efforts (Paradromics, Neuralink), useful landscape context for Hub neurotech partners.",
+      "related_assets_raw": null,
+      "evidence_type": "University news release (first-patient clinical milestone; not peer-reviewed)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 142,
+      "record_id": "NN-20261127-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261127-002",
+     "visibility": "internal",
+     "title": "NeuraLight says its eye-movement brain-function biomarkers detected a significant PrimeC treatment effect in NeuroSense's Phase 2b PARADIGM ALS trial",
+     "summary": "NeuraLight reported that its AI eye-movement biomarker platform showed significantly slower brain-function deterioration with PrimeC versus placebo after six months in a 36-patient sub-cohort of NeuroSense's PARADIGM ALS study (85% effect size, p=0.04), with separation growing in the open-label extension. NeuroSense called the findings exploratory and needing confirmation.",
+     "category": "Software & AI",
+     "subcategory": null,
+     "date_published": "2026-11-25",
+     "date_discovered": "2026-11-27T03:55-06:00",
+     "date_updated": "2026-11-27T03:55-06:00",
+     "is_new": true,
+     "link": "https://www.prnewswire.com/news-releases/neuralights-precision-brain-function-biomarkers-detect-statistically-significant-treatment-effect-in-neurosenses-phase-2b-als-clinical-trial-302950075.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 30,
+     "score_original": {
+      "value": "30",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "PR Newswire (NeuraLight)",
+      "hub_relevance": "An example of digital neuro-biomarkers being sold to pharma as trial endpoints, a commercial model relevant to Hub behavioral-measurement devices used in preclinical drug studies.",
+      "related_assets_raw": null,
+      "evidence_type": "Company press release (exploratory trial biomarker results; not peer-reviewed)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 143,
+      "record_id": "NN-20261127-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261127-003",
+     "visibility": "internal",
+     "title": "Shenzhen-listed MeHow Innovative (美好医疗, 301363.SZ), a cochlear-implant contract manufacturer, says its brain-computer interface implant products have entered small-batch supply",
+     "summary": "On its investor platform, MeHow said it has extended precision-manufacturing capabilities built as a core supplier to a global cochlear-implant leader (precision injection molding, titanium machining, micro-assembly, encapsulation, testing) to BCI implants, and that these products are now in small-batch supply. It said scale-up depends on downstream customers' clinical progress, registration and commercialization.",
+     "category": "Engineering & Components",
+     "subcategory": null,
+     "date_published": "2026-11-25",
+     "date_discovered": "2026-11-27T03:55-06:00",
+     "date_updated": "2026-11-27T03:55-06:00",
+     "is_new": true,
+     "link": "https://stock.10jqka.com.cn/20261125/c682191218.shtml",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 30,
+     "score_original": {
+      "value": "30",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "10jqka (同花顺) 7x24 newsflash",
+      "hub_relevance": "Signals an emerging contract-manufacturing supply chain for implantable BCI hardware in China, relevant context for Hub engineering partners thinking about hermetic packaging and manufacturing of neural devices.",
+      "related_assets_raw": null,
+      "evidence_type": "News report (company investor-platform disclosure)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 144,
+      "record_id": "NN-20261127-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261127-004",
+     "visibility": "internal",
+     "title": "Renerva completes 3-month interim follow-up in its first-in-human IDE study of the Renerva Terminus nerve-capping implant for neuroma-related neuropathic pain, reporting no device-related adverse events",
+     "summary": "Pittsburgh-based Renerva said the first four patients implanted with its porcine nerve extracellular-matrix Terminus cap at Ohio State Wexner Medical Center (FDA IDE G250147) had no device-related adverse events through 90 days, with pooled pain, disability and quality-of-life scores trending favorably against MCID benchmarks. The company called the data preliminary and is moving toward a 6-month readout.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-27T03:55-06:00",
+     "date_updated": "2026-11-27T03:55-06:00",
+     "is_new": true,
+     "link": "https://www.prnewswire.com/news-releases/renerva-announces-completion-of-3-month-interim-follow-up-in-first-in-human-clinical-study-of-investigational-renerva-terminus-device-302949133.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 25,
+     "score_original": {
+      "value": "25",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "PR Newswire (Renerva)",
+      "hub_relevance": "Peripheral-nerve implant startup reaching a clinical milestone; context on the peripheral neurotech device pipeline rather than something the Hub would use directly.",
+      "related_assets_raw": null,
+      "evidence_type": "Company press release (interim first-in-human results; not peer-reviewed)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 145,
+      "record_id": "NN-20261127-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261126-001",
@@ -73,7 +257,7 @@
      "date_published": "2026-11-25",
      "date_discovered": "2026-11-26T03:40-06:00",
      "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study/",
      "secondary_links": [],
      "confidence": null,
@@ -119,7 +303,7 @@
      "date_published": "2026-11-25",
      "date_discovered": "2026-11-26T03:40-06:00",
      "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://insidebci.com/research/2026-11-26-sophont-readyneuro-16tb-openneuro-fmri-dataset-cortexmae-foundation-model/",
      "secondary_links": [],
      "confidence": null,
@@ -165,7 +349,7 @@
      "date_published": "2026-11-25",
      "date_discovered": "2026-11-26T03:40-06:00",
      "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.prnewswire.com/news-releases/spark-biomedicals-neurostimulation-therapy-makes-opioid-patients-500-more-likely-to-remain-in-recovery-302950588.html",
      "secondary_links": [],
      "confidence": null,
@@ -211,7 +395,7 @@
      "date_published": "2026-11-25",
      "date_discovered": "2026-11-26T03:40-06:00",
      "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.nexstim.com/news-and-events/news/press-release/nordic-university-hospital-expands-use-of-nexstim-technology-with-nbs-6-system-for-therapy-and-neuroscience-research",
      "secondary_links": [],
      "confidence": null,
@@ -245,197 +429,6 @@
       "record_id": "NN-20261126-004"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261126-005",
-     "visibility": "internal",
-     "title": "UK's MindSpire raises a further £1M seed for Sona, its ear-worn vagus nerve stimulation wearable, to build AI-personalized stimulation from 40,000 user sessions",
-     "summary": "MindSpire raised a further £1M in seed funding from SFC Capital, SyndicateRoom and angels to develop AI functionality for Sona, an ear-worn VNS device launched in early 2026 for stress and sleep. It plans to use data from 40,000 sessions across 1,500 users to personalize stimulation, plus a migraine study and further sham-controlled research.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-25",
-     "date_discovered": "2026-11-26T03:40-06:00",
-     "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": true,
-     "link": "https://www.fittechglobal.com/fit-tech-news/Sona-raises-1m-to-advance-AI-in-its-vagus-nerve-stimulation-wearable/364007",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 30,
-     "score_original": {
-      "value": "30",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "FitTech Global",
-      "hub_relevance": "A consumer neurostimulation wearable using fleet-scale session data for personalization parallels the Hub's interest in cloud-logged wearable physiology data.",
-      "related_assets_raw": null,
-      "evidence_type": "News report (company announcement)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 139,
-      "record_id": "NN-20261126-005"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261126-006",
-     "visibility": "internal",
-     "title": "Kyoto's Quadlytics raises JPY 600M (about $4M) for a wearable ECG/HRV-based epileptic seizure warning system",
-     "summary": "Quadlytics, a Kyoto University/Kumamoto University spinout, closed a JPY 600 million round led by Japan Post Insurance NEXT Partners with four other investors to develop SaMD that uses a wearable ECG and machine learning to warn of seizures minutes before onset. It targets Australian TGA approval and a launch there by 2028; the product is not yet approved.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-25",
-     "date_discovered": "2026-11-26T03:40-06:00",
-     "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": true,
-     "link": "https://www.einpresswire.com/article/958634936/quadlytics-raises-jpy-600-million-approx-usd-4-million-to-advance-its-epileptic-seizure-warning-system",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 28,
-     "score_original": {
-      "value": "28",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "EIN Presswire (Quadlytics)",
-      "hub_relevance": "A wearable autonomic-signal seizure predictor is an example of low-cost physiology sensing plus ML being financed toward regulated products, relevant to the Hub's wearable sensor work.",
-      "related_assets_raw": null,
-      "evidence_type": "Company press release",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 140,
-      "record_id": "NN-20261126-006"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261126-007",
-     "visibility": "internal",
-     "title": "Shanghai's Waigaoqiao Group launches a 'BCI Future' (脑机未来) brand bundling a partner program, a hospital-linked BCI application research base and an industry fund for BCI companies",
-     "summary": "At the 2026 Waigaoqiao Pharmaceutical and Health Cooperation Forum in Pudong, Waigaoqiao Group launched the 'BCI Future' brand, combining an upgraded BCI innovation partner program and service package, a BCI application research base run with top-tier hospitals, and industry-fund investment in BCI companies. The aim is to help BCI products move from lab to market and overseas.",
-     "category": "Other",
-     "subcategory": null,
-     "date_published": "2026-11-26",
-     "date_discovered": "2026-11-26T03:40-06:00",
-     "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": true,
-     "link": "https://www.thepaper.cn/newsDetail_forward_34558097",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 25,
-     "score_original": {
-      "value": "25",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "The Paper (澎湃新闻)",
-      "hub_relevance": "Another Chinese district-level BCI support package, context for how regional programs are financing and validating neurotech products that compete with US academic spinouts.",
-      "related_assets_raw": null,
-      "evidence_type": "News report (government-linked program launch)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 141,
-      "record_id": "NN-20261126-007"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261125-001",
-     "visibility": "internal",
-     "title": "Zhejiang University-led team unveils DeepAxtiv, a closed-loop invasive BCI neuromodulation system for treatment-resistant depression, reporting response in all six patients of an early trial",
-     "summary": "On November 24, a Zhejiang University-led consortium of seven institutions launched DeepAxtiv, an invasive BCI that uses individualized target selection, symptom sensing and adaptive stimulation-parameter optimization for treatment-resistant depression; it reports a 100% response rate and 83% remission in a six-patient prospective trial, with effects in 1-8 weeks. Two core products have passed third-party national device testing ahead of planned registration trials; the team is led by Wang Yueming, founder of Kingstronics (NN-20261121-002).",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-24",
-     "date_discovered": "2026-11-25T03:36-06:00",
-     "date_updated": "2026-11-25T03:36-06:00",
-     "is_new": false,
-     "link": "http://www.news.zju.edu.cn/2026/1125/c775a3230954/page.htm",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 46,
-     "score_original": {
-      "value": "46",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-026",
-       "name": "Creed DBS",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/Creed-DBS-SiLabs"
-      }
-     ],
-     "people": [],
-     "details": {
-      "publisher": "Zhejiang University News (reprinting People's Daily)",
-      "hub_relevance": "Shows closed-loop, sensing-plus-stimulation psychiatric neuromodulation moving toward registration trials in China, which is useful competitive context for the Hub's closed-loop and DBS-related tool work (e.g., rodent DBS projects).",
-      "related_assets_raw": "Creed DBS",
-      "evidence_type": "University news release (system launch; not peer-reviewed)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 128,
-      "record_id": "NN-20261125-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -444,10 +437,10 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-26T03:55:00-06:00",
+   "last_refreshed": "2026-11-27T04:00:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 11/19-11/26; 644 screened, 11 analyzed. Added OPP-071 (Studd, red squirrel bioacoustics, S30/C55). Filled Atlas IDs for OPP-069/070. 1 Atlas resolution request. All sources ok.",
-   "next_run": "2026-11-27 03:30",
+   "last_run_note": "Window 11-20..27; 665 screened, 184 new, 12 analyzed. Added OPP-072 (Goodale, bird playback, ACORN; 50/40 medium). OPP-071 Atlas ID filled (ATL-000665). REQ-OPP-OPP-072 filed. All sources ok; none >=70.",
+   "next_run": "Sat Nov 28, 2026 ~3:30 AM CT",
    "rows_added_last_run": 1,
    "new_items_count": 1,
    "no_new_items": false,
@@ -455,6 +448,72 @@
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-072",
+     "visibility": "internal",
+     "title": "Species diversity increases information flow about predation in bird communities",
+     "summary": "No stated need. Stated aim: test whether bird species diversity increases interspecific information flow about predation, using predator models and a manipulative mobbing-call playback experiment.",
+     "category": "Research Lead",
+     "subcategory": "Sales (field bioacoustics playback hardware)",
+     "date_published": "2026-11-24",
+     "date_discovered": "2026-11-27",
+     "date_updated": "2026-11-27",
+     "is_new": true,
+     "link": "https://doi.org/10.1371/journal.pbio.3003805",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 50,
+     "score_original": {
+      "sales": "50",
+      "collab": "40",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000666"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-001",
+       "name": "ACORN: Autonomous Configurable Outdoor Replay Node",
+       "store_url": "https://neurotechhub.wustl.edu/items/acorn-autonomous-configurable-outdoor-replay-node/",
+       "github_url": "https://github.com/Neurotech-Hub/ACORN"
+      }
+     ],
+     "people": [
+      {
+       "name": "Eben B. Goodale",
+       "institution": "Xi'an Jiaotong-Liverpool University (Suzhou, China)",
+       "atlas_id": "ATL-000666",
+       "role_note": "last/corresponding author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.1371/journal.pbio.3003805",
+      "facts": "Stated (PLOS Biology, CC BY full text read): vocal responses elicited with predator models across 10 nature reserves on a 1650-km latitudinal gradient in eastern China, plus a manipulative playback experiment with mobbing-call exemplars at 1, 2, 4 and 8 species richness levels (call rate standardized or increasing). Owl-model trials used a JBL Flip 6 speaker at 90 dB at 1 m; the manipulative experiment used two JBL speakers 8-10 m apart with separate exemplar replicates so they did not play in unison; responses recorded with a MixPre-3 II recorder and an AT4022 microphone in a Telinga parabola. Corresponding authors: Xingfeng Si (Zhejiang Univ.), Qiang Zhang (Guangdong Academy of Sciences), Eben Goodale (XJTLU).",
+      "inferences": "My inference, not stated by the authors: repeated multi-speaker field playback with hand-placed consumer Bluetooth speakers is the use case ACORN (autonomous, configurable outdoor replay node) targets, e.g. synchronized or staggered multi-node playback and scheduled trials. No equipment gap was stated and no purchasing intent is assumed. International group, so sales access is lower.",
+      "product_matches_raw": "ACORN: Autonomous Configurable Outdoor Replay Node",
+      "recommended_action": "Human review as an ACORN field-playback sales lead. Check with ACORN - Leads before any outreach, since field bioacoustics overlaps its scope. No outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Published 2026-11-24 (journal article, not a preprint; gold OA, CC BY). Found via Europe PMC topic search (bioacoustics). Not in Outreach Log; no existing-relationship overlap; not WashU. Goodale not in Atlas by ORCID 0000-0003-3403-2847, OpenAlex A5023332648 or name; REQ-OPP-OPP-072 filed 2026-11-27. Sales components fit20/recurring10/organism5/access5/gap10; collab instr10/gap5/topic20/proximity0/openness5. Comparable to OPP-052 (wood-dove playback, 50/45).",
+      "bot_state": "New",
+      "analysis_date": "2026-11-27"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 37,
+      "record_id": "OPP-072"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "opportunity",
      "item_id": "opportunity:OPP-071",
@@ -465,8 +524,8 @@
      "subcategory": "Research collaboration (bioacoustics / field instrumentation)",
      "date_published": "2026-11-25",
      "date_discovered": "2026-11-26",
-     "date_updated": "2026-11-26",
-     "is_new": true,
+     "date_updated": "2026-11-27",
+     "is_new": false,
      "link": "https://doi.org/10.1080/09524622.2026.2766182",
      "secondary_links": [],
      "confidence": "medium",
@@ -1029,91 +1088,6 @@
       "tab": "Opportunities",
       "row": 30,
       "record_id": "OPP-065"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "opportunity",
-     "item_id": "opportunity:OPP-064",
-     "visibility": "internal",
-     "title": "The hidden impact of cage position on behavioral phenotyping and reproducibility",
-     "summary": "Documenting and controlling lifelong in-cage illumination differences by rack position in a neurobehavioral core (stated: uppermost vs lowermost shelves produced 70 vs 20 lx inside cages; cage position altered exploratory/risk-assessment behavior). Illumination was measured with a spot TES 1332 A digital lux meter (stated method).",
-     "category": "Research Lead",
-     "subcategory": "Existing product sales",
-     "date_published": "2026-11-06",
-     "date_discovered": "2026-11-06",
-     "date_updated": "2026-11-07",
-     "is_new": false,
-     "link": "https://doi.org/10.1038/s41598-026-79912-1",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 55,
-     "score_original": {
-      "sales": "55",
-      "collab": "55",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000643",
-      "ATL-000644"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-002",
-       "name": "Body Event Analysis Module 3 (BEAM3)",
-       "store_url": "https://neurotechhub.wustl.edu/items/body-event-analysis-module-3-beam3/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      }
-     ],
-     "people": [
-      {
-       "name": "Lior Bikovski",
-       "institution": "Tel Aviv University (Myers Neuro-Behavioral Core Facility / Gray Faculty of Medical and Health Sciences), Tel-Aviv, Israel",
-       "atlas_id": "ATL-000643",
-       "role_note": "last/corresponding, Myers Neuro-Behavioral Core Facility"
-      },
-      {
-       "name": "Chaim G. Pick",
-       "institution": "Tel Aviv University (Myers Neuro-Behavioral Core Facility / Gray Faculty of Medical and Health Sciences), Tel-Aviv, Israel",
-       "atlas_id": "ATL-000644",
-       "role_note": "senior author"
-      }
-     ],
-     "details": {
-      "washu": "No",
-      "preprint": "No",
-      "doi": "10.1038/s41598-026-79912-1",
-      "facts": "Stated (full text, Scientific Reports, CC BY-NC-ND 4.0): male/female ICR mice housed from birth to adulthood on uppermost vs lowermost shelves of an IVC rack at Myers Neuro-Behavioral Core Facility (Tel Aviv University); in-cage light-phase illumination 70 lx (upper) vs 20 lx (lower) by TES 1332 A lux meter; lower-shelf mice left the light-dark box dark compartment faster (survived correction) and showed less EPM risk-assessment; locomotor activity, spatial memory, nociception, and optic-nerve diameter unchanged. Authors conclude cage position is a hidden confounder removable by counterbalancing. Corresponding datasets available from corresponding author on request.",
-      "inferences": "Continuous in-cage light (and activity) logging with Hub Wheel with Hublink or Body Event Analysis Module 3 (BEAM3) could replace or supplement spot lux-meter checks and document developmental light exposure across many cages in a core facility. Equivalence of Hub light sensors to the TES 1332 A readings is untested. No purchasing intent or tooling gap is stated; the study is complete.",
-      "product_matches_raw": "Hub Wheel with Hublink; Body Event Analysis Module 3 (BEAM3)",
-      "recommended_action": "Human review; candidate for Hub Wheel/BEAM3 light-logging segment aimed at neurobehavioral cores that need to document rack-position illumination. No outreach from Scout.",
-      "needs_human_review": "Yes",
-      "review_note": "Peer-reviewed Scientific Reports (OA CC BY-NC-ND); full text read for methods. Not in Outreach Log; no existing-relationship overlap. Key investigators not in Atlas; REQ-OPP-OPP-064 (Bikovski) and REQ-OPP-OPP-064-B (Pick) filed 2026-11-06. First authors Keidan/Sasonov appear trainee-level; not filed.",
-      "bot_state": "New",
-      "analysis_date": "2026-11-06"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
-      "tab": "Opportunities",
-      "row": 29,
-      "record_id": "OPP-064"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
