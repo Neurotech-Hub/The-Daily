@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-27T05:22:03-06:00",
+ "generated_at": "2026-11-28T05:26:05-06:00",
  "timezone": "America/Chicago",
- "edition_date": "2026-11-27",
+ "edition_date": "2026-11-28",
  "visibility": "internal",
  "site": {
   "title": "Neurotech Hub Daily",
@@ -51,17 +51,247 @@
    "title": "News",
    "source": "Hub - News Scout",
    "cadence": "Daily 3:30 AM",
-   "last_refreshed": "2026-11-27T03:58:00-06:00",
+   "last_refreshed": "2026-11-28T03:52:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Nov 24-27 window, Thanksgiving light volume. 44 candidates, 4 inserted (NN-20261127-001..004; top Fudan/StairMed Mandarin speech BCI, 48), 22 duplicates skipped, 0 failures. X searchNews tool unavailable (web search used). No scores >= 90.",
-   "next_run": "2026-11-28 03:30 CT",
-   "rows_added_last_run": 4,
-   "new_items_count": 4,
+   "last_run_note": "40 candidates, 5 inserted (NN-20261128-001..005: Alljoined Form D, Neiry pigeon biodrones, ZAPCAP EEG cap, Neiry DBS depression, Xiangyu BCI VERSU), 22 duplicates skipped. No failures. No scores >= 90.",
+   "next_run": "2026-11-29 03:30 CT",
+   "rows_added_last_run": 5,
+   "new_items_count": 5,
    "no_new_items": false,
    "visible_count": 8,
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "news",
+     "item_id": "news:NN-20261128-001",
+     "visibility": "internal",
+     "title": "EEG decoding startup Alljoined discloses $16.19M sold to 45 investors in an $18.75M equity offering (SEC Form D)",
+     "summary": "San Francisco non-invasive BCI company Alljoined filed a Form D on 23 Nov 2026 reporting $16,185,000 of equity sold (first sale 6 Aug 2026) out of an $18,745,000 offering, with $2.56M remaining and no investors named. The company decodes visual attention and mental state from EEG and pitches neural signals as human feedback for AI labs.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-23",
+     "date_discovered": "2026-11-28T03:50-06:00",
+     "date_updated": "2026-11-28T03:50-06:00",
+     "is_new": true,
+     "link": "https://www.sec.gov/Archives/edgar/data/2166029/000216602926000001/0002166029-26-000001.txt",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 42,
+     "score_original": {
+      "value": "42",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "SEC EDGAR (Form D); Very Frontier",
+      "hub_relevance": "A well-funded consumer-grade EEG decoding company is a signal for demand in scalable, low-cost EEG acquisition hardware and large-scale human neural datasets, adjacent to the Hub's sensing and data-pipeline work.",
+      "related_assets_raw": null,
+      "evidence_type": "Regulatory filing (SEC Form D) with news coverage",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 146,
+      "record_id": "NN-20261128-001"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261128-002",
+     "visibility": "internal",
+     "title": "Russia's Neiry opens beta commercial orders for aerial photography by brain-implanted 'biodrone' pigeons, priced from RUB 300,000",
+     "summary": "Moscow neurotech group Neiry says pigeons fitted with implanted brain electrodes, a stimulator and on-bird electronics with a chest camera have made more than 100 outdoor flights (longest over 10 hours, controlled from over 100 km) and are now offered as a beta aerial-survey service in Russia for infrastructure and environmental monitoring. Its flight, range and image-quality claims have not been independently verified.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-25",
+     "date_discovered": "2026-11-28T03:50-06:00",
+     "date_updated": "2026-11-28T03:50-06:00",
+     "is_new": true,
+     "link": "https://neiry.ru/news/tpost/oztb8au4v1-neiri-prinimaet-zakazi-na-aerofotosemku",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 34,
+     "score_original": {
+      "value": "34",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Neiry newsroom",
+      "hub_relevance": "A rare commercial deployment of chronic neural implants plus backpack stimulation electronics in free-ranging animals, relevant context (technical and ethical) for the Hub's field-deployed and animal-worn device work.",
+      "related_assets_raw": null,
+      "evidence_type": "Company press release (Russian)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 147,
+      "record_id": "NN-20261128-002"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261128-003",
+     "visibility": "internal",
+     "title": "Chinese startup Hyperdimensional Brainpower (超维脑力) demos ZAPCAP, a dry-electrode EEG baseball cap that controls cursor, click and scroll on phones and PCs",
+     "summary": "36Kr reports that ZAPCAP integrates an array of roughly 1 mm dry electrodes, on-device signal processing, power and an EEG foundation model with per-user calibration inside an ordinary-looking cap, and has been demonstrated for cursor movement, clicking and scrolling; mind-typing is still in controlled testing and sales details are not yet public. The company, founded by former Dreame large-model unit president Guo Hang, says it is raising funding.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-27",
+     "date_discovered": "2026-11-28T03:50-06:00",
+     "date_updated": "2026-11-28T03:50-06:00",
+     "is_new": true,
+     "link": "https://www.36kr.com/p/4076421213918081",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 32,
+     "score_original": {
+      "value": "32",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "36Kr (36氪)",
+      "hub_relevance": "Shows consumer EEG moving toward fully integrated dry-electrode wearables with on-device processing, a form-factor benchmark for the Hub's low-power wearable sensing designs.",
+      "related_assets_raw": null,
+      "evidence_type": "News report (company demo; promotional, no independent validation)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 148,
+      "record_id": "NN-20261128-003"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261128-004",
+     "visibility": "internal",
+     "title": "Neiry says it performed Russia's first deep brain stimulation implant for treatment-resistant depression, with a second procedure planned for December",
+     "summary": "Per Neiry's press service, a DBS implant was placed about 10 cm deep in a frontal-lobe structure linked to depression in a 58-year-old patient during a three-hour operation, with an initial positive emotional response during test stimulation; follow-up will last several years. Neiry also says it is developing sacral neuromodulation for pelvic-organ dysfunction.",
+     "category": "Industry & Commercialization",
+     "subcategory": null,
+     "date_published": "2026-11-26",
+     "date_discovered": "2026-11-28T03:50-06:00",
+     "date_updated": "2026-11-28T03:50-06:00",
+     "is_new": true,
+     "link": "https://ria.ru/20261126/neyroimplant-2134228283.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 26,
+     "score_original": {
+      "value": "26",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "RIA Novosti",
+      "hub_relevance": "Context on DBS-for-depression commercialization spreading beyond the US and China; no direct Hub tie.",
+      "related_assets_raw": null,
+      "evidence_type": "News report (company statement; no clinical data)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 149,
+      "record_id": "NN-20261128-004"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
+    {
+     "source": "news",
+     "item_id": "news:NN-20261128-005",
+     "visibility": "internal",
+     "title": "Xiangyu Medical (翔宇医疗) launches BCI VERSU, an integrated 'ultra-early' bedside brain-computer interface rehabilitation ward, at the 2026 Chinese Rehabilitation Medicine Association congress",
+     "summary": "The listed rehab-device maker unveiled BCI VERSU on 27 Nov in Hangzhou, combining EEG/EMG dual-modality acquisition (2-, 10-, 40- and 64-channel EEG options), intent decoding, a BCI expression/communication system and BCI environmental control in one ward for bed, bedside and out-of-bed rehabilitation. The company says the technology is still in clinical exploration and is being studied with more than 1,000 tertiary hospitals.",
+     "category": "Neurotechnology Products",
+     "subcategory": null,
+     "date_published": "2026-11-28",
+     "date_discovered": "2026-11-28T03:50-06:00",
+     "date_updated": "2026-11-28T03:50-06:00",
+     "is_new": true,
+     "link": "https://www.xyyl.com/news_details/1049.html",
+     "secondary_links": [],
+     "confidence": null,
+     "score": 24,
+     "score_original": {
+      "value": "24",
+      "scale": "0-100",
+      "label": "relevance"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [],
+     "related_items": [],
+     "product_matches": [],
+     "people": [],
+     "details": {
+      "publisher": "Xiangyu Medical newsroom",
+      "hub_relevance": "Indicates non-invasive BCI being packaged as turnkey hospital rehab infrastructure in China; market context only for the Hub.",
+      "related_assets_raw": null,
+      "evidence_type": "Company press release (product launch)",
+      "doi": null,
+      "pmid": null,
+      "bot_status": "verified",
+      "review_notes": null
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
+      "tab": "News_Log",
+      "row": 150,
+      "record_id": "NN-20261128-005"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "news",
      "item_id": "news:NN-20261127-001",
@@ -73,7 +303,7 @@
      "date_published": "2026-11-26",
      "date_discovered": "2026-11-27T03:55-06:00",
      "date_updated": "2026-11-27T03:55-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://news.fudan.edu.cn/2026/1127/c1247a151272/page.htm",
      "secondary_links": [],
      "confidence": null,
@@ -119,7 +349,7 @@
      "date_published": "2026-11-25",
      "date_discovered": "2026-11-27T03:55-06:00",
      "date_updated": "2026-11-27T03:55-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://www.prnewswire.com/news-releases/neuralights-precision-brain-function-biomarkers-detect-statistically-significant-treatment-effect-in-neurosenses-phase-2b-als-clinical-trial-302950075.html",
      "secondary_links": [],
      "confidence": null,
@@ -165,7 +395,7 @@
      "date_published": "2026-11-25",
      "date_discovered": "2026-11-27T03:55-06:00",
      "date_updated": "2026-11-27T03:55-06:00",
-     "is_new": true,
+     "is_new": false,
      "link": "https://stock.10jqka.com.cn/20261125/c682191218.shtml",
      "secondary_links": [],
      "confidence": null,
@@ -199,236 +429,6 @@
       "record_id": "NN-20261127-003"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261127-004",
-     "visibility": "internal",
-     "title": "Renerva completes 3-month interim follow-up in its first-in-human IDE study of the Renerva Terminus nerve-capping implant for neuroma-related neuropathic pain, reporting no device-related adverse events",
-     "summary": "Pittsburgh-based Renerva said the first four patients implanted with its porcine nerve extracellular-matrix Terminus cap at Ohio State Wexner Medical Center (FDA IDE G250147) had no device-related adverse events through 90 days, with pooled pain, disability and quality-of-life scores trending favorably against MCID benchmarks. The company called the data preliminary and is moving toward a 6-month readout.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-24",
-     "date_discovered": "2026-11-27T03:55-06:00",
-     "date_updated": "2026-11-27T03:55-06:00",
-     "is_new": true,
-     "link": "https://www.prnewswire.com/news-releases/renerva-announces-completion-of-3-month-interim-follow-up-in-first-in-human-clinical-study-of-investigational-renerva-terminus-device-302949133.html",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 25,
-     "score_original": {
-      "value": "25",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "PR Newswire (Renerva)",
-      "hub_relevance": "Peripheral-nerve implant startup reaching a clinical milestone; context on the peripheral neurotech device pipeline rather than something the Hub would use directly.",
-      "related_assets_raw": null,
-      "evidence_type": "Company press release (interim first-in-human results; not peer-reviewed)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 145,
-      "record_id": "NN-20261127-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261126-001",
-     "visibility": "internal",
-     "title": "Neuralink receives FDA approval for the LINK Pivotal Study, which it calls the first US pivotal trial of an implantable brain-computer interface, in people with severe paralysis from ALS",
-     "summary": "Neuralink said the FDA approved the LINK Pivotal Study to evaluate the safety and effectiveness of its BCI system for digital-device control in people with severe paralysis due to ALS, building on early feasibility studies in the US, Canada and the UK with more than 30 implanted participants. Enrollment is open; target enrollment, sites and endpoints were not disclosed, and the device remains investigational.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-25",
-     "date_discovered": "2026-11-26T03:40-06:00",
-     "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": false,
-     "link": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 58,
-     "score_original": {
-      "value": "58",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Neuralink Updates",
-      "hub_relevance": "Moves implanted BCIs from feasibility toward a US marketing application, a field-level regulatory milestone that sets context for the Hub's neural-interface commercialization and partner discussions.",
-      "related_assets_raw": null,
-      "evidence_type": "Company announcement (FDA trial approval)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 135,
-      "record_id": "NN-20261126-001"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261126-002",
-     "visibility": "internal",
-     "title": "Sophont releases ReadyNeuro, a free CC0 16 TB training-ready fMRI corpus (about 30,000 people, 817 OpenNeuro studies), plus the CortexMAE-ReadyNeuro brain foundation model",
-     "summary": "Medical AI start-up Sophont released ReadyNeuro, about 16 TB / 22,083 hours of minimally preprocessed native-space fMRI from roughly 30,000 people across 817 OpenNeuro studies, under CC0, with a 500 GB sample on Hugging Face. It also released the CortexMAE-ReadyNeuro foundation model (weights CC BY-NC 4.0) and code; the company says clinical diagnosis by current fMRI foundation models remains weak.",
-     "category": "Open Source",
-     "subcategory": null,
-     "date_published": "2026-11-25",
-     "date_discovered": "2026-11-26T03:40-06:00",
-     "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": false,
-     "link": "https://insidebci.com/research/2026-11-26-sophont-readyneuro-16tb-openneuro-fmri-dataset-cortexmae-foundation-model/",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 44,
-     "score_original": {
-      "value": "44",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Inside BCI",
-      "hub_relevance": "A large openly licensed neural dataset plus open preprocessing code is a reusable model for how the Hub could package and share its own device datasets for AI training.",
-      "related_assets_raw": null,
-      "evidence_type": "Trade press report (company dataset/model release)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 136,
-      "record_id": "NN-20261126-002"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261126-003",
-     "visibility": "internal",
-     "title": "Spark Biomedical reports topline RESTORE trial results: adding its transcutaneous auricular neurostimulation (tAN) to opioid use disorder care made patients 6.9 times more likely to stay in treatment 21+ days",
-     "summary": "Spark Biomedical said the NIDA-funded RESTORE trial at Hazelden Betty Ford and Gaudenzia found patients receiving active tAN as an adjunct to standard OUD treatment were 6.9 times more likely to remain in treatment for 21 days or longer. The findings have been submitted for peer review and will be discussed in a Nov. 30 webinar.",
-     "category": "Neurotechnology Products",
-     "subcategory": null,
-     "date_published": "2026-11-25",
-     "date_discovered": "2026-11-26T03:40-06:00",
-     "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": false,
-     "link": "https://www.prnewswire.com/news-releases/spark-biomedicals-neurostimulation-therapy-makes-opioid-patients-500-more-likely-to-remain-in-recovery-302950588.html",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 32,
-     "score_original": {
-      "value": "32",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "PR Newswire (Spark Biomedical)",
-      "hub_relevance": "Shows a wearable ear-stimulation device using company-run trial data to compete for opioid-settlement funding, a commercialization path relevant to the Hub's wearable stimulation and physiology hardware.",
-      "related_assets_raw": null,
-      "evidence_type": "Company press release (topline trial results; not peer-reviewed)",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 137,
-      "record_id": "NN-20261126-003"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "news",
-     "item_id": "news:NN-20261126-004",
-     "visibility": "internal",
-     "title": "Nexstim receives an order for an NBS 6 navigated TMS system from a Nordic university hospital for a new therapy and TMS-EEG neuroscience research department",
-     "summary": "Nexstim said an existing Nordic university hospital customer ordered one NBS 6 System for a new department focused on therapy applications and clinical and translational neuroscience research, including TMS-EEG studies. The NBS 6 is FDA-cleared for pre-surgical mapping, MDD and adjunct OCD treatment.",
-     "category": "Industry & Commercialization",
-     "subcategory": null,
-     "date_published": "2026-11-25",
-     "date_discovered": "2026-11-26T03:40-06:00",
-     "date_updated": "2026-11-26T03:40-06:00",
-     "is_new": false,
-     "link": "https://www.nexstim.com/news-and-events/news/press-release/nordic-university-hospital-expands-use-of-nexstim-technology-with-nbs-6-system-for-therapy-and-neuroscience-research",
-     "secondary_links": [],
-     "confidence": null,
-     "score": 30,
-     "score_original": {
-      "value": "30",
-      "scale": "0-100",
-      "label": "relevance"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [],
-     "related_items": [],
-     "product_matches": [],
-     "people": [],
-     "details": {
-      "publisher": "Nexstim press release",
-      "hub_relevance": "Indicates continuing academic demand for combined navigated TMS-EEG research instrumentation, useful context for the Hub's research-instrument market sizing.",
-      "related_assets_raw": null,
-      "evidence_type": "Company press release",
-      "doi": null,
-      "pmid": null,
-      "bot_status": "verified",
-      "review_notes": null
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/16n6jMn_t4l2zRZjES3BlAnXsIbXcZlHz-a8l4usQEdQ/edit",
-      "tab": "News_Log",
-      "row": 138,
-      "record_id": "NN-20261126-004"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
    ]
   },
@@ -437,10 +437,10 @@
    "title": "Research Leads",
    "source": "Hub - Opportunity Scout",
    "cadence": "Daily 3:30 AM; weekly report Mon",
-   "last_refreshed": "2026-11-27T04:00:00-06:00",
+   "last_refreshed": "2026-11-28T03:55:00-06:00",
    "last_run_status": "ok",
-   "last_run_note": "Window 11-20..27; 665 screened, 184 new, 12 analyzed. Added OPP-072 (Goodale, bird playback, ACORN; 50/40 medium). OPP-071 Atlas ID filled (ATL-000665). REQ-OPP-OPP-072 filed. All sources ok; none >=70.",
-   "next_run": "Sat Nov 28, 2026 ~3:30 AM CT",
+   "last_run_note": "Window 11/21-11/28. 645 screened, 167 new after DOI dedupe, 134 after title dedupe, 6 analyzed. Added OPP-073 (open-source wheel platform, NIPER/GD Goenka, S25/C55). OPP-072 Atlas ID filled ATL-000666. 2 Atlas resolution requests. EPMC 2 transient errors, all retried ok.",
+   "next_run": "2026-11-29 03:30 CT",
    "rows_added_last_run": 1,
    "new_items_count": 1,
    "no_new_items": false,
@@ -448,6 +448,97 @@
    "unavailable": false,
    "unavailable_message": null,
    "items": [
+    {
+     "source": "opportunity",
+     "item_id": "opportunity:OPP-073",
+     "visibility": "internal",
+     "title": "An open-source hardware and software platform for automated monitoring and analysis of voluntary wheel running in mice",
+     "summary": "Stated problem: commercial wheel-running monitoring is costly and open-source alternatives are analytically complex. Authors built their own low-cost system. No stated need for outside hardware or help.",
+     "category": "Research Lead",
+     "subcategory": "Custom engineering collaboration (open-hardware peer; wheel running)",
+     "date_published": "2026-11-26",
+     "date_discovered": "2026-11-28",
+     "date_updated": "2026-11-28",
+     "is_new": true,
+     "link": "https://doi.org/10.1016/j.beproc.2026.105467",
+     "secondary_links": [],
+     "confidence": "medium",
+     "score": 55,
+     "score_original": {
+      "sales": "25",
+      "collab": "55",
+      "scale": "0-100",
+      "normalized_as": "max(sales,collab)"
+     },
+     "disposition": "New",
+     "matt_feedback": null,
+     "next_review_date": null,
+     "atlas_ids": [
+      "ATL-000667",
+      "ATL-000668"
+     ],
+     "related_items": [],
+     "product_matches": [
+      {
+       "product_id": "PRD-003",
+       "name": "Hub Wheel with Hublink",
+       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
+       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
+      },
+      {
+       "product_id": "PRD-010",
+       "name": "Hublink",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
+      },
+      {
+       "product_id": "PRD-031",
+       "name": "HubwheelOfflineAnalyzer",
+       "store_url": null,
+       "github_url": "https://github.com/Neurotech-Hub/HubwheelOfflineAnalyzer"
+      },
+      {
+       "product_id": "PRD-034",
+       "name": "Engineering and prototyping services",
+       "store_url": null,
+       "github_url": null
+      }
+     ],
+     "people": [
+      {
+       "name": "Suhani Sinha",
+       "institution": "GD Goenka University (Gurgaon) / National Institute of Pharmaceutical Education and Research (NIPER), Hajipur, India",
+       "atlas_id": "ATL-000667",
+       "role_note": "last/corresponding author"
+      },
+      {
+       "name": "Nitesh Kumar",
+       "institution": "GD Goenka University (Gurgaon) / National Institute of Pharmaceutical Education and Research (NIPER), Hajipur, India",
+       "atlas_id": "ATL-000668",
+       "role_note": "senior NIPER co-author"
+      }
+     ],
+     "details": {
+      "washu": "No",
+      "preprint": "No",
+      "doi": "10.1016/j.beproc.2026.105467",
+      "facts": "Facts (abstract): Arduino UNO R3 + Hall-effect sensors + saucer wheels, 8 channels; paired with no-code DeltaV Locomotor Analysis Platform (ΔV-LAP v0.1) with optional AI summaries; motor-driven bench test at 3 rates showed high repeatability across channels; agreement with an independent reference speed was NOT assessed; 9-day 24 h recording in 8 male C57BL/6 mice showed expected nocturnal pattern. Behavioural Processes, closed access (abstract only).",
+      "inferences": "Inferences: direct functional overlap with Hub Wheel with Hublink (a peer/competing open design). Possible collaboration angles: cross-validation against Hub Wheel, Hublink data interoperability, shared analysis standards. No purchasing intent assumed; lab has its own tooling (cf. Feedback Log OPP-013).",
+      "product_matches_raw": "Hub Wheel with Hublink; HubwheelOfflineAnalyzer; Engineering and prototyping services",
+      "recommended_action": "Human review as an open-hardware peer and competitive reference for Hub Wheel; no outreach from Scout.",
+      "needs_human_review": "Yes",
+      "review_note": "Abstract only (closed access). Sales 25 = fit10/recurring0/organism10/access0/gap5. Collab 55 = instrumentation20/gap10/topic15/proximity0/openness10. Not WashU; not in Outreach Log; no existing-relationship overlap. Key investigators not in Atlas; REQ-OPP-OPP-073 and -B filed. Comparable to OPP-068 (BeeHive, S20/C65).",
+      "bot_state": "New",
+      "analysis_date": "2026-11-28"
+     },
+     "source_record": {
+      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
+      "tab": "Opportunities",
+      "row": 38,
+      "record_id": "OPP-073"
+     },
+     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
+    },
     {
      "source": "opportunity",
      "item_id": "opportunity:OPP-072",
@@ -458,8 +549,8 @@
      "subcategory": "Sales (field bioacoustics playback hardware)",
      "date_published": "2026-11-24",
      "date_discovered": "2026-11-27",
-     "date_updated": "2026-11-27",
-     "is_new": true,
+     "date_updated": "2026-11-28",
+     "is_new": false,
      "link": "https://doi.org/10.1371/journal.pbio.3003805",
      "secondary_links": [],
      "confidence": "medium",
@@ -986,108 +1077,6 @@
       "tab": "Opportunities",
       "row": 31,
       "record_id": "OPP-066"
-     },
-     "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
-    },
-    {
-     "source": "opportunity",
-     "item_id": "opportunity:OPP-065",
-     "visibility": "internal",
-     "title": "Circadian modulation of dopamine release shapes reward-evoked signaling in the nucleus accumbens",
-     "summary": "Multi-day home-cage reward and activity measurement synchronized with long-term fiber photometry across circadian time (LD and DD). The lab built this in-house: custom IR-beam lickometers on a water spout and a 5% sucrose spout, a servo-operated sliding door giving 10 min/h sucrose access, and a custom Arduino-based controller (TageLabs) that triggers photometry, runs the door, and logs timestamped licks to CSV; wheel running was recorded with ClockLab (Actimetrics). No hardware gap or limitation is stated; the need is inferred from the custom-built setup.",
-     "category": "Research Lead",
-     "subcategory": "Existing product sales",
-     "date_published": "2026-11-07",
-     "date_discovered": "2026-11-09",
-     "date_updated": "2026-11-10",
-     "is_new": false,
-     "link": "https://doi.org/10.1093/pnasnexus/pgag387",
-     "secondary_links": [],
-     "confidence": "medium",
-     "score": 55,
-     "score_original": {
-      "sales": "55",
-      "collab": "55",
-      "scale": "0-100",
-      "normalized_as": "max(sales,collab)"
-     },
-     "disposition": "New",
-     "matt_feedback": null,
-     "next_review_date": null,
-     "atlas_ids": [
-      "ATL-000657"
-     ],
-     "related_items": [],
-     "product_matches": [
-      {
-       "product_id": "PRD-003",
-       "name": "Hub Wheel with Hublink",
-       "store_url": "https://neurotechhub.wustl.edu/items/hub-wheel-with-hublink/",
-       "github_url": "https://github.com/Neurotech-Hub/Hublink-Node-Raven"
-      },
-      {
-       "product_id": "PRD-007",
-       "name": "FlightCap Lick and Liquid Sensor",
-       "store_url": "https://neurotechhub.wustl.edu/items/flightcap-lick-and-liquid-sensor/",
-       "github_url": "https://github.com/Neurotech-Hub/FlightCap"
-      },
-      {
-       "product_id": "PRD-009",
-       "name": "Two-bottle Sipper Hub",
-       "store_url": "https://neurotechhub.wustl.edu/items/two-bottle-sipper-hub/",
-       "github_url": null
-      },
-      {
-       "product_id": "PRD-010",
-       "name": "Hublink",
-       "store_url": null,
-       "github_url": "https://github.com/Neurotech-Hub/HubLink-Server"
-      },
-      {
-       "product_id": "PRD-015",
-       "name": "FED4 (Feeding Experimentation Device 4)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED4"
-      },
-      {
-       "product_id": "PRD-035",
-       "name": "FED3 (Feeding Experimentation Device 3)",
-       "store_url": null,
-       "github_url": "https://github.com/KravitzLabDevices/FED3"
-      }
-     ],
-     "people": [
-      {
-       "name": "Jeff R. Jones",
-       "institution": "Texas A&M University (Department of Biology / Center for Biological Clocks Research / Institute for Neuroscience), College Station, TX",
-       "atlas_id": "ATL-000657",
-       "role_note": "last/corresponding author"
-      },
-      {
-       "name": "Jordan N. Cook",
-       "institution": "Texas A&M University (Department of Biology / Center for Biological Clocks Research / Institute for Neuroscience), College Station, TX",
-       "atlas_id": null,
-       "role_note": "first author"
-      }
-     ],
-     "details": {
-      "washu": "No",
-      "preprint": "No",
-      "doi": "10.1093/pnasnexus/pgag387",
-      "facts": "Stated (bioRxiv preprint 10.64898/2026.04.22.720003 v1 full text, CC BY-NC; published as PNAS Nexus 2026-11-07, CC BY-NC, journal full text blocked 403, abstract matches): mice with NAc DA3m sensor; multi-channel fiber photometry (Neurophotometrics FP3002) recorded for days with 10 min on / 20 min off duty cycle; spontaneous DA peaks in early subjective day; reward-evoked DA peaks near the day-to-night transition; reward behavior peaks in early subjective night; two-spout lickometers (IR beam, 50-100 ms valid-contact filter), hourly lick and bout counts; wheel-running free-running period matched the DA rhythm. Funding: NIH R35GM151020 (J.R.J.), Whitehall Foundation, NIH F31DA065512 (J.N.C.). Analysis code public (github.com/jones-lab-tamu/DA_Photometry_and_Reward_Analysis).",
-      "inferences": "The Two-bottle Sipper Hub and FlightCap Lick and Liquid Sensor match the two-spout lick measurement, and Hub Wheel with Hublink matches the wheel-running readout. FED3/FED4 could add gated, timed home-cage reward delivery (collaboration only, not sold). Fit depends on whether the gated door and TTL photometry triggering can be reproduced (FlightCap is pre-order). The lab already has working custom hardware; no purchasing intent stated. An R35 MIRA-funded circadian lab is a plausible repeat-use segment.",
-      "product_matches_raw": "Two-bottle Sipper Hub; FlightCap Lick and Liquid Sensor; Hub Wheel with Hublink; FED3 (Feeding Experimentation Device 3); FED4 (Feeding Experimentation Device 4)",
-      "recommended_action": "Human review. This is a circadian/reward home-cage lab running custom lickometers and wheels alongside photometry, a segment fit for Sipper Hub, FlightCap, and Hub Wheel. There is no stated gap, so Monitor/Investigate. No outreach from Scout.",
-      "needs_human_review": "Yes",
-      "review_note": "Published version of bioRxiv 10.64898/2026.04.22.720003 (not previously held; preprint full text read). Not in Outreach Log; no existing-relationship overlap. Jones not in Atlas; REQ-OPP-OPP-065 filed 2026-11-09 (key investigator only).",
-      "bot_state": "New",
-      "analysis_date": "2026-11-09"
-     },
-     "source_record": {
-      "sheet_url": "https://docs.google.com/spreadsheets/d/1UgfaDhW7y-aN45cE_icF5YFP3re7C0Qvh0zUbSb7rZw/edit",
-      "tab": "Opportunities",
-      "row": 30,
-      "record_id": "OPP-065"
      },
      "feedback_instructions": "Read-only. To set a disposition (Pursue / Investigate / Monitor / Decline / Closed) or leave feedback, tell Hub - The Daily and quote the item_id."
     }
